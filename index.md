@@ -36,11 +36,31 @@ A DJ desk build inspired by the Paradise Garage and Barco Sound House Madrid.
 | DJ desk/furniture (TBD) | €500–2,000+ |
 | **Estimated Total** | **~€9,100–10,600** |
 
+## Status (Apr 13)
+
+| Track | Status | Next |
+|-------|--------|------|
+| Equipment spec | Locked in (CDJ-3000 + Xone:96 + Technics) | Price comparison after SL setup |
+| Desk design | Ola actively designing | Brings drawings Fri Apr 18 |
+| SL / tax structure | **Blocker** — needed before purchasing | Schedule call with Sergio |
+| Software/production | Pigments + Arturia bundle + Sononym | Exploring together on Fridays |
+
+## Key Decisions (Apr 10-12)
+
+- **Modularity over aesthetics** — all gear must be easily removable for outdoor raves and B2B sets
+- **Height-adjustable desk** — electric motorized base (Wallapop) on Ola's rack carts, serves both DJ and workspace modes
+- **Power filtering** — Ola contributing power supply filter from existing rack gear
+- **Buy through SL** — equipment purchased as business expense once entity is formed
+
 ## Next Steps
 
-- [ ] Visit Barco Sound House for booth inspiration
+- [ ] ~~Visit Barco Sound House for booth inspiration~~ (met Alex, Barco sound engineer — Apr 11)
+- [ ] Set up SL with Sergio (gestor) — **blocks equipment purchase**
 - [ ] Compare prices across Madrid shops
-- [ ] Ola: design desk based on dimensions
-- [ ] Order equipment
+- [ ] Ola: bring desk designs (Fri Apr 18)
+- [ ] Andreas: document equipment requirements as bullet points before Apr 18
+- [ ] Source motorized desk frame on Wallapop
+- [ ] Research turntable-as-MIDI-controller for CDJs (Ola's idea)
+- [ ] Order equipment (after SL)
 - [ ] Build desk
 - [ ] First session
