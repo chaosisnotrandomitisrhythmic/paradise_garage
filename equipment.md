@@ -49,6 +49,54 @@ The sound quality winner. Dual HPF/LPF filters per channel, deep sub-bass, 3D so
 - **6+2 channels** — room to grow (guest deck, drum machine, aux)
 - **Price** — €1,870 vs €3,300 for the DJM-V10
 
+### Built-in Dual Sound Card (Audio Interface)
+
+The Xone:96 has a **dual 32-bit/96kHz USB sound card** — two independent audio interfaces built into the mixer. No external interface needed.
+
+| Spec | Value |
+|------|-------|
+| USB ports | 2 (independent, rear panel) |
+| Channels per USB | 12 in + 12 out (6 stereo pairs each way) |
+| Total I/O | 24 channels across both ports |
+| Bit depth | 32-bit |
+| Sample rate | Up to 96 kHz |
+| macOS driver | Class-compliant (plug and play) |
+| Windows driver | Dedicated ASIO driver available |
+
+**USB Channel Routing:**
+
+| USB Channels | Source |
+|---|---|
+| 1–8 | Stereo input channels (line/phono, follows rear panel switch) |
+| 9/10 | Send 1 (configurable) |
+| 11/12 | Master L/R mix or Send 2 |
+
+**What this enables:**
+
+1. **DVS (Digital Vinyl System)** — put timecode vinyl on the Technics, the phono signal goes through the sound card to DJ software, software sends decoded audio back through the mixer. Vinyl controls your digital library. **Traktor Scratch Pro certified out of the box**, Serato (via Club Kit), and Rekordbox DVS supported.
+
+2. **Record every session** — master bus appears on USB channels 11/12. Route into Ableton/Logic via USB. No external cables or recorder needed.
+
+3. **Two-laptop DJing** — USB1 for you, USB2 for a guest. Both feed into the mixer simultaneously. Built for B2B sets.
+
+4. **Software FX send/return via USB** — route audio out to Ableton, process with plugins (reverb, delay, granular), return it to the mixer — all through one USB cable, no external patching.
+
+5. **Hybrid DJ + production** — one USB for Traktor/Rekordbox DVS, the other for Ableton running synths/loops/drum machines. Both mixed through the same analog summing bus.
+
+**Limitations:** no mic preamps, no Hi-Z instrument inputs, no phantom power. Not a production-grade multi-track interface — but for DJ use, DVS, recording sets, and FX routing, it's everything you need in one box.
+
+### Send/Return & External FX Integration
+
+The Xone:96 has **2 stereo sends + 4 stereo returns** on the rear panel, plus a dedicated master insert. This is how you integrate external hardware effects.
+
+**Korg Kaoss Pad integration:**
+
+Route any channel to Send 1 → Kaoss Pad input → Kaoss Pad output → Return A. The return channel has its own fader and EQ, so you blend the effect in and out of your mix independently.
+
+The Kaoss Pad's built-in sampler makes this especially powerful: grab a loop from whatever's playing through the send, capture it live, then trigger/mangle it on the touchpad — pitch-shift, stutter, gate, or layer it on top of the next track. All without touching a laptop.
+
+You can run the Kaoss Pad on one send/return **and** a software FX chain (via USB to Ableton) on the other — two independent FX loops simultaneously.
+
 ## Channel Layout
 
 | Channel | Source | Input Type |
