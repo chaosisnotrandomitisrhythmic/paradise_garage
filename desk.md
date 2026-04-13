@@ -75,3 +75,62 @@ CDJs and mixer generate heat. Don't fully enclose the back panel. Leave at least
 ### Total Weight
 
 The desk needs to support: 2x 9.6kg + 2x 5.5kg + 7kg = **~37kg** of equipment, plus the desk's own weight. Build sturdy.
+
+---
+
+## Design Evolution (Apr 12 — Ola's Proposal)
+
+Based on Ola and Andreas's discussion, the desk concept has evolved significantly from a static surface.
+
+### Height-Adjustable Base
+
+Ola proposed mounting the desk on a **motorized sit/stand base**:
+
+- Use Ola's existing **rack carts** as a rolling foundation
+- Source a secondhand **electric height-adjustable desk frame** (Wallapop) and mount it onto the rack carts
+- Connect the frame to the tabletop — full range from seated work height (~70cm) to standing DJ height (~100cm)
+- Rationale: the space is shared (DJ studio + Ola's workspace). If the height is uncomfortable for either user, they'll use the space less.
+
+### Modularity — Hard Requirement
+
+Andreas pushed back on fully recessed/inserted equipment. **All gear must be easy to disconnect and transport:**
+
+- Forest raves in Galicia (Pedro / Espacio Perez) have existing stages — only need to bring CDJs + mixer
+- B2B setups at other venues
+- Equipment may be rented out (David's business idea)
+
+Ola agreed: "there are a bunch of ways to make that process smooth and easy without really adding any costs — it's about planning."
+
+**Implication:** equipment sits on top of the surface (not flush-mounted), with quick-release cable management. The desk is optimized for the space, but each unit can be lifted out independently.
+
+### Dual-Use Workspace
+
+The desk must also function as Ola's work surface:
+
+- Acrylic or plastic cover panel over the center section when working
+- Easy to remove when switching to DJ mode
+
+### Power Filtering
+
+Ola is contributing a **power supply filter** from his existing rack gear:
+
+- Filters mains power before it reaches the audio chain
+- A/B tested: audible improvement in clarity and speaker top-end
+- Protects circuitry across the full system
+- Lives in the rack cart base — clean integration
+
+### Vinyl-as-MIDI-Controller (Research Needed)
+
+Ola raised an interesting idea: can turntables act as **digital controllers for CDJs**, like a MIDI controller for a synth? This could allow switching between real vinyl and digital control without changing the physical setup.
+
+Existing tech in this space:
+- **DVS (Digital Vinyl System)** — Serato / Traktor timecode vinyl controls software, but requires a laptop
+- **Direct turntable → CDJ MIDI** — largely unexplored; could be a niche opportunity
+
+### Next Steps
+
+- [ ] **Ola brings desk drawings — Friday Apr 18**
+- [ ] Andreas documents equipment requirements as bullet points before Friday
+- [ ] Source secondhand motorized desk frame on Wallapop
+- [ ] Plan quick-release cable management for modular gear
+- [ ] Research DVS / turntable-as-controller options

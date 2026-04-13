@@ -67,6 +67,36 @@ The sound quality winner. Dual HPF/LPF filters per channel, deep sub-bass, 3D so
 | 1x Headphones (Sennheiser HD 25) | ~€130 |
 | Cables (RCA, XLR master out) | ~€100–150 |
 
+## Design Principles (Apr 12 Discussion)
+
+Based on Ola and Andreas's conversation, the equipment strategy is guided by:
+
+1. **Standard, high-quality gear** — get used to the equipment you'll find in clubs and can request as backline. Ola (tour manager for Lady Blackbird et al): "we do that all the time with bands on tour — you adapt to something you know is easy to ask for."
+
+2. **CDJ workflow over laptop-based** — Rekordbox → USB stick → CDJ. No laptop at the desk. Critical for B2B DJing where you share the booth — no screen-sharing weirdness.
+
+3. **Modular and portable** — every unit must be easy to disconnect and transport for outdoor raves, B2B sets, or rental. No permanent desk integration.
+
+4. **Resale value** — quality gear holds its price. DDJ/laptop setups depreciate faster as the ecosystem shifts. CDJ-3000 + Xone:96 is the solid standard.
+
+5. **Room to grow** — Xone:96's 6+2 channels support guest decks, Kaoss Pad, drum machines, additional synths (Ola has full Arturia bundle, Andreas has Pigments).
+
+## Software & Production Tools
+
+| Tool | Owner | Notes |
+|------|-------|-------|
+| Arturia Pigments | Andreas | Shareable on 5 machines |
+| Arturia V Collection (full bundle) | Ola | All Arturia synths |
+| Sononym | Both exploring | AI-powered sample search engine (free 30-day trial) |
+| Waves (sample browser equivalent) | Ola | Will demo |
+| Rekordbox | Andreas | CDJ track prep and USB export |
+
+## Purchase Blocker
+
+Equipment purchase is **blocked by SL (Sociedad Limitada) setup** — all gear should be bought through the business entity for tax deductibility. Next step: consult Sergio (gestor).
+
+See [CHA-190](https://linear.app/chaos-is-rhythmic/issue/CHA-190/tax-restructure-autonomo-sl-with-multiple-activities) for details.
+
 ## Where to Buy (Madrid)
 
 - [Madrid HiFi](https://www.madridhifi.com/) — carries both Pioneer and Denon
