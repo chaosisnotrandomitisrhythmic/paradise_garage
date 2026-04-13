@@ -1,0 +1,16 @@
+[project]
+name = "paradise-garage"
+version = "0.1.0"
+description = "Personal DJ music library — tagging, search, and cross-machine sync"
+requires-python = ">=3.11"
+dependencies = [
+    "librosa>=0.11.0",
+    "mutagen>=1.47.0",
+]
+
+[project.scripts]
+pg = "paradise_garage.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

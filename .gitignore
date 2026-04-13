@@ -1,0 +1,16 @@
+# Audio files (too large for git - synced via rsync)
+flac/
+incoming/
+*.flac
+*.wav
+*.aif
+*.aiff
+*.mp3
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
