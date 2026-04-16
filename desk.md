@@ -37,6 +37,38 @@ title: Desk Design
 
 > **Note:** Turntables are ~60mm taller than CDJs and mixer. Consider recessing the turntables into the desk surface, or raising CDJs/mixer on a platform for level playing surfaces.
 
+## Equipment Positioning — CDJs vs Turntables
+
+### Recommended: Turntables Outside, CDJs Inside (Current Layout)
+
+```
+┌───────────┐ ┌─────────┐ ┌────────┐ ┌─────────┐ ┌───────────┐
+│ Technics  │ │  CDJ    │ │ Mixer  │ │  CDJ    │ │ Technics  │
+│ (outside) │ │ (inside)│ │        │ │ (inside)│ │ (outside) │
+└───────────┘ └─────────┘ └────────┘ └─────────┘ └───────────┘
+```
+
+This is the **Paradise Garage / classic club booth standard** and the best fit for this build:
+
+- **Isolation**: turntables are furthest from mixer vibration and desk center, reducing needle skip risk
+- **Short USB runs**: CDJs next to the Xone:96 keeps digital connections (HID) clean — critical for the dual USB sound card
+- **Ergonomics**: hands naturally rest on the active source closest to the crossfader and EQ
+- **DVS-friendly**: when running DVS through the Technics, the vinyl signal path to the phono inputs is already short from the outside position
+- **Height differential**: turntables on the outer edges makes it easier to build isolated risers without cramping the central workspace
+
+### Alternative: CDJs Outside, Turntables Inside
+
+Some DJs prefer this when vinyl is the primary medium:
+
+- Keeps platters closest to the mixer for faster cueing and scratching
+- More common in hip-hop / scratch setups where CDJs are rarely touched mid-set
+- **Downside**: worse isolation — turntables closer to sub frequencies transmitted through the desk
+- **Not recommended for this build** given the Xone:96 dual USB architecture and mixed digital/analog workflow
+
+### Spacing
+
+Leave **40–50mm between the CDJ and turntable** on each side — enough air gap for vibration isolation, close enough to reach both without shifting stance. The 30mm gaps in the current layout are tight; consider widening to 40mm on the CDJ-turntable boundaries specifically.
+
 ## Design Considerations
 
 ### Isolation
