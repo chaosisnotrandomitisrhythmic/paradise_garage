@@ -5,7 +5,7 @@ title: Equipment
 
 # Equipment
 
-> **Strategy shift (Apr 18):** CDJs dropped. After watching a *A Guy Called Gerald* live-jam video, the build pivoted from Pioneer-standard "prep + play" toward a live, creative rig — Reason on two laptops as the primary sound engine, turntables for vinyl source, Korg Kaoss Pad as the live FX/sampling surface, and Traktor only as a fallback for pure DJ gigs. Full context on the [Inspiration](inspiration) page.
+> **Strategy shift (Apr 18):** CDJs dropped. After watching a *A Guy Called Gerald* live-jam video, the build pivoted from Pioneer-standard "prep + play" toward a live, creative rig — Reason on two laptops as the primary sound engine, turntables for vinyl source, a Korg Kaossilator Pro+ as the live phrase-synth / loop instrument, and Traktor only as a fallback for pure DJ gigs. Full context on the [Inspiration](inspiration) page.
 
 ## Turntables (x2) — Technics SL-1200MK7
 
@@ -16,7 +16,7 @@ title: Equipment
 | Weight | 9.6 kg |
 | Drive | Direct drive, coreless motor |
 
-The industry standard. Dual role: play vinyl, **and** act as the source of sounds that get captured, looped, and mangled live through the Kaoss Pad and Reason.
+The industry standard. Dual role: play vinyl, **and** act as a sound source that feeds the live rig — the vinyl signal can be sampled into the Kaossilator Pro+'s loop banks or into Reason for further mangling.
 
 ## Sound engine — Reason (2x laptops)
 
@@ -36,17 +36,26 @@ Why Reason:
 - **Portable studio** — the whole rig fits in two laptop bags
 - **One-machine ethos** — produce sounds on the fly, no pre-made tracks, transitions feel like weather rather than mixing
 
-## Live FX / sampling — Korg Kaoss Pad
+## Live phrase synth & looper — Korg Kaossilator Pro+
 
 | Spec | Value |
 |------|-------|
 | Owner | Andreas (already owns) |
-| Role | Touch-surface FX + live sampler |
-| Signal | Stereo send/return into Xone:96 (Send 1 → Return A) |
+| Role | Touch-pad phrase synthesizer + 4-bank loop recorder |
+| Signal | Line out → dedicated mixer channel strip (CH5); line/mic in for sampling incoming audio |
+| Sync | MIDI clock slave (locks loops to Reason's master tempo) |
+| Dimensions | ~246 × 198 × 47 mm (verify against Korg spec sheet before desk build) |
 
-Centerpiece of the live rig now that the CDJs are gone. Grabs audio from any mixer channel via send, captures loops on the fly, then pitch-shifts / stutters / gates / filters them via the touchpad. The built-in sampler is what lets it act as a performance instrument, not just an FX box — you layer captured phrases over whatever's playing without ever touching a laptop.
+Centerpiece of the live rig now that the CDJs are gone. Distinct from a Kaoss Pad — the Kaossilator Pro+ **generates** phrases rather than processing a source: 200+ built-in sounds (leads, basses, drums, SFX) played on the touchpad with scale/key constraints, then captured into any of **4 loop banks (A/B/C/D)** that can be layered live. The gate arpeggiator gives each touch a rhythmic feel without touching a DAW.
 
-Independent of the USB FX loop going to Reason, so Kaoss Pad and software FX run in parallel on two separate send/returns.
+It also has a line/mic input, so it can sample and loop audio from the mixer (via a send) or from the turntables directly — but in the default rig it lives on its own channel strip as a **sound source**, not in an FX send/return loop. That frees Send 1/Return A for future hardware FX.
+
+Why it fits the Gerald-style rig:
+
+- Performs like an instrument — scales, keys, tap tempo, gate arp — not like a playback deck
+- 4 loop banks = four parallel musical layers you can build, mute, and re-trigger on the fly
+- MIDI sync keeps it locked to Reason's tempo so the loops stay in time with whatever the laptops are doing
+- Self-contained: phrase + loop + FX, no laptop required
 
 ## Mixer (x1) — Allen & Heath Xone:96
 
@@ -59,7 +68,7 @@ Independent of the USB FX loop going to Reason, so Kaoss Pad and software FX run
 | Signal path | Fully analog |
 | Soundcard | 32-bit, 24-channel USB (dual ports) |
 
-The sound-quality winner, and now the hub of everything — it's what makes the Reason + turntables + Kaoss Pad architecture work. Dual HPF/LPF filters per channel, deep sub-bass, 3D soundstage, no harshness. Beats Pioneer DJM-V10 and DJM-A9 in blind listening tests.
+The sound-quality winner, and now the hub of everything — it's what makes the Reason + turntables + Kaossilator architecture work. Dual HPF/LPF filters per channel, deep sub-bass, 3D soundstage, no harshness. Rated by reviewers above the Pioneer DJM-V10 and DJM-A9 on sound quality (filter character, analog summing).
 
 ### Why Xone:96 over Pioneer?
 
@@ -87,7 +96,7 @@ The Xone:96 has a **dual 32-bit/96kHz USB sound card** — two independent audio
 | USB Channels | Source |
 |---|---|
 | 1–8 | Stereo input channels (line/phono, follows rear panel switch) |
-| 9/10 | Send 1 (Kaoss Pad loop) |
+| 9/10 | Send 1 (free — available for hardware FX loop or feeding Kaossilator input) |
 | 11/12 | Master L/R mix (used for session recording) |
 
 **What this enables in the new rig:**
@@ -95,7 +104,7 @@ The Xone:96 has a **dual 32-bit/96kHz USB sound card** — two independent audio
 1. **Two-laptop live Reason** — USB1 for laptop A, USB2 for laptop B. Each sends 6 stereo pairs into mixer channels that behave exactly like hardware sources. Both mixed on the analog summing bus.
 2. **DVS on demand** — timecode vinyl on the Technics can still drive Traktor or Serato through the same sound card if a gig calls for a "normal" DJ set.
 3. **Record every session** — master bus on USB channels 11/12, straight into Ableton/Logic via USB.
-4. **Software FX send/return via USB** — route audio out to Ableton/Reason for processing (reverb, granular, etc.), return through the mixer. Runs independently of the hardware Kaoss Pad loop.
+4. **Software FX send/return via USB** — route audio out to Ableton/Reason for processing (reverb, granular, etc.), return through the mixer. Runs independently of any hardware send/return loop.
 
 **Limitations:** no mic preamps, no Hi-Z instrument inputs, no phantom power. Not a tracking interface — but for DJ + live-Reason use it's exactly right.
 
@@ -103,24 +112,28 @@ The Xone:96 has a **dual 32-bit/96kHz USB sound card** — two independent audio
 
 The Xone:96 has **2 stereo sends + 4 stereo returns** on the rear panel, plus a dedicated master insert.
 
-**Kaoss Pad loop:** any channel → Send 1 → Kaoss Pad in → Kaoss Pad out → Return A. The return has its own fader and EQ, so the effect blends in and out of the mix independently of the source channel.
+**Kaossilator sampling path (optional):** any channel → Send 1 → Kaossilator Pro+ line in → sample into loop bank → Kaossilator line out appears on its own channel strip. Use this when you want to grab a phrase from the turntables or a Reason laptop into the Kaossilator's loop banks rather than playing it back straight.
 
-**Software FX loop:** USB → Reason/Ableton FX rack → back via USB. Runs on the second send/return path, totally independent of the hardware Kaoss Pad.
+**Software FX loop:** USB → Reason/Ableton FX rack → back via USB. Lives on its own send/return pair, independent of any hardware routing.
 
-Two independent FX chains running at the same time is a big part of why this mixer was chosen.
+**Future hardware FX:** Send 2 / Return B is free for adding a proper FX box (Kaoss Pad, Eventide H9, pedals) later if the rig wants one.
 
 ## Channel Layout
+
+The Xone:96 has 6 stereo input channels. Each of the 2 USB ports can feed up to 6 stereo pairs into the mixer, but in practice one USB → one channel strip is the cleanest mapping for a two-laptop Reason rig (Reason does its own internal summing before hitting the mixer).
 
 | Channel | Source | Input Type |
 |---------|--------|-----------|
 | CH1 | Technics L | Phono |
 | CH2 | Technics R | Phono |
-| CH3 | Laptop A — Reason (USB1) | Line (USB) |
-| CH4 | Laptop B — Reason (USB2) | Line (USB) |
-| CH5 | Guest deck / drum machine | Line |
-| CH6 | Aux / free | Line |
-| Return A | Korg Kaoss Pad | Stereo return |
-| Return B | Software FX (Reason/Ableton) | Stereo return |
+| CH3 | Laptop A — Reason (USB port 1, stereo mixdown from Reason) | Line (USB) |
+| CH4 | Laptop B — Reason (USB port 2, stereo mixdown from Reason) | Line (USB) |
+| CH5 | Korg Kaossilator Pro+ | Line |
+| CH6 | Aux / guest deck / drum machine | Line |
+| Return A | Free — future hardware FX | Stereo return |
+| Return B | Software FX via USB (Reason/Ableton FX rack) | Stereo return |
+
+**Scaling up:** if a track calls for multi-timbral routing (e.g., Reason's drums on one channel, synths on another, bass on a third), the same laptop's USB port can feed additional channel strips — up to 6 stereo pairs per port. Start with the stereo mixdown; add per-bus routing when a song demands it.
 
 ## DJ software (for the fallback case)
 

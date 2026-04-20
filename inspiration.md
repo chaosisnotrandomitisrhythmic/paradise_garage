@@ -93,8 +93,8 @@ This is the ethos the desk now serves — the equipment list and signal flow on 
 | Sononym | [sononym.net](https://www.sononym.net/) |
 | A Guy Called Gerald | [Playing Madrid — historical context](https://www.youtube.com/watch?v=5LiFdvTzZOY) |
 | Reason Studios | [reasonstudios.com](https://www.reasonstudios.com/) |
-| Korg Kaoss Pad | [korg.com](https://www.korg.com/us/products/dj/kp3_plus/) |
+| Korg Kaossilator Pro+ | [korg.com](https://www.korg.com/) |
 | Lexicon (library sync) | [lexicondj.com](https://lexicondj.com/) |
-| Traktor Pro | [native-instruments.com](https://www.native-instruments.com/en/products/traktor/) |
+| Traktor Pro | [native-instruments.com](https://www.native-instruments.com/) |
 | Allen & Heath Xone:96 | [allen-heath.com](https://www.allen-heath.com/hardware/xone-series/xone96/) |
 | Technics SL-1200MK7 | [technics.com](https://www.technics.com/products/dj-series/sl-1200mk7.html) |

@@ -9,12 +9,12 @@ A DJ/live-jam desk build inspired by the Paradise Garage, Barco Sound House Madr
 
 **Project:** Andreas & Ola
 
-> **Apr 18 strategy shift:** dropped the Pioneer CDJ-3000s. The build is now Reason-on-two-laptops as the sound engine, turntables for vinyl source, Korg Kaoss Pad as live FX/sampler, Traktor only as fallback. "Not playing records — *building* them in real time." See the [Inspiration](inspiration) page for the Gerald concept.
+> **Apr 18 strategy shift:** dropped the Pioneer CDJ-3000s. The build is now Reason-on-two-laptops as the sound engine, turntables for vinyl source, Korg Kaossilator Pro+ as live phrase synth/looper, Traktor only as fallback. "Not playing records — *building* them in real time." See the [Inspiration](inspiration) page for the Gerald concept.
 
 <div class="page-cards">
   <a href="{{ '/equipment' | relative_url }}" class="page-card">
     <strong>Equipment</strong>
-    <span>Technics, Reason, Xone:96, Kaoss Pad — spec, pricing, and signal flow</span>
+    <span>Technics, Reason, Xone:96, Kaossilator Pro+ — spec, pricing, and signal flow</span>
   </a>
   <a href="{{ '/desk' | relative_url }}" class="page-card">
     <strong>Desk Design</strong>
@@ -32,22 +32,22 @@ A DJ/live-jam desk build inspired by the Paradise Garage, Barco Sound House Madr
 |----------|------|
 | Turntables (2x Technics SL-1200MK7) | €1,920 |
 | Mixer (Allen & Heath Xone:96) | €1,870 |
-| Korg Kaoss Pad | already owned |
-| Reason license (TBD — perpetual vs. Reason+ sub) | €0–400 |
-| Traktor Pro + Lexicon (sync) | ~€150 combined |
+| Korg Kaossilator Pro+ | already owned |
+| Reason license | TBD after trial (perpetual vs. Reason+ subscription) |
+| Traktor Pro + Lexicon (library sync) | TBD after evaluation |
 | Accessories (cartridges, headphones, cables) | ~€450 |
-| **Subtotal (gear)** | **~€4,390–4,790** |
+| **Subtotal (confirmed hardware)** | **~€4,240** |
+| Software (Reason, Traktor, Lexicon) | TBD |
 | DJ desk/furniture (TBD) | €500–2,000+ |
-| **Estimated Total** | **~€4,900–6,800** |
 
-Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, softening the SL-setup blocker.
+Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, softening the SL-setup blocker. Final total pending software licensing decisions.
 
 ## Status (Apr 18)
 
 | Track | Status | Next |
 |-------|--------|------|
-| Equipment spec | **Pivoted** — Reason + turntables + Kaoss Pad + Xone:96 | Try Reason + Traktor + Lexicon before committing licenses |
-| Desk design | Shorter footprint, two laptop positions, Kaoss Pad slot | Ola reviews new layout against Apr 18 drawings |
+| Equipment spec | **Pivoted** — Reason + turntables + Kaossilator Pro+ + Xone:96 | Try Reason + Traktor + Lexicon before committing licenses |
+| Desk design | Shorter footprint, two laptop positions, Kaossilator slot | Ola reviews new layout against Apr 18 drawings |
 | SL / tax structure | **Still a blocker** but smaller spend | Schedule call with Sergio |
 | Software/production | Reason (new), Pigments, Arturia, Sononym | Andreas: explore Reason; compare Traktor vs. Rekordbox; try Lexicon for library sync |
 
@@ -63,7 +63,7 @@ Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, so
 **Apr 18 (pivot):**
 
 - **Reason over CDJs** — two laptops running Reason replace the Pioneer CDJ-3000s. Rack metaphor + live jam over "prep + play."
-- **Kaoss Pad as the live surface** — centerpiece FX + sampler on its own send/return, independent of the software FX loop.
+- **Kaossilator Pro+ as the live instrument** — phrase synth + 4-bank looper on its own mixer channel strip (CH5), MIDI-slaved to Reason for tempo. Different tool from a Kaoss Pad — generates sounds rather than processing them.
 - **Traktor as fallback, not the main act** — only for "pure DJ" gigs; Lexicon keeps the library portable between Rekordbox and Traktor.
 - **Vinyl stays** — turntables become a sound source for the live rig, not just a playback deck.
 
@@ -73,7 +73,7 @@ Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, so
 - [ ] Andreas: try Reason (Ola: "you never got around to try Reason? It's super fun")
 - [ ] Andreas: evaluate Traktor vs. Rekordbox for the fallback DJ case
 - [ ] Andreas: try Lexicon — decide whether Rekordbox stays as library home or Traktor takes over
-- [ ] Ola: review updated desk layout (shorter footprint + Kaoss Pad + two laptop positions) against Fri Apr 18 drawings
+- [ ] Ola: review updated desk layout (shorter footprint + Kaossilator Pro+ + two laptop positions) against Fri Apr 18 drawings
 - [ ] Source motorized desk frame on Wallapop at the new width
 - [ ] Spec laptop stands / tilt (built-in vs off-the-shelf)
 - [ ] Order equipment (after SL)
