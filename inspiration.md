@@ -46,6 +46,38 @@ Western Electric (1930s)
 | **Pedro** | Espacio Perez | Outdoor/forest raves in Galicia — potential portable rig use case |
 | **Harvey / Khabi** | Ola's tour contacts | Keeping things simple — good friendship energy |
 
+## A Guy Called Gerald — Live-Jam Ethos (Apr 18 pivot)
+
+Watching a Gerald Simpson live set on Apr 18 flipped the build. He's not DJing — he's *building* the music in real time, and the rig reflects that.
+
+**The Rig**
+
+- **Two laptops** running **Reason** (Propellerhead / Reason Studios, Stockholm)
+- **Not synced** — they drift, he weaves them by hand
+- **8+ channels of audio out per machine** into a mixing desk
+- **MIDI controllers** for tactile playing
+- Desk faders, EQ and sends used like an analog studio — 1:1, no remapping
+- Occasionally Traktor + iPad for pure DJ gigs, but that's the exception
+
+**Why Reason**
+
+- Rack metaphor — synths, drum machines, samplers wired up like hardware
+- Rewards jamming over arrangement
+- Behaves like a portable studio rack, not a playlist engine
+
+**The Concept**
+
+- Produce the sounds **on the fly** — no pre-made tracks
+- One continuous musical idea, no setlist, no safety net
+- Transitions feel like weather, not like mixing
+- "Play the room, not the records" — Levan ethos, Gerald's method
+
+**The Takeaway**
+
+He's not transitioning between finished things. He's *becoming* the track while playing it.
+
+This is the ethos the desk now serves — the equipment list and signal flow on the [Equipment](equipment) page are shaped around it.
+
 ## Sononym — AI Sample Search
 
 [Sononym](https://www.sononym.net/) is an AI-powered search engine for audio samples. Point it at any sample library (Arturia, etc.) and search by sonic similarity rather than filename. Free 30-day trial. Ola is also exploring the Waves equivalent.
@@ -60,6 +92,9 @@ Western Electric (1930s)
 | Barco Sound House | [bsoundhouse.com](https://www.bsoundhouse.com/) |
 | Sononym | [sononym.net](https://www.sononym.net/) |
 | A Guy Called Gerald | [Playing Madrid — historical context](https://www.youtube.com/watch?v=5LiFdvTzZOY) |
+| Reason Studios | [reasonstudios.com](https://www.reasonstudios.com/) |
+| Korg Kaossilator Pro+ | [korg.com](https://www.korg.com/) |
+| Lexicon (library sync) | [lexicondj.com](https://lexicondj.com/) |
+| Traktor Pro | [native-instruments.com](https://www.native-instruments.com/) |
 | Allen & Heath Xone:96 | [allen-heath.com](https://www.allen-heath.com/hardware/xone-series/xone96/) |
 | Technics SL-1200MK7 | [technics.com](https://www.technics.com/products/dj-series/sl-1200mk7.html) |
-| Pioneer CDJ-3000 | [pioneerdj.com](https://www.pioneerdj.com/en/product/player/cdj-3000/black/overview/) |
