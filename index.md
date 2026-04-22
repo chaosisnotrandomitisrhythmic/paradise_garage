@@ -10,6 +10,8 @@ A DJ/live-jam desk build inspired by the Paradise Garage, Barco Sound House Madr
 **Project:** Andreas & Ola
 
 > **Apr 18 strategy shift:** dropped the Pioneer CDJ-3000s. The build is now Reason-on-two-laptops as the sound engine, turntables for vinyl source, Korg Kaossilator Pro+ as live phrase synth/looper, Traktor only as fallback. "Not playing records — *building* them in real time." See the [Inspiration](inspiration) page for the Gerald concept.
+>
+> **Apr 21–22 acoustic plan:** concrete slab paused — going modular first. Sylomer pads (12Hz rating → isolation to 42Hz) + 4×25kg gym-weight ballast under a simple table built from existing rack cards. **Friday Apr 24 = build day.** Details on the [Desk Design](desk#acoustic-isolation-apr-2122-plan) page.
 
 <div class="page-cards">
   <a href="{{ '/equipment' | relative_url }}" class="page-card">
@@ -42,12 +44,13 @@ A DJ/live-jam desk build inspired by the Paradise Garage, Barco Sound House Madr
 
 Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, softening the SL-setup blocker. Final total pending software licensing decisions.
 
-## Status (Apr 18)
+## Status (Apr 22)
 
 | Track | Status | Next |
 |-------|--------|------|
 | Equipment spec | **Pivoted** — Reason + turntables + Kaossilator Pro+ + Xone:96 | Try Reason + Traktor + Lexicon before committing licenses |
 | Desk design | Shorter footprint, two laptop positions, Kaossilator slot | Ola reviews new layout against Apr 18 drawings |
+| Acoustic isolation | **Locked** — modular table on Sylomer pads + 25kg gym-weight ballast (concrete slab paused) | Thu Apr 23 call; Fri Apr 24 build day |
 | SL / tax structure | **Still a blocker** but smaller spend | Schedule call with Sergio |
 | Software/production | Reason (new), Pigments, Arturia, Sononym | Andreas: explore Reason; compare Traktor vs. Rekordbox; try Lexicon for library sync |
 
@@ -67,7 +70,22 @@ Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, so
 - **Traktor as fallback, not the main act** — only for "pure DJ" gigs; Lexicon keeps the library portable between Rekordbox and Traktor.
 - **Vinyl stays** — turntables become a sound source for the live rig, not just a playback deck.
 
+**Apr 21–22 (acoustic isolation):**
+
+- **Modular first, concrete later** — proof-of-concept platform on Sylomer pads + gym weights rather than committing to a 160kg concrete slab. Validate the decoupling approach with something dismantlable; revisit concrete in summer.
+- **Sylomer 12Hz, not 8Hz** — 8Hz would need ~850kg of ballast and the right form factor isn't stocked in Spain. 12Hz rating isolates down to 42Hz at a realistic ~200kg load.
+- **Gym-weight ballast** — 4×25kg plates deliver the mass the pads need, resellable on Wallapop if the design changes.
+- **Speakers fixed and stacked** — central listening position is a single sweet spot, so no wheels on the main platform.
+
 ## Next Steps
+
+**This week — build the isolation platform:**
+
+- [ ] **Thu Apr 23 afternoon:** Andreas + Ola call to finalize table design and purchase list
+- [ ] **Fri Apr 24:** build day. Ola: morning parts run. Andreas: studio afternoon.
+- [ ] Acquire 4 × 25kg gym weights for ballast (Wallapop)
+
+**Ongoing:**
 
 - [ ] Set up SL with Sergio (gestor) — **still blocks gear purchase**
 - [ ] Andreas: try Reason (Ola: "you never got around to try Reason? It's super fun")

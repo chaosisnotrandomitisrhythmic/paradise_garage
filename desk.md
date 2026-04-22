@@ -6,6 +6,8 @@ title: Desk Design
 # Desk Design
 
 > **Update (Apr 18):** CDJs dropped from the build (see the [strategy shift](equipment)). Desk now has two laptops running Reason at the central positions, and the Korg Kaossilator Pro+ takes a dedicated spot next to the mixer. Total width lands around ~1.9–2.2m depending on layout. The rest of the design (height-adjustable base, isolation, modularity) is unchanged.
+>
+> **Update (Apr 21–22):** Acoustic isolation plan locked in a modular first-pass build — Sylomer pads + gym-weight ballast under a simple table made from Ola's existing rack/side cards. Concrete slab paused (revisit in summer). **Friday Apr 24 is build day**; Thursday afternoon call to align.
 
 ## Equipment Dimensions
 
@@ -92,13 +94,38 @@ Leave **40–50mm between the turntable and whatever's next to it** — enough a
 
 ## Design Considerations
 
-### Isolation
+### Acoustic Isolation (Apr 21–22 plan)
 
-Turntable isolation is still critical. Bass vibration from the speakers feeding back through the deck causes needle skip and rumble — unchanged by the pivot.
+Turntable isolation is still the core problem: bass from the speakers feeding back through the deck causes needle skip and rumble. The plan evolved from "build a heavy concrete slab on isolation pads" to a **modular, dismantlable first pass** — test the principle before committing to a 160kg slab.
+
+**Current approach — simple table on Sylomer + weight ballast:**
+
+1. **Platform:** a simple table built from Ola's existing side cards / rack units, sized to carry the rig.
+2. **Decoupling layer:** [Tacos Sylomer](https://rodavigo.net/es/p/taco-sylomer-tipo-sr450-formato-100x100x37-mm-carga-maxima-350-kg-frecuencia-propia-8-hz-pvp-por-taco-ref-amc-707348/816707348) (Getzner SR-series) pads under the table legs / rack feet.
+3. **Ballast:** 4 × 25kg gym weights bolted/placed on the platform to load the pads into their operating range.
+
+**Why it has to be heavy** — the Sylomer pads only isolate correctly under the load they're rated for. Underload them and they act stiff (no isolation). Our target: ~200kg total (equipment + ballast) across 4 pads.
+
+**Pad rating — the 8Hz vs 12Hz decision:**
+
+| Rating | Isolates down to | Status |
+|--------|-----------------|--------|
+| 8Hz (SR450, 100×100×37mm) | Sub-30Hz (lower bound of the room) | **Dropped.** Needs ~850kg total to function; the 80×80×37mm form factor isn't stocked in Spain |
+| **12Hz** | **~42Hz** (comfortably below the speakers' low end) | **Chosen.** Works at ~200kg load, within ±20% tolerance of the pad's rating |
+
+**Ordered:** the primary set of 4 × 100×100×25mm SR450 pads + an additional 8 × 25kg variants to allow 3 pads under each rack unit for better weight distribution if the 4-pad layout feels unstable.
+
+**Speakers:** stay stacked in a fixed central listening position. Since the listening sweet spot is fixed (sitting *or* standing doesn't change it much), no wheels needed on the main platform.
+
+**Turntable-specific isolation (on top of the platform):**
 
 - Rubber isolation feet under each turntable
-- Ideally: separate isolated shelf or slab (heavy stone/MDF on sorbothane pads)
-- Decouple turntable section from the main desk structure if possible
+- ~40–50mm air gap between each turntable and its neighbor
+- If needle-skip persists after the platform build, add a dedicated turntable shelf (heavy MDF/stone on sorbothane) and re-test
+
+**Paused: the concrete slab.** The original plan was 8 × 20kg bags of fine premix concrete + iron reinforcement mesh, ~160kg total (70cm × 250cm × ~9.5cm thick), poured into one or two molds (two 80kg slabs is a two-man job; one 160kg slab is a 3–4 man job). It's still a good idea — the natural mass couples well with the pads, and the room resonance stays intact — but it's deferred. Revisit once the modular rig is running and we know what's missing.
+
+**Alternative speaker-only isolation — noted, not chosen.** Putting 20kg weights on Sylomer pads *under the speaker stands* would isolate the speakers from the floor directly. We're not doing this because it breaks the room-coupling that gives the low end its natural character — but it's a fallback if the platform approach under-delivers.
 
 ### Ergonomics
 
@@ -151,8 +178,20 @@ Reason-rig version: 2x 9.6kg (Technics) + 7kg (mixer) + 2x ~1.5kg (laptops) + ~1
 - Kaossilator Pro+ needs either a flat slot next to the mixer (~246mm wide) or a front-shelf cut-out
 - **Vinyl-as-MIDI-controller** (Ola's Apr 12 idea): open question in light of the pivot. With Reason + Kaossilator already providing the live creative layer, is this still the highest-leverage use of turntable data, or has the motivation shifted? Worth a short conversation with Ola before the desk build locks in — the idea may still be worth chasing for a different reason now.
 
+### Apr 21–22 — Acoustic isolation pivot
+
+- Concrete slab paused (too much work for an unvalidated design). Revisit in summer.
+- Modular platform on Sylomer + gym-weight ballast chosen as the proof-of-concept — cheap, dismantlable, resellable.
+- Sylomer pads ordered. 12Hz rating (not 8Hz) → isolation down to 42Hz, realistic at ~200kg load.
+- Thursday Apr 23 afternoon: call to align on final table design.
+- Friday Apr 24: build day. Ola does the morning parts run; Andreas in the studio afternoon.
+
 ### Next Steps
 
+- [ ] **Thursday Apr 23 afternoon:** call to finalize table design and purchase list
+- [ ] **Friday Apr 24:** build the modular platform (Ola: morning parts run; Andreas: studio afternoon)
+- [ ] Acquire 4 × 25kg gym weights for ballast (Wallapop — resellable later)
+- [ ] Verify Sylomer load window once rig is assembled; order extra pads if layout shifts to 3-per-rack-unit
 - [ ] Ola reviews new layout against Apr 18 drawings — does the shorter desk or the "same width, more breathing room" version win?
 - [ ] Decide Kaossilator placement: flat next to mixer vs. front-shelf cut-out
 - [ ] Verify Kaossilator Pro+ dimensions against Korg spec sheet (value in the table above is from memory, confirm before final cut)
