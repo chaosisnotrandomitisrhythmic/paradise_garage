@@ -11,7 +11,7 @@ A DJ/live-jam desk build inspired by the Paradise Garage, Barco Sound House Madr
 
 > **Apr 18 strategy shift:** dropped the Pioneer CDJ-3000s. The build is now Reason-on-two-laptops as the sound engine, turntables for vinyl source, Korg Kaossilator Pro+ as live phrase synth/looper, Traktor only as fallback. "Not playing records — *building* them in real time." See the [Inspiration](inspiration) page for the Gerald concept.
 >
-> **Apr 22 build plan:** simplified. Side cards as legs (tops + wheels off) + 21mm phenolic top + Sylomer pads underneath + 4× 25kg dry concrete bags dropped straight into the side cards as ballast. Leroy Merlin order placed, ~€201 all in, delivery Fri Apr 24 = **build day**. Invoiced under autónomo. Details on the [Desk Design](desk#acoustic-isolation-apr-2122-plan) page.
+> **Apr 22 build plan:** simplified. Side cards as legs (tops + wheels off) + 21mm phenolic top + Sylomer pads underneath + **2× 25kg concrete bags** as ballast (2 more held as spare — mass budget shows only ~51kg additional ballast needed to hit 200kg target). Leroy Merlin order **placed and paid Apr 22 ~16:16** on Andreas's account, invoiced to autónomo. Express delivery Fri Apr 24 = **build day**. Details on the [Desk Design](desk#acoustic-isolation-apr-2122-plan) page.
 
 <div class="page-cards">
   <a href="{{ '/equipment' | relative_url }}" class="page-card">
@@ -50,7 +50,7 @@ Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, so
 |-------|--------|------|
 | Equipment spec | **Pivoted** — Reason + turntables + Kaossilator Pro+ + Xone:96 | Try Reason + Traktor + Lexicon before committing licenses |
 | Desk design | Shorter footprint, two laptop positions, Kaossilator slot | Ola reviews new layout against Apr 18 drawings |
-| Acoustic isolation | **Materials ordered** — side cards + phenolic top + Sylomer + 4×25kg concrete-bag ballast (concrete slab paused) | Fri Apr 24 delivery & build day |
+| Acoustic isolation | **Ordered & paid** — side cards + phenolic top + Sylomer + 2×25kg active ballast (+2 spare); concrete slab paused | Fri Apr 24 delivery & build day |
 | SL / tax structure | **Still a blocker** but smaller spend | Schedule call with Sergio |
 | Software/production | Reason (new), Pigments, Arturia, Sononym | Andreas: explore Reason; compare Traktor vs. Rekordbox; try Lexicon for library sync |
 
@@ -74,7 +74,7 @@ Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, so
 
 - **Modular first, concrete later** — proof-of-concept platform on Sylomer pads rather than committing to a 160kg poured concrete slab. Validate the decoupling approach with something dismantlable; revisit concrete in summer.
 - **Sylomer 12Hz, not 8Hz** — 8Hz would need ~850kg of ballast and the right form factor isn't stocked in Spain. 12Hz rating isolates down to 42Hz at a realistic ~200kg load.
-- **Concrete bags, not gym weights, not molded slabs** (Apr 22 afternoon refinement) — drop 4× 25kg bags of Hormigón Seco H25 directly into Ola's side cards. Skip the molding step until the rig is proven. Leftover phenolic wood can later be used to mold handle-equipped weights if the upgrade is worth it.
+- **Concrete bags, not gym weights, not molded slabs** (Apr 22 afternoon refinement) — drop **2× 25kg bags** of Hormigón Seco H25 directly into Ola's side cards as active ballast. Ola's mass budget: ~149kg already on the desk (phenolic top + racks + carts + gear + keyboard drawer), need only ~51kg more to hit the 200kg target. 2 extra bags ordered as spare. Leftover phenolic wood can later be used to mold handle-equipped portable weights if the PoC validates.
 - **Reuse side cards as structure** — tops + wheels removed, 21mm phenolic board on top as new surface. Cheapest + fastest path to a testable rig.
 - **Speakers fixed and stacked** — central listening position is a single sweet spot, so no wheels on the main platform.
 - **Order under autónomo** — Leroy Merlin invoice issued to Andreas's NIE + domicilio fiscal for IVA deduction.
@@ -83,9 +83,10 @@ Down from the original ~€9,100–10,600 — the ~€4,400 CDJ line is gone, so
 
 **This week — build the isolation platform:**
 
-- [x] Leroy Merlin order placed (2× phenolic boards + 4× 25kg concrete bags, ~€201 with express delivery, invoiced to autónomo)
+- [x] Leroy Merlin order placed and paid (2× phenolic boards + 4× 25kg concrete bags, ~€201 with express delivery, invoiced to autónomo NIE Y2266100Q)
+- [x] ~~Car pickup vs delivery decision~~ — pickup ruled out (boards are 2.5×1.2m, won't fit in the car)
 - [ ] **Fri Apr 24:** materials delivered + build day. Ola: studio morning. Andreas: studio afternoon.
-- [ ] Decide car-pickup vs. delivery (Andreas offered to pick up by car; pending Ola's reply)
+- [ ] Weigh the rig on build day; add more bags to ballast if total comes in under 200kg
 
 **Ongoing:**
 

@@ -102,9 +102,26 @@ Turntable isolation is still the core problem: bass from the speakers feeding ba
 
 1. **Platform:** Ola's existing side cards with tops and wheels removed, used as legs. A 21mm phenolic board cut to size becomes the new top surface. Center support added for stiffness if the span calls for it.
 2. **Decoupling layer:** [Tacos Sylomer](https://rodavigo.net/es/p/taco-sylomer-tipo-sr450-formato-100x100x37-mm-carga-maxima-350-kg-frecuencia-propia-8-hz-pvp-por-taco-ref-amc-707348/816707348) (Getzner SR-series) pads lifted under the side-card legs once they arrive.
-3. **Ballast:** 4× 25kg bags of dry-mix concrete (Hormigón Seco H25) **dropped straight into the side cards**. No molding step for the PoC. If the rig works, those same bags can be poured into proper handle-equipped weights later.
+3. **Ballast:** 2× 25kg bags of dry-mix concrete (Hormigón Seco H25) **dropped straight into the side cards**. No molding step for the PoC. 2 more bags ordered as spare stock for later handle-equipped weight molds (see "future upgrades" below).
 
-**Why it has to be heavy** — the Sylomer pads only isolate correctly under the load they're rated for. Underload them and they act stiff (no isolation). Target: ~200kg total across 4 pads = ~100kg ballast + ~30kg equipment + table + headroom. Add more concrete bags later if the first-pass load is light.
+**Why it has to be heavy** — the Sylomer pads only isolate correctly under the load they're rated for. Underload them and they act stiff (no isolation). Target: ~200kg total on the 4 pads, inside the 12Hz pad's ±20% window.
+
+**Mass budget (Ola, Apr 22):**
+
+| Component | Weight (kg) |
+|-----------|------------:|
+| Table top, 21mm phenolic | 18 |
+| Rack boards ×2 | 9 |
+| Carts (10kg each) ×2 | 10 |
+| Andy's gear | 3 |
+| Power cord / block | 5 |
+| Ola's gear (stays on the desk) | 4 |
+| Keyboard drawer | 100 |
+| **Subtotal** | **149** |
+| Ideal target | 200 |
+| **Additional ballast needed** | **51** |
+
+→ **Two concrete bags (50kg) lands us on target.** The other two bags in the order are held back as stock for later. Numbers are Ola's spreadsheet estimates; we'll weigh-in on build day and add bags if anything comes in lighter than expected.
 
 **Pad rating — the 8Hz vs 12Hz decision:**
 
@@ -123,22 +140,29 @@ Turntable isolation is still the core problem: bass from the speakers feeding ba
 - ~40–50mm air gap between each turntable and its neighbor
 - If needle-skip persists after the platform build, add a dedicated turntable shelf (heavy MDF/stone on sorbothane) and re-test
 
-**Shopping list (Apr 22, ordered from Leroy Merlin for Fri Apr 24 delivery):**
+**Order (Leroy Merlin, placed Apr 22 ~16:16, delivery Fri Apr 24):**
 
 | Item | Qty | Notes |
 |------|-----|-------|
-| Phenolic board, 21mm (Albramat) | 2× large | Cut to size on build day — straight cuts only. Leftover wood kept for possible concrete-weight molds later. |
-| Hormigón Seco H25, 25kg bag | 4× | Used as ballast *in the bags*. €2.55 each incl. VAT. |
+| Phenolic board, 21mm (Albramat), ~2.5×1.2m | 2 | Cut to size on build day — straight cuts only. Leftover wood kept for later concrete-weight molds. |
+| Hormigón Seco H25, 25kg bag | 4 | 2 as active ballast + 2 as spare stock. €2.55 each incl. VAT. |
 | Screws | existing | Ola has these. |
 | **Materials subtotal** | | **~€151** |
-| Express delivery (viernes 24 abril) | 1× | €49.90 — saves the morning car-run. |
+| Express delivery (viernes 24 abril) | 1 | €49.90 — the boards (2.5×1.2m) don't fit in a car, so pickup was ruled out. |
 | **Order total** | | **~€201** |
 
-Invoiced under Andreas's autónomo (NIE + domicilio fiscal sent to Ola) for IVA deductibility.
+Placed on Andreas's Leroy Merlin account (credentials shared via 1Password), invoiced under Andreas's autónomo (NIE Y2266100Q, domicilio fiscal Calle la Esperanza 10 3D 28012 Madrid) for IVA deductibility. Paid with Andreas's saved card (designated via 1Password share).
 
 **Paused: the concrete slab.** The original plan was 8 × 20kg bags of fine premix concrete + iron reinforcement mesh, ~160kg total (70cm × 250cm × ~9.5cm thick), poured into one or two molds (two 80kg slabs is a two-man job; one 160kg slab is a 3–4 man job). It's still a good idea — the natural mass couples well with the pads, and the room resonance stays intact — but it's deferred. Revisit once the modular rig is running and we know what's missing.
 
 **Alternative speaker-only isolation — noted, not chosen.** Putting 20kg weights on Sylomer pads *under the speaker stands* would isolate the speakers from the floor directly. We're not doing this because it breaks the room-coupling that gives the low end its natural character — but it's a fallback if the platform approach under-delivers.
+
+**Desk height trade-off.** With the side cards fixing the base height, the desk ends up **a couple of cm lower than Andreas's original target**. Adjustable later (taller feet / raised surface / re-stack) — not a PoC blocker.
+
+**Future upgrades (if the PoC works):**
+
+- **Mold handle-equipped concrete weights** from leftover phenolic wood + the spare concrete bags. Ola's plan: square blocks with a handle each, portable enough to also slide under the speaker stands as an alternative isolation test. Starts to look intentionally industrial.
+- **Extra Sylomer pads** if the 4-pad layout feels unstable — Ola ordered 8 × 25kg variants alongside the primary set so we can go to 3 pads under each rack unit without re-ordering.
 
 ### Ergonomics
 
@@ -195,17 +219,19 @@ Reason-rig version: 2x 9.6kg (Technics) + 7kg (mixer) + 2x ~1.5kg (laptops) + ~1
 
 - **Apr 21:** concrete slab paused (too much work for an unvalidated design). Modular Sylomer platform chosen for the PoC. Sylomer pads ordered — 12Hz rating (not 8Hz), isolation down to 42Hz at realistic ~200kg load.
 - **Apr 22 morning:** Andreas + Ola aligned on gym weights as ballast. Call scheduled for Thursday.
-- **Apr 22 afternoon:** build plan simplified again. Use Ola's existing side cards as legs (tops + wheels off), add a 21mm phenolic top cut to size, drop concrete bags directly into the side cards as ballast (no molding). Leroy Merlin order placed for Fri Apr 24 express delivery: 2× phenolic boards + 4× 25kg Hormigón Seco H25 bags, ~€201 all in. Invoice under Andreas's autónomo.
+- **Apr 22 afternoon:** build plan simplified again. Use Ola's existing side cards as legs (tops + wheels off), add a 21mm phenolic top cut to size, drop concrete bags directly into the side cards as ballast (no molding). Ola's mass budget arrived at **149kg already on the table → only 2 bags of ballast needed** to hit the 200kg target. Car pickup ruled out (boards are 2.5×1.2m, won't fit). Leroy Merlin order placed on Andreas's account (~16:16) for Fri Apr 24 express delivery: 2× phenolic boards + 4× concrete bags (2 active, 2 spare), ~€201 all in. Invoice under Andreas's autónomo (NIE Y2266100Q), paid with Andreas's saved card.
 - **Friday Apr 24:** build day. Ola in the studio in the morning; Andreas joins in the afternoon. Sylomer pads may or may not arrive — if not, build the table and lift it onto the pads when they land.
 
 ### Next Steps
 
 - [x] ~~Thursday Apr 23 afternoon: call to finalize table design~~ — superseded by Apr 22 afternoon sign-off
-- [x] ~~Acquire gym weights~~ — replaced by 4× 25kg Hormigón Seco H25 bags as in-place ballast
-- [x] Leroy Merlin order placed for Fri Apr 24 delivery (2× phenolic boards + 4× concrete bags, ~€201)
-- [ ] **Friday Apr 24:** build the modular platform (Ola: morning in studio; Andreas: studio afternoon)
-- [ ] Verify Sylomer load window once rig is assembled; order extra pads if layout shifts to 3-per-rack-unit
-- [ ] Decide whether to use leftover phenolic wood to mold handle-equipped concrete weights (upgrade from bags-in-side-cards)
+- [x] ~~Acquire gym weights~~ — replaced by 25kg Hormigón Seco H25 bags as in-place ballast
+- [x] ~~Car pickup of boards~~ — ruled out (2.5×1.2m doesn't fit in a hatchback)
+- [x] Leroy Merlin order placed on Andreas's account, paid, invoiced to autónomo
+- [ ] **Friday Apr 24:** build day — Ola in studio morning, Andreas afternoon; materials delivered same day
+- [ ] Weigh the rig on build day and add more bags if the 2-bag ballast comes in under the 200kg target
+- [ ] Verify Sylomer load window once rig is assembled; extra 8×25kg variants on standby for 3-per-rack-unit layout
+- [ ] After PoC validates: mold handle-equipped concrete weights from leftover phenolic + spare bags
 - [ ] Ola reviews new layout against Apr 18 drawings — does the shorter desk or the "same width, more breathing room" version win?
 - [ ] Decide Kaossilator placement: flat next to mixer vs. front-shelf cut-out
 - [ ] Verify Kaossilator Pro+ dimensions against Korg spec sheet (value in the table above is from memory, confirm before final cut)
