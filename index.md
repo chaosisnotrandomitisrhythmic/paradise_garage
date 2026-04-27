@@ -26,6 +26,10 @@ A DJ/live-jam desk build inspired by the Paradise Garage, Barco Sound House Madr
     <strong>Inspiration</strong>
     <span>Paradise Garage, Barco, A Guy Called Gerald — the live-jam ethos</span>
   </a>
+  <a href="{{ '/research' | relative_url }}" class="page-card">
+    <strong>Research</strong>
+    <span>Listening guides, tracklists, and music-related notes</span>
+  </a>
 </div>
 
 ## Budget Summary
