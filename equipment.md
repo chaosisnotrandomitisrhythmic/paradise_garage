@@ -78,6 +78,11 @@ The sound-quality winner, and now the hub of everything — it's what makes the 
 - **6+2 channels** — enough for turntables + two Reason laptops + guest/aux
 - **Price** — €1,870 vs €3,300 for the DJM-V10
 
+### Mixers considered but not chosen
+
+- **MasterSounds Radius 4 / 4V / Linear 4V** — audiophile rotary, no built-in USB sound card. External 2-port interface adds ~€1,000–1,200 and an extra rack box, breaking the two-laptop Reason rig and the outdoor-portability requirement.
+- **Rodec BX-9R / MX-series** — Belgian boutique, hand-built, pure analog signal path. Same architectural blocker as MasterSounds (no USB sound card → external interface needed for the two-laptop rig). Strong cultural fit: Rodec MX180 was the standard at Boccaccio during the New Beat era, used by Daft Punk early career and Larry Heard. A custom Las Palas edition surfaced 2026-05-10 (Madrid scene). Park as a possible vinyl-only B-rig for pure DJ sets where the Reason engine is not in play; ask Las Palas about playing on it locally before considering capital outlay.
+
 ### Built-in Dual Sound Card (Audio Interface)
 
 The Xone:96 has a **dual 32-bit/96kHz USB sound card** — two independent audio interfaces built into the mixer. No external interface needed, and it is exactly what makes two-laptop Reason work without a hub.
