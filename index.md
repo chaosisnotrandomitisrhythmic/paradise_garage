@@ -30,6 +30,10 @@ A DJ/live-jam desk build inspired by the Paradise Garage, Barco Sound House Madr
     <strong>Research</strong>
     <span>Listening guides, tracklists, and music-related notes</span>
   </a>
+  <a href="{{ '/traktor-kaossilator' | relative_url }}" class="page-card">
+    <strong>Traktor + Kaossilator</strong>
+    <span>Single-laptop signal flow, MIDI clock sync, and three integration patterns</span>
+  </a>
 </div>
 
 ## Budget Summary
