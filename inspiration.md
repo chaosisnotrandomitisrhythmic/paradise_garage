@@ -41,6 +41,7 @@ Western Electric (1930s)
 |--------|------|------------|
 | **Ola** | Tour manager, desk designer, co-builder | Full Arturia bundle, rack carts, power filters, studio space |
 | **Alex** | Barco Sound House DJ & sound engineer | Met Apr 11 — cool guy, potential collaborator |
+| **[François K](francois-k)** | Remixer, DJ, Body & Soul co-founder | The Garage-lineage bridge — Arthur Russell remixes, live-dub Stems rig, 1994 library system |
 | **Devon Turnbull** | OJAS founder, built Barco's system | Shop in NYC, research center in Tokyo |
 | **David** | Potential gear rental business partner | Contact: +34 670 09 02 20 |
 | **Pedro** | Espacio Perez | Outdoor/forest raves in Galicia — potential portable rig use case |
