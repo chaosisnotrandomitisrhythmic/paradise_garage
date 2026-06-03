@@ -37,6 +37,8 @@ def add_track(
         "key": f"{analysis['key']} {analysis['mode']}",
         "camelot": analysis["camelot"],
         "energy": analysis["energy"],
+        "lufs": analysis.get("lufs"),
+        "true_peak_dbtp": analysis.get("true_peak_dbtp"),
         "duration_sec": analysis["duration_sec"],
         "playlists": merged_playlists,
         "added": existing.get("added") or datetime.now().isoformat(),

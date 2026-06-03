@@ -51,11 +51,34 @@ Flags: `--limit N` (record only the first N — handy for testing), `--keep-mast
    → Audio Recording → enable `SpotifyTap`). The grant is keyed to the signed binary
    — **rebuilding the helper invalidates it**, so re-approve after any `build.sh`.
 
-## Preflight (per run)
+## Spotify settings for optimal capture (one-time)
 
-- **Spotify Premium** — free-tier ads would be recorded between tracks.
-- **Spotify Settings → Playback:** Crossfade **OFF**, Autoplay **OFF**.
-- It runs in **real time** (a 60-min playlist ≈ 60 min) but fully unattended; Ctrl-C aborts cleanly.
+Spotify's **defaults are wrong** for recording (Automix, Normalize, and Autoplay
+are all ON by default). In **Settings → "Show advanced settings"**:
+
+| Setting | Value | Why |
+|---|---|---|
+| Audio quality → Streaming | **Very High** (320 kbps) or **Lossless** | best source fidelity (Premium) |
+| **Normalize volume** | **OFF** | leveling would flatten inter-track loudness (kills the RMS energy class) and double up with Traktor's auto-gain |
+| **Automix** | **OFF** | DJ-style blending between tracks — destroys boundaries |
+| **Crossfade songs** | **OFF** | overlapping track audio = bleed |
+| **Autoplay** | **OFF** | so capture stops cleanly at the playlist's end |
+| Gapless | may stay **ON** | only removes silence; does not blend audio |
+
+Per run, `pg record` automatically forces shuffle/repeat off and **in-app volume to 100%**
+(verified: the tap captures *post* Spotify's volume — 50% → ~18 dB quieter — so 100% is required for full-scale capture). It runs in **real time** (a 60-min playlist ≈ 60 min), unattended; Ctrl-C aborts cleanly. Premium recommended (free-tier ads get recorded between tracks).
+
+## Loudness — captured native, leveled at playback
+
+Tracks are recorded at their **native mastered loudness** (never normalized into the
+file). Ingest measures **integrated LUFS + true peak** (ffmpeg `ebur128`) and writes
+**ReplayGain** tags (`replaygain_track_gain`, `replaygain_track_peak`,
+`replaygain_reference_loudness` at −18 LUFS) plus a raw `lufs` tag. That gives:
+- the RMS-based **energy** classifier real inter-track differences to work with,
+- **play-time leveling** for loudness-aware players via ReplayGain,
+- Traktor/rekordbox can still apply their own analysis auto-gain.
+
+`lufs` and `true_peak_dbtp` are also stored in the catalog.
 
 ## Notes & limits
 

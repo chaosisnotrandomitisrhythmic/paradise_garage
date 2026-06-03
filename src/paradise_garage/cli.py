@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from .analyze import analyze_track
+from .loudness import measure as measure_loudness
 from .tag import parse_filename, write_tags, read_tags
 from .catalog import load_catalog, save_catalog, add_track, search_catalog
 
@@ -18,11 +19,14 @@ def cmd_ingest(paths: list[str], playlist: str = None):
 
         print(f"  ANALYZING  {path.name}")
         analysis = analyze_track(str(path))
+        analysis.update(measure_loudness(str(path)))
         artist, title = parse_filename(str(path))
 
         print(f"    BPM: {analysis['bpm']}")
         print(f"    Key: {analysis['key']} {analysis['mode']} ({analysis['camelot']})")
         print(f"    Energy: {analysis['energy']}")
+        if analysis.get("lufs") is not None:
+            print(f"    Loudness: {analysis['lufs']} LUFS (true peak {analysis.get('true_peak_dbtp')} dBTP)")
         print(f"    Duration: {analysis['duration_sec']}s")
 
         write_tags(str(path), analysis, artist=artist, title=title, playlists=playlists)

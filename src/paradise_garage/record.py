@@ -16,11 +16,15 @@ CAPTURE_DIR = Path.home() / ".cache" / "paradise_garage" / "captures"
 
 def _preflight(name: str, n: int, total_sec: float):
     print(f"\n  Playlist: {name}  ({n} tracks, ~{total_sec / 60:.0f} min real-time)\n")
-    print("  PREFLIGHT:")
-    print("    • Spotify Premium (free-tier ads would be recorded between tracks)")
-    print("    • Spotify Settings → Playback → Crossfade OFF, Autoplay OFF")
-    print("    • Spotify keeps playing through your normal output — no muting/rerouting needed")
-    print("    • Only Spotify's audio is captured; notifications/other apps don't bleed in")
+    print("  ONE-TIME Spotify setup (Settings → click 'Show advanced settings'):")
+    print("    • Audio quality → Streaming: Very High (320kbps) or Lossless — needs Premium")
+    print("    • Normalize volume: OFF   (else loudness/energy gets flattened; Traktor auto-gains anyway)")
+    print("    • Automix: OFF            (DJ-style blending — ON by default!)")
+    print("    • Crossfade songs: OFF    (tracks would bleed together)")
+    print("    • Autoplay: OFF           (so playback stops at the playlist's end — ON by default!)")
+    print("    • Gapless: may stay ON    (removes silence only, no audio bleed)")
+    print("  Per run (handled automatically): shuffle/repeat off, in-app volume 100%.")
+    print("  Capture is Spotify-only via the tap — no notification/other-app bleed, no muting.")
     print(f"\n  Captures in real time (~{total_sec / 60:.0f} min), unattended. Ctrl-C aborts cleanly.\n")
     for s in range(5, 0, -1):
         print(f"    starting in {s}…", end="\r")
