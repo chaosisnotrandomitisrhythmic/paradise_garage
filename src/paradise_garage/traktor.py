@@ -25,8 +25,6 @@ COLLECTION = Path.home() / "Documents" / "Native Instruments" / "Traktor 4.5.0" 
 _PC = {"C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3, "E": 4, "F": 5,
        "F#": 6, "Gb": 6, "G": 7, "G#": 8, "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11}
 
-CUE_NAMES = ["IN", "BREAK", "OUT"]
-
 
 def musical_key_value(key: str, mode: str):
     pc = _PC.get(key)
@@ -82,34 +80,34 @@ def _strip_hotcues(entry: str) -> str:
     return re.sub(r'\n?<CUE_V2 [^>]*TYPE="0"[^>]*></CUE_V2>', "", entry)
 
 
-def _snapped_cues(flac_path: str, bpm: float, anchor_ms: float):
-    st = structure.analyze_structure(flac_path)
+def _cues_for(flac_path: str, bpm: float, anchor_ms: float, st: dict | None = None):
+    """Snap structural cues to the grid, sorted chronologically, colliding ones dropped.
+    Returns (cues, structure_result). Pass `st` to avoid recomputing the analysis."""
+    if st is None:
+        st = structure.analyze_structure(flac_path, bpm=bpm)
     bar = 4 * 60000.0 / bpm
     out = []
     seen = []
-    for label, t_sec in st["cues"]:
+    for label, t_sec in sorted(st["cues"], key=lambda c: c[1]):
         start = _snap_ms(t_sec * 1000.0, anchor_ms, bpm)
-        # drop a cue that collides with an already-placed one (heuristics can coincide)
-        if any(abs(start - s) < bar / 2 for s in seen):
+        if any(abs(start - s) < bar / 2 for s in seen):  # heuristics can coincide
             continue
         seen.append(start)
         out.append([label, start, len(out)])  # slot = sequential index
     return out, st
 
 
-def _build_entry(flac_path: str, analysis: dict, vol: str) -> str:
+def _build_entry(flac_path: str, analysis: dict, vol: str, anchor_ms: float, cues: list) -> str:
     """Create a fresh ENTRY from our own analysis (track not yet in Traktor)."""
     p = Path(flac_path)
     artist, _, title = p.stem.partition(" - ")
     bpm = float(analysis["bpm"])
-    anchor_ms = analysis.get("first_beat_sec", 0.0) * 1000.0
     mk = musical_key_value(analysis["key"], analysis["mode"])
     dur = analysis["duration_sec"]
     size_kb = p.stat().st_size // 1024
     tm = time.localtime()
     today = f"{tm.tm_year}/{tm.tm_mon}/{tm.tm_mday}"
 
-    cues, _ = _snapped_cues(flac_path, bpm, anchor_ms)
     cue_xml = "".join(_cue_xml(n, s, slot) for n, s, slot in cues)
     mk_xml = f'\n<MUSICAL_KEY VALUE="{mk}"></MUSICAL_KEY>' if mk is not None else ""
 
@@ -147,7 +145,7 @@ def apply(flac_paths: list[str], collection: Path = COLLECTION, dry_run: bool = 
             grid = _read_grid(entry)
             if grid:
                 bpm, anchor = grid
-                cues, st = _snapped_cues(fp, bpm, anchor)
+                cues, _ = _cues_for(fp, bpm, anchor)
                 new_entry = _strip_hotcues(entry)
                 cue_xml = "".join(_cue_xml(n, s, slot) for n, s, slot in cues)
                 new_entry = new_entry.replace("</ENTRY>", cue_xml + "\n</ENTRY>")
@@ -159,14 +157,16 @@ def apply(flac_paths: list[str], collection: Path = COLLECTION, dry_run: bool = 
         else:
             from .analyze import analyze_track
             analysis = analyze_track(fp)
-            analysis.update(structure.analyze_structure(fp))  # adds first_beat_sec + cues
-            entry = _build_entry(fp, analysis, vol)
+            bpm = float(analysis["bpm"])
+            st = structure.analyze_structure(fp, bpm=bpm)  # one analysis call
+            anchor_ms = st.get("first_beat_sec", 0.0) * 1000.0
+            cues, _ = _cues_for(fp, bpm, anchor_ms, st=st)
+            entry = _build_entry(fp, analysis, vol, anchor_ms, cues)
             # insert after the COLLECTION open tag and bump ENTRIES count
             text = re.sub(r'(<COLLECTION ENTRIES=")(\d+)(">)',
                           lambda m: f"{m.group(1)}{int(m.group(2)) + 1}{m.group(3)}{entry}", text, count=1)
             report.append({"file": p.name, "action": "created",
-                           "cues": [(n, round(s / 1000, 2)) for n, s, _ in _snapped_cues(
-                               fp, float(analysis['bpm']), analysis.get('first_beat_sec', 0) * 1000)[0]]})
+                           "cues": [(n, round(s / 1000, 2)) for n, s, _ in cues]})
 
     # validate before writing
     minidom.parseString(text)
