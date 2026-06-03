@@ -86,7 +86,26 @@ file). Ingest measures **integrated LUFS + true peak** (ffmpeg `ebur128`) and wr
 - The tap records at Spotify's native rate (48 kHz Float32); the split step resamples to 44.1 kHz / 16-bit to match the library.
 - Spotify auth caches a token at `~/.cache/paradise_garage/spotify-token.json` (browser consent once).
 
+## Traktor — `pg traktor` (grid-snapped cues)
+
+```bash
+pg traktor "~/Music/Library/flac/Artist - Title.flac" [...] [--dry-run]
+```
+
+Writes hot cues into Traktor's `collection.nml`:
+- If Traktor has **already analyzed** the track, it reads that entry's `TEMPO BPM`
+  + `AutoGrid` anchor and **snaps cues to Traktor's own grid** (most accurate).
+- If the track **isn't in the collection yet**, it creates an entry from our analysis
+  (artist/title, `MUSICAL_KEY`, `TEMPO` from librosa BPM + first-beat grid anchor).
+
+Cues come from librosa structural analysis — `IN` (bass entry), `BREAK` (deepest
+dip), `OUT` (outro) — snapped to the nearest bar. They're **rough auto-suggestions
+to fine-tune by ear**, not surgical.
+
+Safety: **Traktor must be quit** (it rewrites the NML on exit — the command refuses
+if it's running), the collection is **backed up** (`collection.nml.bak-<ts>`) before
+writing, and the result is XML-validated. Relaunch Traktor to see the cues.
+
 ## Roadmap
 
-- **Phase 2 — Traktor:** write `collection.nml` entries (tags + beatgrid) and grid-snapped hot cues.
 - **Phase 3 — Ableton:** generate a saved `.als` with locators at every song boundary.

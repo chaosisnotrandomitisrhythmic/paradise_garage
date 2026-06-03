@@ -74,6 +74,29 @@ def cmd_record(args: list[str]):
         cmd_ingest(files, playlist=name)
 
 
+def cmd_traktor(args: list[str]):
+    from .traktor import apply
+
+    dry_run = "--dry-run" in args
+    paths = [a for a in args if not a.startswith("--")]
+    if not paths:
+        print("  Usage: pg traktor <file.flac> [file2.flac ...] [--dry-run]")
+        return
+    try:
+        report = apply(paths, dry_run=dry_run)
+    except RuntimeError as e:
+        print(f"  ERROR: {e}")
+        return
+
+    for r in report:
+        if r["action"] == "skipped":
+            print(f"  SKIP   {r['file']} — {r['reason']}")
+        else:
+            cues = ", ".join(f"{n}@{t}s" for n, t in r.get("cues", []))
+            print(f"  {r['action'].upper():7} {r['file']}  [{cues}]")
+    print("\n  (dry run — nothing written)" if dry_run else "\n  collection.nml updated (backup made). Relaunch Traktor to see cues.")
+
+
 def cmd_search(args: list[str]):
     catalog = load_catalog()
     query = ""
@@ -126,6 +149,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage:")
         print("  pg record <playlist-url> [--limit N] [--keep-master] [--trim]")
+        print("  pg traktor <file.flac> [...] [--dry-run]   (grid-snapped cues into collection.nml)")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
         print("  pg search [query] [--bpm 120-130] [--camelot 8A] [--playlist NAME]")
@@ -137,6 +161,8 @@ def main():
 
     if cmd == "record":
         cmd_record(sys.argv[2:])
+    elif cmd == "traktor":
+        cmd_traktor(sys.argv[2:])
     elif cmd == "ingest":
         cmd_ingest(sys.argv[2:])
     elif cmd == "ingest-all":
