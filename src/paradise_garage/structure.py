@@ -67,12 +67,19 @@ def analyze_structure(path: str, bpm: float | None = None) -> dict:
             mixin_t = float(times[i])
             break
 
+    # Too short for a mix structure (e.g. a truncated capture) → just a load cue.
+    active_bars = (eff_end - eff_start) / bar_sec
+    if active_bars < 32:
+        return {"duration_sec": dur, "first_beat_sec": first_beat, "bpm_est": bpm,
+                "eff_end_sec": eff_end, "cues": [("IN", float(in_t))]}
+
     # BREAK — deepest dip in the body (20–85%)
     body = (times > dur * 0.20) & (times < dur * 0.85)
     break_t = float(times[int(np.argmin(np.where(body, rms_s, np.inf)))]) if body.any() else dur * 0.5
 
-    # MIX OUT — a phrase of runway before the effective end (always mixable)
-    mixout_t = max(eff_start + bar_sec, eff_end - MIXOUT_BARS * bar_sec)
+    # MIX OUT — a phrase of runway before the effective end, always after BREAK
+    mixout_t = max(break_t + 8 * bar_sec, eff_end - MIXOUT_BARS * bar_sec)
+    mixout_t = min(mixout_t, eff_end - 4 * bar_sec)
 
     cues = [("IN", float(in_t)), ("MIX IN", float(mixin_t)),
             ("BREAK", float(break_t)), ("MIX OUT", float(mixout_t))]
