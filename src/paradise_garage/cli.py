@@ -33,6 +33,30 @@ def cmd_ingest(paths: list[str]):
     print(f"\n  Catalog: {len(catalog['tracks'])} tracks")
 
 
+def cmd_record(args: list[str]):
+    from .record import record_playlist
+
+    url = None
+    keep_master = False
+    trim_silence = True
+    for a in args:
+        if a == "--keep-master":
+            keep_master = True
+        elif a == "--no-trim":
+            trim_silence = False
+        elif not a.startswith("--"):
+            url = a
+
+    if not url:
+        print("  Usage: pg record <playlist-url> [--keep-master] [--no-trim]")
+        return
+
+    files = record_playlist(url, keep_master=keep_master, trim_silence=trim_silence)
+    if files:
+        print(f"\n  Ingesting {len(files)} captured tracks…")
+        cmd_ingest(files)
+
+
 def cmd_search(args: list[str]):
     catalog = load_catalog()
     query = ""
@@ -76,6 +100,7 @@ def cmd_list():
 def main():
     if len(sys.argv) < 2:
         print("Usage:")
+        print("  pg record <playlist-url> [--keep-master] [--no-trim]")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
         print("  pg search [query] [--bpm 120-130] [--camelot 8A]")
@@ -85,7 +110,9 @@ def main():
 
     cmd = sys.argv[1]
 
-    if cmd == "ingest":
+    if cmd == "record":
+        cmd_record(sys.argv[2:])
+    elif cmd == "ingest":
         cmd_ingest(sys.argv[2:])
     elif cmd == "ingest-all":
         flac_dir = Path(__file__).parent.parent.parent / "flac"
