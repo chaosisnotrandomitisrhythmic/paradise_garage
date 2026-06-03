@@ -158,7 +158,41 @@
       "energy": "mid",
       "duration_sec": 346.0,
       "added": "2026-05-27T10:33:58.558056"
+    },
+    "Peech Boys - Don't Make Me Wait (Extended Version).flac": {
+      "artist": "Peech Boys",
+      "title": "Don't Make Me Wait (Extended Version)",
+      "filename": "Peech Boys - Don't Make Me Wait (Extended Version).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Peech Boys - Don't Make Me Wait (Extended Version).flac",
+      "bpm": 114.8,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -10.4,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 444.1,
+      "playlists": [
+        "Bass Swap Drills — Paradise Garage"
+      ],
+      "added": "2026-06-03T15:41:22.870821"
+    },
+    "Mr. Fingers - Can You Feel It.flac": {
+      "artist": "Mr. Fingers",
+      "title": "Can You Feel It",
+      "filename": "Mr. Fingers - Can You Feel It.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Mr. Fingers - Can You Feel It.flac",
+      "bpm": 112.3,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -12.4,
+      "true_peak_dbtp": -1.1,
+      "duration_sec": 354.1,
+      "playlists": [
+        "Bass Swap Drills — Paradise Garage"
+      ],
+      "added": "2026-06-03T15:41:29.332949"
     }
   },
-  "updated": "2026-06-03T15:19:41.375202"
+  "updated": "2026-06-03T15:41:29.333018"
 }
