@@ -39,41 +39,31 @@ def cmd_record(args: list[str]):
 
     url = None
     keep_master = False
-    trim_silence = True
-    route = True
+    trim_silence = False
     limit = None
-    device = "BlackHole 2ch"
     i = 0
     while i < len(args):
         a = args[i]
         if a == "--keep-master":
             keep_master = True
-        elif a == "--no-trim":
-            trim_silence = False
-        elif a == "--no-route":
-            route = False
+        elif a == "--trim":
+            trim_silence = True
         elif a == "--limit" and i + 1 < len(args):
             limit = int(args[i + 1])
-            i += 1
-        elif a == "--device" and i + 1 < len(args):
-            device = args[i + 1]
             i += 1
         elif not a.startswith("--"):
             url = a
         i += 1
 
     if not url:
-        print("  Usage: pg record <playlist-url> [--limit N] [--device NAME]")
-        print("                   [--keep-master] [--no-trim] [--no-route]")
+        print("  Usage: pg record <playlist-url> [--limit N] [--keep-master] [--trim]")
         return
 
     name, files = record_playlist(
         url,
         keep_master=keep_master,
         trim_silence=trim_silence,
-        route=route,
         limit=limit,
-        device=device,
     )
     if files:
         print(f"\n  Ingesting {len(files)} captured tracks…")
@@ -131,7 +121,7 @@ def cmd_list():
 def main():
     if len(sys.argv) < 2:
         print("Usage:")
-        print("  pg record <playlist-url> [--limit N] [--device NAME] [--keep-master] [--no-trim] [--no-route]")
+        print("  pg record <playlist-url> [--limit N] [--keep-master] [--trim]")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
         print("  pg search [query] [--bpm 120-130] [--camelot 8A] [--playlist NAME]")

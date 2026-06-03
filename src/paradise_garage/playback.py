@@ -1,9 +1,11 @@
 """Drive the Spotify desktop app via AppleScript and log track boundaries.
 
-Strategy: play the playlist track-by-track (not auto-advance) with a forced
-silent gap between tracks. This guarantees a clean silent cut point at every
-boundary — immune to crossfade/gapless bleed — and gives precise start/end
-offsets measured against the capture clock (time.monotonic() at capture start).
+With the per-process tap, audio is recorded only while Spotify is producing it,
+so we play the playlist CONTINUOUSLY (no pausing between tracks — a pause would
+not be recorded and would desync the timeline). Boundaries come from polling the
+current-track-id transitions; each boundary is position-corrected (subtract the
+new track's player position at the moment we notice the change) for sample
+accuracy independent of poll latency.
 """
 
 import subprocess
@@ -16,16 +18,15 @@ from .spotify import Track
 @dataclass
 class Segment:
     track: Track
-    start_sec: float   # offset into the master capture where this track's audio begins
-    end_sec: float     # offset where it ends
+    start_sec: float   # offset into the recording where this track begins
+    end_sec: float
 
 
 def _osa(script: str) -> str:
-    proc = subprocess.run(["osascript", "-e", script], capture_output=True, text=True)
-    return proc.stdout.strip()
+    return subprocess.run(["osascript", "-e", script], capture_output=True, text=True).stdout.strip()
 
 
-def _osa_spotify(body: str) -> str:
+def _spotify(body: str) -> str:
     return _osa(f'tell application "Spotify" to {body}')
 
 
@@ -38,41 +39,38 @@ def ensure_running():
 
 
 def set_options(volume: int = 100):
-    _osa_spotify("set shuffling to false")
-    _osa_spotify("set repeating to false")
-    _osa_spotify(f"set sound volume to {volume}")
+    _spotify("set shuffling to false")
+    _spotify("set repeating to false")
+    _spotify(f"set sound volume to {volume}")
 
 
 def position() -> float:
-    out = _osa_spotify("return player position")
     try:
-        return float(out)
+        return float(_spotify("return player position"))
     except ValueError:
         return 0.0
 
 
 def state() -> str:
-    return _osa_spotify("return player state")
+    return _spotify("return player state")
 
 
 def current_uri() -> str:
-    return _osa_spotify("return id of current track")
+    return _spotify("return id of current track")
 
 
-def play_uri(uri: str):
-    _osa_spotify(f'play track "{uri}"')
+def play_in_context(track_uri: str, playlist_uri: str):
+    _spotify(f'play track "{track_uri}" in context "{playlist_uri}"')
 
 
 def pause():
-    _osa_spotify("pause")
+    _spotify("pause")
 
 
 def _wait_until_playing(uri: str, timeout: float) -> bool:
-    """Block until `uri` is the current track and playing (skips ads). Returns success."""
     deadline = time.monotonic() + timeout
     while time.monotonic() < deadline:
-        cur = current_uri()
-        if cur == uri and "playing" in state():
+        if current_uri() == uri and "playing" in state():
             return True
         time.sleep(0.15)
     return False
@@ -80,53 +78,65 @@ def _wait_until_playing(uri: str, timeout: float) -> bool:
 
 def play_and_log(
     tracks: list[Track],
-    t0: float,
-    gap: float = 1.2,
-    poll: float = 0.25,
-    end_eps: float = 0.6,
-    start_timeout: float = 10.0,
+    playlist_uri: str,
+    poll: float = 0.12,
+    start_timeout: float = 15.0,
+    end_eps: float = 1.0,
 ) -> list[Segment]:
-    segments: list[Segment] = []
+    """Play the playlist top-to-bottom and return per-track Segments whose offsets
+    are relative to the first track's audio (the start of the recording)."""
+    uris = [t.uri for t in tracks]
+    starts: dict[int, float] = {}
 
-    for i, track in enumerate(tracks):
-        if i > 0:
-            pause()
-            time.sleep(gap)  # records a clean silent gap into the master
+    play_in_context(tracks[0].uri, playlist_uri)
+    if not _wait_until_playing(tracks[0].uri, start_timeout):
+        print("    ! first track did not start playing")
+        return []
 
-        play_uri(track.uri)
-        ok = _wait_until_playing(track.uri, start_timeout)
-        start = time.monotonic() - t0  # stamp after playback is confirmed live
-        if not ok:
-            print(f"    ! {track.artist} - {track.title}: did not confirm start; best-effort")
+    origin = time.monotonic() - position()   # monotonic time of the recording's t=0
+    starts[0] = 0.0
+    idx = 0
+    print(f"    [1/{len(tracks)}] {tracks[0].artist} - {tracks[0].title}")
 
-        dur = track.duration_sec
-        end = start  # fallback
-        while True:
-            time.sleep(poll)
-            cur = current_uri()
-            pos = position()
-            st = state()
-            now = time.monotonic() - t0
+    while idx < len(tracks) - 1:
+        time.sleep(poll)
+        cur = current_uri()
+        if cur == uris[idx]:
+            continue
+        now = time.monotonic()
+        pos = position()
+        if cur == uris[idx + 1]:
+            idx += 1
+            starts[idx] = (now - pos) - origin
+            print(f"    [{idx + 1}/{len(tracks)}] {tracks[idx].artist} - {tracks[idx].title}")
+        elif cur in uris:
+            # jumped ahead (skip) — resync to wherever we are
+            idx = uris.index(cur)
+            starts[idx] = (now - pos) - origin
+            print(f"    [{idx + 1}/{len(tracks)}] (resync) {tracks[idx].artist} - {tracks[idx].title}")
+        else:
+            # left the playlist (autoplay/radio past the end) — stop
+            print("    (playback left the playlist — stopping)")
+            break
 
-            if cur != track.uri:
-                # Spotify advanced/changed on its own -> this track ended
-                end = now
-                break
-            if pos >= dur - end_eps:
-                end = now
-                pause()
-                break
-            if "stopped" in st:
-                end = now
-                break
-
-        segments.append(Segment(track=track, start_sec=start, end_sec=end))
-        measured = end - start
-        flag = "  ⚠ short?" if measured < dur - 5 else ""
-        print(
-            f"    [{i + 1}/{len(tracks)}] {track.artist} - {track.title}  "
-            f"({measured:.0f}s / {dur:.0f}s){flag}"
-        )
-
+    # let the last detected track finish, then stop
+    last = idx
+    last_dur = tracks[last].duration_sec
+    deadline = time.monotonic() + last_dur + 5
+    while time.monotonic() < deadline:
+        if current_uri() != uris[last] or position() >= last_dur - end_eps:
+            break
+        time.sleep(poll)
     pause()
+
+    # build segments: end of track i = start of track i+1; last uses its duration
+    segments: list[Segment] = []
+    ordered = sorted(starts.keys())
+    for n, i in enumerate(ordered):
+        start = starts[i]
+        if n + 1 < len(ordered):
+            end = starts[ordered[n + 1]]
+        else:
+            end = start + tracks[i].duration_sec
+        segments.append(Segment(track=tracks[i], start_sec=start, end_sec=end))
     return segments

@@ -13,31 +13,54 @@ cd ~/dev/personal/paradise_garage
 uv run pg record https://open.spotify.com/playlist/XXXXXXXX
 ```
 
-## What it does
+## How it captures (per-process tap, not loopback)
 
-1. **Reads the playlist** via the Spotify Web API (ordered tracklist: artist, title, duration, URI).
-2. **Captures BlackHole 2ch** continuously with ffmpeg → one 44.1 kHz / 16-bit master WAV.
-3. **Drives the Spotify desktop app** via AppleScript, playing the playlist **track-by-track**
-   with a forced ~1 s silent gap between tracks — so every cut point lands in clean silence.
-4. **Logs exact boundaries** against the capture clock and **splits** the master into per-track
-   FLACs, conservatively trimming the injected silence (−60 dB threshold).
-5. **Names** each file `Artist - Title.flac` (auto-applying the dash-in-title → parens rule).
-6. **Ingests** each via the existing `pg ingest` (librosa BPM/key/energy + Vorbis tags + catalog).
+Capture uses a **Core Audio process tap** (`native/SpotifyTap.app`) that records
+**only Spotify's audio stream** — so notifications, Slack, browser tabs, and other
+apps **cannot bleed in**, and there's **no output rerouting or muting**: Spotify
+plays through your speakers normally while we tap it. (This replaced an earlier
+system-wide BlackHole loopback, which recorded the whole mix.)
 
-Flags: `--keep-master` (retain the full WAV), `--no-trim` (disable silence trimming).
+Pipeline:
 
-## Preflight (one-time + per-run)
+1. **Reads the playlist** via the Spotify Web API (ordered tracklist).
+2. **Starts the tap** on Spotify only.
+3. **Plays the playlist continuously** via AppleScript; detects each track boundary
+   from current-track-id transitions, position-corrected for sample accuracy.
+4. **Splits** the recording at those boundaries → per-track FLAC.
+5. **Names** each `Artist - Title.flac` (auto-applying the dash-in-title → parens rule).
+6. **Ingests** via `pg ingest` (librosa BPM/key/energy + Vorbis tags + catalog),
+   tagging each track with its source **playlist** (multi-value; a track accumulates
+   every playlist it came from — virtual crates, no folder duplication).
 
-- **Output** routes through BlackHole 2ch (a Multi-Output Device lets you monitor while capturing).
-- **Spotify Settings → Playback:** Crossfade **OFF**, Normalize **OFF**, Autoplay **OFF**.
-- **Spotify Premium** — free-tier ads get injected between tracks and pollute captures.
-- **Volume at 100 %** — the level is captured as-is (same principle as "render at unity, not −6 dB").
-- It runs in **real time**: a 60-minute playlist takes ~60 minutes — but fully unattended. Ctrl-C aborts cleanly.
+Flags: `--limit N` (record only the first N — handy for testing), `--keep-master`
+(retain the full WAV), `--trim` (silence-trim edges; off by default).
+
+## One-time setup
+
+1. **Build the tap helper** (compiles + signs the .app):
+   ```bash
+   bash native/build.sh
+   ```
+2. **Grant the audio-recording permission** (macOS gates process taps behind
+   `kTCCServiceAudioCapture`). This must be triggered from the GUI:
+   ```bash
+   open native/SpotifyTap.app --args --request-permission
+   ```
+   Approve the **"Audio Recording"** prompt (or System Settings → Privacy & Security
+   → Audio Recording → enable `SpotifyTap`). The grant is keyed to the signed binary
+   — **rebuilding the helper invalidates it**, so re-approve after any `build.sh`.
+
+## Preflight (per run)
+
+- **Spotify Premium** — free-tier ads would be recorded between tracks.
+- **Spotify Settings → Playback:** Crossfade **OFF**, Autoplay **OFF**.
+- It runs in **real time** (a 60-min playlist ≈ 60 min) but fully unattended; Ctrl-C aborts cleanly.
 
 ## Notes & limits
 
 - Source is lossy (Spotify ≈ 320 kbps Ogg); the FLAC is a lossless container of lossy audio — fine for DJing, not archival mastering.
-- Spot-check durations against the playlist if any track flags `⚠ short?` (truncation guard).
+- The tap records at Spotify's native rate (48 kHz Float32); the split step resamples to 44.1 kHz / 16-bit to match the library.
 - Spotify auth caches a token at `~/.cache/paradise_garage/spotify-token.json` (browser consent once).
 
 ## Roadmap

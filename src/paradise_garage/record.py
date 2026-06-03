@@ -1,27 +1,27 @@
-"""Orchestrate: Spotify playlist -> headless capture -> boundary log -> per-track FLACs.
+"""Orchestrate: Spotify playlist -> per-process tap capture -> boundary log -> per-track FLACs.
 
-This is Phase 1 of `pg record`. It produces named FLACs in ~/Music/Library/flac/
-and returns their paths; the CLI then runs the existing ingest (librosa + tags +
-catalog) over them. Traktor NML + Ableton .als generation are later phases.
+Phase 1 of `pg record`. Captures only Spotify (no bleed, no rerouting, no muting),
+splits the continuous recording at detected track boundaries, names the files, and
+hands them to the existing ingest (librosa + tags + catalog).
 """
 
 import time
 from pathlib import Path
 
 from . import capture, playback, split
-from .spotify import get_playlist_tracks
+from .spotify import get_playlist_tracks, parse_playlist_id
 
 CAPTURE_DIR = Path.home() / ".cache" / "paradise_garage" / "captures"
 
 
 def _preflight(name: str, n: int, total_sec: float):
     print(f"\n  Playlist: {name}  ({n} tracks, ~{total_sec / 60:.0f} min real-time)\n")
-    print("  PREFLIGHT — confirm before this runs unattended:")
-    print("    • Output auto-routes to BlackHole 2ch and restores after (use --device for a Multi-Output to monitor)")
-    print("    • Spotify: Settings → Playback → Crossfade OFF, Normalize OFF, Autoplay OFF")
-    print("    • Spotify Premium (free-tier ads pollute captures)")
-    print("    • Output volume at 100% (level is captured as-is — see the 'render unity' rule)")
-    print(f"\n  Capturing in real time — this takes ~{total_sec / 60:.0f} min. Ctrl-C aborts cleanly.\n")
+    print("  PREFLIGHT:")
+    print("    • Spotify Premium (free-tier ads would be recorded between tracks)")
+    print("    • Spotify Settings → Playback → Crossfade OFF, Autoplay OFF")
+    print("    • Spotify keeps playing through your normal output — no muting/rerouting needed")
+    print("    • Only Spotify's audio is captured; notifications/other apps don't bleed in")
+    print(f"\n  Captures in real time (~{total_sec / 60:.0f} min), unattended. Ctrl-C aborts cleanly.\n")
     for s in range(5, 0, -1):
         print(f"    starting in {s}…", end="\r")
         time.sleep(1)
@@ -31,10 +31,8 @@ def _preflight(name: str, n: int, total_sec: float):
 def record_playlist(
     playlist_url: str,
     keep_master: bool = False,
-    trim_silence: bool = True,
-    route: bool = True,
+    trim_silence: bool = False,
     limit: int | None = None,
-    device: str = "BlackHole 2ch",
 ) -> tuple[str, list[str]]:
     name, tracks = get_playlist_tracks(playlist_url)
     if not tracks:
@@ -45,6 +43,7 @@ def record_playlist(
         tracks = tracks[:limit]
         print(f"  (--limit {limit}: recording first {len(tracks)} tracks only)")
 
+    playlist_uri = f"spotify:playlist:{parse_playlist_id(playlist_url)}"
     total = sum(t.duration_sec for t in tracks)
     _preflight(name, len(tracks), total)
 
@@ -52,46 +51,27 @@ def record_playlist(
     stamp = time.strftime("%Y%m%d_%H%M%S")
     master_path = str(CAPTURE_DIR / f"{stamp}_master.wav")
 
-    # Route system output to BlackHole for the capture, restore afterward.
-    prev_output = None
-    if route:
-        prev_output = capture.current_output()
-        if prev_output is None:
-            print("  ! SwitchAudioSource not found — cannot auto-route; "
-                  "make sure output already goes to BlackHole.")
-        elif prev_output != device:
-            if capture.set_output(device):
-                print(f"  Routed output: {prev_output} → {device} (will restore after)")
-            else:
-                print(f"  ! Could not switch output to {device!r}; check the device name.")
-
     playback.ensure_running()
+    playback.pause()           # clean start: don't record any pre-roll
     playback.set_options()
 
     cap = capture.start_capture(master_path)
     try:
-        segments = playback.play_and_log(tracks, cap.t0)
-    except KeyboardInterrupt:
-        print("\n  Aborted by user — finalizing partial capture.")
-        segments = []
-        raise
+        segments = playback.play_and_log(tracks, playlist_uri)
     finally:
         playback.pause()
         cap.stop()
-        if route and prev_output and capture.current_output() != prev_output:
-            capture.set_output(prev_output)
-            print(f"  Restored output → {prev_output}")
 
     if not segments:
         print("  No segments captured.")
         return name, []
 
-    print(f"\n  Splitting master into {len(segments)} tracks…")
+    print(f"\n  Splitting recording into {len(segments)} tracks…")
     written = split.split_master(master_path, segments, trim_silence=trim_silence)
 
-    if not keep_master:
-        Path(master_path).unlink(missing_ok=True)
-    else:
+    if keep_master:
         print(f"\n  Master kept: {master_path}")
+    else:
+        Path(master_path).unlink(missing_ok=True)
 
     return name, written
