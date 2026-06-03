@@ -17,7 +17,7 @@ CAPTURE_DIR = Path.home() / ".cache" / "paradise_garage" / "captures"
 def _preflight(name: str, n: int, total_sec: float):
     print(f"\n  Playlist: {name}  ({n} tracks, ~{total_sec / 60:.0f} min real-time)\n")
     print("  PREFLIGHT — confirm before this runs unattended:")
-    print("    • macOS output routes through BlackHole 2ch (Multi-Output is fine for monitoring)")
+    print("    • Output auto-routes to BlackHole 2ch and restores after (use --device for a Multi-Output to monitor)")
     print("    • Spotify: Settings → Playback → Crossfade OFF, Normalize OFF, Autoplay OFF")
     print("    • Spotify Premium (free-tier ads pollute captures)")
     print("    • Output volume at 100% (level is captured as-is — see the 'render unity' rule)")
@@ -32,11 +32,18 @@ def record_playlist(
     playlist_url: str,
     keep_master: bool = False,
     trim_silence: bool = True,
-) -> list[str]:
+    route: bool = True,
+    limit: int | None = None,
+    device: str = "BlackHole 2ch",
+) -> tuple[str, list[str]]:
     name, tracks = get_playlist_tracks(playlist_url)
     if not tracks:
         print("  No playable tracks found in playlist.")
-        return []
+        return name, []
+
+    if limit:
+        tracks = tracks[:limit]
+        print(f"  (--limit {limit}: recording first {len(tracks)} tracks only)")
 
     total = sum(t.duration_sec for t in tracks)
     _preflight(name, len(tracks), total)
@@ -44,6 +51,19 @@ def record_playlist(
     CAPTURE_DIR.mkdir(parents=True, exist_ok=True)
     stamp = time.strftime("%Y%m%d_%H%M%S")
     master_path = str(CAPTURE_DIR / f"{stamp}_master.wav")
+
+    # Route system output to BlackHole for the capture, restore afterward.
+    prev_output = None
+    if route:
+        prev_output = capture.current_output()
+        if prev_output is None:
+            print("  ! SwitchAudioSource not found — cannot auto-route; "
+                  "make sure output already goes to BlackHole.")
+        elif prev_output != device:
+            if capture.set_output(device):
+                print(f"  Routed output: {prev_output} → {device} (will restore after)")
+            else:
+                print(f"  ! Could not switch output to {device!r}; check the device name.")
 
     playback.ensure_running()
     playback.set_options()
@@ -58,10 +78,13 @@ def record_playlist(
     finally:
         playback.pause()
         cap.stop()
+        if route and prev_output and capture.current_output() != prev_output:
+            capture.set_output(prev_output)
+            print(f"  Restored output → {prev_output}")
 
     if not segments:
         print("  No segments captured.")
-        return []
+        return name, []
 
     print(f"\n  Splitting master into {len(segments)} tracks…")
     written = split.split_master(master_path, segments, trim_silence=trim_silence)
@@ -71,4 +94,4 @@ def record_playlist(
     else:
         print(f"\n  Master kept: {master_path}")
 
-    return written
+    return name, written

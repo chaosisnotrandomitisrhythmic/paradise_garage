@@ -6,9 +6,30 @@ at runtime rather than hardcoded.
 """
 
 import re
+import shutil
 import subprocess
 import time
 from dataclasses import dataclass
+
+
+def current_output() -> str | None:
+    """Current default audio output device name, or None if SwitchAudioSource is absent."""
+    if not shutil.which("SwitchAudioSource"):
+        return None
+    proc = subprocess.run(
+        ["SwitchAudioSource", "-c", "-t", "output"], capture_output=True, text=True
+    )
+    return proc.stdout.strip() or None
+
+
+def set_output(name: str) -> bool:
+    """Set the default audio output device. Returns True on success."""
+    if not shutil.which("SwitchAudioSource"):
+        return False
+    proc = subprocess.run(
+        ["SwitchAudioSource", "-s", name, "-t", "output"], capture_output=True, text=True
+    )
+    return proc.returncode == 0
 
 
 def find_blackhole_index() -> int:
