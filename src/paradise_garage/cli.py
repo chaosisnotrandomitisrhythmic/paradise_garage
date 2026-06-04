@@ -45,6 +45,7 @@ def cmd_record(args: list[str]):
     keep_master = False
     trim_silence = False
     limit = None
+    start = 1
     i = 0
     while i < len(args):
         a = args[i]
@@ -55,12 +56,15 @@ def cmd_record(args: list[str]):
         elif a == "--limit" and i + 1 < len(args):
             limit = int(args[i + 1])
             i += 1
+        elif a == "--start" and i + 1 < len(args):
+            start = int(args[i + 1])
+            i += 1
         elif not a.startswith("--"):
             url = a
         i += 1
 
     if not url:
-        print("  Usage: pg record <playlist-url> [--limit N] [--keep-master] [--trim]")
+        print("  Usage: pg record <playlist-url> [--start N] [--limit N] [--keep-master] [--trim]")
         return
 
     name, files = record_playlist(
@@ -68,6 +72,7 @@ def cmd_record(args: list[str]):
         keep_master=keep_master,
         trim_silence=trim_silence,
         limit=limit,
+        start=start,
     )
     if files:
         print(f"\n  Ingesting {len(files)} captured tracks…")

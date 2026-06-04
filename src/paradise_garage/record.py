@@ -37,15 +37,19 @@ def record_playlist(
     keep_master: bool = False,
     trim_silence: bool = False,
     limit: int | None = None,
+    start: int = 1,
 ) -> tuple[str, list[str]]:
     name, tracks = get_playlist_tracks(playlist_url)
     if not tracks:
         print("  No playable tracks found in playlist.")
         return name, []
 
+    if start > 1:
+        tracks = tracks[start - 1:]
+        print(f"  (--start {start}: beginning at playlist track {start})")
     if limit:
         tracks = tracks[:limit]
-        print(f"  (--limit {limit}: recording first {len(tracks)} tracks only)")
+        print(f"  (--limit {limit}: recording {len(tracks)} tracks)")
 
     playlist_uri = f"spotify:playlist:{parse_playlist_id(playlist_url)}"
     total = sum(t.duration_sec for t in tracks)
