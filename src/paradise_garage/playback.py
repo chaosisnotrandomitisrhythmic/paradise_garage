@@ -63,6 +63,11 @@ def play_in_context(track_uri: str, playlist_uri: str):
     _spotify(f'play track "{track_uri}" in context "{playlist_uri}"')
 
 
+def play_uri(track_uri: str):
+    """Play a single track standalone (no playlist context, so it won't auto-advance)."""
+    _spotify(f'play track "{track_uri}"')
+
+
 def pause():
     _spotify("pause")
 

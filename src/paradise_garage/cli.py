@@ -39,13 +39,15 @@ def cmd_ingest(paths: list[str], playlist: str = None):
 
 
 def cmd_record(args: list[str]):
-    from .record import record_playlist
+    from .record import record_missing, record_playlist
 
     url = None
     keep_master = False
     trim_silence = False
     limit = None
     start = 1
+    skip_existing = False
+    dry_run = False
     i = 0
     while i < len(args):
         a = args[i]
@@ -53,6 +55,10 @@ def cmd_record(args: list[str]):
             keep_master = True
         elif a == "--trim":
             trim_silence = True
+        elif a in ("--skip-existing", "--resume"):
+            skip_existing = True
+        elif a == "--dry-run":
+            dry_run = True
         elif a == "--limit" and i + 1 < len(args):
             limit = int(args[i + 1])
             i += 1
@@ -64,7 +70,14 @@ def cmd_record(args: list[str]):
         i += 1
 
     if not url:
-        print("  Usage: pg record <playlist-url> [--start N] [--limit N] [--keep-master] [--trim]")
+        print("  Usage: pg record <playlist-url> [--skip-existing] [--dry-run]")
+        print("                   [--start N] [--limit N] [--keep-master] [--trim]")
+        return
+
+    # --skip-existing / --resume: record only the tracks not already in the library
+    # (per-track, saved as each finishes → safe to interrupt and re-run).
+    if skip_existing:
+        record_missing(url, dry_run=dry_run)
         return
 
     name, files = record_playlist(
@@ -153,7 +166,7 @@ def cmd_list():
 def main():
     if len(sys.argv) < 2:
         print("Usage:")
-        print("  pg record <playlist-url> [--limit N] [--keep-master] [--trim]")
+        print("  pg record <playlist-url> [--skip-existing] [--start N] [--limit N] [--keep-master]")
         print("  pg traktor <file.flac> [...] [--dry-run]   (grid-snapped cues into collection.nml)")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
