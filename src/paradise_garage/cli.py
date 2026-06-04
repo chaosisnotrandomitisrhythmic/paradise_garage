@@ -3,12 +3,14 @@ import json
 from pathlib import Path
 
 from .analyze import analyze_track
+from .loudness import measure as measure_loudness
 from .tag import parse_filename, write_tags, read_tags
 from .catalog import load_catalog, save_catalog, add_track, search_catalog
 
 
-def cmd_ingest(paths: list[str]):
+def cmd_ingest(paths: list[str], playlist: str = None):
     catalog = load_catalog()
+    playlists = [playlist] if playlist else None
     for p in paths:
         path = Path(p).resolve()
         if not path.exists():
@@ -17,20 +19,59 @@ def cmd_ingest(paths: list[str]):
 
         print(f"  ANALYZING  {path.name}")
         analysis = analyze_track(str(path))
+        analysis.update(measure_loudness(str(path)))
         artist, title = parse_filename(str(path))
 
         print(f"    BPM: {analysis['bpm']}")
         print(f"    Key: {analysis['key']} {analysis['mode']} ({analysis['camelot']})")
         print(f"    Energy: {analysis['energy']}")
+        if analysis.get("lufs") is not None:
+            print(f"    Loudness: {analysis['lufs']} LUFS (true peak {analysis.get('true_peak_dbtp')} dBTP)")
         print(f"    Duration: {analysis['duration_sec']}s")
 
-        write_tags(str(path), analysis, artist=artist, title=title)
-        print(f"  TAGGED  {path.name}")
+        write_tags(str(path), analysis, artist=artist, title=title, playlists=playlists)
+        print(f"  TAGGED  {path.name}" + (f"  [+ playlist: {playlist}]" if playlist else ""))
 
-        catalog = add_track(catalog, str(path), analysis, artist, title)
+        catalog = add_track(catalog, str(path), analysis, artist, title, playlists=playlists)
 
     save_catalog(catalog)
     print(f"\n  Catalog: {len(catalog['tracks'])} tracks")
+
+
+def cmd_record(args: list[str]):
+    from .record import record_playlist
+
+    url = None
+    keep_master = False
+    trim_silence = False
+    limit = None
+    i = 0
+    while i < len(args):
+        a = args[i]
+        if a == "--keep-master":
+            keep_master = True
+        elif a == "--trim":
+            trim_silence = True
+        elif a == "--limit" and i + 1 < len(args):
+            limit = int(args[i + 1])
+            i += 1
+        elif not a.startswith("--"):
+            url = a
+        i += 1
+
+    if not url:
+        print("  Usage: pg record <playlist-url> [--limit N] [--keep-master] [--trim]")
+        return
+
+    name, files = record_playlist(
+        url,
+        keep_master=keep_master,
+        trim_silence=trim_silence,
+        limit=limit,
+    )
+    if files:
+        print(f"\n  Ingesting {len(files)} captured tracks…")
+        cmd_ingest(files, playlist=name)
 
 
 def cmd_search(args: list[str]):
@@ -38,6 +79,7 @@ def cmd_search(args: list[str]):
     query = ""
     bpm_range = None
     camelot = None
+    playlist = None
 
     i = 0
     while i < len(args):
@@ -48,11 +90,16 @@ def cmd_search(args: list[str]):
         elif args[i] == "--camelot" and i + 1 < len(args):
             camelot = args[i + 1]
             i += 2
+        elif args[i] == "--playlist" and i + 1 < len(args):
+            playlist = args[i + 1]
+            i += 2
         else:
             query = args[i]
             i += 1
 
-    results = search_catalog(catalog, query=query, bpm_range=bpm_range, camelot=camelot)
+    results = search_catalog(
+        catalog, query=query, bpm_range=bpm_range, camelot=camelot, playlist=playlist
+    )
     if not results:
         print("  No tracks found.")
         return
@@ -60,6 +107,8 @@ def cmd_search(args: list[str]):
     for t in results:
         print(f"  {t['artist']} - {t['title']}")
         print(f"    BPM: {t['bpm']} | Key: {t['key']} ({t['camelot']}) | Energy: {t['energy']}")
+        if t.get("playlists"):
+            print(f"    Playlists: {', '.join(t['playlists'])}")
         print()
 
 
@@ -76,16 +125,19 @@ def cmd_list():
 def main():
     if len(sys.argv) < 2:
         print("Usage:")
+        print("  pg record <playlist-url> [--limit N] [--keep-master] [--trim]")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
-        print("  pg search [query] [--bpm 120-130] [--camelot 8A]")
+        print("  pg search [query] [--bpm 120-130] [--camelot 8A] [--playlist NAME]")
         print("  pg list")
         print("  pg info <file.flac>")
         return
 
     cmd = sys.argv[1]
 
-    if cmd == "ingest":
+    if cmd == "record":
+        cmd_record(sys.argv[2:])
+    elif cmd == "ingest":
         cmd_ingest(sys.argv[2:])
     elif cmd == "ingest-all":
         flac_dir = Path(__file__).parent.parent.parent / "flac"

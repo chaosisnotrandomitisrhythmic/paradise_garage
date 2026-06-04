@@ -2,6 +2,8 @@ import re
 from pathlib import Path
 from mutagen.flac import FLAC
 
+from .loudness import replaygain_fields
+
 
 def parse_filename(path: str) -> tuple[str, str]:
     stem = Path(path).stem
@@ -11,7 +13,13 @@ def parse_filename(path: str) -> tuple[str, str]:
     return "", stem
 
 
-def write_tags(path: str, analysis: dict, artist: str = "", title: str = ""):
+def write_tags(
+    path: str,
+    analysis: dict,
+    artist: str = "",
+    title: str = "",
+    playlists: list[str] | None = None,
+):
     audio = FLAC(path)
 
     if artist:
@@ -27,6 +35,22 @@ def write_tags(path: str, analysis: dict, artist: str = "", title: str = ""):
     audio["camelot"] = analysis["camelot"]
     audio["energy"] = analysis["energy"]
 
+    # Loudness: store ReplayGain (for play-time leveling) + raw LUFS. The audio
+    # itself is left at native level — we never normalize the file.
+    if analysis.get("lufs") is not None:
+        audio["lufs"] = str(analysis["lufs"])
+        for k, v in replaygain_fields(analysis["lufs"], analysis.get("true_peak_dbtp")).items():
+            audio[k] = v
+
+    # Playlist provenance as a MULTI-VALUE tag — a track can belong to many
+    # playlists (virtual crates, no folder duplication). Union with what's
+    # already on the file so re-ingesting from another playlist accumulates.
+    if playlists:
+        merged = sorted({*audio.get("playlist", []), *playlists})
+        audio["playlist"] = merged
+        # mirror into GROUPING so rekordbox/Traktor show it in a column
+        audio["grouping"] = "; ".join(merged)
+
     audio.save()
 
 
@@ -39,4 +63,7 @@ def read_tags(path: str) -> dict:
         "key": audio.get("initialkey", [""])[0],
         "camelot": audio.get("camelot", [""])[0],
         "energy": audio.get("energy", [""])[0],
+        "lufs": audio.get("lufs", [""])[0],
+        "replaygain_track_gain": audio.get("replaygain_track_gain", [""])[0],
+        "playlists": list(audio.get("playlist", [])),
     }

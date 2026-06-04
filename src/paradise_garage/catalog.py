@@ -17,8 +17,17 @@ def save_catalog(catalog: dict):
     CATALOG_PATH.write_text(json.dumps(catalog, indent=2, ensure_ascii=False))
 
 
-def add_track(catalog: dict, filepath: str, analysis: dict, artist: str, title: str) -> dict:
+def add_track(
+    catalog: dict,
+    filepath: str,
+    analysis: dict,
+    artist: str,
+    title: str,
+    playlists: list[str] | None = None,
+) -> dict:
     key = Path(filepath).name
+    existing = catalog["tracks"].get(key, {})
+    merged_playlists = sorted({*existing.get("playlists", []), *(playlists or [])})
     catalog["tracks"][key] = {
         "artist": artist,
         "title": title,
@@ -28,13 +37,22 @@ def add_track(catalog: dict, filepath: str, analysis: dict, artist: str, title: 
         "key": f"{analysis['key']} {analysis['mode']}",
         "camelot": analysis["camelot"],
         "energy": analysis["energy"],
+        "lufs": analysis.get("lufs"),
+        "true_peak_dbtp": analysis.get("true_peak_dbtp"),
         "duration_sec": analysis["duration_sec"],
-        "added": datetime.now().isoformat(),
+        "playlists": merged_playlists,
+        "added": existing.get("added") or datetime.now().isoformat(),
     }
     return catalog
 
 
-def search_catalog(catalog: dict, query: str = "", bpm_range: tuple = None, camelot: str = None) -> list:
+def search_catalog(
+    catalog: dict,
+    query: str = "",
+    bpm_range: tuple = None,
+    camelot: str = None,
+    playlist: str = None,
+) -> list:
     results = []
     for track in catalog["tracks"].values():
         if query and query.lower() not in f"{track['artist']} {track['title']}".lower():
@@ -45,5 +63,9 @@ def search_catalog(catalog: dict, query: str = "", bpm_range: tuple = None, came
                 continue
         if camelot and track["camelot"] != camelot:
             continue
+        if playlist:
+            pls = track.get("playlists", [])
+            if not any(playlist.lower() in p.lower() for p in pls):
+                continue
         results.append(track)
     return results
