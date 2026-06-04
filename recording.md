@@ -33,8 +33,24 @@ Pipeline:
    tagging each track with its source **playlist** (multi-value; a track accumulates
    every playlist it came from — virtual crates, no folder duplication).
 
-Flags: `--limit N` (record only the first N — handy for testing), `--keep-master`
-(retain the full WAV), `--trim` (silence-trim edges; off by default).
+Flags: `--limit N` (record only the first N — handy for testing), `--start N`
+(begin at playlist track N), `--keep-master` (retain the full WAV), `--trim`
+(silence-trim edges; off by default).
+
+### Resume / record only what's missing
+
+```bash
+pg record <playlist-url> --skip-existing        # record only tracks not already in the library
+pg record <playlist-url> --skip-existing --dry-run   # just show what's missing
+```
+
+Scans each playlist track against the library — a track counts as *present* only
+if a file matches (fuzzy: first-artist + punctuation-normalized title, so
+`Lil' Louis, The World` matches `Lil' Louis` and `X - Mix` matches `X (Mix)`)
+**and** its duration matches the playlist (so truncated/silent partials are treated
+as missing and re-recorded). Then it records **only the missing tracks, one at a
+time, ingesting each as it finishes** — so it's **safe to interrupt and re-run**:
+the next run automatically resumes with just what's still missing.
 
 ## One-time setup
 
