@@ -192,7 +192,143 @@
         "Bass Swap Drills — Paradise Garage"
       ],
       "added": "2026-06-03T15:41:29.332949"
+    },
+    "Sofie Royer - Nichts Neues im Westen.flac": {
+      "artist": "Sofie Royer",
+      "title": "Nichts Neues im Westen",
+      "filename": "Sofie Royer - Nichts Neues im Westen.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Sofie Royer - Nichts Neues im Westen.flac",
+      "bpm": 112.3,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -6.9,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 170.0,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T14:51:50.013665"
+    },
+    "Stimulator Jones - Pain Inside.flac": {
+      "artist": "Stimulator Jones",
+      "title": "Pain Inside",
+      "filename": "Stimulator Jones - Pain Inside.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Stimulator Jones - Pain Inside.flac",
+      "bpm": 123.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -10.3,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 239.0,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T15:06:42.183045"
+    },
+    "Loose Joints - Tell You (Today) (12\" Vocal).flac": {
+      "artist": "Loose Joints",
+      "title": "Tell You (Today) (12\" Vocal)",
+      "filename": "Loose Joints - Tell You (Today) (12\" Vocal).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Loose Joints - Tell You (Today) (12\" Vocal).flac",
+      "bpm": 126.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -12.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 418.8,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T15:13:55.556566"
+    },
+    "Helado Negro - Gemini and Leo.flac": {
+      "artist": "Helado Negro",
+      "title": "Gemini and Leo",
+      "filename": "Helado Negro - Gemini and Leo.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Helado Negro - Gemini and Leo.flac",
+      "bpm": 126.0,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 267.1,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T15:18:31.383768"
+    },
+    "Sonido Gallo Negro - La Patrona.flac": {
+      "artist": "Sonido Gallo Negro",
+      "title": "La Patrona",
+      "filename": "Sonido Gallo Negro - La Patrona.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Sonido Gallo Negro - La Patrona.flac",
+      "bpm": 95.7,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -7.7,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 286.4,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T15:23:28.283869"
+    },
+    "Belafonte Sensacional - Negro Soledad.flac": {
+      "artist": "Belafonte Sensacional",
+      "title": "Negro Soledad",
+      "filename": "Belafonte Sensacional - Negro Soledad.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Belafonte Sensacional - Negro Soledad.flac",
+      "bpm": 114.8,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -11.7,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 243.5,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T18:08:23.843443"
+    },
+    "Tony Allen, Jeff Mills - The Seed (Edit).flac": {
+      "artist": "Tony Allen, Jeff Mills",
+      "title": "The Seed (Edit)",
+      "filename": "Tony Allen, Jeff Mills - The Seed (Edit).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Tony Allen, Jeff Mills - The Seed (Edit).flac",
+      "bpm": 112.3,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -12.5,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 239.9,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T18:12:31.695808"
+    },
+    "Loose Joints - Is It All over My Face? (Female Version) (2012 (Remaster)).flac": {
+      "artist": "Loose Joints",
+      "title": "Is It All over My Face? (Female Version) (2012 (Remaster))",
+      "filename": "Loose Joints - Is It All over My Face? (Female Version) (2012 (Remaster)).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Loose Joints - Is It All over My Face? (Female Version) (2012 (Remaster)).flac",
+      "bpm": 120.2,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 426.9,
+      "playlists": [
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+      ],
+      "added": "2026-06-05T18:19:50.572649"
     }
   },
-  "updated": "2026-06-03T15:41:29.333018"
+  "updated": "2026-06-05T18:19:50.572714"
 }
