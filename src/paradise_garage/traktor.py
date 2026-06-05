@@ -16,8 +16,14 @@ import subprocess
 import time
 from pathlib import Path
 from xml.dom import minidom
+from xml.sax.saxutils import escape
 
 from . import structure
+
+
+def _attr(s) -> str:
+    """Escape a value for a double-quoted XML attribute (&, <, >, ")."""
+    return escape(str(s), {'"': "&quot;"})
 
 COLLECTION = Path.home() / "Documents" / "Native Instruments" / "Traktor 4.5.0" / "collection.nml"
 
@@ -44,7 +50,7 @@ def traktor_running() -> bool:
 
 def _find_entry(text: str, filename: str):
     """Return (start, end) span of the <ENTRY>…</ENTRY> for FILE=filename, or None."""
-    marker = f'FILE="{filename}"'
+    marker = f'FILE="{_attr(filename)}"'  # NML stores attrs entity-escaped (e.g. " → &quot;)
     i = text.find(marker)
     if i == -1:
         return None
@@ -112,8 +118,8 @@ def _build_entry(flac_path: str, analysis: dict, vol: str, anchor_ms: float, cue
     mk_xml = f'\n<MUSICAL_KEY VALUE="{mk}"></MUSICAL_KEY>' if mk is not None else ""
 
     return (
-        f'<ENTRY MODIFIED_DATE="{today}" MODIFIED_TIME="0" TITLE="{title}" ARTIST="{artist}">'
-        f'<LOCATION DIR="{colon_dir(p.parent)}" FILE="{p.name}" VOLUME="{vol}" VOLUMEID="{vol}"></LOCATION>\n'
+        f'<ENTRY MODIFIED_DATE="{today}" MODIFIED_TIME="0" TITLE="{_attr(title)}" ARTIST="{_attr(artist)}">'
+        f'<LOCATION DIR="{_attr(colon_dir(p.parent))}" FILE="{_attr(p.name)}" VOLUME="{vol}" VOLUMEID="{vol}"></LOCATION>\n'  # vol comes from the NML text = already escaped
         f'<MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>\n'
         f'<INFO COMMENT="Camelot: {analysis["camelot"]} | Energy: {analysis["energy"]}" '
         f'KEY="{analysis["key"]} {analysis["mode"]}" PLAYTIME="{int(dur)}" '
