@@ -22,7 +22,10 @@
       "camelot": "8A",
       "energy": "mid",
       "duration_sec": 590.0,
-      "added": "2026-05-22T10:41:03.426484"
+      "added": "2026-05-22T10:41:03.426484",
+      "playlists": [
+        "Bass Swap Drills — Paradise Garage"
+      ]
     },
     "A Number Of Names - Shari Vari.flac": {
       "artist": "A Number Of Names",
@@ -413,7 +416,398 @@
         "Bass Swap Drills — Paradise Garage"
       ],
       "added": "2026-06-05T19:44:44.657494"
+    },
+    "Iz, Diz, Pépé Bradock - Mouth (Brad Peeps Remix For Friends).flac": {
+      "artist": "Iz, Diz, Pépé Bradock",
+      "title": "Mouth (Brad Peeps Remix For Friends)",
+      "filename": "Iz, Diz, Pépé Bradock - Mouth (Brad Peeps Remix For Friends).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Iz, Diz, Pépé Bradock - Mouth (Brad Peeps Remix For Friends).flac",
+      "bpm": 126.0,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "mid",
+      "lufs": -18.3,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 448.3,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T10:46:40.874856"
+    },
+    "Eris Drew - Trans Love Vibration (Eris Goes to Church).flac": {
+      "artist": "Eris Drew",
+      "title": "Trans Love Vibration (Eris Goes to Church)",
+      "filename": "Eris Drew - Trans Love Vibration (Eris Goes to Church).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Eris Drew - Trans Love Vibration (Eris Goes to Church).flac",
+      "bpm": 117.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -13.5,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 303.6,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T10:51:54.217818"
+    },
+    "Move D - Dots.flac": {
+      "artist": "Move D",
+      "title": "Dots",
+      "filename": "Move D - Dots.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Move D - Dots.flac",
+      "bpm": 123.0,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "high",
+      "lufs": -12.1,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 459.8,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T10:59:46.024569"
+    },
+    "Paul Johnson - Hour Glass Figure.flac": {
+      "artist": "Paul Johnson",
+      "title": "Hour Glass Figure",
+      "filename": "Paul Johnson - Hour Glass Figure.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Paul Johnson - Hour Glass Figure.flac",
+      "bpm": 126.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -12.1,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 360.7,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:06:03.596227"
+    },
+    "Paul Johnson, DJ Deeon - Let Me See You Butterfly (DJ Deeon Alternate Mix 2).flac": {
+      "artist": "Paul Johnson, DJ Deeon",
+      "title": "Let Me See You Butterfly (DJ Deeon Alternate Mix 2)",
+      "filename": "Paul Johnson, DJ Deeon - Let Me See You Butterfly (DJ Deeon Alternate Mix 2).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Paul Johnson, DJ Deeon - Let Me See You Butterfly (DJ Deeon Alternate Mix 2).flac",
+      "bpm": 132.5,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -8.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 287.4,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:16:01.800902"
+    },
+    "K-Lone - slk.flac": {
+      "artist": "K-Lone",
+      "title": "slk",
+      "filename": "K-Lone - slk.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/K-Lone - slk.flac",
+      "bpm": 123.0,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "high",
+      "lufs": -10.4,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 299.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:21:10.410926"
+    },
+    "Moodrich, Sketchy - Shaking Conditions.flac": {
+      "artist": "Moodrich, Sketchy",
+      "title": "Shaking Conditions",
+      "filename": "Moodrich, Sketchy - Shaking Conditions.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Moodrich, Sketchy - Shaking Conditions.flac",
+      "bpm": 149.8,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 217.9,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:24:56.082257"
+    },
+    "69 - Subducer.flac": {
+      "artist": "69",
+      "title": "Subducer",
+      "filename": "69 - Subducer.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/69 - Subducer.flac",
+      "bpm": 114.8,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -12.8,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 189.3,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:28:14.013939"
+    },
+    "DJ Assault - U Can't C Me.flac": {
+      "artist": "DJ Assault",
+      "title": "U Can't C Me",
+      "filename": "DJ Assault - U Can't C Me.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/DJ Assault - U Can't C Me.flac",
+      "bpm": 99.4,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 174.2,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:31:17.886720"
+    },
+    "DJ Assault - Return Of The Terror Tec.flac": {
+      "artist": "DJ Assault",
+      "title": "Return Of The Terror Tec",
+      "filename": "DJ Assault - Return Of The Terror Tec.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/DJ Assault - Return Of The Terror Tec.flac",
+      "bpm": 99.4,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -12.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 216.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:35:02.254939"
+    },
+    "DJ Assault - Asses Jigglin'.flac": {
+      "artist": "DJ Assault",
+      "title": "Asses Jigglin'",
+      "filename": "DJ Assault - Asses Jigglin'.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/DJ Assault - Asses Jigglin'.flac",
+      "bpm": 147.6,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -7.7,
+      "true_peak_dbtp": 1.5,
+      "duration_sec": 165.0,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:37:54.347592"
+    },
+    "Signal to Noise Ratio - Detroit Is Burning.flac": {
+      "artist": "Signal to Noise Ratio",
+      "title": "Detroit Is Burning",
+      "filename": "Signal to Noise Ratio - Detroit Is Burning.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Signal to Noise Ratio - Detroit Is Burning.flac",
+      "bpm": 161.5,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -14.1,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 502.6,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:46:30.320428"
+    },
+    "Omni AM - Can We Get.flac": {
+      "artist": "Omni AM",
+      "title": "Can We Get",
+      "filename": "Omni AM - Can We Get.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Omni AM - Can We Get.flac",
+      "bpm": 126.0,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 433.6,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T11:54:04.164285"
+    },
+    "Cajmere - Let Me Be '92.flac": {
+      "artist": "Cajmere",
+      "title": "Let Me Be '92",
+      "filename": "Cajmere - Let Me Be '92.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Cajmere - Let Me Be '92.flac",
+      "bpm": 126.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 295.2,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T12:19:07.423400"
+    },
+    "2 Body's - Astoria.flac": {
+      "artist": "2 Body's",
+      "title": "Astoria",
+      "filename": "2 Body's - Astoria.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/2 Body's - Astoria.flac",
+      "bpm": 126.0,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "mid",
+      "lufs": -13.0,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 261.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T12:23:38.308196"
+    },
+    "Mr. Fingers - Mystery of Love.flac": {
+      "artist": "Mr. Fingers",
+      "title": "Mystery of Love",
+      "filename": "Mr. Fingers - Mystery of Love.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Mr. Fingers - Mystery of Love.flac",
+      "bpm": 114.8,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "high",
+      "lufs": -11.4,
+      "true_peak_dbtp": -1.3,
+      "duration_sec": 429.8,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T12:31:00.543518"
+    },
+    "Chip E. - Time To Jack (House Mix).flac": {
+      "artist": "Chip E.",
+      "title": "Time To Jack (House Mix)",
+      "filename": "Chip E. - Time To Jack (House Mix).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Chip E. - Time To Jack (House Mix).flac",
+      "bpm": 126.0,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "mid",
+      "lufs": -12.8,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 472.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T13:01:58.810527"
+    },
+    "Marshall Jefferson - Move Your Body.flac": {
+      "artist": "Marshall Jefferson",
+      "title": "Move Your Body",
+      "filename": "Marshall Jefferson - Move Your Body.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Marshall Jefferson - Move Your Body.flac",
+      "bpm": 123.0,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "high",
+      "lufs": -7.5,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 405.0,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T13:08:55.171907"
+    },
+    "Adonis - No Way Back.flac": {
+      "artist": "Adonis",
+      "title": "No Way Back",
+      "filename": "Adonis - No Way Back.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Adonis - No Way Back.flac",
+      "bpm": 126.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -16.4,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 296.8,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T13:14:01.118193"
+    },
+    "Phuture - Your Only Friend.flac": {
+      "artist": "Phuture",
+      "title": "Your Only Friend",
+      "filename": "Phuture - Your Only Friend.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Phuture - Your Only Friend.flac",
+      "bpm": 120.2,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -15.9,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 283.2,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T13:18:57.145764"
+    },
+    "Cajmere, Dajae - Brighter Days '92.flac": {
+      "artist": "Cajmere, Dajae",
+      "title": "Brighter Days '92",
+      "filename": "Cajmere, Dajae - Brighter Days '92.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Cajmere, Dajae - Brighter Days '92.flac",
+      "bpm": 123.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 341.9,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T13:24:49.302410"
+    },
+    "Paul Johnson - Get Get Down.flac": {
+      "artist": "Paul Johnson",
+      "title": "Get Get Down",
+      "filename": "Paul Johnson - Get Get Down.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Paul Johnson - Get Get Down.flac",
+      "bpm": 126.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -8.2,
+      "true_peak_dbtp": 1.4,
+      "duration_sec": 367.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T13:31:06.932028"
+    },
+    "DON JB - NO LOVE FOR THE BOUNCE.flac": {
+      "artist": "DON JB",
+      "title": "NO LOVE FOR THE BOUNCE",
+      "filename": "DON JB - NO LOVE FOR THE BOUNCE.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/DON JB - NO LOVE FOR THE BOUNCE.flac",
+      "bpm": 136.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -11.1,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 213.5,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-06T13:34:48.754012"
     }
   },
-  "updated": "2026-06-05T19:44:44.657545"
+  "updated": "2026-06-06T13:34:48.754097"
 }
