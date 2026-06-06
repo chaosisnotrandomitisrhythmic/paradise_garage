@@ -107,63 +107,79 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
     dur = track.duration_sec
 
     cap = capture.start_capture(tmp)
+    t_cap = time.monotonic()
+    watch_offset = 0.0   # dead time (retries/handshakes) before playback really started
     try:
-        # AirPlay/Sonos outputs can swallow the play command while the route
-        # re-handshakes between tracks — retry instead of trusting one shot.
-        started = False
-        for attempt in range(3):
-            playback.play_uri(track.uri)
-            if playback._wait_until_playing(track.uri, 12.0):
-                started = True
-                break
-            print(f"    ! playback didn't confirm (attempt {attempt + 1}/3)")
-        if not started:
-            print("    ! playback never started — skipping (retry via --skip-existing)")
-            return None
-        # Detect the TRUE end by watching the player position, not the API duration
-        # (they can disagree, and a standalone track loops back to 0 at its real end).
-        deadline = time.monotonic() + dur + 60
-        peak = 0.0
-        t_loop = time.monotonic()
-        why = "deadline"
-        empty_since = None
-        stalled = False
-        last_pos, last_advance = -1.0, time.monotonic()
-        while time.monotonic() < deadline:
-            time.sleep(0.25)
-            cur = playback.current_uri()
-            pos = playback.position()
-            st = playback.state()
-            if pos != last_pos:
-                last_pos, last_advance = pos, time.monotonic()
-            elif time.monotonic() - last_advance > 20.0:
-                # position frozen mid-track (AirPlay stall) — the capture from
-                # here on is silence; treat the whole track as failed
-                why = f"stalled (pos frozen at {pos:.1f}s)"
-                stalled = True
-                break
-            if cur != track.uri:                       # advanced to another track
-                if cur == "":
-                    # transient '' during AirPlay rebuffer — a real track end
-                    # always reports the NEXT uri; only bail if '' persists
-                    empty_since = empty_since or time.monotonic()
-                    if time.monotonic() - empty_since < 3.0:
-                        continue
-                why = f"uri-changed (cur={cur!r})"
-                break
+        outer = 0
+        while True:
+            # AirPlay/Sonos outputs can swallow the play command while the route
+            # re-handshakes between tracks — retry instead of trusting one shot.
+            started = False
+            for attempt in range(3):
+                playback.play_uri(track.uri)
+                if playback._wait_until_playing(track.uri, 12.0):
+                    started = True
+                    break
+                print(f"    ! playback didn't confirm (attempt {attempt + 1}/3)")
+            if not started:
+                print("    ! playback never started — skipping (retry via --skip-existing)")
+                return None
+            watch_offset = time.monotonic() - t_cap
+            # Detect the TRUE end by watching the player position, not the API duration
+            # (they can disagree, and a standalone track loops back to 0 at its real end).
+            deadline = time.monotonic() + dur + 60
+            peak = 0.0
+            t_loop = time.monotonic()
+            why = "deadline"
             empty_since = None
-            if "playing" not in st and pos < 1.0:      # stopped at the end
-                why = f"stopped (state={st!r} pos={pos:.2f})"
-                break
-            if peak > 5.0 and pos + 1.5 < peak:        # position jumped back = looped/ended
-                why = f"pos-jumped-back (pos={pos:.2f} peak={peak:.2f})"
-                break
-            if pos >= dur - 0.3:                       # reached the API end (when it matches)
-                why = "reached-end"
-                break
-            peak = max(peak, pos)
-        elapsed = time.monotonic() - t_loop
-        print(f"    loop exit: {why} after {elapsed:.1f}s (api dur {dur:.1f}s, peak pos {peak:.1f}s)")
+            stalled = False
+            last_pos, last_advance = -1.0, time.monotonic()
+            while time.monotonic() < deadline:
+                time.sleep(0.25)
+                cur = playback.current_uri()
+                pos = playback.position()
+                st = playback.state()
+                if pos != last_pos:
+                    last_pos, last_advance = pos, time.monotonic()
+                elif time.monotonic() - last_advance > 20.0:
+                    # position frozen mid-track (AirPlay stall) — the capture from
+                    # here on is silence; treat the whole track as failed
+                    why = f"stalled (pos frozen at {pos:.1f}s)"
+                    stalled = True
+                    break
+                if cur != track.uri:                       # advanced to another track
+                    if cur == "":
+                        # transient '' during AirPlay rebuffer — a real track end
+                        # always reports the NEXT uri; only bail if '' persists
+                        empty_since = empty_since or time.monotonic()
+                        if time.monotonic() - empty_since < 3.0:
+                            continue
+                    why = f"uri-changed (cur={cur!r})"
+                    break
+                empty_since = None
+                if "playing" not in st and pos < 1.0:      # stopped at the end
+                    why = f"stopped (state={st!r} pos={pos:.2f})"
+                    break
+                if peak > 5.0 and pos + 1.5 < peak:        # position jumped back = looped/ended
+                    why = f"pos-jumped-back (pos={pos:.2f} peak={peak:.2f})"
+                    break
+                if pos >= dur - 0.3:                       # reached the API end (when it matches)
+                    why = "reached-end"
+                    break
+                peak = max(peak, pos)
+            elapsed = time.monotonic() - t_loop
+            print(f"    loop exit: {why} after {elapsed:.1f}s (api dur {dur:.1f}s, peak pos {peak:.1f}s)")
+
+            # Playback can also die right AFTER confirming (AirPlay route collapse:
+            # 'stopped'/'paused'/uri-flip at pos≈0 within seconds) — re-play instead
+            # of failing; the capture keeps rolling and the dead time is silence
+            # that the split window accounts for via watch_offset.
+            died_at_start = not stalled and peak < 5.0 and elapsed < 8.0
+            if died_at_start and outer < 2:
+                outer += 1
+                print(f"    ! playback died at start — re-playing ({outer}/2)")
+                continue
+            break
     finally:
         playback.pause()
         cap.stop()
@@ -184,10 +200,11 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
     levels = [ln.strip() for ln in vol.stderr.splitlines() if "_volume" in ln]
     print(f"    raw capture: {wav_dur:.1f}s | {' | '.join(x.split('] ')[-1] for x in levels)}")
 
-    # The temp file is [tap warmup silence] + [full track] + [trailing]. Cover the
-    # WHOLE file (ffmpeg stops at EOF) and let the silence-trim strip both ends —
-    # bounding to ~dur would clip the track's tail by the warmup offset.
-    seg = [Segment(track=track, start_sec=0.0, end_sec=dur + 30.0)]
+    # The temp file is [tap warmup + retry dead time] + [full track] + [trailing].
+    # Cover the WHOLE file (ffmpeg stops at EOF) and let the silence-trim strip
+    # both ends — but the cut window must include watch_offset, or start-retry
+    # dead time would push the track's tail past the window and clip it.
+    seg = [Segment(track=track, start_sec=0.0, end_sec=watch_offset + dur + 30.0)]
     written = split.split_master(tmp, seg, out_dir=flac_dir, pad=0.0, trim_silence=trim_silence)
     out = written[0] if written else None
     # A sane capture is at least half the API duration AND has no ≥10s silent
