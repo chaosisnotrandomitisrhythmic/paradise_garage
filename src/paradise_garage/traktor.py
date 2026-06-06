@@ -131,6 +131,89 @@ def _build_entry(flac_path: str, analysis: dict, vol: str, anchor_ms: float, cue
     )
 
 
+PG_FOLDER = "Paradise Garage"
+
+
+def _playlist_node(name: str, keys: list[str]) -> str:
+    """One browser playlist (NODE TYPE=PLAYLIST) with PRIMARYKEY rows."""
+    import uuid
+
+    uid = uuid.uuid5(uuid.NAMESPACE_URL, f"paradise-garage/{name}").hex
+    entries = "".join(
+        f'\n<ENTRY><PRIMARYKEY TYPE="TRACK" KEY="{k}"></PRIMARYKEY></ENTRY>' for k in keys
+    )
+    return (
+        f'<NODE TYPE="PLAYLIST" NAME="{_attr(name)}">'
+        f'<PLAYLIST ENTRIES="{len(keys)}" TYPE="LIST" UUID="{uid}">{entries}\n</PLAYLIST></NODE>'
+    )
+
+
+def sync_playlists(
+    playlist_map: dict[str, list[Path]], collection: Path = COLLECTION, dry_run: bool = False
+) -> dict:
+    """Create/replace a 'Paradise Garage' browser folder with one playlist per
+    source playlist tag. Only tracks already present in the collection are
+    referenced (no dangling refs); the rest are reported as pending."""
+    if traktor_running():
+        raise RuntimeError("Traktor is running — quit it first (it overwrites collection.nml on exit).")
+    if not collection.exists():
+        raise RuntimeError(f"collection.nml not found at {collection}")
+
+    text = collection.read_text(encoding="utf-8")
+    vol_m = re.search(r'VOLUME="([^"]+)"', text)
+    vol = vol_m.group(1) if vol_m else "Macintosh HD"
+
+    nodes, report = [], {"playlists": {}, "pending": []}
+    for name, paths in sorted(playlist_map.items()):
+        keys = []
+        for p in paths:
+            if _find_entry(text, p.name) is None:   # not in collection yet → no dangling ref
+                report["pending"].append(p.name)
+                continue
+            # vol comes from the NML text = already escaped; escape only the path part
+            keys.append(f"{vol}{_attr(colon_dir(p.parent) + p.name)}")
+        nodes.append(_playlist_node(name, keys))
+        report["playlists"][name] = len(keys)
+
+    folder = (
+        f'<NODE TYPE="FOLDER" NAME="{_attr(PG_FOLDER)}"><SUBNODES COUNT="{len(nodes)}">\n'
+        + "\n".join(nodes)
+        + "\n</SUBNODES></NODE>"
+    )
+
+    marker = f'<NODE TYPE="FOLDER" NAME="{_attr(PG_FOLDER)}">'
+    i = text.find(marker)
+    if i != -1:
+        # replace the existing folder (ends at the first </SUBNODES></NODE> after it —
+        # it only ever contains PLAYLIST nodes, which close with </PLAYLIST></NODE>)
+        end = text.find("</SUBNODES></NODE>", i)
+        if end == -1:
+            raise RuntimeError("malformed Paradise Garage folder node in NML")
+        text = text[:i] + folder + text[end + len("</SUBNODES></NODE>"):]
+        report["action"] = "replaced"
+    else:
+        # append as the last child of $ROOT and bump its SUBNODES count
+        root_m = re.search(r'(<NODE TYPE="FOLDER" NAME="\$ROOT"><SUBNODES COUNT=")(\d+)(")', text)
+        if not root_m:
+            raise RuntimeError("could not find $ROOT playlist folder in NML")
+        text = text[:root_m.start(2)] + str(int(root_m.group(2)) + 1) + text[root_m.end(2):]
+        # last </SUBNODES> before </PLAYLISTS> closes $ROOT's child list
+        pl_close = text.find("</PLAYLISTS>")
+        close = text.rfind("</SUBNODES>", 0, pl_close) if pl_close != -1 else -1
+        if close == -1:
+            raise RuntimeError("could not find $ROOT closing tags in NML")
+        text = text[:close] + folder + text[close:]
+        report["action"] = "created"
+
+    minidom.parseString(text)  # validate before writing
+
+    if not dry_run:
+        backup = collection.with_suffix(f".nml.bak-{time.strftime('%Y%m%d_%H%M%S')}")
+        shutil.copy2(collection, backup)
+        collection.write_text(text, encoding="utf-8")
+    return report
+
+
 def apply(flac_paths: list[str], collection: Path = COLLECTION, dry_run: bool = False) -> list[dict]:
     """Add/update Traktor entries with grid-snapped cues. Returns a per-track report."""
     if traktor_running():

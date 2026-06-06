@@ -77,7 +77,7 @@ def cmd_record(args: list[str]):
     # --skip-existing / --resume: record only the tracks not already in the library
     # (per-track, saved as each finishes → safe to interrupt and re-run).
     if skip_existing:
-        record_missing(url, dry_run=dry_run)
+        record_missing(url, dry_run=dry_run, limit=limit)
         return
 
     name, files = record_playlist(
@@ -97,8 +97,42 @@ def cmd_traktor(args: list[str]):
 
     dry_run = "--dry-run" in args
     paths = [a for a in args if not a.startswith("--")]
+
+    # --playlists: sync catalog playlist tags into a 'Paradise Garage' browser
+    # folder (one Traktor playlist per source playlist). No file args needed.
+    if "--playlists" in args:
+        from .traktor import sync_playlists
+
+        catalog = load_catalog()
+        playlist_map: dict[str, list] = {}
+        for info in catalog["tracks"].values():
+            p = Path(info["path"])
+            if not p.exists():
+                continue
+            for name in info.get("playlists", []):
+                playlist_map.setdefault(name, []).append(p)
+        if not playlist_map:
+            print("  No playlist tags in the catalog yet.")
+            return
+        try:
+            report = sync_playlists(playlist_map, dry_run=dry_run)
+        except RuntimeError as e:
+            print(f"  ERROR: {e}")
+            return
+        print(f"  Folder 'Paradise Garage' {report['action']}:")
+        for name, n in report["playlists"].items():
+            print(f"    {name}  ({n} tracks)")
+        if report["pending"]:
+            print(f"  ! {len(report['pending'])} track(s) not in the collection yet — "
+                  f"run `pg traktor <flacs>` first, then re-run --playlists:")
+            for f in report["pending"]:
+                print(f"    - {f}")
+        print("\n  (dry run — nothing written)" if dry_run
+              else "\n  collection.nml updated (backup made).")
+        return
+
     if not paths:
-        print("  Usage: pg traktor <file.flac> [file2.flac ...] [--dry-run]")
+        print("  Usage: pg traktor <file.flac> [file2.flac ...] [--dry-run] | pg traktor --playlists")
         return
     try:
         report = apply(paths, dry_run=dry_run)

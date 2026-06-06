@@ -39,11 +39,11 @@ def _match_key(artist: str, title: str) -> str:
     return _norm(artist.split(",")[0]) + "|" + _norm(title)
 
 
-def find_missing(tracks, flac_dir: Path) -> list:
-    """Playlist tracks we DON'T already have a good FLAC for. A track counts as
-    present only if a library file matches (fuzzy) AND its duration matches the
-    playlist track — so truncated/silent partials are treated as missing and
-    get re-recorded."""
+def find_missing(tracks, flac_dir: Path) -> tuple[list, list]:
+    """Split playlist tracks into (missing, have) where have = [(track, path)].
+    A track counts as present only if a library file matches (fuzzy) AND its
+    duration matches the playlist track — so truncated/silent partials are
+    treated as missing and get re-recorded."""
     from .tag import parse_filename
 
     index = {}
@@ -51,7 +51,7 @@ def find_missing(tracks, flac_dir: Path) -> list:
         a, t = parse_filename(str(f))
         index[_match_key(a, t)] = f
 
-    missing = []
+    missing, have = [], []
     for tr in tracks:
         path = index.get(_match_key(tr.artist, tr.title))
         ok = False
@@ -59,9 +59,43 @@ def find_missing(tracks, flac_dir: Path) -> list:
             d = _ffprobe_duration(path)
             if d is not None and abs(d - tr.duration_sec) <= max(15.0, 0.08 * tr.duration_sec):
                 ok = True
-        if not ok:
+        if ok:
+            have.append((tr, path))
+        else:
             missing.append(tr)
-    return missing
+    return missing, have
+
+
+def _union_playlist_tags(paths: list[Path], playlist_name: str, dry_run: bool = False) -> int:
+    """Add the playlist tag to already-present library tracks (file tags +
+    catalog) without re-recording or re-analyzing — so the Traktor playlist
+    sync picks them up too. Returns how many tracks needed the tag."""
+    from mutagen.flac import FLAC
+
+    from .catalog import load_catalog, save_catalog
+
+    changed = 0
+    catalog = None
+    for p in paths:
+        audio = FLAC(str(p))
+        current = set(audio.get("playlist", []))
+        if playlist_name in current:
+            continue
+        changed += 1
+        if dry_run:
+            continue
+        merged = sorted(current | {playlist_name})
+        audio["playlist"] = merged
+        audio["grouping"] = merged
+        audio.save()
+        if catalog is None:
+            catalog = load_catalog()
+        entry = catalog["tracks"].get(p.name)
+        if entry is not None:
+            entry["playlists"] = sorted({*entry.get("playlists", []), playlist_name})
+    if catalog is not None:
+        save_catalog(catalog)
+    return changed
 
 
 def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None:
@@ -74,23 +108,50 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
 
     cap = capture.start_capture(tmp)
     try:
-        playback.play_uri(track.uri)
-        if not playback._wait_until_playing(track.uri, 12.0):
-            print("    ! did not confirm playback start")
+        # AirPlay/Sonos outputs can swallow the play command while the route
+        # re-handshakes between tracks — retry instead of trusting one shot.
+        started = False
+        for attempt in range(3):
+            playback.play_uri(track.uri)
+            if playback._wait_until_playing(track.uri, 12.0):
+                started = True
+                break
+            print(f"    ! playback didn't confirm (attempt {attempt + 1}/3)")
+        if not started:
+            print("    ! playback never started — skipping (retry via --skip-existing)")
+            return None
         # Detect the TRUE end by watching the player position, not the API duration
         # (they can disagree, and a standalone track loops back to 0 at its real end).
         deadline = time.monotonic() + dur + 60
         peak = 0.0
         t_loop = time.monotonic()
         why = "deadline"
+        empty_since = None
+        stalled = False
+        last_pos, last_advance = -1.0, time.monotonic()
         while time.monotonic() < deadline:
             time.sleep(0.25)
             cur = playback.current_uri()
             pos = playback.position()
             st = playback.state()
+            if pos != last_pos:
+                last_pos, last_advance = pos, time.monotonic()
+            elif time.monotonic() - last_advance > 20.0:
+                # position frozen mid-track (AirPlay stall) — the capture from
+                # here on is silence; treat the whole track as failed
+                why = f"stalled (pos frozen at {pos:.1f}s)"
+                stalled = True
+                break
             if cur != track.uri:                       # advanced to another track
+                if cur == "":
+                    # transient '' during AirPlay rebuffer — a real track end
+                    # always reports the NEXT uri; only bail if '' persists
+                    empty_since = empty_since or time.monotonic()
+                    if time.monotonic() - empty_since < 3.0:
+                        continue
                 why = f"uri-changed (cur={cur!r})"
                 break
+            empty_since = None
             if "playing" not in st and pos < 1.0:      # stopped at the end
                 why = f"stopped (state={st!r} pos={pos:.2f})"
                 break
@@ -106,6 +167,10 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
     finally:
         playback.pause()
         cap.stop()
+
+    if stalled:
+        print(f"    ! playback stalled — skipping (retry via --skip-existing), keeping {tmp}")
+        return None
 
     # Sanity-check the raw capture before splitting (debug instrumentation).
     import subprocess as _sp
@@ -125,35 +190,58 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
     seg = [Segment(track=track, start_sec=0.0, end_sec=dur + 30.0)]
     written = split.split_master(tmp, seg, out_dir=flac_dir, pad=0.0, trim_silence=trim_silence)
     out = written[0] if written else None
-    # A sane capture is at least half the API duration; otherwise treat as failed,
-    # remove the stub FLAC (it would crash ingest / pollute the library) and keep
-    # the raw WAV for forensics.
+    # A sane capture is at least half the API duration AND has no ≥10s silent
+    # stretch (a stalled/dropped capture records silence that can pad the file
+    # back to a plausible duration — caught one at 259s/469s padded to 497s).
+    # Otherwise treat as failed, remove the stub FLAC (it would crash ingest /
+    # pollute the library) and keep the raw WAV for forensics.
     if out:
         d = _ffprobe_duration(Path(out))
+        reason = None
         if d is None or d < dur * 0.5:
-            print(f"    ! capture failed ({'unreadable' if d is None else f'{d:.1f}s'} "
-                  f"vs expected {dur:.1f}s) — removing stub, keeping {tmp}")
+            reason = f"{'unreadable' if d is None else f'{d:.1f}s'} vs expected {dur:.1f}s"
+        else:
+            sil = _sp.run(
+                ["ffmpeg", "-hide_banner", "-i", out,
+                 "-af", "silencedetect=noise=-50dB:d=10", "-f", "null", "-"],
+                capture_output=True, text=True)
+            if "silence_start" in sil.stderr:
+                reason = "contains a ≥10s silent stretch (stall/dropout)"
+        if reason:
+            print(f"    ! capture failed ({reason}) — removing stub, keeping {tmp}")
             Path(out).unlink(missing_ok=True)
             return None
     Path(tmp).unlink(missing_ok=True)
     return out
 
 
-def record_missing(playlist_url: str, dry_run: bool = False) -> tuple[str, list[str]]:
+def record_missing(
+    playlist_url: str, dry_run: bool = False, limit: int | None = None
+) -> tuple[str, list[str]]:
     """Scan the playlist against the library and record ONLY the tracks we don't
     already have. Resumable by design — re-run after an interruption and it picks
-    up just what's still missing."""
+    up just what's still missing. --limit N records only the first N missing
+    tracks (chunked sessions for big playlists)."""
     name, tracks = get_playlist_tracks(playlist_url)
     if not tracks:
         print("  No playable tracks found in playlist.")
         return name, []
 
     flac_dir = split.FLAC_DIR
-    missing = find_missing(tracks, flac_dir)
-    have = len(tracks) - len(missing)
+    missing, have = find_missing(tracks, flac_dir)
 
     print(f"\n  Playlist: {name}  ({len(tracks)} tracks)")
-    print(f"  Already in library: {have} | to record: {len(missing)}\n")
+    print(f"  Already in library: {len(have)} | to record: {len(missing)}")
+    # already-present tracks still belong to this playlist — union the tag so
+    # `pg traktor --playlists` includes them (no re-record, no re-analysis)
+    n_tagged = _union_playlist_tags(sorted({p for _, p in have}), name, dry_run=dry_run)
+    if n_tagged:
+        verb = "would tag" if dry_run else "tagged"
+        print(f"  ({verb} {n_tagged} already-present track(s) with playlist '{name}')")
+    if limit and limit < len(missing):
+        missing = missing[:limit]
+        print(f"  (--limit {limit}: recording the first {limit} missing tracks this session)")
+    print()
     for t in missing:
         print(f"    • {t.artist} - {t.title}  ({t.duration_sec / 60:.1f}m)")
 
