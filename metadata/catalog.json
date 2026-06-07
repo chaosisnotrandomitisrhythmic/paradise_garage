@@ -349,7 +349,8 @@
       "duration_sec": 738.8,
       "playlists": [
         "Bass Swap Drills — Paradise Garage",
-        "Dirty Talk at the Paradise Garage"
+        "Dirty Talk at the Paradise Garage",
+        "house/g-house/chicago"
       ],
       "added": "2026-06-05T19:18:25.397848"
     },
@@ -1376,7 +1377,245 @@
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-07T11:52:56.387725"
+    },
+    "Chez Damier - Chez A. Untitled (Extended Mix).flac": {
+      "artist": "Chez Damier",
+      "title": "Chez A. Untitled (Extended Mix)",
+      "filename": "Chez Damier - Chez A. Untitled (Extended Mix).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Chez Damier - Chez A. Untitled (Extended Mix).flac",
+      "bpm": 123.0,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -12.6,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 318.9,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T17:43:27.444115"
+    },
+    "Jesse Saunders - On & On (Vocal Album Mix).flac": {
+      "artist": "Jesse Saunders",
+      "title": "On & On (Vocal Album Mix)",
+      "filename": "Jesse Saunders - On & On (Vocal Album Mix).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Jesse Saunders - On & On (Vocal Album Mix).flac",
+      "bpm": 120.2,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -12.9,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 469.3,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T17:51:29.528940"
+    },
+    "Deee-Lite, DJ Silver, Supa DJ Dmitry at Living Room Studios - D.M.T. (Remix Version).flac": {
+      "artist": "Deee-Lite, DJ Silver, Supa DJ Dmitry at Living Room Studios",
+      "title": "D.M.T. (Remix Version)",
+      "filename": "Deee-Lite, DJ Silver, Supa DJ Dmitry at Living Room Studios - D.M.T. (Remix Version).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Deee-Lite, DJ Silver, Supa DJ Dmitry at Living Room Studios - D.M.T. (Remix Version).flac",
+      "bpm": 132.5,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -8.8,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 354.0,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T17:57:35.465672"
+    },
+    "Dj Paradiso - Dance All Night.flac": {
+      "artist": "Dj Paradiso",
+      "title": "Dance All Night",
+      "filename": "Dj Paradiso - Dance All Night.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Dj Paradiso - Dance All Night.flac",
+      "bpm": 129.2,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 372.0,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:03:58.730398"
+    },
+    "southstar - Miss You.flac": {
+      "artist": "southstar",
+      "title": "Miss You",
+      "filename": "southstar - Miss You.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/southstar - Miss You.flac",
+      "bpm": 143.6,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.2,
+      "true_peak_dbtp": -0.6,
+      "duration_sec": 206.2,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:07:32.887984"
+    },
+    "Denham Audio - Could Be.flac": {
+      "artist": "Denham Audio",
+      "title": "Could Be",
+      "filename": "Denham Audio - Could Be.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Denham Audio - Could Be.flac",
+      "bpm": 136.0,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -8.5,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 306.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:12:49.327276"
+    },
+    "DJ Deeon - Bounce Shawty.flac": {
+      "artist": "DJ Deeon",
+      "title": "Bounce Shawty",
+      "filename": "DJ Deeon - Bounce Shawty.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/DJ Deeon - Bounce Shawty.flac",
+      "bpm": 136.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "mid",
+      "lufs": -17.0,
+      "true_peak_dbtp": -0.8,
+      "duration_sec": 241.9,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:17:56.808964"
+    },
+    "Glenn Underground - Colouration.flac": {
+      "artist": "Glenn Underground",
+      "title": "Colouration",
+      "filename": "Glenn Underground - Colouration.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Glenn Underground - Colouration.flac",
+      "bpm": 126.0,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "mid",
+      "lufs": -12.2,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 309.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:23:16.281992"
+    },
+    "Gat Decor - Passion (Naked Edit).flac": {
+      "artist": "Gat Decor",
+      "title": "Passion (Naked Edit)",
+      "filename": "Gat Decor - Passion (Naked Edit).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Gat Decor - Passion (Naked Edit).flac",
+      "bpm": 126.0,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -16.4,
+      "true_peak_dbtp": 1.2,
+      "duration_sec": 259.5,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:27:47.530780"
+    },
+    "Jon Cutler, E-Man - It's Yours (Radio Edit).flac": {
+      "artist": "Jon Cutler, E-Man",
+      "title": "It's Yours (Radio Edit)",
+      "filename": "Jon Cutler, E-Man - It's Yours (Radio Edit).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Jon Cutler, E-Man - It's Yours (Radio Edit).flac",
+      "bpm": 126.0,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 185.7,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:31:01.100877"
+    },
+    "Inner City - Good Life (Remastered).flac": {
+      "artist": "Inner City",
+      "title": "Good Life (Remastered)",
+      "filename": "Inner City - Good Life (Remastered).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Inner City - Good Life (Remastered).flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -7.0,
+      "true_peak_dbtp": 1.1,
+      "duration_sec": 197.9,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:34:26.112074"
+    },
+    "NY's Finest, Victor Simonelli - Do You Feel Me (Victor Simonelli Club Mix).flac": {
+      "artist": "NY's Finest, Victor Simonelli",
+      "title": "Do You Feel Me (Victor Simonelli Club Mix)",
+      "filename": "NY's Finest, Victor Simonelli - Do You Feel Me (Victor Simonelli Club Mix).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/NY's Finest, Victor Simonelli - Do You Feel Me (Victor Simonelli Club Mix).flac",
+      "bpm": 123.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -14.3,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 431.8,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T18:41:51.430181"
+    },
+    "Jovonn - Pianos of Gold.flac": {
+      "artist": "Jovonn",
+      "title": "Pianos of Gold",
+      "filename": "Jovonn - Pianos of Gold.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Jovonn - Pianos of Gold.flac",
+      "bpm": 82.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -8.2,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 384.5,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T19:16:14.763361"
+    },
+    "24HR Experience - Take Me Up To Bed.flac": {
+      "artist": "24HR Experience",
+      "title": "Take Me Up To Bed",
+      "filename": "24HR Experience - Take Me Up To Bed.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/24HR Experience - Take Me Up To Bed.flac",
+      "bpm": 126.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 344.1,
+      "playlists": [
+        "house/g-house/chicago"
+      ],
+      "added": "2026-06-07T19:22:09.457784"
     }
   },
-  "updated": "2026-06-07T11:52:56.387914"
+  "updated": "2026-06-07T19:22:09.457840"
 }

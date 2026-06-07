@@ -124,6 +124,21 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
             if not started:
                 print("    ! playback never started — skipping (retry via --skip-existing)")
                 return None
+            if playback.position() > 3.0:
+                # Spotify resumed the track at a remembered position (deterministic
+                # for tracks previously played near their end) — rewind while
+                # paused and restart the capture so the file head is clean.
+                print(f"    ! resumed at {playback.position():.0f}s — rewinding, restarting capture")
+                playback.pause()
+                playback.seek(0.0)
+                cap.stop()
+                Path(tmp).unlink(missing_ok=True)
+                cap = capture.start_capture(tmp)
+                t_cap = time.monotonic()
+                playback.resume()   # resume from 0, NOT play_uri (would re-jump)
+                if not playback._wait_until_playing(track.uri, 12.0):
+                    print("    ! playback never restarted after rewind — skipping")
+                    return None
             watch_offset = time.monotonic() - t_cap
             # Detect the TRUE end by watching the player position, not the API duration
             # (they can disagree, and a standalone track loops back to 0 at its real end).

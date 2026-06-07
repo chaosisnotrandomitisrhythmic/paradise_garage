@@ -72,6 +72,16 @@ def pause():
     _spotify("pause")
 
 
+def resume():
+    """Resume the current track at its current position (NOT `play track`,
+    which can jump back to a remembered per-track position)."""
+    _spotify("play")
+
+
+def seek(seconds: float):
+    _spotify(f"set player position to {seconds}")
+
+
 def _wait_until_playing(uri: str, timeout: float) -> bool:
     deadline = time.monotonic() + timeout
     while time.monotonic() < deadline:
