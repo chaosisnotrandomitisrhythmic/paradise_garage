@@ -70,8 +70,13 @@ def cmd_record(args: list[str]):
         i += 1
 
     if not url:
-        print("  Usage: pg record <playlist-url> [--skip-existing] [--dry-run]")
+        print("  Usage: pg record <playlist-url | liked> [--skip-existing] [--dry-run]")
         print("                   [--start N] [--limit N] [--keep-master] [--trim]")
+        return
+
+    if url.strip().lower() in ("liked", "liked-songs", "liked songs") and not skip_existing:
+        print("  'liked' records the saved-tracks library — use it with --skip-existing")
+        print("  (per-track mode; the library has no playlist context to play through).")
         return
 
     # --skip-existing / --resume: record only the tracks not already in the library

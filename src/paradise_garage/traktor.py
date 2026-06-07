@@ -45,7 +45,13 @@ def colon_dir(dir_path: Path) -> str:
 
 
 def traktor_running() -> bool:
-    return subprocess.run(["pgrep", "-x", "Traktor"], capture_output=True).returncode == 0
+    # Traktor Pro 4's process is NOT named plain 'Traktor' — `pgrep -x Traktor`
+    # is a false negative (it let writes through while Traktor was open, and the
+    # quit-rewrite wiped them — caught 2026-06-06). Match the bundle path too.
+    return (
+        subprocess.run(["pgrep", "-x", "Traktor"], capture_output=True).returncode == 0
+        or subprocess.run(["pgrep", "-f", "Traktor Pro"], capture_output=True).returncode == 0
+    )
 
 
 def _find_entry(text: str, filename: str):

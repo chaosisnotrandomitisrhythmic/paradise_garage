@@ -13,7 +13,7 @@ from pathlib import Path
 
 CACHE_PATH = Path.home() / ".cache" / "paradise_garage" / "spotify-token.json"
 REDIRECT_URI = os.environ.get("SPOTIFY_REDIRECT_URI", "http://127.0.0.1:47281/callback")
-SCOPE = "playlist-read-private playlist-read-collaborative"
+SCOPE = "playlist-read-private playlist-read-collaborative user-library-read"
 
 
 @dataclass
@@ -64,8 +64,38 @@ def parse_playlist_id(url_or_uri: str) -> str:
     raise ValueError(f"Could not parse a playlist id from: {url_or_uri!r}")
 
 
+def get_liked_tracks() -> tuple[str, list[Track]]:
+    """Return ('Liked Songs', saved-library tracks, newest first). Needs the
+    user-library-read scope (delete the token cache to re-consent if missing)."""
+    sp = _client()
+    tracks: list[Track] = []
+    results = sp.current_user_saved_tracks(limit=50)
+    while results:
+        for item in results["items"]:
+            tr = item.get("track")
+            if not tr or tr.get("is_local") or not tr.get("uri"):
+                continue
+            if not tr["uri"].startswith("spotify:track:"):
+                continue
+            artist = ", ".join(a["name"] for a in tr.get("artists", []) if a.get("name"))
+            tracks.append(
+                Track(
+                    artist=artist or "Unknown",
+                    title=tr["name"],
+                    duration_ms=int(tr["duration_ms"]),
+                    uri=tr["uri"],
+                    isrc=(tr.get("external_ids") or {}).get("isrc", ""),
+                )
+            )
+        results = sp.next(results) if results.get("next") else None
+    return "Liked Songs", tracks
+
+
 def get_playlist_tracks(url_or_uri: str) -> tuple[str, list[Track]]:
-    """Return (playlist_name, ordered list of Track), skipping local/unavailable items."""
+    """Return (playlist_name, ordered list of Track), skipping local/unavailable
+    items. The sentinel 'liked' reads the saved-tracks library instead."""
+    if url_or_uri.strip().lower() in ("liked", "liked-songs", "liked songs"):
+        return get_liked_tracks()
     sp = _client()
     pid = parse_playlist_id(url_or_uri)
     name = sp.playlist(pid, fields="name").get("name", pid)
