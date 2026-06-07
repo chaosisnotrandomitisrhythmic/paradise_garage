@@ -6,8 +6,11 @@ from .loudness import replaygain_fields
 
 
 def parse_filename(path: str) -> tuple[str, str]:
+    # Split on the FIRST spaced ' - ' (the track_filename contract). The dash
+    # must have whitespace on both sides — a bare hyphen is part of the name
+    # (e.g. 'K-Lone - slk' is artist 'K-Lone', not artist 'K').
     stem = Path(path).stem
-    match = re.match(r"^(.+?)\s*-\s*(.+)$", stem)
+    match = re.match(r"^(.+?)\s+-\s+(.+)$", stem)
     if match:
         return match.group(1).strip(), match.group(2).strip()
     return "", stem
