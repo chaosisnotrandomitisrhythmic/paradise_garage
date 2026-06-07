@@ -24,7 +24,8 @@
       "duration_sec": 590.0,
       "added": "2026-05-22T10:41:03.426484",
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ]
     },
     "A Number Of Names - Shari Vari.flac": {
@@ -175,7 +176,8 @@
       "true_peak_dbtp": 0.3,
       "duration_sec": 444.1,
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-03T15:41:22.870821"
     },
@@ -192,7 +194,8 @@
       "true_peak_dbtp": -1.1,
       "duration_sec": 354.1,
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-03T15:41:29.332949"
     },
@@ -345,7 +348,8 @@
       "true_peak_dbtp": -0.1,
       "duration_sec": 738.8,
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:18:25.397848"
     },
@@ -362,7 +366,8 @@
       "true_peak_dbtp": 0.6,
       "duration_sec": 418.5,
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:25:35.908108"
     },
@@ -379,7 +384,8 @@
       "true_peak_dbtp": 0.4,
       "duration_sec": 454.4,
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:33:22.357652"
     },
@@ -396,7 +402,8 @@
       "true_peak_dbtp": 0.1,
       "duration_sec": 335.9,
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:39:08.158358"
     },
@@ -413,7 +420,8 @@
       "true_peak_dbtp": 0.3,
       "duration_sec": 326.1,
       "playlists": [
-        "Bass Swap Drills — Paradise Garage"
+        "Bass Swap Drills — Paradise Garage",
+        "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:44:44.657494"
     },
@@ -807,7 +815,568 @@
         "house/g-house/chicago"
       ],
       "added": "2026-06-06T13:34:48.754012"
+    },
+    "Lewis OfMan - Attitude.flac": {
+      "artist": "Lewis OfMan",
+      "title": "Attitude",
+      "filename": "Lewis OfMan - Attitude.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Lewis OfMan - Attitude.flac",
+      "bpm": 101.3,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -7.2,
+      "true_peak_dbtp": 1.3,
+      "duration_sec": 184.4,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T13:56:52.859770"
+    },
+    "Tuxedomoon - No Tears.flac": {
+      "artist": "Tuxedomoon",
+      "title": "No Tears",
+      "filename": "Tuxedomoon - No Tears.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Tuxedomoon - No Tears.flac",
+      "bpm": 114.8,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -18.1,
+      "true_peak_dbtp": -4.6,
+      "duration_sec": 339.9,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:02:43.748182"
+    },
+    "Fad Gadget - Collapsing New People.flac": {
+      "artist": "Fad Gadget",
+      "title": "Collapsing New People",
+      "filename": "Fad Gadget - Collapsing New People.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Fad Gadget - Collapsing New People.flac",
+      "bpm": 114.8,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -13.7,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 262.4,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:07:15.150608"
+    },
+    "Paralisis Permanente - Quiero ser santa.flac": {
+      "artist": "Paralisis Permanente",
+      "title": "Quiero ser santa",
+      "filename": "Paralisis Permanente - Quiero ser santa.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Paralisis Permanente - Quiero ser santa.flac",
+      "bpm": 114.8,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 217.1,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:11:04.365224"
+    },
+    "Septimo sello - Espacio vacío.flac": {
+      "artist": "Septimo sello",
+      "title": "Espacio vacío",
+      "filename": "Septimo sello - Espacio vacío.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Septimo sello - Espacio vacío.flac",
+      "bpm": 156.6,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -8.3,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 264.6,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:15:42.742092"
+    },
+    "Triángulo de Amor Bizarro - Estrella Solitaria.flac": {
+      "artist": "Triángulo de Amor Bizarro",
+      "title": "Estrella Solitaria",
+      "filename": "Triángulo de Amor Bizarro - Estrella Solitaria.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Triángulo de Amor Bizarro - Estrella Solitaria.flac",
+      "bpm": 120.2,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -5.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 277.9,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:20:33.977950"
+    },
+    "Nitzer Ebb - Join in the Chant.flac": {
+      "artist": "Nitzer Ebb",
+      "title": "Join in the Chant",
+      "filename": "Nitzer Ebb - Join in the Chant.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Nitzer Ebb - Join in the Chant.flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -16.4,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 363.5,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:26:48.732865"
+    },
+    "Home Front - Nation.flac": {
+      "artist": "Home Front",
+      "title": "Nation",
+      "filename": "Home Front - Nation.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Home Front - Nation.flac",
+      "bpm": 92.3,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 213.7,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:30:32.500571"
+    },
+    "Single Gun Theory - Thetan.flac": {
+      "artist": "Single Gun Theory",
+      "title": "Thetan",
+      "filename": "Single Gun Theory - Thetan.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Single Gun Theory - Thetan.flac",
+      "bpm": 129.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 173.2,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:33:37.917609"
+    },
+    "ESG - Moody.flac": {
+      "artist": "ESG",
+      "title": "Moody",
+      "filename": "ESG - Moody.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/ESG - Moody.flac",
+      "bpm": 123.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -13.1,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 165.8,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:36:37.062056"
+    },
+    "Konk - Your Life.flac": {
+      "artist": "Konk",
+      "title": "Your Life",
+      "filename": "Konk - Your Life.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Konk - Your Life.flac",
+      "bpm": 117.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -13.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 446.0,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:44:15.906678"
+    },
+    "Incredible Bongo Band - Apache.flac": {
+      "artist": "Incredible Bongo Band",
+      "title": "Apache",
+      "filename": "Incredible Bongo Band - Apache.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Incredible Bongo Band - Apache.flac",
+      "bpm": 117.5,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 292.2,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:49:18.208865"
+    },
+    "Schoolly D - P.S.K. 'What Does It Mean'?.flac": {
+      "artist": "Schoolly D",
+      "title": "P.S.K. 'What Does It Mean'?",
+      "filename": "Schoolly D - P.S.K. 'What Does It Mean'?.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Schoolly D - P.S.K. 'What Does It Mean'?.flac",
+      "bpm": 99.4,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -14.9,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 388.2,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T14:55:58.230074"
+    },
+    "The Diplomats - Dipset Anthem.flac": {
+      "artist": "The Diplomats",
+      "title": "Dipset Anthem",
+      "filename": "The Diplomats - Dipset Anthem.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/The Diplomats - Dipset Anthem.flac",
+      "bpm": 83.4,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -8.3,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 248.0,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T15:00:15.749279"
+    },
+    "Imagination - Just An Illusion (Dub Mix).flac": {
+      "artist": "Imagination",
+      "title": "Just An Illusion (Dub Mix)",
+      "filename": "Imagination - Just An Illusion (Dub Mix).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Imagination - Just An Illusion (Dub Mix).flac",
+      "bpm": 105.5,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 395.6,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T15:07:08.342826"
+    },
+    "Quando Quango - Love Tempo (Fac 79 Remix).flac": {
+      "artist": "Quando Quango",
+      "title": "Love Tempo (Fac 79 Remix)",
+      "filename": "Quando Quango - Love Tempo (Fac 79 Remix).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Quando Quango - Love Tempo (Fac 79 Remix).flac",
+      "bpm": 120.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -15.2,
+      "true_peak_dbtp": -1.0,
+      "duration_sec": 474.1,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T15:15:17.518953"
+    },
+    "Cabaret Voltaire - Sensoria (12'' Version Remastered).flac": {
+      "artist": "Cabaret Voltaire",
+      "title": "Sensoria (12'' Version Remastered)",
+      "filename": "Cabaret Voltaire - Sensoria (12'' Version Remastered).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Cabaret Voltaire - Sensoria (12'' Version Remastered).flac",
+      "bpm": 110.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -12.4,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 471.1,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T16:58:22.770246"
+    },
+    "Zombies - Groenlandia.flac": {
+      "artist": "Zombies",
+      "title": "Groenlandia",
+      "filename": "Zombies - Groenlandia.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Zombies - Groenlandia.flac",
+      "bpm": 152.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -15.3,
+      "true_peak_dbtp": -1.9,
+      "duration_sec": 223.3,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:02:17.016106"
+    },
+    "Aviador Dro - Nuclear Sí.flac": {
+      "artist": "Aviador Dro",
+      "title": "Nuclear Sí",
+      "filename": "Aviador Dro - Nuclear Sí.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Aviador Dro - Nuclear Sí.flac",
+      "bpm": 156.6,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -13.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 179.1,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:05:24.567050"
+    },
+    "Liaisons Dangereuses - Los Niños Del Parque.flac": {
+      "artist": "Liaisons Dangereuses",
+      "title": "Los Niños Del Parque",
+      "filename": "Liaisons Dangereuses - Los Niños Del Parque.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Liaisons Dangereuses - Los Niños Del Parque.flac",
+      "bpm": 114.8,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 299.7,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:10:35.101414"
+    },
+    "Liquid Liquid, Sample208 - Optimo (DJ Sample Remix).flac": {
+      "artist": "Liquid Liquid, Sample208",
+      "title": "Optimo (DJ Sample Remix)",
+      "filename": "Liquid Liquid, Sample208 - Optimo (DJ Sample Remix).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Liquid Liquid, Sample208 - Optimo (DJ Sample Remix).flac",
+      "bpm": 123.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 292.3,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:15:39.201516"
+    },
+    "Oby Onyioha - Enjoy Your Life.flac": {
+      "artist": "Oby Onyioha",
+      "title": "Enjoy Your Life",
+      "filename": "Oby Onyioha - Enjoy Your Life.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Oby Onyioha - Enjoy Your Life.flac",
+      "bpm": 114.8,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -17.1,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 378.0,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:22:08.638344"
+    },
+    "William Onyeabor - Better Change Your Mind.flac": {
+      "artist": "William Onyeabor",
+      "title": "Better Change Your Mind",
+      "filename": "William Onyeabor - Better Change Your Mind.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/William Onyeabor - Better Change Your Mind.flac",
+      "bpm": 112.3,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": -1.4,
+      "duration_sec": 502.4,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:30:46.451918"
+    },
+    "Derrick May, Mayday, Rhythim Is Rhythim - Strings Of Life.flac": {
+      "artist": "Derrick May, Mayday, Rhythim Is Rhythim",
+      "title": "Strings Of Life",
+      "filename": "Derrick May, Mayday, Rhythim Is Rhythim - Strings Of Life.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Derrick May, Mayday, Rhythim Is Rhythim - Strings Of Life.flac",
+      "bpm": 123.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 453.8,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:38:34.971052"
+    },
+    "D Mob, Gary Haisman - We Call It Acieeed (feat. Gary Haisman) (Radio Edit Remastered).flac": {
+      "artist": "D Mob, Gary Haisman",
+      "title": "We Call It Acieeed (feat. Gary Haisman) (Radio Edit Remastered)",
+      "filename": "D Mob, Gary Haisman - We Call It Acieeed (feat. Gary Haisman) (Radio Edit Remastered).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/D Mob, Gary Haisman - We Call It Acieeed (feat. Gary Haisman) (Radio Edit Remastered).flac",
+      "bpm": 99.4,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 196.9,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:42:00.146396"
+    },
+    "N Joi - Anthem.flac": {
+      "artist": "N Joi",
+      "title": "Anthem",
+      "filename": "N Joi - Anthem.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/N Joi - Anthem.flac",
+      "bpm": 126.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 197.4,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T17:45:25.999229"
+    },
+    "Underworld - Two Months Off.flac": {
+      "artist": "Underworld",
+      "title": "Two Months Off",
+      "filename": "Underworld - Two Months Off.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Underworld - Two Months Off.flac",
+      "bpm": 136.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -11.7,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 547.3,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T18:02:57.482184"
+    },
+    "Fracture - Soundboy Get Nervous.flac": {
+      "artist": "Fracture",
+      "title": "Soundboy Get Nervous",
+      "filename": "Fracture - Soundboy Get Nervous.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Fracture - Soundboy Get Nervous.flac",
+      "bpm": 159.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 262.3,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T18:10:27.809795"
+    },
+    "Aphex Twin - korg funk5 [London 19.08.2023].flac": {
+      "artist": "Aphex Twin",
+      "title": "korg funk5 [London 19.08.2023]",
+      "filename": "Aphex Twin - korg funk5 [London 19.08.2023].flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Aphex Twin - korg funk5 [London 19.08.2023].flac",
+      "bpm": 129.2,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 200.8,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T18:13:56.595301"
+    },
+    "Silicodisco - Look Back Without Me.flac": {
+      "artist": "Silicodisco",
+      "title": "Look Back Without Me",
+      "filename": "Silicodisco - Look Back Without Me.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Silicodisco - Look Back Without Me.flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 383.6,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T18:20:32.631548"
+    },
+    "Beequeen - My Wicked Wicked Ways.flac": {
+      "artist": "Beequeen",
+      "title": "My Wicked Wicked Ways",
+      "filename": "Beequeen - My Wicked Wicked Ways.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Beequeen - My Wicked Wicked Ways.flac",
+      "bpm": 99.4,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -12.6,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 423.9,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-06T18:27:48.396658"
+    },
+    "Orbital - Chime (Edit) (Remastered).flac": {
+      "artist": "Orbital",
+      "title": "Chime (Edit) (Remastered)",
+      "filename": "Orbital - Chime (Edit) (Remastered).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Orbital - Chime (Edit) (Remastered).flac",
+      "bpm": 120.2,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "mid",
+      "lufs": -18.6,
+      "true_peak_dbtp": -0.8,
+      "duration_sec": 194.8,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-07T11:46:34.541431"
+    },
+    "I-F - Space Invaders Are Smoking Grass.flac": {
+      "artist": "I-F",
+      "title": "Space Invaders Are Smoking Grass",
+      "filename": "I-F - Space Invaders Are Smoking Grass.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/I-F - Space Invaders Are Smoking Grass.flac",
+      "bpm": 132.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -12.1,
+      "true_peak_dbtp": -3.8,
+      "duration_sec": 370.5,
+      "playlists": [
+        "Dirty Talk at the Paradise Garage"
+      ],
+      "added": "2026-06-07T11:52:56.387725"
     }
   },
-  "updated": "2026-06-06T13:34:48.754097"
+  "updated": "2026-06-07T11:52:56.387914"
 }
