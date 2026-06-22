@@ -1632,7 +1632,24 @@
         "SoundCloud"
       ],
       "added": "2026-06-22T08:52:27.235814"
+    },
+    "Bagarre - Lemonsweet (Disco-Version).flac": {
+      "artist": "Bagarre",
+      "title": "Lemonsweet (Disco-Version)",
+      "filename": "Bagarre - Lemonsweet (Disco-Version).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Bagarre - Lemonsweet (Disco-Version).flac",
+      "bpm": 136.0,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "low",
+      "lufs": -22.7,
+      "true_peak_dbtp": -7.3,
+      "duration_sec": 380.0,
+      "playlists": [
+        "SoundCloud"
+      ],
+      "added": "2026-06-22T09:37:58.268381"
     }
   },
-  "updated": "2026-06-22T08:52:27.235877"
+  "updated": "2026-06-22T09:48:52.394350"
 }
