@@ -1649,7 +1649,22 @@
         "SoundCloud"
       ],
       "added": "2026-06-22T09:37:58.268381"
+    },
+    "Eddie Dark - DISKO-TERRORISTA.flac": {
+      "artist": "Eddie Dark",
+      "title": "DISKO-TERRORISTA",
+      "filename": "Eddie Dark - DISKO-TERRORISTA.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Eddie Dark - DISKO-TERRORISTA.flac",
+      "bpm": 120.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "low",
+      "lufs": -22.4,
+      "true_peak_dbtp": -15.0,
+      "duration_sec": 213.2,
+      "playlists": [],
+      "added": "2026-06-22T19:02:10.007041"
     }
   },
-  "updated": "2026-06-22T09:48:52.394350"
+  "updated": "2026-06-22T19:02:10.007134"
 }
