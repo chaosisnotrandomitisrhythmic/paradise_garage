@@ -97,6 +97,69 @@ def cmd_record(args: list[str]):
         cmd_ingest(files, playlist=name)
 
 
+def cmd_capture(args: list[str]):
+    """Capture a single browser-sourced track (e.g. SoundCloud) into the library.
+
+    Usage:
+      pg capture "Artist" "Title" --duration MM:SS [--browser-prefix com.google.Chrome]
+                 [--playlist SoundCloud] [--no-trim]
+      pg capture --arm-test [--browser-prefix com.google.Chrome]   (readiness check, no audio)
+    """
+    from .record import arm_test, parse_duration, record_manual
+
+    browser_prefix = "com.google.Chrome"
+    playlist = "SoundCloud"
+    duration = None
+    trim_silence = True
+    do_arm_test = False
+    positionals: list[str] = []
+
+    i = 0
+    while i < len(args):
+        a = args[i]
+        if a == "--arm-test":
+            do_arm_test = True
+        elif a == "--no-trim":
+            trim_silence = False
+        elif a == "--duration" and i + 1 < len(args):
+            duration = parse_duration(args[i + 1])
+            i += 1
+        elif a == "--browser-prefix" and i + 1 < len(args):
+            browser_prefix = args[i + 1]
+            i += 1
+        elif a == "--playlist" and i + 1 < len(args):
+            playlist = args[i + 1]
+            i += 1
+        elif not a.startswith("--"):
+            positionals.append(a)
+        i += 1
+
+    if do_arm_test:
+        print(f"\n  Arm test — tapping '{browser_prefix}' for ~3s (no audio needed)…")
+        r = arm_test(browser_prefix)
+        if r["attached"]:
+            dur = f"{r['wav_dur']:.1f}s" if r["wav_dur"] is not None else "header-only/silent"
+            print(f"  ✓ READY — tap attached to {browser_prefix} and wrote "
+                  f"{r['bytes']} bytes ({dur} WAV). Deleted test file.")
+        else:
+            print(f"  ✗ NOT READY — {r['error'] or 'tap did not produce a WAV.'}")
+            print("    If Chrome has not played audio this session it won't appear in")
+            print("    Core Audio's process list — play ~1s of anything in Chrome, then retry.")
+        return
+
+    if len(positionals) < 2 or duration is None:
+        print('  Usage: pg capture "Artist" "Title" --duration MM:SS '
+              "[--browser-prefix com.google.Chrome] [--playlist NAME] [--no-trim]")
+        print("         pg capture --arm-test   (readiness check)")
+        return
+
+    artist, title = positionals[0], positionals[1]
+    record_manual(
+        artist, title, duration,
+        browser_prefix=browser_prefix, playlist=playlist, trim_silence=trim_silence,
+    )
+
+
 def cmd_traktor(args: list[str]):
     from .traktor import apply
 
@@ -206,6 +269,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage:")
         print("  pg record <playlist-url> [--skip-existing] [--start N] [--limit N] [--keep-master]")
+        print('  pg capture "Artist" "Title" --duration MM:SS   (browser-sourced single track, e.g. SoundCloud)')
         print("  pg traktor <file.flac> [...] [--dry-run]   (grid-snapped cues into collection.nml)")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
@@ -218,6 +282,8 @@ def main():
 
     if cmd == "record":
         cmd_record(sys.argv[2:])
+    elif cmd == "capture":
+        cmd_capture(sys.argv[2:])
     elif cmd == "traktor":
         cmd_traktor(sys.argv[2:])
     elif cmd == "ingest":
