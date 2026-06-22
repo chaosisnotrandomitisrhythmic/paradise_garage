@@ -1,9 +1,13 @@
-"""Write tracks + grid-snapped hot cues into Traktor's collection.nml.
+"""Write grid-snapped hot cues into Traktor's collection.nml.
 
-Proven approach (from the May 2026 manual workflow): if Traktor has already
-analyzed the track, read its TEMPO BPM + AutoGrid anchor from the NML and snap
-librosa structural cues to that grid. If the track isn't in the collection yet,
-create a fresh ENTRY using our own analysis (BPM + first-beat anchor).
+The grid is ALWAYS Traktor's own: we read the analyzed entry's TEMPO BPM +
+AutoGrid anchor from the NML and snap librosa structural cues to that grid.
+librosa is used ONLY for structural cue *times* (IN / MIX IN / BREAK / MIX OUT
+in seconds) — never for the beatgrid. Traktor's downbeat/phase estimate is the
+authority; librosa's was a beat off and snapped every cue wrong (see 2026-06).
+
+A track that Traktor has not analyzed yet (no TEMPO + AutoGrid grid anchor) is
+SKIPPED with an actionable message — we no longer fabricate an entry/grid.
 
 Editing is targeted string surgery (minimal diff) + minidom validation, never a
 full-tree rewrite. Traktor MUST be closed (it overwrites the NML on quit), and we
@@ -26,17 +30,6 @@ def _attr(s) -> str:
     return escape(str(s), {'"': "&quot;"})
 
 COLLECTION = Path.home() / "Documents" / "Native Instruments" / "Traktor 4.5.0" / "collection.nml"
-
-# our note names (sharp + flat) -> pitch class; minor adds 12  (Traktor MUSICAL_KEY VALUE 0-23)
-_PC = {"C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3, "E": 4, "F": 5,
-       "F#": 6, "Gb": 6, "G": 7, "G#": 8, "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11}
-
-
-def musical_key_value(key: str, mode: str):
-    pc = _PC.get(key)
-    if pc is None:
-        return None
-    return pc + (12 if mode == "minor" else 0)
 
 
 def colon_dir(dir_path: Path) -> str:
@@ -107,34 +100,6 @@ def _cues_for(flac_path: str, bpm: float, anchor_ms: float, st: dict | None = No
         seen.append(start)
         out.append([label, start, len(out)])  # slot = sequential index
     return out, st
-
-
-def _build_entry(flac_path: str, analysis: dict, vol: str, anchor_ms: float, cues: list) -> str:
-    """Create a fresh ENTRY from our own analysis (track not yet in Traktor)."""
-    p = Path(flac_path)
-    artist, _, title = p.stem.partition(" - ")
-    bpm = float(analysis["bpm"])
-    mk = musical_key_value(analysis["key"], analysis["mode"])
-    dur = analysis["duration_sec"]
-    size_kb = p.stat().st_size // 1024
-    tm = time.localtime()
-    today = f"{tm.tm_year}/{tm.tm_mon}/{tm.tm_mday}"
-
-    cue_xml = "".join(_cue_xml(n, s, slot) for n, s, slot in cues)
-    mk_xml = f'\n<MUSICAL_KEY VALUE="{mk}"></MUSICAL_KEY>' if mk is not None else ""
-
-    return (
-        f'<ENTRY MODIFIED_DATE="{today}" MODIFIED_TIME="0" TITLE="{_attr(title)}" ARTIST="{_attr(artist)}">'
-        f'<LOCATION DIR="{_attr(colon_dir(p.parent))}" FILE="{_attr(p.name)}" VOLUME="{vol}" VOLUMEID="{vol}"></LOCATION>\n'  # vol comes from the NML text = already escaped
-        f'<MODIFICATION_INFO AUTHOR_TYPE="user"></MODIFICATION_INFO>\n'
-        f'<INFO COMMENT="Camelot: {analysis["camelot"]} | Energy: {analysis["energy"]}" '
-        f'KEY="{analysis["key"]} {analysis["mode"]}" PLAYTIME="{int(dur)}" '
-        f'PLAYTIME_FLOAT="{dur:.6f}" IMPORT_DATE="{today}" FLAGS="12" FILESIZE="{size_kb}"></INFO>\n'
-        f'<TEMPO BPM="{bpm:.6f}" BPM_QUALITY="100.000000"></TEMPO>{mk_xml}\n'
-        f'<CUE_V2 NAME="AutoGrid" DISPL_ORDER="0" TYPE="4" START="{anchor_ms:.6f}" '
-        f'LEN="0.000000" REPEATS="-1" HOTCUE="-1"><GRID BPM="{bpm:.6f}"></GRID>\n</CUE_V2>'
-        f'{cue_xml}\n</ENTRY>\n'
-    )
 
 
 PG_FOLDER = "Paradise Garage"
@@ -221,47 +186,44 @@ def sync_playlists(
 
 
 def apply(flac_paths: list[str], collection: Path = COLLECTION, dry_run: bool = False) -> list[dict]:
-    """Add/update Traktor entries with grid-snapped cues. Returns a per-track report."""
+    """Update Traktor entries with grid-snapped cues. Returns a per-track report.
+
+    Only tracks Traktor has already analyzed (TEMPO BPM + AutoGrid anchor) are
+    cued; the rest are skipped — we never fabricate a beatgrid."""
     if traktor_running():
         raise RuntimeError("Traktor is running — quit it first (it overwrites collection.nml on exit).")
     if not collection.exists():
         raise RuntimeError(f"collection.nml not found at {collection}")
 
     text = collection.read_text(encoding="utf-8")
-    vol_m = re.search(r'VOLUME="([^"]+)"', text)
-    vol = vol_m.group(1) if vol_m else "Macintosh HD"
 
+    # A Traktor-analyzed grid is a precondition for cueing: we snap cues to
+    # Traktor's own TEMPO BPM + AutoGrid anchor and never fabricate one. Tracks
+    # without an analyzed entry are skipped with an actionable message.
+    not_analyzed = (
+        "not analyzed in Traktor yet. Add it to Traktor and run Analyze (Async), "
+        "then re-run pg traktor."
+    )
     report = []
     for fp in flac_paths:
         p = Path(fp)
         span = _find_entry(text, p.name)
-        if span:
-            entry = text[span[0]:span[1]]
-            grid = _read_grid(entry)
-            if grid:
-                bpm, anchor = grid
-                cues, _ = _cues_for(fp, bpm, anchor)
-                new_entry = _strip_hotcues(entry)
-                cue_xml = "".join(_cue_xml(n, s, slot) for n, s, slot in cues)
-                new_entry = new_entry.replace("</ENTRY>", cue_xml + "\n</ENTRY>")
-                text = text[:span[0]] + new_entry + text[span[1]:]
-                report.append({"file": p.name, "action": "updated", "grid_bpm": bpm,
-                               "cues": [(n, round(s / 1000, 2)) for n, s, _ in cues]})
-            else:
-                report.append({"file": p.name, "action": "skipped", "reason": "entry has no grid yet (analyze in Traktor first)"})
-        else:
-            from .analyze import analyze_track
-            analysis = analyze_track(fp)
-            bpm = float(analysis["bpm"])
-            st = structure.analyze_structure(fp, bpm=bpm)  # one analysis call
-            anchor_ms = st.get("first_beat_sec", 0.0) * 1000.0
-            cues, _ = _cues_for(fp, bpm, anchor_ms, st=st)
-            entry = _build_entry(fp, analysis, vol, anchor_ms, cues)
-            # insert after the COLLECTION open tag and bump ENTRIES count
-            text = re.sub(r'(<COLLECTION ENTRIES=")(\d+)(">)',
-                          lambda m: f"{m.group(1)}{int(m.group(2)) + 1}{m.group(3)}{entry}", text, count=1)
-            report.append({"file": p.name, "action": "created",
-                           "cues": [(n, round(s / 1000, 2)) for n, s, _ in cues]})
+        if span is None:
+            report.append({"file": p.name, "action": "skipped", "reason": not_analyzed})
+            continue
+        entry = text[span[0]:span[1]]
+        grid = _read_grid(entry)
+        if grid is None:
+            report.append({"file": p.name, "action": "skipped", "reason": not_analyzed})
+            continue
+        bpm, anchor = grid
+        cues, _ = _cues_for(fp, bpm, anchor)
+        new_entry = _strip_hotcues(entry)
+        cue_xml = "".join(_cue_xml(n, s, slot) for n, s, slot in cues)
+        new_entry = new_entry.replace("</ENTRY>", cue_xml + "\n</ENTRY>")
+        text = text[:span[0]] + new_entry + text[span[1]:]
+        report.append({"file": p.name, "action": "updated", "grid_bpm": bpm,
+                       "cues": [(n, round(s / 1000, 2)) for n, s, _ in cues]})
 
     # validate before writing
     minidom.parseString(text)
