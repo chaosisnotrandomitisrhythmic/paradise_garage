@@ -205,6 +205,8 @@ def cmd_traktor(args: list[str]):
 
     if not paths:
         print("  Usage: pg traktor <file.flac> [file2.flac ...] [--dry-run] | pg traktor --playlists")
+        print("  Note: import the track into Traktor and run Analyze (Async) FIRST — pg snaps")
+        print("        cues to Traktor's own grid and skips tracks it hasn't analyzed yet.")
         return
     try:
         report = apply(paths, dry_run=dry_run)
@@ -274,7 +276,7 @@ def main():
         print("Usage:")
         print("  pg record <playlist-url> [--skip-existing] [--start N] [--limit N] [--keep-master]")
         print('  pg capture "Artist" "Title" --duration MM:SS   (browser-sourced single track, e.g. SoundCloud)')
-        print("  pg traktor <file.flac> [...] [--dry-run]   (grid-snapped cues into collection.nml)")
+        print("  pg traktor <file.flac> [...] [--dry-run]   (grid-snapped cues; analyze in Traktor first)")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
         print("  pg search [query] [--bpm 120-130] [--camelot 8A] [--playlist NAME]")

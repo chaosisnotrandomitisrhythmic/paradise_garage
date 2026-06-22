@@ -104,6 +104,9 @@ file). Ingest measures **integrated LUFS + true peak** (ffmpeg `ebur128`) and wr
 
 ## Traktor — `pg traktor` (grid-snapped cues)
 
+**Required first step: import the track into Traktor and run _Analyze (Async)_
+before `pg traktor`.** The grid is always Traktor's own — we never fabricate one.
+
 ```bash
 pg traktor "~/Music/Library/flac/Artist - Title.flac" [...] [--dry-run]
 ```
@@ -111,12 +114,14 @@ pg traktor "~/Music/Library/flac/Artist - Title.flac" [...] [--dry-run]
 Writes hot cues into Traktor's `collection.nml`:
 - If Traktor has **already analyzed** the track, it reads that entry's `TEMPO BPM`
   + `AutoGrid` anchor and **snaps cues to Traktor's own grid** (most accurate).
-- If the track **isn't in the collection yet**, it creates an entry from our analysis
-  (artist/title, `MUSICAL_KEY`, `TEMPO` from librosa BPM + first-beat grid anchor).
+- If the track **isn't analyzed in Traktor yet** (no `TEMPO` + `AutoGrid` anchor),
+  it's **skipped** with `SKIP <file> — not analyzed in Traktor yet…`. Add it to
+  Traktor, run Analyze (Async), then re-run. We no longer fabricate a beatgrid from
+  librosa — its downbeat estimate landed ~1 beat off and snapped every cue wrong.
 
 Cues come from librosa structural analysis — `IN` (bass entry), `BREAK` (deepest
-dip), `OUT` (outro) — snapped to the nearest bar. They're **rough auto-suggestions
-to fine-tune by ear**, not surgical.
+dip), `OUT` (outro) — snapped to the nearest bar **of Traktor's grid**. They're
+**rough auto-suggestions to fine-tune by ear**, not surgical.
 
 Safety: **Traktor must be quit** (it rewrites the NML on exit — the command refuses
 if it's running), the collection is **backed up** (`collection.nml.bak-<ts>`) before
