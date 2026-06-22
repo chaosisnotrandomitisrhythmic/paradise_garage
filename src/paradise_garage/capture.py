@@ -34,7 +34,20 @@ def _running() -> bool:
     return subprocess.run(["pgrep", "-f", PROC_MATCH], capture_output=True).returncode == 0
 
 
-def start_capture(out_path: str, warmup: float = 1.8) -> Capture:
+def start_capture(
+    out_path: str, warmup: float = 1.8, bundle_prefix: str | None = None
+) -> Capture:
+    """Arm the process tap, writing to out_path.
+
+    bundle_prefix selects which app to tap (defaults inside the helper to
+    com.spotify). Pass e.g. "com.google.Chrome" to tap a browser instead — the
+    helper matches every audio process whose bundle id starts with the prefix,
+    which catches Chrome's audio helper. The TCC "Audio Recording" grant is on
+    THIS app (com.paradisegarage.spotify-tap), not the target, so retargeting
+    needs no re-grant. NOTE: the target must have produced audio this session to
+    appear in Core Audio's process list, else the helper exits "no audio process
+    found" and start_capture raises.
+    """
     if not APP_PATH.exists():
         raise RuntimeError(
             f"{APP_PATH} not found — build the tap helper first: "
@@ -43,7 +56,10 @@ def start_capture(out_path: str, warmup: float = 1.8) -> Capture:
     # clear any stale instance, then launch via LaunchServices
     subprocess.run(["pkill", "-f", PROC_MATCH], capture_output=True)
     time.sleep(0.3)
-    subprocess.run(["open", str(APP_PATH), "--args", "--out", out_path], check=True)
+    args = ["open", str(APP_PATH), "--args", "--out", out_path]
+    if bundle_prefix:
+        args += ["--bundle-prefix", bundle_prefix]
+    subprocess.run(args, check=True)
 
     # wait for the helper to actually be running before returning
     deadline = time.monotonic() + 8

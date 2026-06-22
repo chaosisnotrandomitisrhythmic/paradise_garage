@@ -12,7 +12,7 @@ from pathlib import Path
 
 from . import capture, playback, split
 from .playback import Segment
-from .spotify import get_playlist_tracks, parse_playlist_id
+from .spotify import Track, get_playlist_tracks, parse_playlist_id
 
 CAPTURE_DIR = Path.home() / ".cache" / "paradise_garage" / "captures"
 
@@ -322,6 +322,140 @@ def record_missing(
 
     print(f"\n  Done — recorded {len(written)}/{len(missing)} missing tracks.")
     return name, written
+
+
+def parse_duration(s: str) -> float:
+    """Accept 'MM:SS', 'H:MM:SS', or a bare seconds count → seconds (float)."""
+    s = s.strip()
+    if ":" in s:
+        parts = [float(p) for p in s.split(":")]
+        secs = 0.0
+        for p in parts:
+            secs = secs * 60 + p
+        return secs
+    return float(s)
+
+
+def arm_test(browser_prefix: str = "com.google.Chrome", seconds: float = 3.0) -> dict:
+    """No-audio readiness check: arm the tap against the browser, hold it for a
+    few seconds, confirm it attached and produced a WAV, then delete the file.
+
+    Returns {attached, bytes, wav_dur, error}. `attached` is True if the helper
+    stayed alive (i.e. AudioHardwareCreateProcessTap found a matching browser
+    audio process) and wrote a WAV. With nothing playing the WAV is header-only
+    or near-silent — that's expected; this only proves the tap binds to Chrome.
+    """
+    CAPTURE_DIR.mkdir(parents=True, exist_ok=True)
+    tmp = Path(CAPTURE_DIR / "_armtest.wav")
+    tmp.unlink(missing_ok=True)
+    report = {"attached": False, "bytes": 0, "wav_dur": None, "error": None}
+    try:
+        cap = capture.start_capture(str(tmp), bundle_prefix=browser_prefix)
+    except RuntimeError as e:
+        # helper exited immediately → no tappable audio process for the prefix
+        report["error"] = str(e)
+        tmp.unlink(missing_ok=True)
+        return report
+    time.sleep(seconds)
+    cap.stop()
+    if tmp.exists():
+        report["bytes"] = tmp.stat().st_size
+        report["wav_dur"] = _ffprobe_duration(tmp)
+        report["attached"] = report["bytes"] > 0
+    tmp.unlink(missing_ok=True)
+    return report
+
+
+def record_manual(
+    artist: str,
+    title: str,
+    duration_sec: float,
+    browser_prefix: str = "com.google.Chrome",
+    playlist: str | None = "SoundCloud",
+    pad: float = 8.0,
+    trim_silence: bool = True,
+) -> str | None:
+    """Capture one browser-sourced track into the FLAC library, then ingest it.
+
+    The browser exposes no AppleScript transport (unlike Spotify), so there's no
+    automatic play-control or boundary detection: arm the tap, the user presses
+    play, and we record a fixed window of duration+pad. The lead-in silence
+    (between arming and the user hitting play) and the trailing pad are stripped
+    by the same -60dB silence-trim used for the Spotify flow. Everything
+    downstream — split_master, cmd_ingest, the catalog, and `pg traktor` — is
+    source-agnostic and reused verbatim.
+
+    Caveat: the tap captures the WHOLE browser process (all tabs mixed), so only
+    the target tab should be producing audio during the window.
+    """
+    flac_dir = split.FLAC_DIR
+    CAPTURE_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = time.strftime("%Y%m%d_%H%M%S")
+    tmp = str(CAPTURE_DIR / f"{stamp}_manual.wav")
+    track = Track(
+        artist=artist, title=title, duration_ms=int(duration_sec * 1000), uri="manual"
+    )
+    window = duration_sec + pad
+
+    cap = capture.start_capture(tmp, bundle_prefix=browser_prefix)
+    print("\n  ┌─────────────────────────────────────────────┐")
+    print("  │  TAP ARMED — ▶︎ PRESS PLAY in the tab NOW    │")
+    print("  └─────────────────────────────────────────────┘")
+    print(f"  Recording {window:.0f}s ({artist} - {title}, dur {duration_sec:.0f}s +{pad:.0f}s pad).")
+    print("  Hands off — keep other tabs/apps silent; lead/trail silence is trimmed.\n")
+    try:
+        for remaining in range(int(window), 0, -1):
+            print(f"    recording… {remaining:>4}s left ", end="\r")
+            time.sleep(1)
+        print(" " * 48, end="\r")
+    finally:
+        cap.stop()
+
+    # Sanity-probe the raw capture (duration + levels) before splitting.
+    import subprocess as _sp
+    probe = _sp.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=nw=1:nk=1", tmp], capture_output=True, text=True)
+    wav_dur = float(probe.stdout.strip()) if probe.stdout.strip() else 0.0
+    vol = _sp.run(
+        ["ffmpeg", "-hide_banner", "-i", tmp, "-af", "volumedetect", "-f", "null", "-"],
+        capture_output=True, text=True)
+    levels = [ln.strip() for ln in vol.stderr.splitlines() if "_volume" in ln]
+    print(f"    raw capture: {wav_dur:.1f}s | {' | '.join(x.split('] ')[-1] for x in levels)}")
+
+    # Single segment over the whole file; silence-trim strips both ends.
+    seg = [Segment(track=track, start_sec=0.0, end_sec=window + 5.0)]
+    written = split.split_master(tmp, seg, out_dir=flac_dir, pad=0.0, trim_silence=trim_silence)
+    out = written[0] if written else None
+
+    # Sanity gate (same as the Spotify per-track path): >= 50% of expected
+    # duration and no >=10s mid-silence, else drop the stub + keep the WAV.
+    if out:
+        d = _ffprobe_duration(Path(out))
+        reason = None
+        if d is None or d < duration_sec * 0.5:
+            reason = f"{'unreadable' if d is None else f'{d:.1f}s'} vs expected {duration_sec:.1f}s"
+        else:
+            sil = _sp.run(
+                ["ffmpeg", "-hide_banner", "-i", out,
+                 "-af", "silencedetect=noise=-50dB:d=10", "-f", "null", "-"],
+                capture_output=True, text=True)
+            if "silence_start" in sil.stderr:
+                reason = "contains a >=10s silent stretch (dropout / never pressed play?)"
+        if reason:
+            print(f"    ! capture failed ({reason}) — removing stub, keeping {tmp}")
+            Path(out).unlink(missing_ok=True)
+            return None
+
+    if not out:
+        print(f"    ! split produced nothing — keeping raw WAV {tmp}")
+        return None
+
+    from .cli import cmd_ingest
+    cmd_ingest([out], playlist=playlist)
+    Path(tmp).unlink(missing_ok=True)
+    print(f"\n  Done — {out}")
+    return out
 
 
 def _preflight(name: str, n: int, total_sec: float):

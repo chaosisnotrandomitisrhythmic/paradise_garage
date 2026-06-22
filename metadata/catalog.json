@@ -1615,7 +1615,41 @@
         "house/g-house/chicago"
       ],
       "added": "2026-06-07T19:22:09.457784"
+    },
+    "Juk Juk - When I Feel.flac": {
+      "artist": "Juk Juk",
+      "title": "When I Feel",
+      "filename": "Juk Juk - When I Feel.flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Juk Juk - When I Feel.flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -16.2,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 331.3,
+      "playlists": [
+        "SoundCloud"
+      ],
+      "added": "2026-06-22T08:52:27.235814"
+    },
+    "Bagarre - Lemonsweet (Disco-Version).flac": {
+      "artist": "Bagarre",
+      "title": "Lemonsweet (Disco-Version)",
+      "filename": "Bagarre - Lemonsweet (Disco-Version).flac",
+      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Bagarre - Lemonsweet (Disco-Version).flac",
+      "bpm": 136.0,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "low",
+      "lufs": -22.7,
+      "true_peak_dbtp": -7.3,
+      "duration_sec": 380.0,
+      "playlists": [
+        "SoundCloud"
+      ],
+      "added": "2026-06-22T09:37:58.268381"
     }
   },
-  "updated": "2026-06-07T19:22:09.457840"
+  "updated": "2026-06-22T09:48:52.394350"
 }
