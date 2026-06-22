@@ -102,7 +102,7 @@ def cmd_capture(args: list[str]):
 
     Usage:
       pg capture "Artist" "Title" --duration MM:SS [--browser-prefix com.google.Chrome]
-                 [--playlist SoundCloud] [--no-trim]
+                 [--playlist SoundCloud] [--pad SECONDS] [--no-trim]
       pg capture --arm-test [--browser-prefix com.google.Chrome]   (readiness check, no audio)
     """
     from .record import arm_test, parse_duration, record_manual
@@ -110,6 +110,7 @@ def cmd_capture(args: list[str]):
     browser_prefix = "com.google.Chrome"
     playlist = "SoundCloud"
     duration = None
+    pad = 8.0
     trim_silence = True
     do_arm_test = False
     positionals: list[str] = []
@@ -123,6 +124,9 @@ def cmd_capture(args: list[str]):
             trim_silence = False
         elif a == "--duration" and i + 1 < len(args):
             duration = parse_duration(args[i + 1])
+            i += 1
+        elif a == "--pad" and i + 1 < len(args):
+            pad = float(args[i + 1])
             i += 1
         elif a == "--browser-prefix" and i + 1 < len(args):
             browser_prefix = args[i + 1]
@@ -149,14 +153,14 @@ def cmd_capture(args: list[str]):
 
     if len(positionals) < 2 or duration is None:
         print('  Usage: pg capture "Artist" "Title" --duration MM:SS '
-              "[--browser-prefix com.google.Chrome] [--playlist NAME] [--no-trim]")
+              "[--browser-prefix com.google.Chrome] [--playlist NAME] [--pad SECONDS] [--no-trim]")
         print("         pg capture --arm-test   (readiness check)")
         return
 
     artist, title = positionals[0], positionals[1]
     record_manual(
         artist, title, duration,
-        browser_prefix=browser_prefix, playlist=playlist, trim_silence=trim_silence,
+        browser_prefix=browser_prefix, playlist=playlist, pad=pad, trim_silence=trim_silence,
     )
 
 
