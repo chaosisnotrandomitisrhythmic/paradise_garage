@@ -143,12 +143,17 @@
       "artist": "Liquid Liquid",
       "title": "Cavern",
       "filename": "Liquid Liquid - Cavern.flac",
-      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Liquid Liquid - Cavern.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Liquid Liquid - Cavern.flac",
       "bpm": 114.8,
       "key": "A minor",
       "camelot": "8A",
-      "energy": "low",
-      "duration_sec": 326.4,
+      "energy": "mid",
+      "lufs": -12.8,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 318.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
       "added": "2026-05-26T19:24:10.100850"
     },
     "Cocteau Twins - Cherry-Coloured Funk (Seefeel Remix).flac": {
@@ -237,16 +242,17 @@
       "artist": "Loose Joints",
       "title": "Tell You (Today) (12\" Vocal)",
       "filename": "Loose Joints - Tell You (Today) (12\" Vocal).flac",
-      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Loose Joints - Tell You (Today) (12\" Vocal).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Loose Joints - Tell You (Today) (12\" Vocal).flac",
       "bpm": 126.0,
       "key": "G minor",
       "camelot": "6A",
       "energy": "mid",
       "lufs": -12.2,
       "true_peak_dbtp": 0.1,
-      "duration_sec": 418.8,
+      "duration_sec": 421.1,
       "playlists": [
-        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams"
+        "Chaos is Rhythmic: CDMX Nights & Paradise Dreams",
+        "Crate Dig — WhatsApp Finds"
       ],
       "added": "2026-06-05T15:13:55.556566"
     },
@@ -358,16 +364,17 @@
       "artist": "Loose Joints, Larry Levan",
       "title": "Is It All over My Face? (Larry Levan Female Vocal Version)",
       "filename": "Loose Joints, Larry Levan - Is It All over My Face? (Larry Levan Female Vocal Version).flac",
-      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Loose Joints, Larry Levan - Is It All over My Face? (Larry Levan Female Vocal Version).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Loose Joints, Larry Levan - Is It All over My Face? (Larry Levan Female Vocal Version).flac",
       "bpm": 120.2,
       "key": "B minor",
       "camelot": "10A",
       "energy": "high",
-      "lufs": -9.9,
-      "true_peak_dbtp": 0.6,
-      "duration_sec": 418.5,
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 417.2,
       "playlists": [
         "Bass Swap Drills — Paradise Garage",
+        "Crate Dig — WhatsApp Finds",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:25:35.908108"
@@ -872,15 +879,16 @@
       "artist": "Paralisis Permanente",
       "title": "Quiero ser santa",
       "filename": "Paralisis Permanente - Quiero ser santa.flac",
-      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Paralisis Permanente - Quiero ser santa.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Paralisis Permanente - Quiero ser santa.flac",
       "bpm": 114.8,
       "key": "E major",
       "camelot": "12B",
       "energy": "high",
       "lufs": -8.6,
-      "true_peak_dbtp": 0.5,
-      "duration_sec": 217.1,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 215.8,
       "playlists": [
+        "Crate Dig — WhatsApp Finds",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-06T14:11:04.365224"
@@ -974,15 +982,16 @@
       "artist": "ESG",
       "title": "Moody",
       "filename": "ESG - Moody.flac",
-      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/ESG - Moody.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/ESG - Moody.flac",
       "bpm": 123.0,
       "key": "G# minor",
       "camelot": "1A",
       "energy": "mid",
       "lufs": -13.1,
       "true_peak_dbtp": -0.1,
-      "duration_sec": 165.8,
+      "duration_sec": 167.6,
       "playlists": [
+        "Crate Dig — WhatsApp Finds",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-06T14:36:37.062056"
@@ -1127,15 +1136,16 @@
       "artist": "Aviador Dro",
       "title": "Nuclear Sí",
       "filename": "Aviador Dro - Nuclear Sí.flac",
-      "path": "/Users/chaosisnotrandomitisrythmic/Music/Library/flac/Aviador Dro - Nuclear Sí.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Aviador Dro - Nuclear Sí.flac",
       "bpm": 156.6,
       "key": "D minor",
       "camelot": "7A",
       "energy": "mid",
       "lufs": -13.7,
       "true_peak_dbtp": 0.1,
-      "duration_sec": 179.1,
+      "duration_sec": 177.6,
       "playlists": [
+        "Crate Dig — WhatsApp Finds",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-06T17:05:24.567050"
@@ -1664,7 +1674,2730 @@
       "duration_sec": 213.2,
       "playlists": [],
       "added": "2026-06-22T19:02:10.007041"
+    },
+    "Dinosaur - Kiss Me Again.flac": {
+      "artist": "Dinosaur",
+      "title": "Kiss Me Again",
+      "filename": "Dinosaur - Kiss Me Again.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Dinosaur - Kiss Me Again.flac",
+      "bpm": 129.2,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.5,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 784.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:14:46.015938"
+    },
+    "The Slits - Typical Girls.flac": {
+      "artist": "The Slits",
+      "title": "Typical Girls",
+      "filename": "The Slits - Typical Girls.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Slits - Typical Girls.flac",
+      "bpm": 152.0,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -12.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 234.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:18:49.143550"
+    },
+    "Byron the Aquarius - ATLiens 2 Detroit.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "ATLiens 2 Detroit",
+      "filename": "Byron the Aquarius - ATLiens 2 Detroit.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - ATLiens 2 Detroit.flac",
+      "bpm": 126.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -9.2,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 290.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:23:48.938355"
+    },
+    "Byron the Aquarius - Jamajama.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "Jamajama",
+      "filename": "Byron the Aquarius - Jamajama.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - Jamajama.flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 262.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:28:20.006833"
+    },
+    "Logic1000 - under the sun, beneath the rainfall.flac": {
+      "artist": "Logic1000",
+      "title": "under the sun, beneath the rainfall",
+      "filename": "Logic1000 - under the sun, beneath the rainfall.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000 - under the sun, beneath the rainfall.flac",
+      "bpm": 92.3,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -12.9,
+      "true_peak_dbtp": 1.1,
+      "duration_sec": 245.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:32:34.647388"
+    },
+    "Africanism, Bob Sinclar, Jesús Fernández, Bonga, Lura - Mulemba Xangola.flac": {
+      "artist": "Africanism, Bob Sinclar, Jesús Fernández, Bonga, Lura",
+      "title": "Mulemba Xangola",
+      "filename": "Africanism, Bob Sinclar, Jesús Fernández, Bonga, Lura - Mulemba Xangola.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Bob Sinclar, Jesús Fernández, Bonga, Lura - Mulemba Xangola.flac",
+      "bpm": 123.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -7.3,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 221.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:36:28.490554"
+    },
+    "Esplendor Geométrico - Moscú Está Helado.flac": {
+      "artist": "Esplendor Geométrico",
+      "title": "Moscú Está Helado",
+      "filename": "Esplendor Geométrico - Moscú Está Helado.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Esplendor Geométrico - Moscú Está Helado.flac",
+      "bpm": 70.8,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -8.4,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 222.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:43:28.623985"
+    },
+    "Derribos Arias - A flúor (Versión maxi).flac": {
+      "artist": "Derribos Arias",
+      "title": "A flúor (Versión maxi)",
+      "filename": "Derribos Arias - A flúor (Versión maxi).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Derribos Arias - A flúor (Versión maxi).flac",
+      "bpm": 136.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -11.7,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 323.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T11:49:02.381403"
+    },
+    "Vivien Goldman - Launderette.flac": {
+      "artist": "Vivien Goldman",
+      "title": "Launderette",
+      "filename": "Vivien Goldman - Launderette.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Vivien Goldman - Launderette.flac",
+      "bpm": 156.6,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -15.4,
+      "true_peak_dbtp": -0.5,
+      "duration_sec": 226.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T12:50:04.572556"
+    },
+    "Zombies - Extraños Juegos.flac": {
+      "artist": "Zombies",
+      "title": "Extraños Juegos",
+      "filename": "Zombies - Extraños Juegos.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Zombies - Extraños Juegos.flac",
+      "bpm": 161.5,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "mid",
+      "lufs": -15.3,
+      "true_peak_dbtp": -2.5,
+      "duration_sec": 161.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T12:52:53.801298"
+    },
+    "Oviformia SCI - Mao's Children (1981).flac": {
+      "artist": "Oviformia SCI",
+      "title": "Mao's Children (1981)",
+      "filename": "Oviformia SCI - Mao's Children (1981).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Oviformia SCI - Mao's Children (1981).flac",
+      "bpm": 132.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -10.5,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 354.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T13:58:18.207186"
+    },
+    "Aviador Dro - Gestalt.flac": {
+      "artist": "Aviador Dro",
+      "title": "Gestalt",
+      "filename": "Aviador Dro - Gestalt.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Aviador Dro - Gestalt.flac",
+      "bpm": 166.7,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -12.2,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 109.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:00:15.264276"
+    },
+    "TodoTodo - Autogas.flac": {
+      "artist": "TodoTodo",
+      "title": "Autogas",
+      "filename": "TodoTodo - Autogas.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/TodoTodo - Autogas.flac",
+      "bpm": 126.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -8.5,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 278.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:05:03.710367"
+    },
+    "Derribos Arias - Aprenda alemán en 7 días.flac": {
+      "artist": "Derribos Arias",
+      "title": "Aprenda alemán en 7 días",
+      "filename": "Derribos Arias - Aprenda alemán en 7 días.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Derribos Arias - Aprenda alemán en 7 días.flac",
+      "bpm": 120.2,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -9.5,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 204.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:08:36.193982"
+    },
+    "Diseno Corbusier - Golpe de Amistad.flac": {
+      "artist": "Diseno Corbusier",
+      "title": "Golpe de Amistad",
+      "filename": "Diseno Corbusier - Golpe de Amistad.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Diseno Corbusier - Golpe de Amistad.flac",
+      "bpm": 117.5,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -13.6,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 236.0,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:12:40.860549"
+    },
+    "Diseno Corbusier - Meta Metalic.flac": {
+      "artist": "Diseno Corbusier",
+      "title": "Meta Metalic",
+      "filename": "Diseno Corbusier - Meta Metalic.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Diseno Corbusier - Meta Metalic.flac",
+      "bpm": 129.2,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "mid",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 207.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:16:16.968528"
+    },
+    "Los Iniciados - La marca de Anubis.flac": {
+      "artist": "Los Iniciados",
+      "title": "La marca de Anubis",
+      "filename": "Los Iniciados - La marca de Anubis.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Los Iniciados - La marca de Anubis.flac",
+      "bpm": 139.7,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -11.9,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 186.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:19:30.527855"
+    },
+    "Lavabos Iturriaga - China.flac": {
+      "artist": "Lavabos Iturriaga",
+      "title": "China",
+      "filename": "Lavabos Iturriaga - China.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Lavabos Iturriaga - China.flac",
+      "bpm": 126.0,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "mid",
+      "lufs": -14.3,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 164.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:22:21.825133"
+    },
+    "Esplendor Geométrico - Necrosis en la Poya.flac": {
+      "artist": "Esplendor Geométrico",
+      "title": "Necrosis en la Poya",
+      "filename": "Esplendor Geométrico - Necrosis en la Poya.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Esplendor Geométrico - Necrosis en la Poya.flac",
+      "bpm": 90.7,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -6.5,
+      "true_peak_dbtp": -1.1,
+      "duration_sec": 243.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:26:34.807530"
+    },
+    "Esplendor Geométrico - El Acero del Partido IV.flac": {
+      "artist": "Esplendor Geométrico",
+      "title": "El Acero del Partido IV",
+      "filename": "Esplendor Geométrico - El Acero del Partido IV.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Esplendor Geométrico - El Acero del Partido IV.flac",
+      "bpm": 129.2,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 249.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:30:53.209033"
+    },
+    "Paralisis Permanente - Autosuficiencia.flac": {
+      "artist": "Paralisis Permanente",
+      "title": "Autosuficiencia",
+      "filename": "Paralisis Permanente - Autosuficiencia.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Paralisis Permanente - Autosuficiencia.flac",
+      "bpm": 95.7,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -6.6,
+      "true_peak_dbtp": 1.3,
+      "duration_sec": 126.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:33:06.356935"
+    },
+    "Décima Víctima - Tan Lejos.flac": {
+      "artist": "Décima Víctima",
+      "title": "Tan Lejos",
+      "filename": "Décima Víctima - Tan Lejos.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Décima Víctima - Tan Lejos.flac",
+      "bpm": 136.0,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -9.5,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 204.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:40:23.427170"
+    },
+    "Décima Víctima - La Voz Que Me Persigue.flac": {
+      "artist": "Décima Víctima",
+      "title": "La Voz Que Me Persigue",
+      "filename": "Décima Víctima - La Voz Que Me Persigue.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Décima Víctima - La Voz Que Me Persigue.flac",
+      "bpm": 172.3,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 293.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:45:26.338641"
+    },
+    "Aviador Dro - La chica de plexiglás.flac": {
+      "artist": "Aviador Dro",
+      "title": "La chica de plexiglás",
+      "filename": "Aviador Dro - La chica de plexiglás.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Aviador Dro - La chica de plexiglás.flac",
+      "bpm": 84.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -7.1,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 135.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:47:51.452159"
+    },
+    "Aviador Dro - Selector de Frecuencias.flac": {
+      "artist": "Aviador Dro",
+      "title": "Selector de Frecuencias",
+      "filename": "Aviador Dro - Selector de Frecuencias.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Aviador Dro - Selector de Frecuencias.flac",
+      "bpm": 139.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -11.4,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 372.0,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:54:14.524740"
+    },
+    "Gabinete Caligari - Cuatro rosas.flac": {
+      "artist": "Gabinete Caligari",
+      "title": "Cuatro rosas",
+      "filename": "Gabinete Caligari - Cuatro rosas.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Gabinete Caligari - Cuatro rosas.flac",
+      "bpm": 107.7,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -7.3,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 204.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T14:57:49.198492"
+    },
+    "Alaska Y Los Pegamoides - Horror en el hipermercado.flac": {
+      "artist": "Alaska Y Los Pegamoides",
+      "title": "Horror en el hipermercado",
+      "filename": "Alaska Y Los Pegamoides - Horror en el hipermercado.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Alaska Y Los Pegamoides - Horror en el hipermercado.flac",
+      "bpm": 114.8,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -9.1,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 138.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:00:16.778107"
+    },
+    "Os Resentidos - Galicia caníbal (Fai un sol de carallo).flac": {
+      "artist": "Os Resentidos",
+      "title": "Galicia caníbal (Fai un sol de carallo)",
+      "filename": "Os Resentidos - Galicia caníbal (Fai un sol de carallo).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Os Resentidos - Galicia caníbal (Fai un sol de carallo).flac",
+      "bpm": 143.6,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -13.1,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 218.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:04:04.731497"
+    },
+    "Dinosaur L - #5 (Go Bang).flac": {
+      "artist": "Dinosaur L",
+      "title": "#5 (Go Bang)",
+      "filename": "Dinosaur L - #5 (Go Bang).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Dinosaur L - #5 (Go Bang).flac",
+      "bpm": 129.2,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 473.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:12:11.386992"
+    },
+    "Indian Ocean - School Bell _ Treehouse (Mixed with Love by Walter Gibbons).flac": {
+      "artist": "Indian Ocean",
+      "title": "School Bell _ Treehouse (Mixed with Love by Walter Gibbons)",
+      "filename": "Indian Ocean - School Bell _ Treehouse (Mixed with Love by Walter Gibbons).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Indian Ocean - School Bell _ Treehouse (Mixed with Love by Walter Gibbons).flac",
+      "bpm": 126.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -12.1,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 611.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:37:02.238618"
+    },
+    "Arthur Russell - Let's Go Swimming.flac": {
+      "artist": "Arthur Russell",
+      "title": "Let's Go Swimming",
+      "filename": "Arthur Russell - Let's Go Swimming.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Arthur Russell - Let's Go Swimming.flac",
+      "bpm": 114.8,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "mid",
+      "lufs": -16.5,
+      "true_peak_dbtp": -1.1,
+      "duration_sec": 157.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:39:50.448158"
+    },
+    "Arthur Russell - Wax The Van.flac": {
+      "artist": "Arthur Russell",
+      "title": "Wax The Van",
+      "filename": "Arthur Russell - Wax The Van.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Arthur Russell - Wax The Van.flac",
+      "bpm": 114.8,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -14.5,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 128.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:42:06.942535"
+    },
+    "Arthur Russell - That's Us_Wild Combination.flac": {
+      "artist": "Arthur Russell",
+      "title": "That's Us_Wild Combination",
+      "filename": "Arthur Russell - That's Us_Wild Combination.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Arthur Russell - That's Us_Wild Combination.flac",
+      "bpm": 136.0,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "high",
+      "lufs": -12.9,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 417.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:49:16.894497"
+    },
+    "Arthur Russell - This Is How We Walk On The Moon.flac": {
+      "artist": "Arthur Russell",
+      "title": "This Is How We Walk On The Moon",
+      "filename": "Arthur Russell - This Is How We Walk On The Moon.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Arthur Russell - This Is How We Walk On The Moon.flac",
+      "bpm": 103.4,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "low",
+      "lufs": -21.7,
+      "true_peak_dbtp": -4.3,
+      "duration_sec": 279.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T15:54:08.215253"
+    },
+    "Liquid Liquid - Optimo.flac": {
+      "artist": "Liquid Liquid",
+      "title": "Optimo",
+      "filename": "Liquid Liquid - Optimo.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Liquid Liquid - Optimo.flac",
+      "bpm": 123.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 159.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:02:23.918104"
+    },
+    "Was (Not Was) - Wheel Me Out.flac": {
+      "artist": "Was (Not Was)",
+      "title": "Wheel Me Out",
+      "filename": "Was (Not Was) - Wheel Me Out.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Was (Not Was) - Wheel Me Out.flac",
+      "bpm": 126.0,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 427.0,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:09:43.117450"
+    },
+    "Material, Nona Hendryx - Bustin' Out.flac": {
+      "artist": "Material, Nona Hendryx",
+      "title": "Bustin' Out",
+      "filename": "Material, Nona Hendryx - Bustin' Out.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Material, Nona Hendryx - Bustin' Out.flac",
+      "bpm": 123.0,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 400.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:16:35.756354"
+    },
+    "Taana Gardner - Heartbeat (2012 (Remaster)).flac": {
+      "artist": "Taana Gardner",
+      "title": "Heartbeat (2012 (Remaster))",
+      "filename": "Taana Gardner - Heartbeat (2012 (Remaster)).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Taana Gardner - Heartbeat (2012 (Remaster)).flac",
+      "bpm": 97.5,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 349.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:23:15.442309"
+    },
+    "The Slits - Shoplifting.flac": {
+      "artist": "The Slits",
+      "title": "Shoplifting",
+      "filename": "The Slits - Shoplifting.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Slits - Shoplifting.flac",
+      "bpm": 107.7,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 94.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:24:56.062540"
+    },
+    "The Slits - Newtown.flac": {
+      "artist": "The Slits",
+      "title": "Newtown",
+      "filename": "The Slits - Newtown.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Slits - Newtown.flac",
+      "bpm": 95.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -12.1,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 227.0,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:28:51.577207"
+    },
+    "The Slits - So Tough.flac": {
+      "artist": "The Slits",
+      "title": "So Tough",
+      "filename": "The Slits - So Tough.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Slits - So Tough.flac",
+      "bpm": 126.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -11.3,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 158.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:31:37.662283"
+    },
+    "The Slits - Instant Hit.flac": {
+      "artist": "The Slits",
+      "title": "Instant Hit",
+      "filename": "The Slits - Instant Hit.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Slits - Instant Hit.flac",
+      "bpm": 123.0,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 161.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:34:27.363198"
+    },
+    "The Slits - Spend, Spend, Spend.flac": {
+      "artist": "The Slits",
+      "title": "Spend, Spend, Spend",
+      "filename": "The Slits - Spend, Spend, Spend.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Slits - Spend, Spend, Spend.flac",
+      "bpm": 136.0,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 194.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:37:50.181263"
+    },
+    "The Slits - I Heard It Through The Grapevine.flac": {
+      "artist": "The Slits",
+      "title": "I Heard It Through The Grapevine",
+      "filename": "The Slits - I Heard It Through The Grapevine.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Slits - I Heard It Through The Grapevine.flac",
+      "bpm": 132.5,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 237.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:41:56.667866"
+    },
+    "Au Pairs - It's Obvious.flac": {
+      "artist": "Au Pairs",
+      "title": "It's Obvious",
+      "filename": "Au Pairs - It's Obvious.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Au Pairs - It's Obvious.flac",
+      "bpm": 152.0,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "mid",
+      "lufs": -12.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 376.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:48:25.403366"
+    },
+    "X-Ray Spex - Identity.flac": {
+      "artist": "X-Ray Spex",
+      "title": "Identity",
+      "filename": "X-Ray Spex - Identity.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/X-Ray Spex - Identity.flac",
+      "bpm": 156.6,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 141.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:50:57.860029"
+    },
+    "Bush Tetras - Too Many Creeps.flac": {
+      "artist": "Bush Tetras",
+      "title": "Too Many Creeps",
+      "filename": "Bush Tetras - Too Many Creeps.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Bush Tetras - Too Many Creeps.flac",
+      "bpm": 139.7,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -8.1,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 242.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:55:09.127339"
+    },
+    "Mo-Dettes - White Mice.flac": {
+      "artist": "Mo-Dettes",
+      "title": "White Mice",
+      "filename": "Mo-Dettes - White Mice.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Mo-Dettes - White Mice.flac",
+      "bpm": 147.7,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 218.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T16:58:55.522378"
+    },
+    "The Raincoats - No One's Little Girl.flac": {
+      "artist": "The Raincoats",
+      "title": "No One's Little Girl",
+      "filename": "The Raincoats - No One's Little Girl.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Raincoats - No One's Little Girl.flac",
+      "bpm": 94.0,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -12.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 267.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:03:34.419842"
+    },
+    "Malaria! - Geld _Money.flac": {
+      "artist": "Malaria!",
+      "title": "Geld _Money",
+      "filename": "Malaria! - Geld _Money.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Malaria! - Geld _Money.flac",
+      "bpm": 94.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 240.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:07:44.370136"
+    },
+    "Big Joanie - Dream No 9.flac": {
+      "artist": "Big Joanie",
+      "title": "Dream No 9",
+      "filename": "Big Joanie - Dream No 9.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Big Joanie - Dream No 9.flac",
+      "bpm": 66.3,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 163.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:10:35.096531"
+    },
+    "Neneh Cherry - Buffalo Stance.flac": {
+      "artist": "Neneh Cherry",
+      "title": "Buffalo Stance",
+      "filename": "Neneh Cherry - Buffalo Stance.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Neneh Cherry - Buffalo Stance.flac",
+      "bpm": 107.7,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -14.4,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 341.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:16:27.264676"
+    },
+    "Delta 5 - Mind Your Own Business.flac": {
+      "artist": "Delta 5",
+      "title": "Mind Your Own Business",
+      "filename": "Delta 5 - Mind Your Own Business.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Delta 5 - Mind Your Own Business.flac",
+      "bpm": 136.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 191.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:19:47.547844"
+    },
+    "Kleenex - Hitch-hike.flac": {
+      "artist": "Kleenex",
+      "title": "Hitch-hike",
+      "filename": "Kleenex - Hitch-hike.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Kleenex - Hitch-hike.flac",
+      "bpm": 143.6,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -11.0,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 157.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:25:27.019757"
+    },
+    "The Raincoats - Fairytale in the Supermarket.flac": {
+      "artist": "The Raincoats",
+      "title": "Fairytale in the Supermarket",
+      "filename": "The Raincoats - Fairytale in the Supermarket.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Raincoats - Fairytale in the Supermarket.flac",
+      "bpm": 143.6,
+      "key": "B major",
+      "camelot": "1B",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 178.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:28:34.269086"
+    },
+    "Africanism, Martin Solveig, Hossam Ramzy - Edony (Clap Your Hands).flac": {
+      "artist": "Africanism, Martin Solveig, Hossam Ramzy",
+      "title": "Edony (Clap Your Hands)",
+      "filename": "Africanism, Martin Solveig, Hossam Ramzy - Edony (Clap Your Hands).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Martin Solveig, Hossam Ramzy - Edony (Clap Your Hands).flac",
+      "bpm": 126.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -11.3,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 490.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:36:58.175317"
+    },
+    "Africanism, DJ Gregory, Salomé de Bahia - Tourment d'amour.flac": {
+      "artist": "Africanism, DJ Gregory, Salomé de Bahia",
+      "title": "Tourment d'amour",
+      "filename": "Africanism, DJ Gregory, Salomé de Bahia - Tourment d'amour.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, DJ Gregory, Salomé de Bahia - Tourment d'amour.flac",
+      "bpm": 63.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 1.6,
+      "duration_sec": 433.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:44:23.403403"
+    },
+    "Africanism, DJ Gregory - Block Party.flac": {
+      "artist": "Africanism, DJ Gregory",
+      "title": "Block Party",
+      "filename": "Africanism, DJ Gregory - Block Party.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, DJ Gregory - Block Party.flac",
+      "bpm": 126.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -11.0,
+      "true_peak_dbtp": 1.1,
+      "duration_sec": 378.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:50:52.287646"
+    },
+    "Africanism, Bob Sinclar - Bisou sucré.flac": {
+      "artist": "Africanism, Bob Sinclar",
+      "title": "Bisou sucré",
+      "filename": "Africanism, Bob Sinclar - Bisou sucré.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Bob Sinclar - Bisou sucré.flac",
+      "bpm": 129.2,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 323.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T17:56:25.953511"
+    },
+    "Africanism, Bob Sinclar, The Hard Boys - Hard (Bob Sinclar Original Mix).flac": {
+      "artist": "Africanism, Bob Sinclar, The Hard Boys",
+      "title": "Hard (Bob Sinclar Original Mix)",
+      "filename": "Africanism, Bob Sinclar, The Hard Boys - Hard (Bob Sinclar Original Mix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Bob Sinclar, The Hard Boys - Hard (Bob Sinclar Original Mix).flac",
+      "bpm": 86.1,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -7.3,
+      "true_peak_dbtp": 1.6,
+      "duration_sec": 373.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:02:51.028992"
+    },
+    "Africanism, Bob Sinclar - Mathar.flac": {
+      "artist": "Africanism, Bob Sinclar",
+      "title": "Mathar",
+      "filename": "Africanism, Bob Sinclar - Mathar.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Bob Sinclar - Mathar.flac",
+      "bpm": 126.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 194.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:06:13.554958"
+    },
+    "Africanism, Moonlight Benjamin, Bob Sinclar - Zanmi Kanmarad.flac": {
+      "artist": "Africanism, Moonlight Benjamin, Bob Sinclar",
+      "title": "Zanmi Kanmarad",
+      "filename": "Africanism, Moonlight Benjamin, Bob Sinclar - Zanmi Kanmarad.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Moonlight Benjamin, Bob Sinclar - Zanmi Kanmarad.flac",
+      "bpm": 123.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -7.9,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 205.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:09:47.761989"
+    },
+    "Africanism, ARKADYAN, Bob Sinclar - Leleley.flac": {
+      "artist": "Africanism, ARKADYAN, Bob Sinclar",
+      "title": "Leleley",
+      "filename": "Africanism, ARKADYAN, Bob Sinclar - Leleley.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, ARKADYAN, Bob Sinclar - Leleley.flac",
+      "bpm": 123.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -8.0,
+      "true_peak_dbtp": 1.1,
+      "duration_sec": 182.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:12:58.227069"
+    },
+    "Africanism, Zapapaya, La Negra Hawkins - Aurora.flac": {
+      "artist": "Africanism, Zapapaya, La Negra Hawkins",
+      "title": "Aurora",
+      "filename": "Africanism, Zapapaya, La Negra Hawkins - Aurora.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Zapapaya, La Negra Hawkins - Aurora.flac",
+      "bpm": 120.2,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -6.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 200.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:16:25.884992"
+    },
+    "Africanism, Boddhi Satva - Salsa House (Extended).flac": {
+      "artist": "Africanism, Boddhi Satva",
+      "title": "Salsa House (Extended)",
+      "filename": "Africanism, Boddhi Satva - Salsa House (Extended).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Africanism, Boddhi Satva - Salsa House (Extended).flac",
+      "bpm": 123.0,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 409.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:23:32.452778"
+    },
+    "DJ Gregory - Tropical Soundclash.flac": {
+      "artist": "DJ Gregory",
+      "title": "Tropical Soundclash",
+      "filename": "DJ Gregory - Tropical Soundclash.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/DJ Gregory - Tropical Soundclash.flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 512.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:32:18.350490"
+    },
+    "DJ Gregory - Elle.flac": {
+      "artist": "DJ Gregory",
+      "title": "Elle",
+      "filename": "DJ Gregory - Elle.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/DJ Gregory - Elle.flac",
+      "bpm": 126.0,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": 1.5,
+      "duration_sec": 421.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:39:31.866959"
+    },
+    "DJ Gregory, Gregor Salto - Canoa.flac": {
+      "artist": "DJ Gregory, Gregor Salto",
+      "title": "Canoa",
+      "filename": "DJ Gregory, Gregor Salto - Canoa.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/DJ Gregory, Gregor Salto - Canoa.flac",
+      "bpm": 126.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 1.1,
+      "duration_sec": 548.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:48:54.782999"
+    },
+    "Salomé de Bahia - Outro Lugar.flac": {
+      "artist": "Salomé de Bahia",
+      "title": "Outro Lugar",
+      "filename": "Salomé de Bahia - Outro Lugar.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Salomé de Bahia - Outro Lugar.flac",
+      "bpm": 129.2,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "high",
+      "lufs": -7.8,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 419.0,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T18:56:05.576138"
+    },
+    "Salomé de Bahia - Taj Mahal (Club Version).flac": {
+      "artist": "Salomé de Bahia",
+      "title": "Taj Mahal (Club Version)",
+      "filename": "Salomé de Bahia - Taj Mahal (Club Version).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Salomé de Bahia - Taj Mahal (Club Version).flac",
+      "bpm": 132.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -8.1,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 379.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:02:36.036225"
+    },
+    "Osunlade - Envision (Yoruba Soul Mix).flac": {
+      "artist": "Osunlade",
+      "title": "Envision (Yoruba Soul Mix)",
+      "filename": "Osunlade - Envision (Yoruba Soul Mix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Osunlade - Envision (Yoruba Soul Mix).flac",
+      "bpm": 123.0,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 400.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:09:27.710581"
+    },
+    "Bob Sinclar, Gary Pine, DollarMan - Sound of Freedom.flac": {
+      "artist": "Bob Sinclar, Gary Pine, DollarMan",
+      "title": "Sound of Freedom",
+      "filename": "Bob Sinclar, Gary Pine, DollarMan - Sound of Freedom.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Bob Sinclar, Gary Pine, DollarMan - Sound of Freedom.flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -6.2,
+      "true_peak_dbtp": 1.2,
+      "duration_sec": 245.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:13:41.192061"
+    },
+    "Byron the Aquarius - Long Way Home.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "Long Way Home",
+      "filename": "Byron the Aquarius - Long Way Home.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - Long Way Home.flac",
+      "bpm": 129.2,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -11.9,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 299.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:18:50.023473"
+    },
+    "Byron the Aquarius - Everlasting.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "Everlasting",
+      "filename": "Byron the Aquarius - Everlasting.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - Everlasting.flac",
+      "bpm": 126.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 226.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:22:44.269290"
+    },
+    "Byron the Aquarius - FaNtAsyies.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "FaNtAsyies",
+      "filename": "Byron the Aquarius - FaNtAsyies.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - FaNtAsyies.flac",
+      "bpm": 123.0,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 278.0,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:27:31.233437"
+    },
+    "Byron the Aquarius - Aquarian Voyage.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "Aquarian Voyage",
+      "filename": "Byron the Aquarius - Aquarian Voyage.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - Aquarian Voyage.flac",
+      "bpm": 123.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -19.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 396.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:34:19.353309"
+    },
+    "Byron the Aquarius - Run Sa.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "Run Sa",
+      "filename": "Byron the Aquarius - Run Sa.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - Run Sa.flac",
+      "bpm": 97.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -9.2,
+      "true_peak_dbtp": 2.7,
+      "duration_sec": 343.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:40:13.290142"
+    },
+    "Byron the Aquarius, Rasheeda Ali, Lil' John Roberts, Sheldon Ferguson - Spirit of Juju.flac": {
+      "artist": "Byron the Aquarius, Rasheeda Ali, Lil' John Roberts, Sheldon Ferguson",
+      "title": "Spirit of Juju",
+      "filename": "Byron the Aquarius, Rasheeda Ali, Lil' John Roberts, Sheldon Ferguson - Spirit of Juju.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius, Rasheeda Ali, Lil' John Roberts, Sheldon Ferguson - Spirit of Juju.flac",
+      "bpm": 123.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -12.0,
+      "true_peak_dbtp": -0.6,
+      "duration_sec": 401.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:47:06.865821"
+    },
+    "Byron the Aquarius - Mind Body & Soul.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "Mind Body & Soul",
+      "filename": "Byron the Aquarius - Mind Body & Soul.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - Mind Body & Soul.flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 1.6,
+      "duration_sec": 277.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:51:54.186731"
+    },
+    "Byron the Aquarius - Fallenquas.flac": {
+      "artist": "Byron the Aquarius",
+      "title": "Fallenquas",
+      "filename": "Byron the Aquarius - Fallenquas.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Byron the Aquarius - Fallenquas.flac",
+      "bpm": 120.2,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "high",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 235.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T19:55:58.015965"
+    },
+    "Theo Parrish - Falling Up (Theo Parrish 2013 Remaster).flac": {
+      "artist": "Theo Parrish",
+      "title": "Falling Up (Theo Parrish 2013 Remaster)",
+      "filename": "Theo Parrish - Falling Up (Theo Parrish 2013 Remaster).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Theo Parrish - Falling Up (Theo Parrish 2013 Remaster).flac",
+      "bpm": 114.8,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 764.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:09:01.484890"
+    },
+    "Moodymann - I Can't Kick This Feeling When It Hits.flac": {
+      "artist": "Moodymann",
+      "title": "I Can't Kick This Feeling When It Hits",
+      "filename": "Moodymann - I Can't Kick This Feeling When It Hits.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Moodymann - I Can't Kick This Feeling When It Hits.flac",
+      "bpm": 120.2,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "mid",
+      "lufs": -14.5,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 484.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:17:19.250632"
+    },
+    "Moodymann - Shades of Jae.flac": {
+      "artist": "Moodymann",
+      "title": "Shades of Jae",
+      "filename": "Moodymann - Shades of Jae.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Moodymann - Shades of Jae.flac",
+      "bpm": 120.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -16.2,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 415.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:24:26.483432"
+    },
+    "Kyle Hall - Kaychunk.flac": {
+      "artist": "Kyle Hall",
+      "title": "Kaychunk",
+      "filename": "Kyle Hall - Kaychunk.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Kyle Hall - Kaychunk.flac",
+      "bpm": 136.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 309.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:29:46.081833"
+    },
+    "Omar S - Here's Your Trance, Now Dance!!.flac": {
+      "artist": "Omar S",
+      "title": "Here's Your Trance, Now Dance!!",
+      "filename": "Omar S - Here's Your Trance, Now Dance!!.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Omar S - Here's Your Trance, Now Dance!!.flac",
+      "bpm": 120.2,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "mid",
+      "lufs": -14.3,
+      "true_peak_dbtp": 1.5,
+      "duration_sec": 620.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:37:14.783938"
+    },
+    "Rick Wade - Deep -N- Dirty.flac": {
+      "artist": "Rick Wade",
+      "title": "Deep -N- Dirty",
+      "filename": "Rick Wade - Deep -N- Dirty.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Rick Wade - Deep -N- Dirty.flac",
+      "bpm": 123.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -10.3,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 359.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:43:24.657164"
+    },
+    "Saucy Lady - On The Floor.flac": {
+      "artist": "Saucy Lady",
+      "title": "On The Floor",
+      "filename": "Saucy Lady - On The Floor.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Saucy Lady - On The Floor.flac",
+      "bpm": 114.8,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -11.7,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 258.0,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:47:51.484577"
+    },
+    "Diamond Ortiz - West Coast Bounce (California Knows How To Party).flac": {
+      "artist": "Diamond Ortiz",
+      "title": "West Coast Bounce (California Knows How To Party)",
+      "filename": "Diamond Ortiz - West Coast Bounce (California Knows How To Party).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Diamond Ortiz - West Coast Bounce (California Knows How To Party).flac",
+      "bpm": 112.3,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 244.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:52:04.545387"
+    },
+    "Brian Ellis, K-Maxx - Electric Body.flac": {
+      "artist": "Brian Ellis, K-Maxx",
+      "title": "Electric Body",
+      "filename": "Brian Ellis, K-Maxx - Electric Body.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Brian Ellis, K-Maxx - Electric Body.flac",
+      "bpm": 112.3,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 250.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T20:56:23.540704"
+    },
+    "XL Middleton - Wintertime In Cali.flac": {
+      "artist": "XL Middleton",
+      "title": "Wintertime In Cali",
+      "filename": "XL Middleton - Wintertime In Cali.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/XL Middleton - Wintertime In Cali.flac",
+      "bpm": 129.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.5,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 237.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:00:30.153543"
+    },
+    "Logic1000 - fused (DJ-Kicks).flac": {
+      "artist": "Logic1000",
+      "title": "fused (DJ-Kicks)",
+      "filename": "Logic1000 - fused (DJ-Kicks).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000 - fused (DJ-Kicks).flac",
+      "bpm": 97.5,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -11.9,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 210.8,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:04:08.993926"
+    },
+    "Logic1000, yunè pinku - What You Like.flac": {
+      "artist": "Logic1000, yunè pinku",
+      "title": "What You Like",
+      "filename": "Logic1000, yunè pinku - What You Like.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000, yunè pinku - What You Like.flac",
+      "bpm": 123.0,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -12.3,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 193.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:07:31.322728"
+    },
+    "Logic1000, Rochelle Jordan - Promises (feat. Rochelle Jordan).flac": {
+      "artist": "Logic1000, Rochelle Jordan",
+      "title": "Promises (feat. Rochelle Jordan)",
+      "filename": "Logic1000, Rochelle Jordan - Promises (feat. Rochelle Jordan).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000, Rochelle Jordan - Promises (feat. Rochelle Jordan).flac",
+      "bpm": 114.8,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -8.8,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 207.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:11:06.618016"
+    },
+    "Logic1000 - Grown On Me.flac": {
+      "artist": "Logic1000",
+      "title": "Grown On Me",
+      "filename": "Logic1000 - Grown On Me.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000 - Grown On Me.flac",
+      "bpm": 126.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -9.1,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 236.7,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:15:12.109805"
+    },
+    "Logic1000 - Cartier.flac": {
+      "artist": "Logic1000",
+      "title": "Cartier",
+      "filename": "Logic1000 - Cartier.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000 - Cartier.flac",
+      "bpm": 123.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "mid",
+      "lufs": -13.3,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 164.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:18:04.074134"
+    },
+    "Logic1000, Kayla Blackmon - Self To Blame (feat. Kayla Blackmon).flac": {
+      "artist": "Logic1000, Kayla Blackmon",
+      "title": "Self To Blame (feat. Kayla Blackmon)",
+      "filename": "Logic1000, Kayla Blackmon - Self To Blame (feat. Kayla Blackmon).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000, Kayla Blackmon - Self To Blame (feat. Kayla Blackmon).flac",
+      "bpm": 126.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 244.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:22:17.613835"
+    },
+    "Logic1000, Big Ever - Natural.flac": {
+      "artist": "Logic1000, Big Ever",
+      "title": "Natural",
+      "filename": "Logic1000, Big Ever - Natural.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000, Big Ever - Natural.flac",
+      "bpm": 129.2,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "high",
+      "lufs": -13.3,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 235.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:26:24.313737"
+    },
+    "Logic1000 - 21.flac": {
+      "artist": "Logic1000",
+      "title": "21",
+      "filename": "Logic1000 - 21.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Logic1000 - 21.flac",
+      "bpm": 117.5,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -14.2,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 233.5,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:30:26.328038"
+    },
+    "DJ Plead - Shush.flac": {
+      "artist": "DJ Plead",
+      "title": "Shush",
+      "filename": "DJ Plead - Shush.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/DJ Plead - Shush.flac",
+      "bpm": 95.7,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -11.9,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 237.1,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:37:08.870425"
+    },
+    "a.s.o. - Somebody (Mixed).flac": {
+      "artist": "a.s.o.",
+      "title": "Somebody (Mixed)",
+      "filename": "a.s.o. - Somebody (Mixed).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/a.s.o. - Somebody (Mixed).flac",
+      "bpm": 126.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 203.2,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:40:39.741627"
+    },
+    "Smerz, Allina - Dangerous.flac": {
+      "artist": "Smerz, Allina",
+      "title": "Dangerous",
+      "filename": "Smerz, Allina - Dangerous.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Smerz, Allina - Dangerous.flac",
+      "bpm": 126.0,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 174.9,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:43:43.148383"
+    },
+    "Anz, George Riley - You Could Be.flac": {
+      "artist": "Anz, George Riley",
+      "title": "You Could Be",
+      "filename": "Anz, George Riley - You Could Be.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Anz, George Riley - You Could Be.flac",
+      "bpm": 166.7,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -8.3,
+      "true_peak_dbtp": 1.2,
+      "duration_sec": 218.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:47:29.391709"
+    },
+    "yunè pinku - Bluff.flac": {
+      "artist": "yunè pinku",
+      "title": "Bluff",
+      "filename": "yunè pinku - Bluff.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/yunè pinku - Bluff.flac",
+      "bpm": 136.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 185.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-23T21:50:44.498386"
+    },
+    "Oklou, Casey MQ - Lurk.flac": {
+      "artist": "Oklou, Casey MQ",
+      "title": "Lurk",
+      "filename": "Oklou, Casey MQ - Lurk.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Oklou, Casey MQ - Lurk.flac",
+      "bpm": 105.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -14.2,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 142.4,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-24T07:39:50.803505"
+    },
+    "I. JORDAN - Watch Out!.flac": {
+      "artist": "I. JORDAN",
+      "title": "Watch Out!",
+      "filename": "I. JORDAN - Watch Out!.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/I. JORDAN - Watch Out!.flac",
+      "bpm": 143.6,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -8.8,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 357.6,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-24T07:45:58.813935"
+    },
+    "Overmono - So U Kno.flac": {
+      "artist": "Overmono",
+      "title": "So U Kno",
+      "filename": "Overmono - So U Kno.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Overmono - So U Kno.flac",
+      "bpm": 129.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -8.5,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 343.3,
+      "playlists": [
+        "Crate Dig — WhatsApp Finds"
+      ],
+      "added": "2026-06-24T07:51:52.085624"
+    },
+    "DJ Force & The Evolution, DJ Vibes, Wishdokta - Perfect Dreams (DJ Vibes & Wishdokta Remix).flac": {
+      "artist": "DJ Force & The Evolution, DJ Vibes, Wishdokta",
+      "title": "Perfect Dreams (DJ Vibes & Wishdokta Remix)",
+      "filename": "DJ Force & The Evolution, DJ Vibes, Wishdokta - Perfect Dreams (DJ Vibes & Wishdokta Remix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/DJ Force & The Evolution, DJ Vibes, Wishdokta - Perfect Dreams (DJ Vibes & Wishdokta Remix).flac",
+      "bpm": 107.7,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -12.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 406.7,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T10:52:58.234907"
+    },
+    "Demdike Stare - Bardo Thodol.flac": {
+      "artist": "Demdike Stare",
+      "title": "Bardo Thodol",
+      "filename": "Demdike Stare - Bardo Thodol.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Bardo Thodol.flac",
+      "bpm": 112.3,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -12.2,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 331.9,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T10:58:43.103124"
+    },
+    "The Criminal Minds - Baptised By Dub (Original Fire).flac": {
+      "artist": "The Criminal Minds",
+      "title": "Baptised By Dub (Original Fire)",
+      "filename": "The Criminal Minds - Baptised By Dub (Original Fire).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Criminal Minds - Baptised By Dub (Original Fire).flac",
+      "bpm": 147.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 331.1,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:04:24.178682"
+    },
+    "Demdike Stare - Hashshashin Chant.flac": {
+      "artist": "Demdike Stare",
+      "title": "Hashshashin Chant",
+      "filename": "Demdike Stare - Hashshashin Chant.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Hashshashin Chant.flac",
+      "bpm": 143.6,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 379.4,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:10:54.697152"
+    },
+    "TNO Project - Xenotransplantation.flac": {
+      "artist": "TNO Project",
+      "title": "Xenotransplantation",
+      "filename": "TNO Project - Xenotransplantation.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/TNO Project - Xenotransplantation.flac",
+      "bpm": 107.7,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 371.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:17:20.914739"
+    },
+    "Demdike Stare - Trapped Dervish.flac": {
+      "artist": "Demdike Stare",
+      "title": "Trapped Dervish",
+      "filename": "Demdike Stare - Trapped Dervish.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Trapped Dervish.flac",
+      "bpm": 99.4,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 70.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:18:36.983271"
+    },
+    "NICE1TOM - Shark Your Arse.flac": {
+      "artist": "NICE1TOM",
+      "title": "Shark Your Arse",
+      "filename": "NICE1TOM - Shark Your Arse.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/NICE1TOM - Shark Your Arse.flac",
+      "bpm": 112.3,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 227.3,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:22:32.414962"
+    },
+    "Demdike Stare - Jannisary.flac": {
+      "artist": "Demdike Stare",
+      "title": "Jannisary",
+      "filename": "Demdike Stare - Jannisary.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Jannisary.flac",
+      "bpm": 90.7,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -13.5,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 358.9,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:28:52.323895"
+    },
+    "Cru-l-t - Something.flac": {
+      "artist": "Cru-l-t",
+      "title": "Something",
+      "filename": "Cru-l-t - Something.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Cru-l-t - Something.flac",
+      "bpm": 110.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -15.1,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 402.6,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:35:46.882874"
+    },
+    "Demdike Stare - Black Sun.flac": {
+      "artist": "Demdike Stare",
+      "title": "Black Sun",
+      "filename": "Demdike Stare - Black Sun.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Black Sun.flac",
+      "bpm": 86.1,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -8.9,
+      "true_peak_dbtp": -2.9,
+      "duration_sec": 147.9,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:38:21.377737"
+    },
+    "Citadel Of Kaos - My Machine and I.flac": {
+      "artist": "Citadel Of Kaos",
+      "title": "My Machine and I",
+      "filename": "Citadel Of Kaos - My Machine and I.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Citadel Of Kaos - My Machine and I.flac",
+      "bpm": 120.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -12.7,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 449.3,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:46:03.776925"
+    },
+    "Demdike Stare - Caged in Stammheim.flac": {
+      "artist": "Demdike Stare",
+      "title": "Caged in Stammheim",
+      "filename": "Demdike Stare - Caged in Stammheim.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Caged in Stammheim.flac",
+      "bpm": 89.1,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -10.5,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 317.5,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:51:31.850747"
+    },
+    "Sonic Trip - Where Is My Mind.flac": {
+      "artist": "Sonic Trip",
+      "title": "Where Is My Mind",
+      "filename": "Sonic Trip - Where Is My Mind.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Sonic Trip - Where Is My Mind.flac",
+      "bpm": 147.7,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 304.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T11:56:46.806210"
+    },
+    "Demdike Stare - The Stars Are Moving.flac": {
+      "artist": "Demdike Stare",
+      "title": "The Stars Are Moving",
+      "filename": "Demdike Stare - The Stars Are Moving.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - The Stars Are Moving.flac",
+      "bpm": 126.0,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 511.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:05:35.997289"
+    },
+    "Deadly Nightshade - Lights.flac": {
+      "artist": "Deadly Nightshade",
+      "title": "Lights",
+      "filename": "Deadly Nightshade - Lights.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Deadly Nightshade - Lights.flac",
+      "bpm": 166.7,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 255.1,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:10:00.307185"
+    },
+    "Demdike Stare - Haxan.flac": {
+      "artist": "Demdike Stare",
+      "title": "Haxan",
+      "filename": "Demdike Stare - Haxan.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Haxan.flac",
+      "bpm": 117.5,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "high",
+      "lufs": -10.8,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 378.0,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:16:28.889603"
+    },
+    "Alk-E-D - Absolutely Flying (Hero Mix).flac": {
+      "artist": "Alk-E-D",
+      "title": "Absolutely Flying (Hero Mix)",
+      "filename": "Alk-E-D - Absolutely Flying (Hero Mix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Alk-E-D - Absolutely Flying (Hero Mix).flac",
+      "bpm": 110.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -15.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 310.1,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:21:49.261302"
+    },
+    "Demdike Stare - Erosion of Mediocrity.flac": {
+      "artist": "Demdike Stare",
+      "title": "Erosion of Mediocrity",
+      "filename": "Demdike Stare - Erosion of Mediocrity.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Erosion of Mediocrity.flac",
+      "bpm": 117.5,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 428.3,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:29:10.180653"
+    },
+    "Future Primitive - Show Me The Way.flac": {
+      "artist": "Future Primitive",
+      "title": "Show Me The Way",
+      "filename": "Future Primitive - Show Me The Way.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Future Primitive - Show Me The Way.flac",
+      "bpm": 79.5,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -14.2,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 382.8,
+      "playlists": [
+        "Feudal 2026",
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:35:44.761097"
+    },
+    "Demdike Stare - Procrastination.flac": {
+      "artist": "Demdike Stare",
+      "title": "Procrastination",
+      "filename": "Demdike Stare - Procrastination.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Procrastination.flac",
+      "bpm": 172.3,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 387.2,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:42:37.800218"
+    },
+    "Paul Cronin - Into The Next Dimension.flac": {
+      "artist": "Paul Cronin",
+      "title": "Into The Next Dimension",
+      "filename": "Paul Cronin - Into The Next Dimension.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Paul Cronin - Into The Next Dimension.flac",
+      "bpm": 147.7,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 256.1,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:47:02.467301"
+    },
+    "Demdike Stare - Of Decay & Shadows.flac": {
+      "artist": "Demdike Stare",
+      "title": "Of Decay & Shadows",
+      "filename": "Demdike Stare - Of Decay & Shadows.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Of Decay & Shadows.flac",
+      "bpm": 132.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -12.0,
+      "true_peak_dbtp": -2.9,
+      "duration_sec": 152.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:49:45.567855"
+    },
+    "Sub Love, Mannik - Drum & Bass Program (Mannik Remix).flac": {
+      "artist": "Sub Love, Mannik",
+      "title": "Drum & Bass Program (Mannik Remix)",
+      "filename": "Sub Love, Mannik - Drum & Bass Program (Mannik Remix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Sub Love, Mannik - Drum & Bass Program (Mannik Remix).flac",
+      "bpm": 152.0,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "high",
+      "lufs": -8.8,
+      "true_peak_dbtp": 1.4,
+      "duration_sec": 323.6,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:55:20.012783"
+    },
+    "Demdike Stare - You People Are Fucked.flac": {
+      "artist": "Demdike Stare",
+      "title": "You People Are Fucked",
+      "filename": "Demdike Stare - You People Are Fucked.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - You People Are Fucked.flac",
+      "bpm": 105.5,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 162.7,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T12:58:11.146020"
+    },
+    "Cheff the Boy - No Cure for Hardcore.flac": {
+      "artist": "Cheff the Boy",
+      "title": "No Cure for Hardcore",
+      "filename": "Cheff the Boy - No Cure for Hardcore.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Cheff the Boy - No Cure for Hardcore.flac",
+      "bpm": 161.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 270.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T13:02:50.843477"
+    },
+    "Demdike Stare - Eulogy.flac": {
+      "artist": "Demdike Stare",
+      "title": "Eulogy",
+      "filename": "Demdike Stare - Eulogy.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Eulogy.flac",
+      "bpm": 112.3,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 425.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T13:10:12.263561"
+    },
+    "Citadel Of Kaos - Exploding Dog.flac": {
+      "artist": "Citadel Of Kaos",
+      "title": "Exploding Dog",
+      "filename": "Citadel Of Kaos - Exploding Dog.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Citadel Of Kaos - Exploding Dog.flac",
+      "bpm": 92.3,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -12.6,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 468.5,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T13:18:13.494058"
+    },
+    "Demdike Stare - Suspicious Drone.flac": {
+      "artist": "Demdike Stare",
+      "title": "Suspicious Drone",
+      "filename": "Demdike Stare - Suspicious Drone.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Suspicious Drone.flac",
+      "bpm": 71.8,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 393.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T13:24:58.646202"
+    },
+    "Slim Sinna - Come Alive.flac": {
+      "artist": "Slim Sinna",
+      "title": "Come Alive",
+      "filename": "Slim Sinna - Come Alive.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Slim Sinna - Come Alive.flac",
+      "bpm": 99.4,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 257.7,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T13:29:25.724192"
+    },
+    "Demdike Stare - Library of Solomon Book 2 (Bonus Track).flac": {
+      "artist": "Demdike Stare",
+      "title": "Library of Solomon Book 2 (Bonus Track)",
+      "filename": "Demdike Stare - Library of Solomon Book 2 (Bonus Track).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Demdike Stare - Library of Solomon Book 2 (Bonus Track).flac",
+      "bpm": 114.8,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -12.5,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 560.8,
+      "playlists": [
+        "Rugged Rave Anthems"
+      ],
+      "added": "2026-07-04T13:39:20.435723"
+    },
+    "Silicon Teens - Sun Flight.flac": {
+      "artist": "Silicon Teens",
+      "title": "Sun Flight",
+      "filename": "Silicon Teens - Sun Flight.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Silicon Teens - Sun Flight.flac",
+      "bpm": 126.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -13.4,
+      "true_peak_dbtp": -0.9,
+      "duration_sec": 257.7,
+      "playlists": [
+        "Singles"
+      ],
+      "added": "2026-07-14T19:36:37.933629"
+    },
+    "The Gnomes - Magic Man.flac": {
+      "artist": "The Gnomes",
+      "title": "Magic Man",
+      "filename": "The Gnomes - Magic Man.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Gnomes - Magic Man.flac",
+      "bpm": 97.5,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -6.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 174.8,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-27T10:34:24.886961"
+    },
+    "Dub Narcotic Sound System, Lois - Do That.flac": {
+      "artist": "Dub Narcotic Sound System, Lois",
+      "title": "Do That",
+      "filename": "Dub Narcotic Sound System, Lois - Do That.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Dub Narcotic Sound System, Lois - Do That.flac",
+      "bpm": 94.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "mid",
+      "lufs": -13.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 300.5,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-27T10:41:24.472250"
+    },
+    "The Fall - Spencer Must Die.flac": {
+      "artist": "The Fall",
+      "title": "Spencer Must Die",
+      "filename": "The Fall - Spencer Must Die.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/The Fall - Spencer Must Die.flac",
+      "bpm": 184.6,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -17.0,
+      "true_peak_dbtp": -0.5,
+      "duration_sec": 238.1,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-27T10:45:31.762133"
+    },
+    "samarsi, AGATMATO - Far Away.flac": {
+      "artist": "samarsi, AGATMATO",
+      "title": "Far Away",
+      "filename": "samarsi, AGATMATO - Far Away.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/samarsi, AGATMATO - Far Away.flac",
+      "bpm": 123.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 225.2,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-27T10:49:24.803643"
+    },
+    "Tangerine Dream - The Dream Is Always The Same (From 'Risky Business' Original Motion Picture Soundtrack).flac": {
+      "artist": "Tangerine Dream",
+      "title": "The Dream Is Always The Same (From 'Risky Business' Original Motion Picture Soundtrack)",
+      "filename": "Tangerine Dream - The Dream Is Always The Same (From 'Risky Business' Original Motion Picture Soundtrack).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Tangerine Dream - The Dream Is Always The Same (From 'Risky Business' Original Motion Picture Soundtrack).flac",
+      "bpm": 126.0,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -15.3,
+      "true_peak_dbtp": -1.3,
+      "duration_sec": 220.5,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-27T10:53:16.166700"
+    },
+    "DJ Force & The Evolution, Citadel Of Kaos - Perfect Dreams (Citadel of Kaos Remix).flac": {
+      "artist": "DJ Force & The Evolution, Citadel Of Kaos",
+      "title": "Perfect Dreams (Citadel of Kaos Remix)",
+      "filename": "DJ Force & The Evolution, Citadel Of Kaos - Perfect Dreams (Citadel of Kaos Remix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/DJ Force & The Evolution, Citadel Of Kaos - Perfect Dreams (Citadel of Kaos Remix).flac",
+      "bpm": 161.5,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "mid",
+      "lufs": -16.4,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 377.5,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-27T10:59:44.970563"
+    },
+    "Officer John - Stay.flac": {
+      "artist": "Officer John",
+      "title": "Stay",
+      "filename": "Officer John - Stay.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John - Stay.flac",
+      "bpm": 99.4,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -7.5,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 168.5,
+      "playlists": [
+        "Feudal 2026",
+        "Officer John"
+      ],
+      "added": "2026-07-27T11:02:40.622868"
+    },
+    "Officer John, Morgan Buckley - Stay (Morgan Buckley Remix).flac": {
+      "artist": "Officer John, Morgan Buckley",
+      "title": "Stay (Morgan Buckley Remix)",
+      "filename": "Officer John, Morgan Buckley - Stay (Morgan Buckley Remix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John, Morgan Buckley - Stay (Morgan Buckley Remix).flac",
+      "bpm": 112.3,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -7.9,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 298.1,
+      "playlists": [
+        "Feudal 2026",
+        "Officer John"
+      ],
+      "added": "2026-07-27T11:07:48.533022"
+    },
+    "Acid Ultras - All Things Must Pass.flac": {
+      "artist": "Acid Ultras",
+      "title": "All Things Must Pass",
+      "filename": "Acid Ultras - All Things Must Pass.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Acid Ultras - All Things Must Pass.flac",
+      "bpm": 114.8,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -8.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 419.2,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-29T13:30:35.114765"
+    },
+    "Acid Ultras, Altered Natives - All Things Must Pass (Altered Natives Remix).flac": {
+      "artist": "Acid Ultras, Altered Natives",
+      "title": "All Things Must Pass (Altered Natives Remix)",
+      "filename": "Acid Ultras, Altered Natives - All Things Must Pass (Altered Natives Remix).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Acid Ultras, Altered Natives - All Things Must Pass (Altered Natives Remix).flac",
+      "bpm": 114.8,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -11.9,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 301.9,
+      "playlists": [
+        "Feudal 2026"
+      ],
+      "added": "2026-07-29T13:35:46.690878"
+    },
+    "sun electric - O'locco (Radioland).flac": {
+      "artist": "sun electric",
+      "title": "O'locco (Radioland)",
+      "filename": "sun electric - O'locco (Radioland).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/sun electric - O'locco (Radioland).flac",
+      "bpm": 107.7,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -13.3,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 195.7,
+      "playlists": [
+        "Feudal 2026 — capture (pg record)"
+      ],
+      "added": "2026-07-29T14:56:28.293592"
+    },
+    "Underworld - Dark & Long (Thing In A Book Mix _ Remastered).flac": {
+      "artist": "Underworld",
+      "title": "Dark & Long (Thing In A Book Mix _ Remastered)",
+      "filename": "Underworld - Dark & Long (Thing In A Book Mix _ Remastered).flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Underworld - Dark & Long (Thing In A Book Mix _ Remastered).flac",
+      "bpm": 129.2,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "high",
+      "lufs": -11.5,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 1213.3,
+      "playlists": [
+        "Feudal 2026 — capture (pg record)"
+      ],
+      "added": "2026-07-29T15:17:11.024325"
+    },
+    "Theo Parrish - Synthetic Flemm.flac": {
+      "artist": "Theo Parrish",
+      "title": "Synthetic Flemm",
+      "filename": "Theo Parrish - Synthetic Flemm.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Theo Parrish - Synthetic Flemm.flac",
+      "bpm": 120.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "low",
+      "lufs": -17.2,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 315.6,
+      "playlists": [
+        "Feudal 2026 — capture (pg record)"
+      ],
+      "added": "2026-07-29T16:01:45.615997"
+    },
+    "Fredrik Svabø - Talk About It.flac": {
+      "artist": "Fredrik Svabø",
+      "title": "Talk About It",
+      "filename": "Fredrik Svabø - Talk About It.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Fredrik Svabø - Talk About It.flac",
+      "bpm": 178.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -12.1,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 234.8,
+      "playlists": [
+        "Feudal 2026 — capture (pg record)"
+      ],
+      "added": "2026-07-29T16:05:50.165082"
+    },
+    "Ash Walker - Piano Junk.flac": {
+      "artist": "Ash Walker",
+      "title": "Piano Junk",
+      "filename": "Ash Walker - Piano Junk.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Ash Walker - Piano Junk.flac",
+      "bpm": 166.7,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 167.3,
+      "playlists": [
+        "Feudal 2026 — capture (pg record)"
+      ],
+      "added": "2026-07-29T16:08:44.804373"
+    },
+    "Tracy Bryant - Weight.flac": {
+      "artist": "Tracy Bryant",
+      "title": "Weight",
+      "filename": "Tracy Bryant - Weight.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Tracy Bryant - Weight.flac",
+      "bpm": 147.7,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 235.9,
+      "playlists": [
+        "Feudal 2026 — capture (pg record)"
+      ],
+      "added": "2026-07-29T16:12:49.544038"
+    },
+    "Secos & Molhados - Sangue latino.flac": {
+      "artist": "Secos & Molhados",
+      "title": "Sangue latino",
+      "filename": "Secos & Molhados - Sangue latino.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Secos & Molhados - Sangue latino.flac",
+      "bpm": 132.5,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -11.7,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 127.0,
+      "playlists": [
+        "Feudal 2026 — capture (pg record)"
+      ],
+      "added": "2026-07-29T16:15:03.114592"
+    },
+    "Officer John - Pass.flac": {
+      "artist": "Officer John",
+      "title": "Pass",
+      "filename": "Officer John - Pass.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John - Pass.flac",
+      "bpm": 90.7,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -8.3,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 203.7,
+      "playlists": [
+        "Officer John"
+      ],
+      "added": "2026-07-30T19:55:50.405960"
+    },
+    "Officer John - Handle.flac": {
+      "artist": "Officer John",
+      "title": "Handle",
+      "filename": "Officer John - Handle.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John - Handle.flac",
+      "bpm": 178.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 185.6,
+      "playlists": [
+        "Officer John"
+      ],
+      "added": "2026-07-30T19:59:03.041079"
+    },
+    "Officer John - You.flac": {
+      "artist": "Officer John",
+      "title": "You",
+      "filename": "Officer John - You.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John - You.flac",
+      "bpm": 90.7,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -8.1,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 180.9,
+      "playlists": [
+        "Officer John"
+      ],
+      "added": "2026-07-30T20:02:10.775040"
+    },
+    "Officer John - These Days.flac": {
+      "artist": "Officer John",
+      "title": "These Days",
+      "filename": "Officer John - These Days.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John - These Days.flac",
+      "bpm": 178.2,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 139.2,
+      "playlists": [
+        "Officer John"
+      ],
+      "added": "2026-07-30T20:04:37.176975"
+    },
+    "Officer John - Onwards.flac": {
+      "artist": "Officer John",
+      "title": "Onwards",
+      "filename": "Officer John - Onwards.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John - Onwards.flac",
+      "bpm": 90.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -7.7,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 143.5,
+      "playlists": [
+        "Officer John"
+      ],
+      "added": "2026-07-30T20:07:07.353764"
+    },
+    "Officer John - Awake.flac": {
+      "artist": "Officer John",
+      "title": "Awake",
+      "filename": "Officer John - Awake.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Officer John - Awake.flac",
+      "bpm": 89.1,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -7.7,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 151.7,
+      "playlists": [
+        "Officer John"
+      ],
+      "added": "2026-07-30T20:09:45.579859"
     }
   },
-  "updated": "2026-06-22T19:02:10.007134"
+  "updated": "2026-07-30T20:09:45.579928"
 }
