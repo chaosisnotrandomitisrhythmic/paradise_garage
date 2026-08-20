@@ -9,6 +9,7 @@ title: TODO
 
 - [x] **Lil' Louis — French Kiss (The Original Underground Mix)** — Chicago house, 1989, 123 BPM, 8A, 9:50. [Spotify](https://open.spotify.com/track/7hnqJYCKZFW7vMoykaraZG)
 - [ ] **Erol Alkan — Spectrum** — Acid house / psychedelic techno, 2018, ~124 BPM, 7:42. Phantasy Sound. [Spotify](https://open.spotify.com/track/41NLXDvpJlXHFr5DpfhZqz)
+- [ ] **Cocteau Twins — Cherry-Coloured Funk (Seefeel Remix)** — dream pop / ambient remix, 1995 (4AD, *Otherness* EP; reissued on *Treasure Hiding: The Fontana Years*, 2018), ~90 BPM, 5:47. Surfaced via the [Movement '26 crate]({{ '/movement-2026' | relative_url }}) → Seefeel dig. Source: [Beatport — Soma (lossless)](https://www.beatport.com/track/cherry-coloured-funk-seefeel-mix/803790) · [Discogs — *Otherness*](https://www.discogs.com/search/?q=Cocteau+Twins+Otherness&type=release) · [Spotify](https://open.spotify.com/track/2XBQxXk5jp5QlpwqOsIJlv)
 
 ### From: Amelia Holt — GT042 (WKCR Groove Tapes)
 Source: https://soundcloud.com/wkcr/amelia-holt-gt042 | Analyzed: 2026-04-16 via acid-archaeology (AudD)
