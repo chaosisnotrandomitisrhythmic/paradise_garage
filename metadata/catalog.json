@@ -4533,7 +4533,24 @@
         "RA.1000 Mix"
       ],
       "added": "2026-08-20T14:39:49.495784"
+    },
+    "Drexciya - Digital Tsunami.flac": {
+      "artist": "Drexciya",
+      "title": "Digital Tsunami",
+      "filename": "Drexciya - Digital Tsunami.flac",
+      "path": "/Users/andreasdaiminger/Music/Library/flac/Drexciya - Digital Tsunami.flac",
+      "bpm": 73.8,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": 1.2,
+      "duration_sec": 381.7,
+      "playlists": [
+        "Singles"
+      ],
+      "added": "2026-08-23T13:49:21.126671"
     }
   },
-  "updated": "2026-08-20T14:39:49.495871"
+  "updated": "2026-08-23T13:49:21.126741"
 }
