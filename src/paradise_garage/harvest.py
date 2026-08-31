@@ -64,6 +64,16 @@ _TITLE_JS = """
 })()
 """
 
+# Readiness: the real playlist heading is rendered AND the grid holds actual
+# track links. Either alone is satisfied by the transitional web-player shell.
+_READY_JS = """
+(() => {
+  const h = document.querySelector('main h1, [role="main"] h1');
+  if (!h || !h.textContent.trim()) return false;
+  return document.querySelectorAll('div[role="row"] a[href*="/track/"]').length > 3;
+})()
+"""
+
 # Best-effort "N songs" for a coverage warning; Spotify localises and restyles
 # this constantly, so a miss is not an error.
 _COUNT_JS = """
@@ -201,11 +211,16 @@ async def scrape_ids(
     page = await (Page.new(cdp=cdp) if cdp else Page.new())
     try:
         await page.goto(url, wait="load")
-        # The row grid mounts after the initial paint.
-        await page.wait_for("document.querySelectorAll('div[role=\"row\"]').length > 1", timeout=30)
+        # `load` fires while the SPA is still on a transitional route: rows and
+        # the <title> are both still the generic web-player shell. Scraping then
+        # yields a short list named "Spotify – Web Player". Wait for the real
+        # playlist heading AND a populated grid before reading anything.
+        await page.wait_for(_READY_JS, timeout=45)
+        await asyncio.sleep(settle)
 
         title = await page.eval(_TITLE_JS)
         count_text = await page.eval(_COUNT_JS)
+        expected = int(count_text) if count_text.isdigit() else None
         w = await page.eval("window.innerWidth")
         h = await page.eval("window.innerHeight")
         x, y = int(w) // 2, int(h) // 2
@@ -225,7 +240,9 @@ async def scrape_ids(
             idle = idle + 1 if after == before else 0
             if verbose and rnd % 5 == 0:
                 print(f"  scroll {rnd:>3}  tracks {after}")
-            if idle >= idle_rounds:
+            # Going idle short of the page's own count means rows are still
+            # loading, not that we hit the bottom — keep scrolling.
+            if idle >= idle_rounds and (expected is None or after >= expected):
                 break
 
         return title, ordered_ids(by_index, fallback), count_text
@@ -245,11 +262,13 @@ def harvest(url: str, *, name: str | None = None, verbose: bool = True, **kwargs
             "this actually a playlist page?"
         )
 
+    # A short harvest is worse than none: it silently becomes a truncated
+    # recording queue. Refuse rather than cache it.
     expected = int(count_text) if count_text.isdigit() else None
     if expected and len(ids) < expected:
-        print(
-            f"  ⚠️  page says {expected} songs, harvested {len(ids)} — "
-            "re-run, or raise --max-rounds"
+        raise RuntimeError(
+            f"Harvested {len(ids)} of the {expected} songs the page reports. "
+            "Nothing written — re-run, or raise --max-rounds."
         )
 
     tracks = hydrate(ids)
