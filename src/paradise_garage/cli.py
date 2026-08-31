@@ -111,6 +111,7 @@ def cmd_harvest(args: list[str]):
     url = None
     name = None
     max_rounds = 400
+    port = None
     i = 0
     while i < len(args):
         a = args[i]
@@ -120,19 +121,27 @@ def cmd_harvest(args: list[str]):
         elif a == "--max-rounds" and i + 1 < len(args):
             max_rounds = int(args[i + 1])
             i += 1
+        elif a == "--port" and i + 1 < len(args):
+            port = int(args[i + 1])
+            i += 1
+        elif a == "--remote":
+            port = 9223
         elif not a.startswith("--"):
             url = a
         i += 1
 
     if not url:
-        print("  Usage: pg harvest <playlist-url> [--name NAME] [--max-rounds N]")
+        print("  Usage: pg harvest <playlist-url> [--name NAME] [--remote] [--port N]")
+        print("                    [--max-rounds N]")
         print()
-        print("  Needs Chrome signed in to Spotify, with 'Allow remote debugging'")
-        print("  enabled at chrome://inspect/#remote-debugging.")
+        print("  Default: your everyday Chrome — needs 'Allow remote debugging' at")
+        print("  chrome://inspect/#remote-debugging (and a Chrome relaunch to take effect).")
+        print("  --remote: a dedicated 'CDP Chrome' on port 9223 (fastcdp-setup), which")
+        print("  has its own profile and no approval prompt. This is the mini's path.")
         return
 
     print(f"  Harvesting {url}")
-    path = harvest(url, name=name, max_rounds=max_rounds)
+    path = harvest(url, name=name, max_rounds=max_rounds, port=port)
     playlist_name, tracks = load_harvest(str(path))
     total = sum(t.duration_sec for t in tracks)
     print(f"\n  {playlist_name}: {len(tracks)} tracks, {total / 3600:.1f}h")

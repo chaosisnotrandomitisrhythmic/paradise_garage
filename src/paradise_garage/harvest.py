@@ -173,6 +173,7 @@ def hydrate(ids: list[str]) -> list[Track]:
 async def scrape_ids(
     url: str,
     *,
+    port: int | None = None,
     delta: int = 900,
     settle: float = 0.45,
     idle_rounds: int = 4,
@@ -181,13 +182,20 @@ async def scrape_ids(
 ) -> tuple[str, list[str], str]:
     """Wheel-scroll the playlist page, returning (page_title, ordered ids, count_text).
 
+    With `port`, attach to a dedicated debug Chrome (the `fastcdp-setup` "CDP
+    Chrome" launcher, default 9223) instead of your everyday browser. That is
+    what the mini uses: a separate profile, no per-connection approval prompt,
+    and nothing disturbed in the browser you are actually using.
+
     Stops once `idle_rounds` consecutive scrolls surface no new track, which is
     both the bottom of the list and the failure mode of a list that never
     virtualized in the first place.
     """
-    from fastcdp import Page
+    from fastcdp import CDP, Page
 
-    page = await Page.new()
+    cdp = await CDP.remote(port=port) if port else None
+    # Page.new(cdp=…) does not own the connection, so we close it ourselves.
+    page = await (Page.new(cdp=cdp) if cdp else Page.new())
     try:
         await page.goto(url, wait="load")
         # The row grid mounts after the initial paint.
@@ -221,6 +229,8 @@ async def scrape_ids(
     finally:
         # Leave no Spotify Connect device behind.
         await page.close()
+        if cdp:
+            await cdp.close()
 
 
 def harvest(url: str, *, name: str | None = None, verbose: bool = True, **kwargs) -> Path:
