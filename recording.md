@@ -102,6 +102,41 @@ file). Ingest measures **integrated LUFS + true peak** (ffmpeg `ebur128`) and wr
 - The tap records at Spotify's native rate (48 kHz Float32); the split step resamples to 44.1 kHz / 16-bit to match the library.
 - Spotify auth caches a token at `~/.cache/paradise_garage/spotify-token.json` (browser consent once).
 
+## Algorithmic playlists — `pg harvest`
+
+Radio and personal-Mix ids (`37i9dQZF1E4…`) are first-party-only: the Web API
+404s them for third-party apps, so `pg record` can't resolve them. `pg harvest`
+drives a real Chrome over the DevTools Protocol and dispatches genuine
+`Input.dispatchMouseEvent` wheel events — the tracklist is a virtualized list
+that ignores programmatic `scrollTop`, but not a real wheel.
+
+```bash
+pg harvest "https://open.spotify.com/playlist/37i9dQZF1E4vq1cso24MIt" --remote
+pg record harvest:officer-john-radio --skip-existing
+```
+
+Only track ids come from the DOM, keyed by `aria-rowindex` so recycled rows land
+in playlist order. Artist/title/`duration_ms` come from `/v1/tracks`, which is
+not restricted — the restriction is on reading the playlist, not its tracks.
+
+- **`--remote`** attaches to a dedicated "CDP Chrome" on port 9223 (`fastcdp-setup`
+  builds the launcher). Its own profile, no approval prompt — this is the mini's
+  path. Without it, your everyday Chrome is used, which needs *Allow remote
+  debugging* at `chrome://inspect/#remote-debugging` **and a Chrome relaunch**,
+  plus a per-connection approval click.
+- **No Spotify login needed.** Verified signed-out: the page shows a login wall
+  and still renders the full tracklist.
+- **A short harvest is an error, not a warning.** If fewer ids come back than the
+  page's own "N songs", nothing is written — a truncated list would silently
+  become a truncated recording queue.
+- **The snapshot is deliberately fixed.** Radio contents drift; you record the
+  list as it was, not as it is tonight. Re-run `pg harvest` to refresh it.
+- ⚠️ Loading the web player registers Chrome as a Spotify Connect device — the
+  condition that wedges the AppleScript tap. Harvest as a discrete step and check
+  Spotify desktop is on "This Computer" before recording.
+
+The batch recorder accepts `PG_PLAYLIST_URL="harvest:<slug>"`.
+
 ## Traktor — `pg traktor` (grid-snapped cues)
 
 **Required first step: import the track into Traktor and run _Analyze (Async)_
