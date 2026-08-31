@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Personal DJ music library — tagging, search, and cross-machine sync"
 requires-python = ">=3.11"
 dependencies = [
+    "fastcdp>=0.0.10",
     "librosa>=0.11.0",
     "mutagen>=1.47.0",
     "spotipy>=2.24.0",

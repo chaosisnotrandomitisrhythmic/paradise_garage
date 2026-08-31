@@ -79,6 +79,13 @@ def cmd_record(args: list[str]):
         print("  (per-track mode; the library has no playlist context to play through).")
         return
 
+    from .harvest import is_harvest_ref
+
+    if is_harvest_ref(url) and not skip_existing:
+        print("  A harvested tracklist has no Spotify playlist to play through —")
+        print("  use it with --skip-existing (per-track mode, resumable).")
+        return
+
     # --skip-existing / --resume: record only the tracks not already in the library
     # (per-track, saved as each finishes → safe to interrupt and re-run).
     if skip_existing:
@@ -95,6 +102,44 @@ def cmd_record(args: list[str]):
     if files:
         print(f"\n  Ingesting {len(files)} captured tracks…")
         cmd_ingest(files, playlist=name)
+
+
+def cmd_harvest(args: list[str]):
+    """Scrape an algorithmic playlist (Radio / Mix) the Web API refuses to resolve."""
+    from .harvest import harvest, load_harvest
+
+    url = None
+    name = None
+    max_rounds = 400
+    i = 0
+    while i < len(args):
+        a = args[i]
+        if a == "--name" and i + 1 < len(args):
+            name = args[i + 1]
+            i += 1
+        elif a == "--max-rounds" and i + 1 < len(args):
+            max_rounds = int(args[i + 1])
+            i += 1
+        elif not a.startswith("--"):
+            url = a
+        i += 1
+
+    if not url:
+        print("  Usage: pg harvest <playlist-url> [--name NAME] [--max-rounds N]")
+        print()
+        print("  Needs Chrome signed in to Spotify, with 'Allow remote debugging'")
+        print("  enabled at chrome://inspect/#remote-debugging.")
+        return
+
+    print(f"  Harvesting {url}")
+    path = harvest(url, name=name, max_rounds=max_rounds)
+    playlist_name, tracks = load_harvest(str(path))
+    total = sum(t.duration_sec for t in tracks)
+    print(f"\n  {playlist_name}: {len(tracks)} tracks, {total / 3600:.1f}h")
+    print(f"  {path}")
+    print(f"\n  Next: pg record harvest:{path.stem} --skip-existing --dry-run")
+    print("  ⚠️  Loading the web player made Chrome a Spotify Connect device.")
+    print("      Check Spotify desktop is on 'This Computer' before recording.")
 
 
 def cmd_capture(args: list[str]):
@@ -275,6 +320,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage:")
         print("  pg record <playlist-url> [--skip-existing] [--start N] [--limit N] [--keep-master]")
+        print("  pg harvest <playlist-url> [--name NAME]   (Radio/Mix ids the Web API 404s)")
         print('  pg capture "Artist" "Title" --duration MM:SS   (browser-sourced single track, e.g. SoundCloud)')
         print("  pg traktor <file.flac> [...] [--dry-run]   (grid-snapped cues; analyze in Traktor first)")
         print("  pg ingest <file.flac> [file2.flac ...]")
@@ -288,6 +334,8 @@ def main():
 
     if cmd == "record":
         cmd_record(sys.argv[2:])
+    elif cmd == "harvest":
+        cmd_harvest(sys.argv[2:])
     elif cmd == "capture":
         cmd_capture(sys.argv[2:])
     elif cmd == "traktor":
