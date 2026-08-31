@@ -54,10 +54,13 @@ JSON.stringify(Array.from(document.querySelectorAll('div[role="row"]')).map(r =>
 }).filter(Boolean))
 """
 
+# Must be scoped to the main region: the first h1 in the document is the
+# sidebar's "Your Library", which is how the first harvest got named.
 _TITLE_JS = """
 (() => {
-  const h = document.querySelector('h1');
-  return h ? h.textContent.trim() : (document.title || '').replace(/\\s*\\|\\s*Spotify\\s*$/, '').trim();
+  const m = document.querySelector('main h1, [role="main"] h1');
+  if (m && m.textContent.trim()) return m.textContent.trim();
+  return (document.title || '').replace(/\\s*[|·]\\s*Spotify.*$/i, '').trim();
 })()
 """
 
