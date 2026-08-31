@@ -93,9 +93,15 @@ def get_liked_tracks() -> tuple[str, list[Track]]:
 
 def get_playlist_tracks(url_or_uri: str) -> tuple[str, list[Track]]:
     """Return (playlist_name, ordered list of Track), skipping local/unavailable
-    items. The sentinel 'liked' reads the saved-tracks library instead."""
+    items. The sentinel 'liked' reads the saved-tracks library instead, and
+    'harvest:<slug>' reads a tracklist scraped by `pg harvest` (for algorithmic
+    playlists the Web API refuses to resolve)."""
     if url_or_uri.strip().lower() in ("liked", "liked-songs", "liked songs"):
         return get_liked_tracks()
+    from .harvest import is_harvest_ref, load_harvest
+
+    if is_harvest_ref(url_or_uri):
+        return load_harvest(url_or_uri)
     sp = _client()
     pid = parse_playlist_id(url_or_uri)
     name = sp.playlist(pid, fields="name").get("name", pid)
