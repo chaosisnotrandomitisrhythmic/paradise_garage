@@ -7,11 +7,18 @@ hands them to the existing ingest (librosa + tags + catalog).
 
 import re
 import subprocess
+import sys
 import time
 from pathlib import Path
 
-from . import capture, playback, split
+from . import split
 from .playback import Segment
+
+if sys.platform == "darwin":
+    from . import capture, playback
+else:  # Linux: PipeWire null-sink capture + MPRIS control
+    from . import capture_linux as capture
+    from . import playback_linux as playback
 from .spotify import Track, get_playlist_tracks, parse_playlist_id
 
 CAPTURE_DIR = Path.home() / ".cache" / "paradise_garage" / "captures"
@@ -106,6 +113,8 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
     tmp = str(CAPTURE_DIR / f"{stamp}_one.wav")
     dur = track.duration_sec
 
+    # Linux: load the track and park it at 0 before the capture starts (see playback_linux.prime)
+    primed = hasattr(playback, "prime") and playback.prime(track.uri)
     cap = capture.start_capture(tmp)
     t_cap = time.monotonic()
     watch_offset = 0.0   # dead time (retries/handshakes) before playback really started
@@ -116,7 +125,10 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
             # re-handshakes between tracks — retry instead of trusting one shot.
             started = False
             for attempt in range(3):
-                playback.play_uri(track.uri)
+                if primed and attempt == 0 and outer == 0:
+                    playback.resume()
+                else:
+                    playback.play_uri(track.uri)
                 if playback._wait_until_playing(track.uri, 12.0):
                     started = True
                     break
@@ -195,6 +207,9 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
                 print(f"    ! playback died at start — re-playing ({outer}/2)")
                 continue
             break
+        drain = getattr(playback, "DRAIN_SEC", 0.0)
+        if drain and not stalled:
+            time.sleep(drain)  # let the buffered tail reach the capture before pausing
     finally:
         playback.pause()
         cap.stop()
@@ -220,7 +235,11 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
     # both ends — but the cut window must include watch_offset, or start-retry
     # dead time would push the track's tail past the window and clip it.
     seg = [Segment(track=track, start_sec=0.0, end_sec=watch_offset + dur + 30.0)]
-    written = split.split_master(tmp, seg, out_dir=flac_dir, pad=0.0, trim_silence=trim_silence)
+    # With a drained tail (Linux) the capture runs past the end into whatever Spotify
+    # plays next, so the cut is exact: first sound + the track's own length.
+    exact = dur if getattr(playback, "DRAIN_SEC", 0.0) else None
+    written = split.split_master(tmp, seg, out_dir=flac_dir, pad=0.0, trim_silence=trim_silence,
+                                 bits=getattr(capture, "BITS", 16), max_duration=exact)
     out = written[0] if written else None
     # A sane capture is at least half the API duration AND has no ≥10s silent
     # stretch (a stalled/dropped capture records silence that can pad the file
@@ -314,6 +333,8 @@ def record_missing(
                 failed.append(t)
     finally:
         playback.pause()
+        if hasattr(playback, "release"):
+            playback.release()
 
     if failed:
         print(f"\n  ! {len(failed)} track(s) failed — re-run with --skip-existing to retry:")

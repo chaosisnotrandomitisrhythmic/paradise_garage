@@ -3,7 +3,8 @@
 Each segment is extracted with ffmpeg and (by default) conservatively trimmed
 of the silent gaps we injected between tracks. The silence threshold is gentle
 (-60 dB) so it removes only true digital silence, not quiet musical intros/fades.
-Output is 16-bit FLAC to match the existing library.
+Output is 16-bit FLAC by default (the macOS tap captures); the Linux capture passes
+bits=24 so Spotify Lossless keeps its full depth.
 """
 
 import subprocess
@@ -29,6 +30,8 @@ def split_master(
     out_dir: Path = FLAC_DIR,
     pad: float = 0.5,
     trim_silence: bool = True,
+    bits: int = 16,
+    max_duration: float | None = None,
 ) -> list[str]:
     """Write one FLAC per segment. Returns the list of output paths."""
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -50,12 +53,17 @@ def split_master(
             "-t", f"{duration:.3f}",
             "-i", master_path,
         ]
-        if trim_silence:
+        if max_duration:
+            # exact cut: drop the lead-in silence, then keep exactly the track's length
+            cmd += ["-af", "silenceremove=start_periods=1:start_silence=0.05:start_threshold=-60dB,"
+                           f"atrim=end={max_duration:.3f}"]
+        elif trim_silence:
             cmd += ["-af", _silence_filter()]
         cmd += [
             "-ac", "2",
             "-ar", "44100",
-            "-sample_fmt", "s16",
+            "-sample_fmt", "s16" if bits == 16 else "s32",
+            *([] if bits == 16 else ["-bits_per_raw_sample", str(bits)]),
             "-c:a", "flac",
             "-compression_level", "8",
             str(out_path),
