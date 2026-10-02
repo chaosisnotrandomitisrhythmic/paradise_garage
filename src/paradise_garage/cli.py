@@ -277,6 +277,48 @@ def cmd_traktor(args: list[str]):
     print("\n  (dry run — nothing written)" if dry_run else "\n  collection.nml updated (backup made). Relaunch Traktor to see cues.")
 
 
+def cmd_mixxx(args: list[str]):
+    from .mixxx import DB, apply
+
+    dry_run = "--dry-run" in args
+    no_playlists = "--no-playlists" in args
+    db = DB
+    if "--db" in args:
+        db = Path(args[args.index("--db") + 1])
+    paths = [a for a in args if not a.startswith("--") and Path(a) != db]
+    if len(paths) != 1:
+        print("  Usage: pg mixxx <collection.nml> [--dry-run] [--no-playlists] [--db PATH]")
+        print("  Note: let Mixxx scan ~/Music/Library FIRST and quit it — pg only fills in")
+        print("        grid, key and cues on tracks Mixxx already has (matched by file name).")
+        return
+    try:
+        r = apply(Path(paths[0]), db=db, dry_run=dry_run, playlists=not no_playlists)
+    except RuntimeError as e:
+        print(f"  ERROR: {e}")
+        return
+
+    print(f"  updated {len(r['updated'])} track(s) "
+          f"({sum(u['cues'] for u in r['updated'])} cues)")
+    for label, key in [("not in Mixxx yet (scan first, or not synced)", "not_in_mixxx"),
+                       ("ambiguous file name (several Mixxx tracks)", "ambiguous"),
+                       ("no sample rate yet (let Mixxx finish scanning)", "no_samplerate"),
+                       ("no Traktor grid (Mixxx will analyze)", "no_grid"),
+                       ("several grid markers, first one used (check by ear)", "multi_grid")]:
+        if r[key]:
+            print(f"  ! {len(r[key])} {label}:")
+            for f in r[key][:15]:
+                print(f"      {f}")
+            if len(r[key]) > 15:
+                print(f"      ... and {len(r[key]) - 15} more")
+    for f, cues in r["skipped_cues"].items():
+        print(f"  ~ {f}: skipped {', '.join(cues)}")
+    for name, pl in r["playlists"].items():
+        miss = f", {pl['missing']} missing" if pl["missing"] else ""
+        print(f"  playlist {name}  ({pl['tracks']} tracks{miss})")
+    print("\n  (dry run — nothing written)" if dry_run
+          else f"\n  mixxxdb.sqlite updated (backup: {r['backup']}).")
+
+
 def cmd_search(args: list[str]):
     catalog = load_catalog()
     query = ""
@@ -332,6 +374,7 @@ def main():
         print("  pg harvest <playlist-url> [--name NAME]   (Radio/Mix ids the Web API 404s)")
         print('  pg capture "Artist" "Title" --duration MM:SS   (browser-sourced single track, e.g. SoundCloud)')
         print("  pg traktor <file.flac> [...] [--dry-run]   (grid-snapped cues; analyze in Traktor first)")
+        print("  pg mixxx <collection.nml> [--dry-run]   (Traktor grid/key/cues/playlists into Mixxx)")
         print("  pg ingest <file.flac> [file2.flac ...]")
         print("  pg ingest-all")
         print("  pg search [query] [--bpm 120-130] [--camelot 8A] [--playlist NAME]")
@@ -349,6 +392,8 @@ def main():
         cmd_capture(sys.argv[2:])
     elif cmd == "traktor":
         cmd_traktor(sys.argv[2:])
+    elif cmd == "mixxx":
+        cmd_mixxx(sys.argv[2:])
     elif cmd == "ingest":
         cmd_ingest(sys.argv[2:])
     elif cmd == "ingest-all":
