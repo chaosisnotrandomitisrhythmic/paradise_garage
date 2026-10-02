@@ -25,6 +25,7 @@
       "added": "2026-05-22T10:41:03.426484",
       "playlists": [
         "Bass Swap Drills — Paradise Garage",
+        "Caldas de Outariz Soft Landing",
         "Dirty Talk at the Paradise Garage"
       ]
     },
@@ -152,6 +153,7 @@
       "true_peak_dbtp": 0.5,
       "duration_sec": 318.7,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Crate Dig — WhatsApp Finds"
       ],
       "added": "2026-05-26T19:24:10.100850"
@@ -182,6 +184,7 @@
       "duration_sec": 444.1,
       "playlists": [
         "Bass Swap Drills — Paradise Garage",
+        "Caldas de Outariz Soft Landing",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-03T15:41:22.870821"
@@ -393,6 +396,7 @@
       "duration_sec": 454.4,
       "playlists": [
         "Bass Swap Drills — Paradise Garage",
+        "Caldas de Outariz Soft Landing",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:33:22.357652"
@@ -411,6 +415,7 @@
       "duration_sec": 335.9,
       "playlists": [
         "Bass Swap Drills — Paradise Garage",
+        "Caldas de Outariz Soft Landing",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-05T19:39:08.158358"
@@ -871,6 +876,7 @@
       "true_peak_dbtp": 0.0,
       "duration_sec": 262.4,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-06T14:07:15.150608"
@@ -991,6 +997,7 @@
       "true_peak_dbtp": -0.1,
       "duration_sec": 167.6,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Crate Dig — WhatsApp Finds",
         "Dirty Talk at the Paradise Garage"
       ],
@@ -1009,6 +1016,7 @@
       "true_peak_dbtp": 0.2,
       "duration_sec": 446.0,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-06T14:44:15.906678"
@@ -1077,6 +1085,7 @@
       "true_peak_dbtp": 0.0,
       "duration_sec": 395.6,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Dirty Talk at the Paradise Garage"
       ],
       "added": "2026-06-06T15:07:08.342826"
@@ -1418,6 +1427,7 @@
       "true_peak_dbtp": 0.8,
       "duration_sec": 469.3,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "house/g-house/chicago"
       ],
       "added": "2026-06-07T17:51:29.528940"
@@ -1688,6 +1698,7 @@
       "true_peak_dbtp": 0.5,
       "duration_sec": 784.6,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Crate Dig — WhatsApp Finds"
       ],
       "added": "2026-06-23T11:14:46.015938"
@@ -2266,6 +2277,7 @@
       "true_peak_dbtp": 0.6,
       "duration_sec": 159.1,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Crate Dig — WhatsApp Finds"
       ],
       "added": "2026-06-23T16:02:23.918104"
@@ -3065,6 +3077,7 @@
       "true_peak_dbtp": 0.4,
       "duration_sec": 484.7,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Crate Dig — WhatsApp Finds"
       ],
       "added": "2026-06-23T20:17:19.250632"
@@ -3456,6 +3469,7 @@
       "true_peak_dbtp": -0.2,
       "duration_sec": 357.6,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Crate Dig — WhatsApp Finds"
       ],
       "added": "2026-06-24T07:45:58.813935"
@@ -4138,6 +4152,7 @@
       "true_peak_dbtp": 0.4,
       "duration_sec": 298.1,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Feudal 2026",
         "Officer John"
       ],
@@ -4547,10 +4562,130 @@
       "true_peak_dbtp": 1.2,
       "duration_sec": 381.7,
       "playlists": [
+        "Caldas de Outariz Soft Landing",
         "Singles"
       ],
       "added": "2026-08-23T13:49:21.126671"
+    },
+    "Latour - People Are Still Having Sex.flac": {
+      "artist": "Latour",
+      "title": "People Are Still Having Sex",
+      "filename": "Latour - People Are Still Having Sex.flac",
+      "path": "/home/andreas/Music/Library/flac/Latour - People Are Still Having Sex.flac",
+      "bpm": 126.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "mid",
+      "lufs": -14.4,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 316.0,
+      "playlists": [
+        "Caldas de Outariz Soft Landing"
+      ],
+      "added": "2026-10-02T17:12:48.197658"
+    },
+    "Throbbing Gristle, Carl Craig - Hot On The Heels Of Love (Carl Craig Re-Version).flac": {
+      "artist": "Throbbing Gristle, Carl Craig",
+      "title": "Hot On The Heels Of Love (Carl Craig Re-Version)",
+      "filename": "Throbbing Gristle, Carl Craig - Hot On The Heels Of Love (Carl Craig Re-Version).flac",
+      "path": "/home/andreas/Music/Library/flac/Throbbing Gristle, Carl Craig - Hot On The Heels Of Love (Carl Craig Re-Version).flac",
+      "bpm": 120.2,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -12.1,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 542.0,
+      "playlists": [
+        "Caldas de Outariz Soft Landing"
+      ],
+      "added": "2026-10-02T17:33:30.099229"
+    },
+    "Psychic TV - Meet Every Situation Head On (Noise & Mista Luv Mix).flac": {
+      "artist": "Psychic TV",
+      "title": "Meet Every Situation Head On (Noise & Mista Luv Mix)",
+      "filename": "Psychic TV - Meet Every Situation Head On (Noise & Mista Luv Mix).flac",
+      "path": "/home/andreas/Music/Library/flac/Psychic TV - Meet Every Situation Head On (Noise & Mista Luv Mix).flac",
+      "bpm": 129.2,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 323.0,
+      "playlists": [
+        "Caldas de Outariz Soft Landing"
+      ],
+      "added": "2026-10-02T17:39:14.913826"
+    },
+    "Sedef Adasi - Mermaids On Acid.flac": {
+      "artist": "Sedef Adasi",
+      "title": "Mermaids On Acid",
+      "filename": "Sedef Adasi - Mermaids On Acid.flac",
+      "path": "/home/andreas/Music/Library/flac/Sedef Adasi - Mermaids On Acid.flac",
+      "bpm": 129.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 262.0,
+      "playlists": [
+        "Caldas de Outariz Soft Landing"
+      ],
+      "added": "2026-10-02T17:44:00.178079"
+    },
+    "Rozalla - Everybody's Free (Single Version).flac": {
+      "artist": "Rozalla",
+      "title": "Everybody's Free (Single Version)",
+      "filename": "Rozalla - Everybody's Free (Single Version).flac",
+      "path": "/home/andreas/Music/Library/flac/Rozalla - Everybody's Free (Single Version).flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 212.0,
+      "playlists": [
+        "Caldas de Outariz Soft Landing"
+      ],
+      "added": "2026-10-02T17:47:49.695772"
+    },
+    "The Nightwriters - Let The Music Use You.flac": {
+      "artist": "The Nightwriters",
+      "title": "Let The Music Use You",
+      "filename": "The Nightwriters - Let The Music Use You.flac",
+      "path": "/home/andreas/Music/Library/flac/The Nightwriters - Let The Music Use You.flac",
+      "bpm": 123.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -8.3,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 477.0,
+      "playlists": [
+        "Caldas de Outariz Soft Landing"
+      ],
+      "added": "2026-10-02T17:56:13.299440"
+    },
+    "Nuyorican Soul, Jocelyn Brown - It's Alright, I Feel It.flac": {
+      "artist": "Nuyorican Soul, Jocelyn Brown",
+      "title": "It's Alright, I Feel It",
+      "filename": "Nuyorican Soul, Jocelyn Brown - It's Alright, I Feel It.flac",
+      "path": "/home/andreas/Music/Library/flac/Nuyorican Soul, Jocelyn Brown - It's Alright, I Feel It.flac",
+      "bpm": 123.0,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -10.5,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 202.0,
+      "playlists": [
+        "Caldas de Outariz Soft Landing"
+      ],
+      "added": "2026-10-02T17:59:52.399019"
     }
   },
-  "updated": "2026-08-23T13:49:21.126741"
+  "updated": "2026-10-02T17:59:52.399067"
 }
