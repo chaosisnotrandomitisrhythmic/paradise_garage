@@ -9,6 +9,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 from pathlib import Path
 
 from . import split
@@ -37,6 +38,10 @@ def _ffprobe_duration(path: Path) -> float | None:
 
 
 def _norm(s: str) -> str:
+    # Fold accents first: macOS stores filenames decomposed (NFD), Spotify sends
+    # composed (NFC) titles, and without folding "ã" survives as "a" on one side
+    # and vanishes on the other, so --skip-existing re-records every such track.
+    s = "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
