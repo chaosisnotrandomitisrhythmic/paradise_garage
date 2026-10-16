@@ -53,6 +53,22 @@ def _client():
     return spotipy.Spotify(auth_manager=auth)
 
 
+def _app_client():
+    """App-only client (client credentials): search and track/album lookups need
+    no user consent, so no browser and the user token cache is left alone."""
+    import spotipy
+    from spotipy.oauth2 import SpotifyClientCredentials
+
+    client_id = os.environ.get("SPOTIFY_CLIENT_ID")
+    client_secret = os.environ.get("SPOTIFY_CLIENT_SECRET")
+    if not client_id or not client_secret:
+        raise RuntimeError(
+            "SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET not set in the environment "
+            "(they load from 1Password via op inject in ~/.zshrc)."
+        )
+    return spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id, client_secret))
+
+
 def parse_playlist_id(url_or_uri: str) -> str:
     """Accept a playlist URL, spotify:playlist: URI, or bare id."""
     s = url_or_uri.strip()
