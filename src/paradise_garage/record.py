@@ -11,7 +11,7 @@ import sys
 import time
 from pathlib import Path
 
-from . import split
+from . import enrich, split
 from .playback import Segment
 
 if sys.platform == "darwin":
@@ -19,7 +19,7 @@ if sys.platform == "darwin":
 else:  # Linux: PipeWire null-sink capture + MPRIS control
     from . import capture_linux as capture
     from . import playback_linux as playback
-from .spotify import Track, get_playlist_tracks, parse_playlist_id
+from .spotify import Track, get_playlist_tracks, parse_playlist_id, track_filename
 
 CAPTURE_DIR = Path.home() / ".cache" / "paradise_garage" / "captures"
 
@@ -323,6 +323,7 @@ def record_missing(
                 out = _capture_one(t, flac_dir)
                 if out:
                     cmd_ingest([out], playlist=name)  # ingest now → counts as 'have' on resume
+                    enrich.apply_known(out, t.uri)    # album, date, cover from Spotify
                     written.append(out)
                 else:
                     failed.append(t)
@@ -395,6 +396,7 @@ def record_manual(
     playlist: str | None = "SoundCloud",
     pad: float = 8.0,
     trim_silence: bool = True,
+    source: str = "soundcloud",
 ) -> str | None:
     """Capture one browser-sourced track into the FLAC library, then ingest it.
 
@@ -473,7 +475,7 @@ def record_manual(
         return None
 
     from .cli import cmd_ingest
-    cmd_ingest([out], playlist=playlist)
+    cmd_ingest([out], playlist=playlist, source=source)
     Path(tmp).unlink(missing_ok=True)
     print(f"\n  Done — {out}")
     return out
@@ -541,6 +543,11 @@ def record_playlist(
 
     print(f"\n  Splitting recording into {len(segments)} tracks…")
     written = split.split_master(master_path, segments, trim_silence=trim_silence)
+    # split_master skips failed segments, so map files back by the name contract
+    by_name = {track_filename(sg.track.artist, sg.track.title): sg.track.uri for sg in segments}
+    for out in written:
+        if Path(out).name in by_name:
+            enrich.apply_known(out, by_name[Path(out).name])
 
     if keep_master:
         print(f"\n  Master kept: {master_path}")
