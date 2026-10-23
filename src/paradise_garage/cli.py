@@ -608,6 +608,82 @@ def cmd_discogs(args: list[str]):
           else "  Rescan in Navidrome / re-import metadata in Mixxx to see it.")
 
 
+def cmd_cues(args: list[str]):
+    from .cues import DB, fmt_time, propose, write
+
+    dry_run = "--dry-run" in args
+    db = DB
+    if "--db" in args:
+        db = Path(args[args.index("--db") + 1])
+    names = [a for a in args if not a.startswith("--") and Path(a) != db]
+    if len(names) != 1:
+        print("  Usage: pg cues <mixxx-playlist-name> [--dry-run] [--db PATH]")
+        print("  Note: proposes IN / MIX IN / BREAK / MIX OUT as hot cues 1-4 on every track of the")
+        print("        playlist, snapped to the Mixxx grid. Replaces hot cues 1-4 and the main cue;")
+        print("        leaves slots 5+ alone. Quit Mixxx before writing (dry run works while it runs).")
+        return
+
+    def show(r):
+        cues = "  ".join(f"{c['label']}@{fmt_time(c['sec'])}" for c in r["cues"]) or f"- {r.get('reason', 'no cues')}"
+        print(f"  {r['pos']:2d}  {r['artist']} - {r['title']}  [{cues}]", flush=True)
+
+    proposals = propose(names[0], db=db, progress=show)
+    if not proposals:
+        print(f"  No Mixxx playlist matching '{names[0]}'.")
+        return
+    try:
+        rep = write(proposals, db=db, dry_run=dry_run)
+    except RuntimeError as e:
+        print(f"  ERROR: {e}")
+        return
+    print(f"\n  {rep['written']} track(s), {rep['cues']} cues" + (" (dry run — nothing written)" if dry_run
+          else f" written to mixxxdb.sqlite (backup: {rep['backup']}). Restart Mixxx to see them."))
+
+
+def cmd_grid(args: list[str]):
+    from .grid import DB, measure, write
+
+    dry_run = "--dry-run" in args
+    do_write = "--write" in args
+    db = DB
+    if "--db" in args:
+        db = Path(args[args.index("--db") + 1])
+    words = [a for a in args if not a.startswith("--") and Path(a) != db]
+    ids = [int(w) for w in words if w.isdigit()]
+    names = [w for w in words if not w.isdigit()]
+    if len(names) + (1 if ids else 0) != 1:
+        print("  Usage: pg grid <mixxx-playlist-name> | <track-id ...>  [--write] [--dry-run] [--db PATH]")
+        print("  Note: measures exact BPM and kick phase per track and compares with the Mixxx grid.")
+        print("        --write replaces the grids that are off (BPM locked afterwards). Quit Mixxx first.")
+        return
+
+    def show(r):
+        if "bpm_err" not in r:
+            print(f"  {r['id']:4d}  {r['artist']} - {r['title']}  - {r['reason']}", flush=True)
+            return
+        flag = "??  " if r["uncertain"] else "OFF " if r["off"] else "ok  "
+        err = "no grid" if r["anchor_err_beats"] is None else f"anchor {r['anchor_err_beats']:.2f} beats off"
+        print(f"  {flag} {r['artist']} - {r['title']}  stored {r['bpm_db'] if 'bpm_db' in r else r['bpm']:.3f}"
+              f"  measured {r['bpm']:.3f} ({r['bpm_err']:+.3f})  {err}  conf {r['concentration']:.2f}"
+              f"  drift {r['drift_beats']:.2f}", flush=True)
+
+    results = measure(names[0] if names else None, ids, db=db, progress=show)
+    if not results:
+        print("  Nothing matched.")
+        return
+    n_off = sum(1 for r in results if r.get("off") and not r.get("uncertain"))
+    n_unc = sum(1 for r in results if r.get("uncertain"))
+    print(f"\n  {n_off} of {len(results)} grid(s) off and fixable; {n_unc} too uncertain to touch (??: live drums or tempo drift).")
+    if do_write or dry_run:
+        try:
+            rep = write(results, db=db, dry_run=dry_run)
+        except RuntimeError as e:
+            print(f"  ERROR: {e}")
+            return
+        print(f"  {len(rep['written'])} grid(s) " + ("would be rewritten (dry run)." if dry_run
+              else f"rewritten and BPM-locked (backup: {rep.get('backup')}). Restart Mixxx to see them."))
+
+
 def cmd_list():
     catalog = load_catalog()
     if not catalog["tracks"]:
@@ -629,6 +705,8 @@ def main():
         print("  pg enrich <file.flac ...|--all> [--apply]   (album, date, cover art from Spotify)")
         print("  pg discogs pull|push|find|tag ...   (your records on Discogs <-> the library)")
         print("  pg source <spotify|vinyl|soundcloud|...> <file.flac ...>")
+        print("  pg cues <mixxx-playlist> [--dry-run]   (IN/MIX IN/BREAK/MIX OUT hot cues 1-4 into Mixxx)")
+        print("  pg grid <mixxx-playlist>|<id...> [--write]   (check/repair beat grids from the kick drum)")
         print("  pg ingest <file.flac ...> [--playlist NAME] [--source vinyl] [--discogs ID --pos A2]")
         print("  pg ingest-all")
         print("  pg search [query] [--bpm 120-130] [--camelot 8A] [--playlist NAME]")
@@ -654,6 +732,10 @@ def main():
         cmd_discogs(sys.argv[2:])
     elif cmd == "source":
         cmd_source(sys.argv[2:])
+    elif cmd == "cues":
+        cmd_cues(sys.argv[2:])
+    elif cmd == "grid":
+        cmd_grid(sys.argv[2:])
     elif cmd == "ingest":
         cmd_ingest_args(sys.argv[2:])
     elif cmd == "ingest-all":
