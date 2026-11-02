@@ -258,7 +258,10 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
                 ["ffmpeg", "-hide_banner", "-i", out,
                  "-af", "silencedetect=noise=-50dB:d=10", "-f", "null", "-"],
                 capture_output=True, text=True)
-            if "silence_start" in sil.stderr:
+            # a silent outro that runs to the end of the file is the master, not a
+            # dropout (stalls are caught by the position watch above)
+            ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", sil.stderr)]
+            if any(e < d - 1.0 for e in ends):
                 reason = "contains a ≥10s silent stretch (stall/dropout)"
         if reason:
             print(f"    ! capture failed ({reason}) — removing stub, keeping {tmp}")
