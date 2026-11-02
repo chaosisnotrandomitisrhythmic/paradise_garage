@@ -31,25 +31,57 @@ def ensure_sink():
     _pactl("set-sink-volume", SINK, "100%")
 
 
-def _spotify_inputs() -> list[int]:
+_muted_speakers: str | None = None  # the output we muted, so release() can unmute it
+
+
+def _spotify_inputs() -> list[dict]:
     inputs = json.loads(_pactl("-f", "json", "list", "sink-inputs"))
-    return [s["index"] for s in inputs if s["properties"].get("application.name") == "Spotify"]
+    return [s for s in inputs if s["properties"].get("application.name") == "Spotify"]
+
+
+def _sink_index(name: str) -> int | None:
+    for line in _pactl("list", "short", "sinks").splitlines():
+        cols = line.split("\t")
+        if len(cols) > 1 and cols[1] == name:
+            return int(cols[0])
+    return None
+
+
+def mute_speakers():
+    """Mute the default output for the session. Spotify plays on it for a moment
+    before its stream can be moved, and the capture reads pg_capture, not this."""
+    global _muted_speakers
+    default = _pactl("get-default-sink").strip()
+    if default == SINK or _muted_speakers:
+        return
+    if "yes" not in _pactl("get-sink-mute", default):
+        _pactl("set-sink-mute", default, "1")
+        _muted_speakers = default
 
 
 def route_spotify() -> bool:
-    """Move Spotify's stream onto the capture sink at 100% volume. False if Spotify has no stream yet."""
+    """Move Spotify's stream onto the capture sink at 100% volume. False if Spotify has no stream yet.
+
+    Spotify opens a new stream after a pause/resume, and the new one lands on the
+    default output, so this is called throughout a capture, not once."""
     found = _spotify_inputs()
-    for idx in found:
-        _pactl("move-sink-input", str(idx), SINK)
-        _pactl("set-sink-input-volume", str(idx), "100%")
+    target = _sink_index(SINK)
+    for s in found:
+        if s.get("sink") != target:
+            _pactl("move-sink-input", str(s["index"]), SINK)
+            _pactl("set-sink-input-volume", str(s["index"]), "100%")
     return bool(found)
 
 
 def release():
     """Send Spotify back to the default output so normal listening is audible again."""
+    global _muted_speakers
     default = _pactl("get-default-sink").strip()
-    for idx in _spotify_inputs():
-        _pactl("move-sink-input", str(idx), default)
+    for s in _spotify_inputs():
+        _pactl("move-sink-input", str(s["index"]), default)
+    if _muted_speakers:
+        _pactl("set-sink-mute", _muted_speakers, "0")
+        _muted_speakers = None
 
 
 @dataclass

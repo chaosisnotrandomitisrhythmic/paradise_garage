@@ -44,6 +44,7 @@ def _running() -> bool:
 
 def ensure_running():
     capture_linux.ensure_sink()  # must exist before Spotify opens a stream, or audio hits the speakers
+    capture_linux.mute_speakers()  # silent session; release() unmutes
     if _running():
         return
     launcher = ["uwsm-app", "--", "spotify"] if shutil.which("uwsm-app") else ["spotify"]
@@ -104,6 +105,7 @@ def _wait_until_playing(uri: str, timeout: float) -> bool:
     deadline = time.monotonic() + timeout
     while time.monotonic() < deadline:
         if current_uri() == uri and "playing" in state():
+            capture_linux.route_spotify()  # a resumed stream opens on the speakers
             return True
         time.sleep(0.15)
     return False

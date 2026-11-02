@@ -4685,7 +4685,177 @@
         "Caldas de Outariz Soft Landing"
       ],
       "added": "2026-10-02T17:59:52.399019"
+    },
+    "The Dice Man - Polygon Window.flac": {
+      "artist": "The Dice Man",
+      "title": "Polygon Window",
+      "filename": "The Dice Man - Polygon Window.flac",
+      "path": "/home/andreas/Music/Library/flac/The Dice Man - Polygon Window.flac",
+      "bpm": 132.5,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -16.6,
+      "true_peak_dbtp": -1.3,
+      "duration_sec": 312.2,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:29:05.046173"
+    },
+    "Musicology - Telefone 529.flac": {
+      "artist": "Musicology",
+      "title": "Telefone 529",
+      "filename": "Musicology - Telefone 529.flac",
+      "path": "/home/andreas/Music/Library/flac/Musicology - Telefone 529.flac",
+      "bpm": 126.0,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "mid",
+      "lufs": -17.2,
+      "true_peak_dbtp": -0.5,
+      "duration_sec": 250.6,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:33:31.637123"
+    },
+    "Autechre - Crystel.flac": {
+      "artist": "Autechre",
+      "title": "Crystel",
+      "filename": "Autechre - Crystel.flac",
+      "path": "/home/andreas/Music/Library/flac/Autechre - Crystel.flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -15.0,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 277.4,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:38:25.132743"
+    },
+    "I.A.O - The Clan.flac": {
+      "artist": "I.A.O",
+      "title": "The Clan",
+      "filename": "I.A.O - The Clan.flac",
+      "path": "/home/andreas/Music/Library/flac/I.A.O - The Clan.flac",
+      "bpm": 132.5,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -17.3,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 307.8,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:43:49.836003"
+    },
+    "Speedy J - De-Orbit.flac": {
+      "artist": "Speedy J",
+      "title": "De-Orbit",
+      "filename": "Speedy J - De-Orbit.flac",
+      "path": "/home/andreas/Music/Library/flac/Speedy J - De-Orbit.flac",
+      "bpm": 105.5,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -19.0,
+      "true_peak_dbtp": -3.1,
+      "duration_sec": 372.6,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:50:21.216512"
+    },
+    "Musicology - Preminition.flac": {
+      "artist": "Musicology",
+      "title": "Preminition",
+      "filename": "Musicology - Preminition.flac",
+      "path": "/home/andreas/Music/Library/flac/Musicology - Preminition.flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -14.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 244.1,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:54:40.791803"
+    },
+    "Up! - Spiritual High.flac": {
+      "artist": "Up!",
+      "title": "Spiritual High",
+      "filename": "Up! - Spiritual High.flac",
+      "path": "/home/andreas/Music/Library/flac/Up! - Spiritual High.flac",
+      "bpm": 136.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -18.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 462.3,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:02:47.878012"
+    },
+    "Autechre - The Egg.flac": {
+      "artist": "Autechre",
+      "title": "The Egg",
+      "filename": "Autechre - The Egg.flac",
+      "path": "/home/andreas/Music/Library/flac/Autechre - The Egg.flac",
+      "bpm": 147.7,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -20.0,
+      "true_peak_dbtp": -3.3,
+      "duration_sec": 453.7,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:10:43.730600"
+    },
+    "Speedy J - Fill 3.flac": {
+      "artist": "Speedy J",
+      "title": "Fill 3",
+      "filename": "Speedy J - Fill 3.flac",
+      "path": "/home/andreas/Music/Library/flac/Speedy J - Fill 3.flac",
+      "bpm": 103.4,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -18.2,
+      "true_peak_dbtp": -3.3,
+      "duration_sec": 223.3,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:14:41.933662"
+    },
+    "Dr Alex Paterson - Loving You Live.flac": {
+      "artist": "Dr Alex Paterson",
+      "title": "Loving You Live",
+      "filename": "Dr Alex Paterson - Loving You Live.flac",
+      "path": "/home/andreas/Music/Library/flac/Dr Alex Paterson - Loving You Live.flac",
+      "bpm": 123.0,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "mid",
+      "lufs": -16.2,
+      "true_peak_dbtp": -2.6,
+      "duration_sec": 240.0,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:18:57.474984"
     }
   },
-  "updated": "2026-10-02T17:59:52.399067"
+  "updated": "2026-11-02T10:18:57.475026"
 }
