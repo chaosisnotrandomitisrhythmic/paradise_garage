@@ -163,6 +163,8 @@ def _capture_one(track, flac_dir: Path, trim_silence: bool = True) -> str | None
             last_pos, last_advance = -1.0, time.monotonic()
             while time.monotonic() < deadline:
                 time.sleep(0.25)
+                if hasattr(capture, "route_spotify"):
+                    capture.route_spotify()  # Linux: keep Spotify on the silent sink
                 cur = playback.current_uri()
                 pos = playback.position()
                 st = playback.state()
