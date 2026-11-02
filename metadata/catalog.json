@@ -5280,7 +5280,160 @@
         "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
       ],
       "added": "2026-11-02T18:18:41.401305"
+    },
+    "Silas & Snare Surgeon - Expansion.flac": {
+      "artist": "Silas & Snare Surgeon",
+      "title": "Expansion",
+      "filename": "Silas & Snare Surgeon - Expansion.flac",
+      "path": "/home/andreas/Music/Library/flac/Silas & Snare Surgeon - Expansion.flac",
+      "bpm": 178.2,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 165.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:09:37.804947"
+    },
+    "Machinedrum - Tarot Beat.flac": {
+      "artist": "Machinedrum",
+      "title": "Tarot Beat",
+      "filename": "Machinedrum - Tarot Beat.flac",
+      "path": "/home/andreas/Music/Library/flac/Machinedrum - Tarot Beat.flac",
+      "bpm": 161.5,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "mid",
+      "lufs": -18.1,
+      "true_peak_dbtp": null,
+      "duration_sec": 120.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:10:03.284570"
+    },
+    "Champion & Four Tet - Disparate.flac": {
+      "artist": "Champion & Four Tet",
+      "title": "Disparate",
+      "filename": "Champion & Four Tet - Disparate.flac",
+      "path": "/home/andreas/Music/Library/flac/Champion & Four Tet - Disparate.flac",
+      "bpm": 129.2,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -16.7,
+      "true_peak_dbtp": -1.1,
+      "duration_sec": 370.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:10:45.050096"
+    },
+    "Voodoo Dredd vs Ali G - Keep It Real.flac": {
+      "artist": "Voodoo Dredd vs Ali G",
+      "title": "Keep It Real",
+      "filename": "Voodoo Dredd vs Ali G - Keep It Real.flac",
+      "path": "/home/andreas/Music/Library/flac/Voodoo Dredd vs Ali G - Keep It Real.flac",
+      "bpm": 136.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -19.3,
+      "true_peak_dbtp": -1.0,
+      "duration_sec": 408.5,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:11:29.011387"
+    },
+    "Wen - Hailstones.flac": {
+      "artist": "Wen",
+      "title": "Hailstones",
+      "filename": "Wen - Hailstones.flac",
+      "path": "/home/andreas/Music/Library/flac/Wen - Hailstones.flac",
+      "bpm": 178.2,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -13.8,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 238.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:12:25.290256"
+    },
+    "Reservoir Dogs - Buddah Finger.flac": {
+      "artist": "Reservoir Dogs",
+      "title": "Buddah Finger",
+      "filename": "Reservoir Dogs - Buddah Finger.flac",
+      "path": "/home/andreas/Music/Library/flac/Reservoir Dogs - Buddah Finger.flac",
+      "bpm": 107.7,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 335.8,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:13:02.731331"
+    },
+    "Oris Jay, MC Rankin - Biggin Up The Massive.flac": {
+      "artist": "Oris Jay, MC Rankin",
+      "title": "Biggin Up The Massive",
+      "filename": "Oris Jay, MC Rankin - Biggin Up The Massive.flac",
+      "path": "/home/andreas/Music/Library/flac/Oris Jay, MC Rankin - Biggin Up The Massive.flac",
+      "bpm": 136.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "low",
+      "lufs": -22.9,
+      "true_peak_dbtp": -4.3,
+      "duration_sec": 343.8,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:13:40.994866"
+    },
+    "DJ Mondie - Straight (Instrumental).flac": {
+      "artist": "DJ Mondie",
+      "title": "Straight (Instrumental)",
+      "filename": "DJ Mondie - Straight (Instrumental).flac",
+      "path": "/home/andreas/Music/Library/flac/DJ Mondie - Straight (Instrumental).flac",
+      "bpm": 94.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 175.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:14:06.025363"
+    },
+    "Mala - Neverland.flac": {
+      "artist": "Mala",
+      "title": "Neverland",
+      "filename": "Mala - Neverland.flac",
+      "path": "/home/andreas/Music/Library/flac/Mala - Neverland.flac",
+      "bpm": 94.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 345.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:14:56.039183"
     }
   },
-  "updated": "2026-11-02T18:18:41.401466"
+  "updated": "2026-11-02T19:14:56.039327"
 }
