@@ -19,7 +19,7 @@ The full 48-track list from the NTS API, with where each track can be heard and 
 
 | # | Track | Where | Match |
 |---|---|---|---|
-| 1 | Pepe Bradock – Deep Burnt | [Discogs](https://www.discogs.com/search/?q=Pepe+Bradock+Deep+Burnt&type=release) | 💿 vinyl only (Kif 1999, Atavisme *Deep Burnt Edits* 2015); the Bandcamp page is gone |
+| 1 | Pepe Bradock – Deep Burnt | [Discogs](https://www.discogs.com/search/?q=Pepe+Bradock+Deep+Burnt&type=release) | 💿 vinyl only (Kif 1999, Atavisme *Deep Burnt Edits* 2015); the Bandcamp page is gone. Study copy in `study/` from [this upload](https://youtu.be/QTvFzBS6e68) (Opus 129 kbps, content to ~19 kHz) |
 | 2 | Butch – No Worries | [Spotify](https://open.spotify.com/track/1QortQiLiFwl1F6uQboK9M) | ✅ |
 | 3 | Cooly G – Booboo | [Spotify](https://open.spotify.com/track/3pExThAeaXcCZYhfpVBMY8) | ✅ |
 | 4 | Silas & Snare Surgeon – Expansion | [YouTube](https://youtu.be/kXGTswuAwp0) | 📼 2:46 upload, possibly cut; a dub, also in their [Fabric x Hit & Run mix](https://www.fabriclondon.com/blog/view/audio-silas-snare-surgeon-fabriclive-x-hit-run-mix-nov-2014) |

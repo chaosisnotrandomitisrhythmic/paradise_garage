@@ -5263,7 +5263,24 @@
         "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
       ],
       "added": "2026-11-02T12:37:42.856171"
+    },
+    "Pepe Bradock - Deep Burnt.flac": {
+      "artist": "Pepe Bradock",
+      "title": "Deep Burnt",
+      "filename": "Pepe Bradock - Deep Burnt.flac",
+      "path": "/home/andreas/Music/Library/study/Pepe Bradock - Deep Burnt.flac",
+      "bpm": 126.0,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -14.9,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 668.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T18:18:41.401305"
     }
   },
-  "updated": "2026-11-02T12:37:42.856251"
+  "updated": "2026-11-02T18:18:41.401466"
 }
