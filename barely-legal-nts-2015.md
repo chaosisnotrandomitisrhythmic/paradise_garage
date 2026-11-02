@@ -8,7 +8,7 @@ title: Barely Legal, Stray & MC Grindah — NTS, 25 Sep 2015
 A study mix: two hours of grime, garage, dubstep, footwork and jungle from Barely Legal's NTS show, with a guest mix from Stray and a call-in from Kurupt FM's MC Grindah. The goal is to rebuild this mix track by track and learn to DJ the style.
 
 - **Episode:** [nts.live](https://www.nts.live/shows/guests/episodes/barely-legal-25th-september-2015) · [Mixcloud](https://www.mixcloud.com/NTSRadio/barely-legal-25th-september-2015/)
-- **Playlist:** [Spotify (22 of 48, in mix order)](https://open.spotify.com/playlist/7xXmHSwNFgdXLUiNs77DaK)
+- **Playlist:** [Spotify (24 of 48)](https://open.spotify.com/playlist/7xXmHSwNFgdXLUiNs77DaK): the first 22 in mix order, then #42 and #44, found later
 - **Data:** [`metadata/nts-barely-legal-2015-09-25.csv`](https://github.com/chaosisnotrandomitisrhythmic/paradise_garage/blob/master/metadata/nts-barely-legal-2015-09-25.csv)
 
 ## Tracklist
@@ -19,10 +19,10 @@ The full 48-track list from the NTS API, with where each track can be heard and 
 
 | # | Track | Where | Match |
 |---|---|---|---|
-| 1 | Pepe Bradock – Deep Burnt | [Bandcamp](https://balanceseries.bandcamp.com/track/deep-burnt) | ≈ compilation version |
+| 1 | Pepe Bradock – Deep Burnt | [Discogs](https://www.discogs.com/search/?q=Pepe+Bradock+Deep+Burnt&type=release) | 💿 vinyl only (Kif 1999, Atavisme *Deep Burnt Edits* 2015); the Bandcamp page is gone |
 | 2 | Butch – No Worries | [Spotify](https://open.spotify.com/track/1QortQiLiFwl1F6uQboK9M) | ✅ |
 | 3 | Cooly G – Booboo | [Spotify](https://open.spotify.com/track/3pExThAeaXcCZYhfpVBMY8) | ✅ |
-| 4 | Silas & Snare Surgeon – Expansion | — | ❌ not found |
+| 4 | Silas & Snare Surgeon – Expansion | [YouTube](https://youtu.be/kXGTswuAwp0) | 📼 2:46 upload, possibly cut; a dub, also in their [Fabric x Hit & Run mix](https://www.fabriclondon.com/blog/view/audio-silas-snare-surgeon-fabriclive-x-hit-run-mix-nov-2014) |
 | 5 | Teedra Moses – No More Tears | [Spotify](https://open.spotify.com/track/6DIFZpvD9gGTNyN4enzH7b) | ✅ |
 | 6 | Beneath – Golden Age | [Bandcamp](https://nosymbols.bandcamp.com/album/no-symbols-001-006) | ✅ on the album |
 | 7 | Caski – Overgrown | [Bandcamp](https://4seasonsmusic.bandcamp.com/track/overgrown) | ✅ |
@@ -50,33 +50,33 @@ The full 48-track list from the NTS API, with where each track can be heard and 
 | 29 | Missy Elliott ft. 702 – Beep Me 911 | [Spotify](https://open.spotify.com/track/75rHwPWN95Aklvn2xNul9q) | ✅ |
 | 30 | Beneath – Still Hurts | [Bandcamp](https://nosymbols.bandcamp.com/track/still-hurts) | ✅ |
 | 31 | Antonio – Hyperfunk (Vocal Mix) | [Spotify](https://open.spotify.com/track/7dDBPFMmAugiDNMUHcc8ia) | ≈ version not labelled |
-| 32 | Champion + Four Tet – Disperate | [SoundCloud](https://soundcloud.com/four-tet/champion-four-tet-disparate-text039b) | ✅ |
+| 32 | Champion + Four Tet – Disparate | [Discogs](https://www.discogs.com/search/?q=Four+Tet+Champion+Disparate&type=release) | 💿 vinyl only (Text TEXT039, 2016); the SoundCloud upload is gone |
 | 33 | Pearson Sound – Untitled | — | ⬜ untitled |
 | 34 | Mella Dee – Keep On | [Spotify](https://open.spotify.com/track/6KTyBYHd5REsmeXfIwEO1A) | ✅ |
 | 35 | Oris Jay, MC Rankin – Biggin Up The Massive | [Discogs](https://www.discogs.com/release/106018-Oris-Jay-Featuring-MC-Rankin-Biggin-Up-The-Massive) | 💿 vinyl only |
 | 36 | Lorenzo – Guava VIP | [Spotify](https://open.spotify.com/track/5MXwSG3Ar2GTCA88l56KDb) | ✅ |
 | 37 | Unknown Artist – Untitled | — | ⬜ untitled |
 | 38 | Unknown Artist – Untitled | — | ⬜ untitled |
-| 39 | Modern Machines – Feel It (Hectic Remix) | — | ❌ only the radio edit exists on Spotify |
+| 39 | Modern Machines – Feel It (Hectic Remix) | — | ❌ not found; the Modern Machines online (Showland 2015, progressive house) is probably a different act |
 | 40 | Faze Miyake ft. Little Simz – The Nest | [Spotify](https://open.spotify.com/track/0oALGcgYU7plcXIQOgNg3j) | ✅ |
 | 41 | DJ Mondie – Straight (Instrumental) | [Discogs](https://www.discogs.com/release/1296393-DJ-Mondie-Straight) | 💿 vinyl only |
-| 42 | Stormzy – WSM4 | [YouTube](https://www.youtube.com/watch?v=QfRJyt3gTzo) | 📼 freestyle |
+| 42 | Stormzy – WSM4 | [Spotify](https://open.spotify.com/track/0A5WqVkhofB9nBPjEBB82N) | ✅ as WickedSkengMan 4 |
 | 43 | Digital Mystikz – Neverland | [Discogs](https://www.discogs.com/release/516123-Digital-Mystikz-Neverland-Stuck) | 💿 vinyl only |
-| 44 | Greame S – Magick (X Fazia) | — | ❌ not found |
+| 44 | Greame S – Magick (X Fazia) | [Spotify](https://open.spotify.com/track/2EFOln0nWuf0hhS6VAJa9K) | ✅ Graeme S, Faiza – Magick (NTS misspells both names) |
 | 45 | Etch – Spider Leg Shuffle | [Spotify](https://open.spotify.com/track/6Gh4ETXTSjhaKVUJsmkwSE) | ✅ |
 | 46 | Dizzee Rascal – Do It | [Spotify](https://open.spotify.com/track/0XSZQtBgwQSH4W9NPG5PAT) | ✅ |
 | 47 | Biome – Shallow | [Bandcamp](https://biome.bandcamp.com/album/lost-dubs-v3-140-170) | ✅ on the album |
-| 48 | Voodoo Dredd vs Ali G – Keep It Real | [SoundCloud](https://soundcloud.com/hans-r-28/keep-it-real) | 📼 upload |
+| 48 | Voodoo Dredd vs Ali G – Keep It Real | [YouTube](https://youtu.be/2kKY-uLASkw) | 📼 upload, 6:51; [SoundCloud](https://soundcloud.com/hans-r-28/keep-it-real) too |
 
-**Totals:** 22 on Spotify · 7 Bandcamp · 1 SoundCloud (Four Tet's own account) · 4 unofficial uploads · 4 vinyl only · 7 not found · 4 untitled.
+**Totals:** 24 on Spotify · 5 Bandcamp · 4 unofficial uploads · 6 vinyl only · 5 not found · 4 untitled.
 
-> The Bandcamp, SoundCloud, YouTube and Discogs links come from search results and haven't been opened one by one. Check each before buying.
+> The Bandcamp pages and YouTube uploads were checked on 2 Nov 2026. The Discogs links come from search results; check each before buying.
 
 ## Getting the records
 
-1. **Bandcamp first:** buy the seven Bandcamp tracks as WAV or FLAC. They are the real releases.
-2. **Vinyl:** 27, 35, 41 and 43 only ever came out on vinyl. Look for them on Discogs.
-3. **Not found:** 4, 12, 15, 18, 25 and 44 were probably dubs in 2015. Check the artists' Bandcamp and SoundCloud pages, or ask them directly.
+1. **Bandcamp first:** buy the five Bandcamp tracks (6, 7, 22, 30, 47) as WAV or FLAC. They are the real releases.
+2. **Vinyl:** 1, 27, 32, 35, 41 and 43 are only on vinyl. Look for them on Discogs.
+3. **Not found:** 12, 15, 18, 25 and 39 are on no store, SoundCloud or YouTube page (searched 2 Nov 2026); they were probably dubs in 2015. Asking the artists is what's left.
 
 ## Learning the style
 
