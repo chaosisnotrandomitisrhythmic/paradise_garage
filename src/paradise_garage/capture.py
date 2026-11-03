@@ -17,6 +17,8 @@ from pathlib import Path
 APP_PATH = Path(__file__).parent.parent.parent / "native" / "SpotifyTap.app"
 # pgrep/pkill match string for the running helper process
 PROC_MATCH = "SpotifyTap.app/Contents/MacOS/spotify-tap"
+# The tap writes Float32, so 24-bit FLAC keeps Spotify Lossless at its full depth.
+BITS = 24
 
 
 @dataclass
