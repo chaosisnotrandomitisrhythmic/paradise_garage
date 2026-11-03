@@ -72,6 +72,8 @@ The full 48-track list from the NTS API, with where each track can be heard and 
 
 **In the library:** the 25 Spotify tracks, recorded lossless, and study copies of the 4 uploads and the 5 vinyl-only records, taken from the YouTube upload with the most high end and tagged `source=youtube` (about 130 kbps, so below the rest of the library: fine to learn the mix, replace them with the records to play out).
 
+The episode itself is in the library too, as `Barely Legal, Stray & MC Grindah - NTS 25 Sep 2015.flac`: Mixcloud's 70 kbps AAC, the only stream NTS offers, tagged `source=mixcloud` with the URL. It is there to study the blends against the tracks, not to play out.
+
 > The Bandcamp pages and YouTube uploads were checked on 2 Nov 2026. The Discogs links come from search results; check each before buying.
 
 ## Getting the records
@@ -79,6 +81,26 @@ The full 48-track list from the NTS API, with where each track can be heard and 
 1. **Bandcamp first:** buy the five Bandcamp tracks (6, 7, 22, 30, 47) as WAV or FLAC. They are the real releases.
 2. **Vinyl:** 1, 27, 32, 35 and 41 are only on vinyl. Look for them on Discogs.
 3. **Not found:** 12, 15, 18, 25 and 39 are on no store, SoundCloud or YouTube page (searched 2 Nov 2026); they were probably dubs in 2015. Asking the artists is what's left.
+
+## The blends
+
+Timings are in the episode file; Deep Burnt starts at 0:07 after the ident. Found by aligning the library copies against the mix (log-mel correlation, then per-band resemblance every 2 s), so the EQ moves are inferred from what is audible, not from knob positions. Good to about a second.
+
+### #1 Deep Burnt → #2 No Worries
+
+The mix runs at about 125.3 BPM: Deep Burnt (125.0) pitched up a quarter of a percent, No Worries (126.0) pitched down half a percent.
+
+| Mix time | What happens |
+|---|---|
+| 4:30 | No Worries dropped from its first beat, on the beat, with Deep Burnt 4:23 in (around bar 138). Only its hats and percussion register; its own intro has almost no bass for 16 bars anyway |
+| 4:30–4:56 | Deep Burnt carries the mix; No Worries' top end sits on top of it |
+| 4:56 | Deep Burnt's bass cut: two bars with about 10 dB less low end |
+| 5:00 | No Worries' kick and bassline arrive (bar 17 of the track, its own arrangement) and own the low end from here; the mix ends up about 3 dB heavier in the bass than before |
+| 5:00–5:52 | No Worries' drums and bass under Deep Burnt's pads and highs. No Worries' mids do not register at all in this stretch |
+| 5:56–6:02 | Deep Burnt's mids and highs fade out, No Worries' mids come up; by 6:02 No Worries is alone, landing on its own breakdown at bar 49 |
+| 6:08 | Deep Burnt gone |
+
+About 96 seconds, 50 bars: hats first, a bass swap with a two-bar gap, half a minute of the new track's rhythm section under the old track's music, then the mids handed over right as the new track breaks down. The breakdown is the landing point.
 
 ## Learning the style
 

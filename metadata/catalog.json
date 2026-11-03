@@ -5433,7 +5433,24 @@
         "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
       ],
       "added": "2026-11-02T19:14:56.039183"
+    },
+    "Barely Legal, Stray & MC Grindah - NTS 25 Sep 2015.flac": {
+      "artist": "Barely Legal, Stray & MC Grindah",
+      "title": "NTS 25 Sep 2015",
+      "filename": "Barely Legal, Stray & MC Grindah - NTS 25 Sep 2015.flac",
+      "path": "/home/andreas/Music/Library/flac/Barely Legal, Stray & MC Grindah - NTS 25 Sep 2015.flac",
+      "bpm": 129.2,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -15.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 7123.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-03T16:46:38.959723"
     }
   },
-  "updated": "2026-11-02T19:14:56.039327"
+  "updated": "2026-11-03T16:46:38.959766"
 }
