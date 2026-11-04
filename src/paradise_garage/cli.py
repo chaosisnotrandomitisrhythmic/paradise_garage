@@ -8,7 +8,7 @@ from .tag import parse_filename, write_tags, read_tags
 from .catalog import load_catalog, save_catalog, add_track, search_catalog
 
 
-SOURCES = ("spotify", "vinyl", "soundcloud", "bandcamp", "cd", "own", "other")
+SOURCES = ("spotify", "vinyl", "soundcloud", "bandcamp", "youtube", "mixcloud", "cd", "own", "other")
 
 
 def cmd_ingest(paths: list[str], playlist: str = None, source: str = None,
