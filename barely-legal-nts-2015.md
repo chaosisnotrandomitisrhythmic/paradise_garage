@@ -11,6 +11,22 @@ A study mix: two hours of grime, garage, dubstep, footwork and jungle from Barel
 - **Playlist:** [Spotify (25 of 48)](https://open.spotify.com/playlist/7xXmHSwNFgdXLUiNs77DaK): the first 22 in mix order, then #42, #44 and #43, found later
 - **Data:** [`metadata/nts-barely-legal-2015-09-25.csv`](https://github.com/chaosisnotrandomitisrhythmic/paradise_garage/blob/master/metadata/nts-barely-legal-2015-09-25.csv)
 
+## Who is Barely Legal
+
+Chloé Robinson, from Birmingham, born around 1992. Her mum played UK garage at home, and she was listening to grime from about 2003. She moved to London in 2009 for university, went to FWD>> and DMZ on her own ("the enthusiastic loner that I am") and absorbed Rinse FM, which she names as the biggest shaping influence. A friend from Deep Medi pushed her to buy decks in her second year; she spent her rent money on a pair of Technics. The name came first: a man in London guessed her age and called her "Barely Legal" when she had just turned 16, and she put it on her first mix in 2011, at 19.
+
+The break was radio. Her first recorded mix got her a two-year residency on MistaJam's BBC 1Xtra show (the Daily Dose mixes), Wiley booked her for Eskimo Dance and MC'd over one of the Daily Dose mixes, and from there came Rinse FM, NTS (this episode), Just Jam, Boiler Room, Fabric and three years running at Warehouse Project. By 2016 she was doing twenty festivals a year and three to five shows a week. Kurupt FM's MC Grindah and Big Narstie championed her, which is why he calls in here. In 2017 she started the label Pretty Weird, whose first release got played by Four Tet and Jamie xx on an Essential Mix. Around 2021 she dropped the alias, plays as Chloé Robinson, and has moved towards techno and electro, producing with DJ ADHD; the Steamin EP (2022) carried a Four Tet remix. She never produced in the Barely Legal years: "a pure DJ".
+
+Why the mixing is so good:
+
+- **She is a product of the London multi-genre moment.** Her named influences are Oneman, Ben UFO and Jackmaster, specifically their back-to-back-to-back sets, and DJ EZ for the fast garage mixing. 2010 to 2015 London radio (Rinse, NTS) was built on switching between garage, grime, dubstep, funky, jungle and footwork inside one set. This episode is the textbook version of that.
+- **The UK bass continuum shares a grid.** Garage and funky sit at 130, grime and dubstep at 140, jungle and drum & bass at 170, footwork at 160. 140 is half of 280, 170 is close to double 85, and 160 footwork feels like 80 or like half-time 170. So this episode walks 125 → 133 → 140 → 170 → 160 → 135 → 125 → 140 → 160 → 134 and most of the jumps are either a nudge of a few BPM or a half-time/double-time flip on a shared drum skeleton. She learned these tempo relationships by listening to Rinse for years before touching a deck.
+- **A selector's mind before a DJ's hands.** She says she stood in raves analysing what the DJ played and what the crowd did, thinking which track would have worked better, before she ever wanted to DJ. She admired DJs who "could re-engage the crowd in a matter of seconds just by their next track". Her mixing is in service of that: short blends, lots of them, the next tune as the event.
+- **Familiar first, then dark.** Chimpo on her technique: she draws the crowd in with tunes they know, then shifts to sub-bass and darker material once they are on side. Here: Deep Burnt, No Worries and Teedra Moses before the Wen and Kromestar section; Missy Elliott before the grime run.
+- **Volume of practice.** Weekly radio for years, then three to five club shows a week. The hand moves in the first blend (bass swap over two bars, mids handed over one phrase later) are reflexes from that.
+
+Sources: [Mixmag, Push It (2017)](https://mixmag.net/feature/push-it-barely-legal), [Footpatrol Frequent Players interview](https://blog.footpatrol.com/frequent-players-guest-mix-014-barely-legal/), [Groove Podcast 225 (2019)](https://groove.de/2019/09/20/barely-legal-groove-podcast-225/), [Skiddle interview (2015)](https://skiddle.com/news/all/DJ-Barely-Legal-Interview-Best-Behaviour/27094), [THUMP Mixed By (2014)](https://develop.vice.com/en/article/mixed-by-dj-barely-legal/), [RA Exchange 569 (2021)](https://ra.co/exchange/569), [Mixmag In Session: Chloé Robinson](https://mixmag.net/feature/chloe-robinson-mix-in-session-interview), [DJ Mag On Cue](https://djmag.com/features/cue-barely-legal).
+
 ## Tracklist
 
 The full 48-track list from the NTS API, with where each track can be heard and how exact the match is.
@@ -81,6 +97,42 @@ The episode itself is in the library too, as `Barely Legal, Stray & MC Grindah -
 1. **Bandcamp first:** buy the five Bandcamp tracks (6, 7, 22, 30, 47) as WAV or FLAC. They are the real releases.
 2. **Vinyl:** 1, 27, 32, 35 and 41 are only on vinyl. Look for them on Discogs.
 3. **Not found:** 12, 15, 18, 25 and 39 are on no store, SoundCloud or YouTube page (searched 2 Nov 2026); they were probably dubs in 2015. Asking the artists is what's left.
+
+## Where each track enters the episode
+
+Found by aligning the library tracks against the Mixcloud audio (log-mel correlation, whole-track vote over pitch and offset). The mark is set about 20 s before the track becomes audible in the blend, so the moment the fader comes up is always after the mark. The same marks are hot cues on the episode in Mixxx (crate Mixes). Not located: #11 Tell Them, #13 Horrormovie, #17 Hurricane, #20 Almeria, #35 Biggin Up The Massive; and the 14 tracks not in the library.
+
+| Mark | Mix time | Track | BPM | Enters at (track time) | Pitch |
+|---|---|---|---|---|---|
+| 1 | 0:46 | #1 Deep Burnt | 125 | 0:49 | -0.3% |
+| 2 | 4:28 | #2 No Worries | 126 | 0:34 | +0.5% |
+| 3 | 8:08 | #3 Booboo | 125 | 1:09 | -0.3% |
+| 4 | 12:40 | #4 Expansion | 133 | 0:19 | +3.2% |
+| 5 | 15:22 | #5 No More Tears | 132 | 0:59 | +1.0% |
+| 6 | 21:44 | #8 Shotta (Wen Remix) | 134 | 2:53 | +2.0% |
+| 7 | 24:33 | #9 Hailstones | 176 | 0:29 | +0.5% |
+| 8 | 28:13 | #10 Allusions | 120 | 0:00 | -1.0% |
+| 9 | 35:20 | #14 Shamrock | 170 | 0:14 | -3.0% |
+| 10 | 38:52 | #16 The Progress | 170 | 0:05 | -2.5% |
+| 11 | 45:08 | #19 Paradise (dBridge's Glitch Slap Edit) | 177 | 3:03 | -0.3% |
+| 12 | 52:03 | #23 Tarot Beat | 160 | 0:34 | -1.8% |
+| 13 | 53:57 | #24 Riddim | 160 | 0:54 | -2.0% |
+| 14 | 58:36 | #26 Cause I Know U Feel (feat. DJ Gant-Man) | 160 | 2:14 | -1.8% |
+| 15 | 60:20 | #27 Buddah Finger | 135 | 0:00 | +1.5% |
+| 16 | 63:33 | #28 Runout | 127 | 1:19 | -4.0% |
+| 17 | 65:56 | #29 Beep Me 911 (feat. 702 & Magoo) | 123 | 1:04 | -4.0% |
+| 18 | 68:39 | #31 Hyperfunk | 125 | 1:09 | -2.0% |
+| 19 | 71:07 | #32 Disparate | 128 | 1:14 | -1.0% |
+| 20 | 77:25 | #34 Keep On | 127 | 1:09 | -3.8% |
+| 21 | 81:53 | #36 Guava VIP | 130 | 0:44 | -1.8% |
+| 22 | 92:43 | #40 The Nest | 140 | 0:14 | +1.7% |
+| 23 | 94:44 | #41 Straight (Instrumental) | 142 | 0:39 | +1.2% |
+| 24 | 95:55 | #42 WickedSkengMan 4 | 138 | 0:54 | -1.3% |
+| 25 | 98:00 | #43 Neverland | 140 | 1:09 | -0.5% |
+| 26 | 102:34 | #44 Magick | 158 | 1:29 | +2.0% |
+| 27 | 104:16 | #45 Spider Leg Shuffle | 160 | 1:19 | -0.3% |
+| 28 | 106:13 | #46 Do It! | 160 | 0:29 | +0.2% |
+| 29 | 111:46 | #48 Keep It Real | 134 | 0:59 | -0.0% |
 
 ## The blends
 
