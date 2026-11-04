@@ -136,23 +136,26 @@ Found by aligning the library tracks against the Mixcloud audio (log-mel correla
 
 ## The blends
 
-Timings are in the episode file; Deep Burnt starts at 0:07 after the ident. Found by aligning the library copies against the mix (log-mel correlation, then per-band resemblance every 2 s), so the EQ moves are inferred from what is audible, not from knob positions. Good to about a second.
+Timings are in the episode file; Deep Burnt starts at 0:07 after the ident. Found by cutting the library copies to the episode's timeline (sample-accurate, within 20 ms) and comparing the episode against each track band by band at 0.1 s. Beat counts are from Deep Burnt's grid, with beat 0 the downbeat she dropped No Worries on. The clips, with these points as hot cues, are the Study crate in Mixxx.
 
 ### #1 Deep Burnt → #2 No Worries
 
-The mix runs at about 125.3 BPM: Deep Burnt (125.0) pitched up a quarter of a percent, No Worries (126.0) pitched down half a percent.
+The mix runs at 125.43 BPM: Deep Burnt (125.0) pitched up 0.35 %, No Worries (126.0) pitched down 0.54 %. The two were beat-locked to within 6 ms.
 
-| Mix time | What happens |
-|---|---|
-| 4:30 | No Worries dropped from its first beat, on the beat, with Deep Burnt 4:23 in (around bar 138). Only its hats and percussion register; its own intro has almost no bass for 16 bars anyway |
-| 4:30–4:56 | Deep Burnt carries the mix; No Worries' top end sits on top of it |
-| 4:56 | Deep Burnt's bass cut: two bars with about 10 dB less low end |
-| 5:00 | No Worries' kick and bassline arrive (bar 17 of the track, its own arrangement) and own the low end from here; the mix ends up about 3 dB heavier in the bass than before |
-| 5:00–5:52 | No Worries' drums and bass under Deep Burnt's pads and highs. No Worries' mids do not register at all in this stretch |
-| 5:56–6:02 | Deep Burnt's mids and highs fade out, No Worries' mids come up; by 6:02 No Worries is alone, landing on its own breakdown at bar 49 |
-| 6:08 | Deep Burnt gone |
+| Beat | Bar | Mix time | What happens |
+|---|---|---|---|
+| 0 | 0 | 4:30.0 | No Worries started on its first kick, locked to Deep Burnt's downbeat (Deep Burnt 4:23.3 in). Nothing of it is audible: the episode is identical to Deep Burnt in every band for the next 15 s |
+| 32 | 8 | 4:45.3 | No Worries' highs come in, about 4 dB above 2 kHz and nothing below: hats and the vocal snippet. This is the first thing a listener hears |
+| 57 | 14¼ | 4:57.3 | Deep Burnt's bass cut, 20 dB, seven beats before the swap |
+| 64 | 16 | 5:00.6 | No Worries' kick and bassline in, on the 16-bar mark of both the mix and its own arrangement |
+| 64–176 | 16–44 | 5:00–5:54 | No Worries' drums and bass under Deep Burnt's pads and highs. No Worries' mids still out |
+| 176 | 44 | 5:54.2 | Mids hand-over begins: Deep Burnt's mids and highs fade, No Worries' mids come up |
+| 192 | 48 | 6:01.9 | No Worries alone, landing on its own breakdown |
+| ~204 | 51 | 6:08 | Deep Burnt fully gone |
 
-About 96 seconds, 50 bars: hats first, a bass swap with a two-bar gap, half a minute of the new track's rhythm section under the old track's music, then the mids handed over right as the new track breaks down. The breakdown is the landing point.
+Everything lands on 8-bar blocks counted from the drop: highs at 8, bass at 16, mids at 44, alone at 48. The only move off the grid is the bass cut, seven beats early, which leaves a hole just under two bars long before the new bass fills it. 92 seconds, 48 bars, and the breakdown is the landing point.
+
+An earlier version of this table had No Worries audible from 4:30 "on hats" and the bass swap at 4:56/5:00. Listening on the aligned clips showed the hats are inaudible until 4:45, which is what the measurement now says too.
 
 ## Learning the style
 
