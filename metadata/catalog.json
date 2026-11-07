@@ -5450,7 +5450,4563 @@
         "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
       ],
       "added": "2026-11-03T16:46:38.959723"
+    },
+    "Oscar D'León, La Dimensión Latina - Lloraras.flac": {
+      "artist": "Oscar D'León, La Dimensión Latina",
+      "title": "Lloraras",
+      "filename": "Oscar D'León, La Dimensión Latina - Lloraras.flac",
+      "path": "/home/andreas/Music/Library/flac/Oscar D'León, La Dimensión Latina - Lloraras.flac",
+      "bpm": 94.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 221.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-05T23:31:21.623368"
+    },
+    "Héctor Lavoe, Willie Colón - La Murga.flac": {
+      "artist": "Héctor Lavoe, Willie Colón",
+      "title": "La Murga",
+      "filename": "Héctor Lavoe, Willie Colón - La Murga.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe, Willie Colón - La Murga.flac",
+      "bpm": 120.2,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -15.2,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 333.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-05T23:37:21.652720"
+    },
+    "Héctor Lavoe, Willie Colón - Aguanile.flac": {
+      "artist": "Héctor Lavoe, Willie Colón",
+      "title": "Aguanile",
+      "filename": "Héctor Lavoe, Willie Colón - Aguanile.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe, Willie Colón - Aguanile.flac",
+      "bpm": 126.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 371.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-05T23:43:58.516350"
+    },
+    "Willie Colón - El Gran Varon.flac": {
+      "artist": "Willie Colón",
+      "title": "El Gran Varon",
+      "filename": "Willie Colón - El Gran Varon.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - El Gran Varon.flac",
+      "bpm": 94.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 417.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-05T23:51:22.402254"
+    },
+    "Rubén Blades, Willie Colon Y Ruben Blades - Pedro Navaja.flac": {
+      "artist": "Rubén Blades, Willie Colon Y Ruben Blades",
+      "title": "Pedro Navaja",
+      "filename": "Rubén Blades, Willie Colon Y Ruben Blades - Pedro Navaja.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades, Willie Colon Y Ruben Blades - Pedro Navaja.flac",
+      "bpm": 126.0,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.8,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 443.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:03:10.797947"
+    },
+    "Rubén Blades - Plastico.flac": {
+      "artist": "Rubén Blades",
+      "title": "Plastico",
+      "filename": "Rubén Blades - Plastico.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades - Plastico.flac",
+      "bpm": 103.4,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -11.5,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 401.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:10:23.941263"
+    },
+    "Héctor Lavoe - El Dia De Suerte.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "El Dia De Suerte",
+      "filename": "Héctor Lavoe - El Dia De Suerte.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - El Dia De Suerte.flac",
+      "bpm": 132.5,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 327.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:16:24.219671"
+    },
+    "Oscar D'León - Sigue Tu Camino.flac": {
+      "artist": "Oscar D'León",
+      "title": "Sigue Tu Camino",
+      "filename": "Oscar D'León - Sigue Tu Camino.flac",
+      "path": "/home/andreas/Music/Library/flac/Oscar D'León - Sigue Tu Camino.flac",
+      "bpm": 107.7,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -10.8,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 229.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:21:28.814882"
+    },
+    "Roberto Roena - Que Se Sepa.flac": {
+      "artist": "Roberto Roena",
+      "title": "Que Se Sepa",
+      "filename": "Roberto Roena - Que Se Sepa.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena - Que Se Sepa.flac",
+      "bpm": 117.5,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 194.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:25:09.761764"
+    },
+    "Roberto Roena - Mi Desengano.flac": {
+      "artist": "Roberto Roena",
+      "title": "Mi Desengano",
+      "filename": "Roberto Roena - Mi Desengano.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena - Mi Desengano.flac",
+      "bpm": 112.3,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.1,
+      "true_peak_dbtp": 1.3,
+      "duration_sec": 334.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:31:30.810460"
+    },
+    "Ismael Rivera - El Nazareno.flac": {
+      "artist": "Ismael Rivera",
+      "title": "El Nazareno",
+      "filename": "Ismael Rivera - El Nazareno.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Rivera - El Nazareno.flac",
+      "bpm": 120.2,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -6.3,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 341.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:37:48.990599"
+    },
+    "Ismael Miranda - Asi Se Compone Un Son.flac": {
+      "artist": "Ismael Miranda",
+      "title": "Asi Se Compone Un Son",
+      "filename": "Ismael Miranda - Asi Se Compone Un Son.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Miranda - Asi Se Compone Un Son.flac",
+      "bpm": 156.6,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 333.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:43:58.319700"
+    },
+    "Sonora Carruseles - Micaela.flac": {
+      "artist": "Sonora Carruseles",
+      "title": "Micaela",
+      "filename": "Sonora Carruseles - Micaela.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Carruseles - Micaela.flac",
+      "bpm": 120.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 284.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:49:12.988668"
+    },
+    "Sonora Carruseles - Arranca En Fa.flac": {
+      "artist": "Sonora Carruseles",
+      "title": "Arranca En Fa",
+      "filename": "Sonora Carruseles - Arranca En Fa.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Carruseles - Arranca En Fa.flac",
+      "bpm": 117.5,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 216.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T00:53:14.585666"
+    },
+    "Ray Barretto - Pastime Paradise.flac": {
+      "artist": "Ray Barretto",
+      "title": "Pastime Paradise",
+      "filename": "Ray Barretto - Pastime Paradise.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Pastime Paradise.flac",
+      "bpm": 107.7,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -17.3,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 514.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:02:35.505767"
+    },
+    "Ray Barretto - Guarare.flac": {
+      "artist": "Ray Barretto",
+      "title": "Guarare",
+      "filename": "Ray Barretto - Guarare.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Guarare.flac",
+      "bpm": 94.0,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "mid",
+      "lufs": -12.3,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 336.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:08:58.238059"
+    },
+    "Ray Barretto - La Cuna.flac": {
+      "artist": "Ray Barretto",
+      "title": "La Cuna",
+      "filename": "Ray Barretto - La Cuna.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - La Cuna.flac",
+      "bpm": 132.5,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -17.0,
+      "true_peak_dbtp": -1.6,
+      "duration_sec": 328.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:15:00.669383"
+    },
+    "Ray Barreto - Woman del Callao.flac": {
+      "artist": "Ray Barreto",
+      "title": "Woman del Callao",
+      "filename": "Ray Barreto - Woman del Callao.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barreto - Woman del Callao.flac",
+      "bpm": 126.0,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "low",
+      "lufs": -12.2,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 249.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:19:38.365656"
+    },
+    "Mongo Santamaria - Watermelon Man.flac": {
+      "artist": "Mongo Santamaria",
+      "title": "Watermelon Man",
+      "filename": "Mongo Santamaria - Watermelon Man.flac",
+      "path": "/home/andreas/Music/Library/flac/Mongo Santamaria - Watermelon Man.flac",
+      "bpm": 120.2,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -15.2,
+      "true_peak_dbtp": -3.1,
+      "duration_sec": 193.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:24:57.411664"
+    },
+    "Mongo Santamaria - We Got Latin Soul.flac": {
+      "artist": "Mongo Santamaria",
+      "title": "We Got Latin Soul",
+      "filename": "Mongo Santamaria - We Got Latin Soul.flac",
+      "path": "/home/andreas/Music/Library/flac/Mongo Santamaria - We Got Latin Soul.flac",
+      "bpm": 139.7,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "mid",
+      "lufs": -11.4,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 182.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:28:22.103284"
+    },
+    "Mongo Santamaria - Sofrito.flac": {
+      "artist": "Mongo Santamaria",
+      "title": "Sofrito",
+      "filename": "Mongo Santamaria - Sofrito.flac",
+      "path": "/home/andreas/Music/Library/flac/Mongo Santamaria - Sofrito.flac",
+      "bpm": 117.5,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -12.1,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 366.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:35:06.827976"
+    },
+    "Joe Bataan - Call My Name.flac": {
+      "artist": "Joe Bataan",
+      "title": "Call My Name",
+      "filename": "Joe Bataan - Call My Name.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Bataan - Call My Name.flac",
+      "bpm": 112.3,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 280.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:40:20.124059"
+    },
+    "Joe Bataan - Chick-a-Boom.flac": {
+      "artist": "Joe Bataan",
+      "title": "Chick-a-Boom",
+      "filename": "Joe Bataan - Chick-a-Boom.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Bataan - Chick-a-Boom.flac",
+      "bpm": 117.5,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 225.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:44:31.339829"
+    },
+    "Joe Bataan - Keep The Change.flac": {
+      "artist": "Joe Bataan",
+      "title": "Keep The Change",
+      "filename": "Joe Bataan - Keep The Change.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Bataan - Keep The Change.flac",
+      "bpm": 139.7,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 199.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:48:15.856381"
+    },
+    "Joe Bataan - Subway Joe.flac": {
+      "artist": "Joe Bataan",
+      "title": "Subway Joe",
+      "filename": "Joe Bataan - Subway Joe.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Bataan - Subway Joe.flac",
+      "bpm": 136.0,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": -0.9,
+      "duration_sec": 179.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:51:37.486040"
+    },
+    "Ray Barretto - Indestructible.flac": {
+      "artist": "Ray Barretto",
+      "title": "Indestructible",
+      "filename": "Ray Barretto - Indestructible.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Indestructible.flac",
+      "bpm": 110.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "mid",
+      "lufs": -16.2,
+      "true_peak_dbtp": -7.7,
+      "duration_sec": 252.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T01:56:19.359996"
+    },
+    "Celia Cruz, Ray Barretto - Ritmo En El Corazon.flac": {
+      "artist": "Celia Cruz, Ray Barretto",
+      "title": "Ritmo En El Corazon",
+      "filename": "Celia Cruz, Ray Barretto - Ritmo En El Corazon.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz, Ray Barretto - Ritmo En El Corazon.flac",
+      "bpm": 90.7,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 284.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:01:45.966547"
+    },
+    "Ray Barretto - El Watusi.flac": {
+      "artist": "Ray Barretto",
+      "title": "El Watusi",
+      "filename": "Ray Barretto - El Watusi.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - El Watusi.flac",
+      "bpm": 89.1,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 158.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:04:58.501114"
+    },
+    "Willie Bobo, Dan The Automator - Fried Neck Bones And Some Home Fries (Dan The Automator Remix).flac": {
+      "artist": "Willie Bobo, Dan The Automator",
+      "title": "Fried Neck Bones And Some Home Fries (Dan The Automator Remix)",
+      "filename": "Willie Bobo, Dan The Automator - Fried Neck Bones And Some Home Fries (Dan The Automator Remix).flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Bobo, Dan The Automator - Fried Neck Bones And Some Home Fries (Dan The Automator Remix).flac",
+      "bpm": 110.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 270.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:10:04.709838"
+    },
+    "Willie Bobo - Bossa Nova In Blue (Remastered).flac": {
+      "artist": "Willie Bobo",
+      "title": "Bossa Nova In Blue (Remastered)",
+      "filename": "Willie Bobo - Bossa Nova In Blue (Remastered).flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Bobo - Bossa Nova In Blue (Remastered).flac",
+      "bpm": 110.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "mid",
+      "lufs": -14.4,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 162.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:13:15.775451"
+    },
+    "Willie Bobo - Funky Sneakers.flac": {
+      "artist": "Willie Bobo",
+      "title": "Funky Sneakers",
+      "filename": "Willie Bobo - Funky Sneakers.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Bobo - Funky Sneakers.flac",
+      "bpm": 110.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -12.0,
+      "true_peak_dbtp": -1.8,
+      "duration_sec": 185.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:16:51.895832"
+    },
+    "Bobby Cruz, Richie Ray - Aguzate.flac": {
+      "artist": "Bobby Cruz, Richie Ray",
+      "title": "Aguzate",
+      "filename": "Bobby Cruz, Richie Ray - Aguzate.flac",
+      "path": "/home/andreas/Music/Library/flac/Bobby Cruz, Richie Ray - Aguzate.flac",
+      "bpm": 147.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -12.9,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 372.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:23:41.835926"
+    },
+    "Bobby Cruz, Ricardo Ray, Richie Ray, Marc Anthony, Luisito Carrion, Bobby Valentin, Papo Lucca, Wille Colon, Pedro Brull, Héctor Lavoe, Johnny Pacheco - Pancho Cristal.flac": {
+      "artist": "Bobby Cruz, Ricardo Ray, Richie Ray, Marc Anthony, Luisito Carrion, Bobby Valentin, Papo Lucca, Wille Colon, Pedro Brull, Héctor Lavoe, Johnny Pacheco",
+      "title": "Pancho Cristal",
+      "filename": "Bobby Cruz, Ricardo Ray, Richie Ray, Marc Anthony, Luisito Carrion, Bobby Valentin, Papo Lucca, Wille Colon, Pedro Brull, Héctor Lavoe, Johnny Pacheco - Pancho Cristal.flac",
+      "path": "/home/andreas/Music/Library/flac/Bobby Cruz, Ricardo Ray, Richie Ray, Marc Anthony, Luisito Carrion, Bobby Valentin, Papo Lucca, Wille Colon, Pedro Brull, Héctor Lavoe, Johnny Pacheco - Pancho Cristal.flac",
+      "bpm": 126.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -11.5,
+      "true_peak_dbtp": -1.8,
+      "duration_sec": 320.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:29:54.109054"
+    },
+    "Paquito D'Rivera - The Uninvited_ Stella by Starlight.flac": {
+      "artist": "Paquito D'Rivera",
+      "title": "The Uninvited_ Stella by Starlight",
+      "filename": "Paquito D'Rivera - The Uninvited_ Stella by Starlight.flac",
+      "path": "/home/andreas/Music/Library/flac/Paquito D'Rivera - The Uninvited_ Stella by Starlight.flac",
+      "bpm": 117.5,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -11.5,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 272.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:34:53.967550"
+    },
+    "Héctor Lavoe - El Cantante.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "El Cantante",
+      "filename": "Héctor Lavoe - El Cantante.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - El Cantante.flac",
+      "bpm": 132.5,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -12.9,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 622.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:47:53.959096"
+    },
+    "Willie Colón - Juana Peña.flac": {
+      "artist": "Willie Colón",
+      "title": "Juana Peña",
+      "filename": "Willie Colón - Juana Peña.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - Juana Peña.flac",
+      "bpm": 103.4,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 337.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:54:18.980675"
+    },
+    "Celia Cruz, Willie Colón - Kirimbambara.flac": {
+      "artist": "Celia Cruz, Willie Colón",
+      "title": "Kirimbambara",
+      "filename": "Celia Cruz, Willie Colón - Kirimbambara.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz, Willie Colón - Kirimbambara.flac",
+      "bpm": 110.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 290.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T02:59:39.223782"
+    },
+    "Omara Portuondo - Mueve la Cintura Mulato.flac": {
+      "artist": "Omara Portuondo",
+      "title": "Mueve la Cintura Mulato",
+      "filename": "Omara Portuondo - Mueve la Cintura Mulato.flac",
+      "path": "/home/andreas/Music/Library/flac/Omara Portuondo - Mueve la Cintura Mulato.flac",
+      "bpm": 107.7,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 215.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T03:03:40.317408"
+    },
+    "Celia Cruz - Cuidate Bien.flac": {
+      "artist": "Celia Cruz",
+      "title": "Cuidate Bien",
+      "filename": "Celia Cruz - Cuidate Bien.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - Cuidate Bien.flac",
+      "bpm": 90.7,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "low",
+      "lufs": -18.0,
+      "true_peak_dbtp": -1.8,
+      "duration_sec": 137.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T03:11:07.446987"
+    },
+    "Richie Ray, Bobby Cruz - Sonido Bestial.flac": {
+      "artist": "Richie Ray, Bobby Cruz",
+      "title": "Sonido Bestial",
+      "filename": "Richie Ray, Bobby Cruz - Sonido Bestial.flac",
+      "path": "/home/andreas/Music/Library/flac/Richie Ray, Bobby Cruz - Sonido Bestial.flac",
+      "bpm": 143.6,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.1,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 408.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T03:27:57.741958"
+    },
+    "Rubén Blades - Amor y Control.flac": {
+      "artist": "Rubén Blades",
+      "title": "Amor y Control",
+      "filename": "Rubén Blades - Amor y Control.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades - Amor y Control.flac",
+      "bpm": 90.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -14.0,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 351.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T03:48:56.273754"
+    },
+    "Rubén Blades - Decisiones.flac": {
+      "artist": "Rubén Blades",
+      "title": "Decisiones",
+      "filename": "Rubén Blades - Decisiones.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades - Decisiones.flac",
+      "bpm": 129.2,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "mid",
+      "lufs": -13.7,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 303.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T04:14:12.238002"
+    },
+    "Ismael Miranda - Amigo.flac": {
+      "artist": "Ismael Miranda",
+      "title": "Amigo",
+      "filename": "Ismael Miranda - Amigo.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Miranda - Amigo.flac",
+      "bpm": 123.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": 1.1,
+      "duration_sec": 290.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T04:19:32.024861"
+    },
+    "Willie Colón, Héctor Lavoe - Calle Luna Calle Sol.flac": {
+      "artist": "Willie Colón, Héctor Lavoe",
+      "title": "Calle Luna Calle Sol",
+      "filename": "Willie Colón, Héctor Lavoe - Calle Luna Calle Sol.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Héctor Lavoe - Calle Luna Calle Sol.flac",
+      "bpm": 120.2,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -10.2,
+      "true_peak_dbtp": 1.2,
+      "duration_sec": 225.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T05:07:05.386562"
+    },
+    "Celia Cruz - Bajo la Luna.flac": {
+      "artist": "Celia Cruz",
+      "title": "Bajo la Luna",
+      "filename": "Celia Cruz - Bajo la Luna.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - Bajo la Luna.flac",
+      "bpm": 129.2,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -15.8,
+      "true_peak_dbtp": -2.0,
+      "duration_sec": 151.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T05:47:23.434950"
+    },
+    "Arturo Sandoval - Conga.flac": {
+      "artist": "Arturo Sandoval",
+      "title": "Conga",
+      "filename": "Arturo Sandoval - Conga.flac",
+      "path": "/home/andreas/Music/Library/flac/Arturo Sandoval - Conga.flac",
+      "bpm": 166.7,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 76.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T05:48:53.154469"
+    },
+    "La Lupe - Estando Contigo.flac": {
+      "artist": "La Lupe",
+      "title": "Estando Contigo",
+      "filename": "La Lupe - Estando Contigo.flac",
+      "path": "/home/andreas/Music/Library/flac/La Lupe - Estando Contigo.flac",
+      "bpm": 105.5,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "low",
+      "lufs": -19.5,
+      "true_peak_dbtp": -5.6,
+      "duration_sec": 117.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T05:51:10.031124"
+    },
+    "La Sonora Matancera, Celia Cruz - Rock And Roll.flac": {
+      "artist": "La Sonora Matancera, Celia Cruz",
+      "title": "Rock And Roll",
+      "filename": "La Sonora Matancera, Celia Cruz - Rock And Roll.flac",
+      "path": "/home/andreas/Music/Library/flac/La Sonora Matancera, Celia Cruz - Rock And Roll.flac",
+      "bpm": 97.5,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 144.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T05:54:00.384869"
+    },
+    "La Lupe - Guantanamera.flac": {
+      "artist": "La Lupe",
+      "title": "Guantanamera",
+      "filename": "La Lupe - Guantanamera.flac",
+      "path": "/home/andreas/Music/Library/flac/La Lupe - Guantanamera.flac",
+      "bpm": 147.7,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 181.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T05:57:43.741639"
+    },
+    "La Lupe - Fever.flac": {
+      "artist": "La Lupe",
+      "title": "Fever",
+      "filename": "La Lupe - Fever.flac",
+      "path": "/home/andreas/Music/Library/flac/La Lupe - Fever.flac",
+      "bpm": 152.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 165.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:00:51.948069"
+    },
+    "Celia Cruz - Quizas, Quizas, Quizas,.flac": {
+      "artist": "Celia Cruz",
+      "title": "Quizas, Quizas, Quizas,",
+      "filename": "Celia Cruz - Quizas, Quizas, Quizas,.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - Quizas, Quizas, Quizas,.flac",
+      "bpm": 110.0,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -12.3,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 150.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:03:42.104952"
+    },
+    "Celia Cruz - Quimbara.flac": {
+      "artist": "Celia Cruz",
+      "title": "Quimbara",
+      "filename": "Celia Cruz - Quimbara.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - Quimbara.flac",
+      "bpm": 123.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -10.3,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 288.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:09:02.377843"
+    },
+    "Celia Cruz, La Sonora Matancera - Taco Taco.flac": {
+      "artist": "Celia Cruz, La Sonora Matancera",
+      "title": "Taco Taco",
+      "filename": "Celia Cruz, La Sonora Matancera - Taco Taco.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz, La Sonora Matancera - Taco Taco.flac",
+      "bpm": 112.3,
+      "key": "B major",
+      "camelot": "1B",
+      "energy": "high",
+      "lufs": -9.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 129.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:11:32.541153"
+    },
+    "Giovanni Hidalgo, George Gershwin - Summertime.flac": {
+      "artist": "Giovanni Hidalgo, George Gershwin",
+      "title": "Summertime",
+      "filename": "Giovanni Hidalgo, George Gershwin - Summertime.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo, George Gershwin - Summertime.flac",
+      "bpm": 147.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -11.0,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 424.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:19:19.224889"
+    },
+    "Giovanni Hidalgo - Villa Hidalgo.flac": {
+      "artist": "Giovanni Hidalgo",
+      "title": "Villa Hidalgo",
+      "filename": "Giovanni Hidalgo - Villa Hidalgo.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo - Villa Hidalgo.flac",
+      "bpm": 132.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 375.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:26:11.411639"
+    },
+    "Giovanni Hidalgo - And Sammy Walked In.flac": {
+      "artist": "Giovanni Hidalgo",
+      "title": "And Sammy Walked In",
+      "filename": "Giovanni Hidalgo - And Sammy Walked In.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo - And Sammy Walked In.flac",
+      "bpm": 139.7,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "low",
+      "lufs": -18.0,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 353.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:32:58.075424"
+    },
+    "Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo - Volcan (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo).flac": {
+      "artist": "Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo",
+      "title": "Volcan (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo)",
+      "filename": "Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo - Volcan (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo).flac",
+      "path": "/home/andreas/Music/Library/flac/Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo - Volcan (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo).flac",
+      "bpm": 129.2,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -15.2,
+      "true_peak_dbtp": 1.8,
+      "duration_sec": 426.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:41:06.513056"
+    },
+    "Giovanni Hidalgo, Horacio Hernández - La Maquinita.flac": {
+      "artist": "Giovanni Hidalgo, Horacio Hernández",
+      "title": "La Maquinita",
+      "filename": "Giovanni Hidalgo, Horacio Hernández - La Maquinita.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo, Horacio Hernández - La Maquinita.flac",
+      "bpm": 161.5,
+      "key": "B major",
+      "camelot": "1B",
+      "energy": "low",
+      "lufs": -15.8,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 369.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:47:55.169229"
+    },
+    "Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo - Pon La Clave (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo).flac": {
+      "artist": "Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo",
+      "title": "Pon La Clave (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo)",
+      "filename": "Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo - Pon La Clave (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo).flac",
+      "path": "/home/andreas/Music/Library/flac/Volcan, Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernández, Giovanni Hidalgo - Pon La Clave (feat. Gonzalo Rubalcaba, Jose Armando Gola, Horacio Hernandez & Giovanni Hidalgo).flac",
+      "bpm": 126.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -14.7,
+      "true_peak_dbtp": 1.8,
+      "duration_sec": 459.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T06:56:40.324029"
+    },
+    "Giovanni Hidalgo - Bahia San Juan.flac": {
+      "artist": "Giovanni Hidalgo",
+      "title": "Bahia San Juan",
+      "filename": "Giovanni Hidalgo - Bahia San Juan.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo - Bahia San Juan.flac",
+      "bpm": 156.6,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -16.9,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 349.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:03:06.648547"
+    },
+    "Giovanni Hidalgo - Songo Pa' Ti.flac": {
+      "artist": "Giovanni Hidalgo",
+      "title": "Songo Pa' Ti",
+      "filename": "Giovanni Hidalgo - Songo Pa' Ti.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo - Songo Pa' Ti.flac",
+      "bpm": 161.5,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -17.3,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 332.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:09:12.909603"
+    },
+    "Giovanni Hidalgo - Footprints.flac": {
+      "artist": "Giovanni Hidalgo",
+      "title": "Footprints",
+      "filename": "Giovanni Hidalgo - Footprints.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo - Footprints.flac",
+      "bpm": 112.3,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "low",
+      "lufs": -20.1,
+      "true_peak_dbtp": -4.9,
+      "duration_sec": 308.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:14:52.778287"
+    },
+    "Giovanni Hidalgo - Papa Boco.flac": {
+      "artist": "Giovanni Hidalgo",
+      "title": "Papa Boco",
+      "filename": "Giovanni Hidalgo - Papa Boco.flac",
+      "path": "/home/andreas/Music/Library/flac/Giovanni Hidalgo - Papa Boco.flac",
+      "bpm": 161.5,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -16.6,
+      "true_peak_dbtp": -0.6,
+      "duration_sec": 290.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:20:12.624827"
+    },
+    "Ray Barretto - El Diablo.flac": {
+      "artist": "Ray Barretto",
+      "title": "El Diablo",
+      "filename": "Ray Barretto - El Diablo.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - El Diablo.flac",
+      "bpm": 114.8,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -16.3,
+      "true_peak_dbtp": -6.7,
+      "duration_sec": 321.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:26:25.875544"
+    },
+    "Héctor Lavoe, Fania All Stars - El Rey De La Puntualidad.flac": {
+      "artist": "Héctor Lavoe, Fania All Stars",
+      "title": "El Rey De La Puntualidad",
+      "filename": "Héctor Lavoe, Fania All Stars - El Rey De La Puntualidad.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe, Fania All Stars - El Rey De La Puntualidad.flac",
+      "bpm": 105.5,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 402.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:33:48.394769"
+    },
+    "Fania All Stars - Ella Fue (She Was The One).flac": {
+      "artist": "Fania All Stars",
+      "title": "Ella Fue (She Was The One)",
+      "filename": "Fania All Stars - Ella Fue (She Was The One).flac",
+      "path": "/home/andreas/Music/Library/flac/Fania All Stars - Ella Fue (She Was The One).flac",
+      "bpm": 123.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -11.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 221.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:37:55.421537"
+    },
+    "Buena Vista Social Club, Eliades Ochoa, Compay Segundo - Macusa.flac": {
+      "artist": "Buena Vista Social Club, Eliades Ochoa, Compay Segundo",
+      "title": "Macusa",
+      "filename": "Buena Vista Social Club, Eliades Ochoa, Compay Segundo - Macusa.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Eliades Ochoa, Compay Segundo - Macusa.flac",
+      "bpm": 103.4,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -12.6,
+      "true_peak_dbtp": -0.8,
+      "duration_sec": 244.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:42:30.706292"
+    },
+    "Buena Vista Social Club, Omara Portuondo - Tiene Sabor.flac": {
+      "artist": "Buena Vista Social Club, Omara Portuondo",
+      "title": "Tiene Sabor",
+      "filename": "Buena Vista Social Club, Omara Portuondo - Tiene Sabor.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Omara Portuondo - Tiene Sabor.flac",
+      "bpm": 143.6,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "mid",
+      "lufs": -13.8,
+      "true_peak_dbtp": -2.6,
+      "duration_sec": 197.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:46:19.532760"
+    },
+    "Buena Vista Social Club, Ruben Gonzalez, Jesús Ramos - Bodas de Oro.flac": {
+      "artist": "Buena Vista Social Club, Ruben Gonzalez, Jesús Ramos",
+      "title": "Bodas de Oro",
+      "filename": "Buena Vista Social Club, Ruben Gonzalez, Jesús Ramos - Bodas de Oro.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Ruben Gonzalez, Jesús Ramos - Bodas de Oro.flac",
+      "bpm": 123.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -12.9,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 279.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:51:38.627959"
+    },
+    "Buena Vista Social Club, Orlando \"Cachaíto\" López, Angá Diaz - Black Chicken 37.flac": {
+      "artist": "Buena Vista Social Club, Orlando \"Cachaíto\" López, Angá Diaz",
+      "title": "Black Chicken 37",
+      "filename": "Buena Vista Social Club, Orlando \"Cachaíto\" López, Angá Diaz - Black Chicken 37.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Orlando \"Cachaíto\" López, Angá Diaz - Black Chicken 37.flac",
+      "bpm": 123.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -14.4,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 213.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:55:39.442189"
+    },
+    "Buena Vista Social Club, Eliades Ochoa - Pedacito de Papel.flac": {
+      "artist": "Buena Vista Social Club, Eliades Ochoa",
+      "title": "Pedacito de Papel",
+      "filename": "Buena Vista Social Club, Eliades Ochoa - Pedacito de Papel.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Eliades Ochoa - Pedacito de Papel.flac",
+      "bpm": 191.4,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "mid",
+      "lufs": -15.7,
+      "true_peak_dbtp": -1.0,
+      "duration_sec": 157.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T07:58:33.085390"
+    },
+    "Buena Vista Social Club, Ibrahim Ferrer - Mami Me Gustó.flac": {
+      "artist": "Buena Vista Social Club, Ibrahim Ferrer",
+      "title": "Mami Me Gustó",
+      "filename": "Buena Vista Social Club, Ibrahim Ferrer - Mami Me Gustó.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Ibrahim Ferrer - Mami Me Gustó.flac",
+      "bpm": 152.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -12.0,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 318.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:04:14.816728"
+    },
+    "Buena Vista Social Club, Omara Portuondo - Lágrimas Negras.flac": {
+      "artist": "Buena Vista Social Club, Omara Portuondo",
+      "title": "Lágrimas Negras",
+      "filename": "Buena Vista Social Club, Omara Portuondo - Lágrimas Negras.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Omara Portuondo - Lágrimas Negras.flac",
+      "bpm": 166.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -12.2,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 244.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:08:38.030747"
+    },
+    "Buena Vista Social Club, Ruben Gonzalez - Como Siento Yo.flac": {
+      "artist": "Buena Vista Social Club, Ruben Gonzalez",
+      "title": "Como Siento Yo",
+      "filename": "Buena Vista Social Club, Ruben Gonzalez - Como Siento Yo.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Ruben Gonzalez - Como Siento Yo.flac",
+      "bpm": 152.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "low",
+      "lufs": -21.3,
+      "true_peak_dbtp": -4.0,
+      "duration_sec": 113.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:10:46.128491"
+    },
+    "Buena Vista Social Club, Ruben Gonzalez - Ruben Sings!.flac": {
+      "artist": "Buena Vista Social Club, Ruben Gonzalez",
+      "title": "Ruben Sings!",
+      "filename": "Buena Vista Social Club, Ruben Gonzalez - Ruben Sings!.flac",
+      "path": "/home/andreas/Music/Library/flac/Buena Vista Social Club, Ruben Gonzalez - Ruben Sings!.flac",
+      "bpm": 139.7,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "low",
+      "lufs": -24.7,
+      "true_peak_dbtp": -4.9,
+      "duration_sec": 48.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:11:46.469170"
+    },
+    "Celia Cruz - Cruz De Navajas.flac": {
+      "artist": "Celia Cruz",
+      "title": "Cruz De Navajas",
+      "filename": "Celia Cruz - Cruz De Navajas.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - Cruz De Navajas.flac",
+      "bpm": 139.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -16.3,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 299.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:17:15.010908"
+    },
+    "Willie Colón - Idilio.flac": {
+      "artist": "Willie Colón",
+      "title": "Idilio",
+      "filename": "Willie Colón - Idilio.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - Idilio.flac",
+      "bpm": 126.0,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -12.1,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 308.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:22:51.289950"
+    },
+    "Charlie Palmieri - La Hija De Lola.flac": {
+      "artist": "Charlie Palmieri",
+      "title": "La Hija De Lola",
+      "filename": "Charlie Palmieri - La Hija De Lola.flac",
+      "path": "/home/andreas/Music/Library/flac/Charlie Palmieri - La Hija De Lola.flac",
+      "bpm": 101.3,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 273.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:27:50.489088"
+    },
+    "Joe Arroyo, La Verdad - En Barranquilla Me Quedo.flac": {
+      "artist": "Joe Arroyo, La Verdad",
+      "title": "En Barranquilla Me Quedo",
+      "filename": "Joe Arroyo, La Verdad - En Barranquilla Me Quedo.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Arroyo, La Verdad - En Barranquilla Me Quedo.flac",
+      "bpm": 103.4,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -12.6,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 312.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:33:31.486999"
+    },
+    "Joe Arroyo, La Verdad - La Noche.flac": {
+      "artist": "Joe Arroyo, La Verdad",
+      "title": "La Noche",
+      "filename": "Joe Arroyo, La Verdad - La Noche.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Arroyo, La Verdad - La Noche.flac",
+      "bpm": 105.5,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 265.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:39:10.186079"
+    },
+    "Cheo Feliciano - El Raton.flac": {
+      "artist": "Cheo Feliciano",
+      "title": "El Raton",
+      "filename": "Cheo Feliciano - El Raton.flac",
+      "path": "/home/andreas/Music/Library/flac/Cheo Feliciano - El Raton.flac",
+      "bpm": 191.4,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -8.0,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 229.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:43:22.705382"
+    },
+    "Cheo Feliciano - Anacaona.flac": {
+      "artist": "Cheo Feliciano",
+      "title": "Anacaona",
+      "filename": "Cheo Feliciano - Anacaona.flac",
+      "path": "/home/andreas/Music/Library/flac/Cheo Feliciano - Anacaona.flac",
+      "bpm": 129.2,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -14.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 253.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:48:02.152422"
+    },
+    "Rubén Blades - Juan Pachanga.flac": {
+      "artist": "Rubén Blades",
+      "title": "Juan Pachanga",
+      "filename": "Rubén Blades - Juan Pachanga.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades - Juan Pachanga.flac",
+      "bpm": 147.7,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -8.5,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 373.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T08:55:02.008809"
+    },
+    "Celia Cruz - Bemba Colora.flac": {
+      "artist": "Celia Cruz",
+      "title": "Bemba Colora",
+      "filename": "Celia Cruz - Bemba Colora.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - Bemba Colora.flac",
+      "bpm": 123.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 712.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:08:01.545511"
+    },
+    "Fania All Stars - Bilongo.flac": {
+      "artist": "Fania All Stars",
+      "title": "Bilongo",
+      "filename": "Fania All Stars - Bilongo.flac",
+      "path": "/home/andreas/Music/Library/flac/Fania All Stars - Bilongo.flac",
+      "bpm": 126.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -7.5,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 347.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:14:27.999148"
+    },
+    "Héctor Lavoe - Isla Del Encanto.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Isla Del Encanto",
+      "filename": "Héctor Lavoe - Isla Del Encanto.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Isla Del Encanto.flac",
+      "bpm": 92.3,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -13.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 266.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:19:35.547920"
+    },
+    "Fania All Stars - Azuquita Mami.flac": {
+      "artist": "Fania All Stars",
+      "title": "Azuquita Mami",
+      "filename": "Fania All Stars - Azuquita Mami.flac",
+      "path": "/home/andreas/Music/Library/flac/Fania All Stars - Azuquita Mami.flac",
+      "bpm": 147.7,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -13.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 407.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:27:28.813551"
+    },
+    "Johnny Pacheco, Héctor Lavoe, Ismael Miranda, Santos Colón, Pete \"El Conde\" Rodriguez, Fania All Stars, Adalberto Santiago - Quítate Tú.flac": {
+      "artist": "Johnny Pacheco, Héctor Lavoe, Ismael Miranda, Santos Colón, Pete \"El Conde\" Rodriguez, Fania All Stars, Adalberto Santiago",
+      "title": "Quítate Tú",
+      "filename": "Johnny Pacheco, Héctor Lavoe, Ismael Miranda, Santos Colón, Pete \"El Conde\" Rodriguez, Fania All Stars, Adalberto Santiago - Quítate Tú.flac",
+      "path": "/home/andreas/Music/Library/flac/Johnny Pacheco, Héctor Lavoe, Ismael Miranda, Santos Colón, Pete \"El Conde\" Rodriguez, Fania All Stars, Adalberto Santiago - Quítate Tú.flac",
+      "bpm": 123.0,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 331.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:33:42.884184"
+    },
+    "Fania All Stars - Me Gusta El Son.flac": {
+      "artist": "Fania All Stars",
+      "title": "Me Gusta El Son",
+      "filename": "Fania All Stars - Me Gusta El Son.flac",
+      "path": "/home/andreas/Music/Library/flac/Fania All Stars - Me Gusta El Son.flac",
+      "bpm": 97.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -8.0,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 495.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:42:58.832192"
+    },
+    "Fania All Stars - Descarga Fania.flac": {
+      "artist": "Fania All Stars",
+      "title": "Descarga Fania",
+      "filename": "Fania All Stars - Descarga Fania.flac",
+      "path": "/home/andreas/Music/Library/flac/Fania All Stars - Descarga Fania.flac",
+      "bpm": 117.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -12.3,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 559.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:53:00.558854"
+    },
+    "Rubén Blades - Los Muchachos De Belén.flac": {
+      "artist": "Rubén Blades",
+      "title": "Los Muchachos De Belén",
+      "filename": "Rubén Blades - Los Muchachos De Belén.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades - Los Muchachos De Belén.flac",
+      "bpm": 103.4,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -9.5,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 283.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T09:58:12.631907"
+    },
+    "Celia Cruz, Ismael Rivera - Cucala.flac": {
+      "artist": "Celia Cruz, Ismael Rivera",
+      "title": "Cucala",
+      "filename": "Celia Cruz, Ismael Rivera - Cucala.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz, Ismael Rivera - Cucala.flac",
+      "bpm": 114.8,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 419.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T10:05:56.096455"
+    },
+    "Adalberto Santiago - Quitate La Mascara.flac": {
+      "artist": "Adalberto Santiago",
+      "title": "Quitate La Mascara",
+      "filename": "Adalberto Santiago - Quitate La Mascara.flac",
+      "path": "/home/andreas/Music/Library/flac/Adalberto Santiago - Quitate La Mascara.flac",
+      "bpm": 107.7,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -10.6,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 648.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T10:17:45.028082"
+    },
+    "Celia Cruz, Johnny Pacheco, Happy Colors - Virgencita (Happy Colors Remix).flac": {
+      "artist": "Celia Cruz, Johnny Pacheco, Happy Colors",
+      "title": "Virgencita (Happy Colors Remix)",
+      "filename": "Celia Cruz, Johnny Pacheco, Happy Colors - Virgencita (Happy Colors Remix).flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz, Johnny Pacheco, Happy Colors - Virgencita (Happy Colors Remix).flac",
+      "bpm": 114.8,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 196.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T10:21:22.195015"
+    },
+    "Celia Cruz, Johnny Pacheco - Toro Mata.flac": {
+      "artist": "Celia Cruz, Johnny Pacheco",
+      "title": "Toro Mata",
+      "filename": "Celia Cruz, Johnny Pacheco - Toro Mata.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz, Johnny Pacheco - Toro Mata.flac",
+      "bpm": 114.8,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "mid",
+      "lufs": -16.5,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 342.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T12:31:50.308376"
+    },
+    "Orchestra Harlow - Guarachita.flac": {
+      "artist": "Orchestra Harlow",
+      "title": "Guarachita",
+      "filename": "Orchestra Harlow - Guarachita.flac",
+      "path": "/home/andreas/Music/Library/flac/Orchestra Harlow - Guarachita.flac",
+      "bpm": 95.7,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "low",
+      "lufs": -26.2,
+      "true_peak_dbtp": -12.2,
+      "duration_sec": 242.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T12:36:28.782247"
+    },
+    "Héctor Lavoe - Vamos A Reir Un Poco.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Vamos A Reir Un Poco",
+      "filename": "Héctor Lavoe - Vamos A Reir Un Poco.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Vamos A Reir Un Poco.flac",
+      "bpm": 110.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -12.5,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 454.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T12:44:55.251662"
+    },
+    "Willie Colón, Héctor Lavoe - Juanito Alimana.flac": {
+      "artist": "Willie Colón, Héctor Lavoe",
+      "title": "Juanito Alimana",
+      "filename": "Willie Colón, Héctor Lavoe - Juanito Alimana.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Héctor Lavoe - Juanito Alimana.flac",
+      "bpm": 92.3,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -8.9,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 456.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T12:53:32.878039"
+    },
+    "Joe Cuba Sextet - La Palomilla.flac": {
+      "artist": "Joe Cuba Sextet",
+      "title": "La Palomilla",
+      "filename": "Joe Cuba Sextet - La Palomilla.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Cuba Sextet - La Palomilla.flac",
+      "bpm": 136.0,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "mid",
+      "lufs": -13.1,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 168.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T12:56:49.573643"
+    },
+    "Ray Barretto - O Elefante.flac": {
+      "artist": "Ray Barretto",
+      "title": "O Elefante",
+      "filename": "Ray Barretto - O Elefante.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - O Elefante.flac",
+      "bpm": 105.5,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "high",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 275.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:02:04.810602"
+    },
+    "Jimmy Sabater - Los Tiempos Cambian.flac": {
+      "artist": "Jimmy Sabater",
+      "title": "Los Tiempos Cambian",
+      "filename": "Jimmy Sabater - Los Tiempos Cambian.flac",
+      "path": "/home/andreas/Music/Library/flac/Jimmy Sabater - Los Tiempos Cambian.flac",
+      "bpm": 129.2,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -14.9,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 189.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:05:55.962267"
+    },
+    "Orchestra Harlow - Rise Up.flac": {
+      "artist": "Orchestra Harlow",
+      "title": "Rise Up",
+      "filename": "Orchestra Harlow - Rise Up.flac",
+      "path": "/home/andreas/Music/Library/flac/Orchestra Harlow - Rise Up.flac",
+      "bpm": 161.5,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 283.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:11:17.578360"
+    },
+    "Roberto Roena - Consolacion.flac": {
+      "artist": "Roberto Roena",
+      "title": "Consolacion",
+      "filename": "Roberto Roena - Consolacion.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena - Consolacion.flac",
+      "bpm": 120.2,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -8.6,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 207.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:15:15.566771"
+    },
+    "Tito Puente - Safari.flac": {
+      "artist": "Tito Puente",
+      "title": "Safari",
+      "filename": "Tito Puente - Safari.flac",
+      "path": "/home/andreas/Music/Library/flac/Tito Puente - Safari.flac",
+      "bpm": 126.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -13.1,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 305.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:21:00.475514"
+    },
+    "New Swing Sextet - Revolucionando.flac": {
+      "artist": "New Swing Sextet",
+      "title": "Revolucionando",
+      "filename": "New Swing Sextet - Revolucionando.flac",
+      "path": "/home/andreas/Music/Library/flac/New Swing Sextet - Revolucionando.flac",
+      "bpm": 101.3,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -15.0,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 178.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:24:27.829725"
+    },
+    "Eddie Palmieri - Helado De Chocolate.flac": {
+      "artist": "Eddie Palmieri",
+      "title": "Helado De Chocolate",
+      "filename": "Eddie Palmieri - Helado De Chocolate.flac",
+      "path": "/home/andreas/Music/Library/flac/Eddie Palmieri - Helado De Chocolate.flac",
+      "bpm": 126.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -14.4,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 375.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:31:28.876614"
+    },
+    "Pete And Louie - Evil Ways.flac": {
+      "artist": "Pete And Louie",
+      "title": "Evil Ways",
+      "filename": "Pete And Louie - Evil Ways.flac",
+      "path": "/home/andreas/Music/Library/flac/Pete And Louie - Evil Ways.flac",
+      "bpm": 114.8,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 231.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:35:57.003405"
+    },
+    "TNT Boys - Musica Del Alma.flac": {
+      "artist": "TNT Boys",
+      "title": "Musica Del Alma",
+      "filename": "TNT Boys - Musica Del Alma.flac",
+      "path": "/home/andreas/Music/Library/flac/TNT Boys - Musica Del Alma.flac",
+      "bpm": 123.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 215.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:40:06.954679"
+    },
+    "Joe Bataan - Crystal Blue Persuasion.flac": {
+      "artist": "Joe Bataan",
+      "title": "Crystal Blue Persuasion",
+      "filename": "Joe Bataan - Crystal Blue Persuasion.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Bataan - Crystal Blue Persuasion.flac",
+      "bpm": 110.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -12.6,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 199.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:43:51.226804"
+    },
+    "Willie Colón - MC2 (Theme Realidades).flac": {
+      "artist": "Willie Colón",
+      "title": "MC2 (Theme Realidades)",
+      "filename": "Willie Colón - MC2 (Theme Realidades).flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - MC2 (Theme Realidades).flac",
+      "bpm": 123.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -13.9,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 222.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:48:02.980259"
+    },
+    "Orchestra Harlow - Me And My Monkey_ Mi Mono Y Yo.flac": {
+      "artist": "Orchestra Harlow",
+      "title": "Me And My Monkey_ Mi Mono Y Yo",
+      "filename": "Orchestra Harlow - Me And My Monkey_ Mi Mono Y Yo.flac",
+      "path": "/home/andreas/Music/Library/flac/Orchestra Harlow - Me And My Monkey_ Mi Mono Y Yo.flac",
+      "bpm": 129.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -16.0,
+      "true_peak_dbtp": -3.1,
+      "duration_sec": 178.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:51:27.286795"
+    },
+    "Pete Rodriguez - Here Comes The Judge.flac": {
+      "artist": "Pete Rodriguez",
+      "title": "Here Comes The Judge",
+      "filename": "Pete Rodriguez - Here Comes The Judge.flac",
+      "path": "/home/andreas/Music/Library/flac/Pete Rodriguez - Here Comes The Judge.flac",
+      "bpm": 136.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -10.8,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 170.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:54:41.415450"
+    },
+    "Al Escobar - Ape Walk.flac": {
+      "artist": "Al Escobar",
+      "title": "Ape Walk",
+      "filename": "Al Escobar - Ape Walk.flac",
+      "path": "/home/andreas/Music/Library/flac/Al Escobar - Ape Walk.flac",
+      "bpm": 161.5,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "low",
+      "lufs": -22.3,
+      "true_peak_dbtp": -6.6,
+      "duration_sec": 173.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T13:58:02.073176"
+    },
+    "Ralfi Pagan - Rat Race.flac": {
+      "artist": "Ralfi Pagan",
+      "title": "Rat Race",
+      "filename": "Ralfi Pagan - Rat Race.flac",
+      "path": "/home/andreas/Music/Library/flac/Ralfi Pagan - Rat Race.flac",
+      "bpm": 161.5,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -12.6,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 165.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:01:19.360221"
+    },
+    "Pete Rodriguez - I Like It Like That.flac": {
+      "artist": "Pete Rodriguez",
+      "title": "I Like It Like That",
+      "filename": "Pete Rodriguez - I Like It Like That.flac",
+      "path": "/home/andreas/Music/Library/flac/Pete Rodriguez - I Like It Like That.flac",
+      "bpm": 132.5,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -8.1,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 265.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:06:30.747809"
+    },
+    "Ismael Rivera, Rolando Laserie - Moliendo Café.flac": {
+      "artist": "Ismael Rivera, Rolando Laserie",
+      "title": "Moliendo Café",
+      "filename": "Ismael Rivera, Rolando Laserie - Moliendo Café.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Rivera, Rolando Laserie - Moliendo Café.flac",
+      "bpm": 101.3,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -12.4,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 180.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:09:58.721804"
+    },
+    "Sonora Ponceña - Nicas Dream Mambo.flac": {
+      "artist": "Sonora Ponceña",
+      "title": "Nicas Dream Mambo",
+      "filename": "Sonora Ponceña - Nicas Dream Mambo.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña - Nicas Dream Mambo.flac",
+      "bpm": 123.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -15.4,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 374.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:16:58.819829"
+    },
+    "Héctor Lavoe - Escarchas.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Escarchas",
+      "filename": "Héctor Lavoe - Escarchas.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Escarchas.flac",
+      "bpm": 92.3,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 392.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:24:22.367460"
+    },
+    "Arturo Sandoval - El Huracán Del Caribe.flac": {
+      "artist": "Arturo Sandoval",
+      "title": "El Huracán Del Caribe",
+      "filename": "Arturo Sandoval - El Huracán Del Caribe.flac",
+      "path": "/home/andreas/Music/Library/flac/Arturo Sandoval - El Huracán Del Caribe.flac",
+      "bpm": 95.7,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -12.1,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 320.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:34:14.123745"
+    },
+    "Tito Puente - Que Paso.flac": {
+      "artist": "Tito Puente",
+      "title": "Que Paso",
+      "filename": "Tito Puente - Que Paso.flac",
+      "path": "/home/andreas/Music/Library/flac/Tito Puente - Que Paso.flac",
+      "bpm": 143.6,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -8.4,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 209.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:38:17.757543"
+    },
+    "Ray Barretto - La Moderna.flac": {
+      "artist": "Ray Barretto",
+      "title": "La Moderna",
+      "filename": "Ray Barretto - La Moderna.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - La Moderna.flac",
+      "bpm": 105.5,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 146.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:41:09.530722"
+    },
+    "Ray Barretto - Aprieta El Pollo.flac": {
+      "artist": "Ray Barretto",
+      "title": "Aprieta El Pollo",
+      "filename": "Ray Barretto - Aprieta El Pollo.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Aprieta El Pollo.flac",
+      "bpm": 129.2,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "high",
+      "lufs": -9.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 174.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:44:30.304574"
+    },
+    "Ray Barretto - Deuda.flac": {
+      "artist": "Ray Barretto",
+      "title": "Deuda",
+      "filename": "Ray Barretto - Deuda.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Deuda.flac",
+      "bpm": 99.4,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -10.4,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 182.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:48:00.194091"
+    },
+    "Ray Barretto - Ritmo Sabroso.flac": {
+      "artist": "Ray Barretto",
+      "title": "Ritmo Sabroso",
+      "filename": "Ray Barretto - Ritmo Sabroso.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Ritmo Sabroso.flac",
+      "bpm": 114.8,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -9.5,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 180.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:51:27.934025"
+    },
+    "Ray Barretto - Suelta La Cintura.flac": {
+      "artist": "Ray Barretto",
+      "title": "Suelta La Cintura",
+      "filename": "Ray Barretto - Suelta La Cintura.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Suelta La Cintura.flac",
+      "bpm": 126.0,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 161.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:54:35.207314"
+    },
+    "Ray Barretto - Guajira Y Tambo.flac": {
+      "artist": "Ray Barretto",
+      "title": "Guajira Y Tambo",
+      "filename": "Ray Barretto - Guajira Y Tambo.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Guajira Y Tambo.flac",
+      "bpm": 126.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 197.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T14:58:21.008732"
+    },
+    "Ray Barretto - Teresita.flac": {
+      "artist": "Ray Barretto",
+      "title": "Teresita",
+      "filename": "Ray Barretto - Teresita.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Teresita.flac",
+      "bpm": 90.7,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -9.9,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 168.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:01:34.948048"
+    },
+    "Ray Barretto - Nuestras Vidas.flac": {
+      "artist": "Ray Barretto",
+      "title": "Nuestras Vidas",
+      "filename": "Ray Barretto - Nuestras Vidas.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Nuestras Vidas.flac",
+      "bpm": 97.5,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "mid",
+      "lufs": -11.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 147.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:04:27.657083"
+    },
+    "Ray Barretto - Los Pollitos.flac": {
+      "artist": "Ray Barretto",
+      "title": "Los Pollitos",
+      "filename": "Ray Barretto - Los Pollitos.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Los Pollitos.flac",
+      "bpm": 97.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -10.5,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 149.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:07:21.668304"
+    },
+    "Ray Barretto - El Camino.flac": {
+      "artist": "Ray Barretto",
+      "title": "El Camino",
+      "filename": "Ray Barretto - El Camino.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - El Camino.flac",
+      "bpm": 126.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -10.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 164.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:10:32.197490"
+    },
+    "Ray Barretto - La Mucura.flac": {
+      "artist": "Ray Barretto",
+      "title": "La Mucura",
+      "filename": "Ray Barretto - La Mucura.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - La Mucura.flac",
+      "bpm": 107.7,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 164.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:13:43.466141"
+    },
+    "El Remolón - Basta Ya (Todos Somos Inmigrantes).flac": {
+      "artist": "El Remolón",
+      "title": "Basta Ya (Todos Somos Inmigrantes)",
+      "filename": "El Remolón - Basta Ya (Todos Somos Inmigrantes).flac",
+      "path": "/home/andreas/Music/Library/flac/El Remolón - Basta Ya (Todos Somos Inmigrantes).flac",
+      "bpm": 132.5,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -7.8,
+      "true_peak_dbtp": 1.3,
+      "duration_sec": 267.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:18:46.739448"
+    },
+    "El Remolón - Mujeres.flac": {
+      "artist": "El Remolón",
+      "title": "Mujeres",
+      "filename": "El Remolón - Mujeres.flac",
+      "path": "/home/andreas/Music/Library/flac/El Remolón - Mujeres.flac",
+      "bpm": 87.6,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 244.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:23:25.157173"
+    },
+    "El Remolón - Animal.flac": {
+      "artist": "El Remolón",
+      "title": "Animal",
+      "filename": "El Remolón - Animal.flac",
+      "path": "/home/andreas/Music/Library/flac/El Remolón - Animal.flac",
+      "bpm": 92.3,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 2.3,
+      "duration_sec": 255.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:28:14.825332"
+    },
+    "El Remolón - Liga de Sabor Tropical.flac": {
+      "artist": "El Remolón",
+      "title": "Liga de Sabor Tropical",
+      "filename": "El Remolón - Liga de Sabor Tropical.flac",
+      "path": "/home/andreas/Music/Library/flac/El Remolón - Liga de Sabor Tropical.flac",
+      "bpm": 90.7,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -8.0,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 261.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:33:11.023054"
+    },
+    "El Remolón - Estilo Acapulco.flac": {
+      "artist": "El Remolón",
+      "title": "Estilo Acapulco",
+      "filename": "El Remolón - Estilo Acapulco.flac",
+      "path": "/home/andreas/Music/Library/flac/El Remolón - Estilo Acapulco.flac",
+      "bpm": 110.0,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -6.2,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 221.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:37:29.938236"
+    },
+    "El Remolón - Charachacha.flac": {
+      "artist": "El Remolón",
+      "title": "Charachacha",
+      "filename": "El Remolón - Charachacha.flac",
+      "path": "/home/andreas/Music/Library/flac/El Remolón - Charachacha.flac",
+      "bpm": 139.7,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -7.9,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 211.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:41:34.836569"
+    },
+    "Ismael Miranda - Yo No Soy Juquete.flac": {
+      "artist": "Ismael Miranda",
+      "title": "Yo No Soy Juquete",
+      "filename": "Ismael Miranda - Yo No Soy Juquete.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Miranda - Yo No Soy Juquete.flac",
+      "bpm": 136.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -7.5,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 369.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:48:10.227720"
+    },
+    "Ismael Miranda - Señor Sereno (En Vivo).flac": {
+      "artist": "Ismael Miranda",
+      "title": "Señor Sereno (En Vivo)",
+      "filename": "Ismael Miranda - Señor Sereno (En Vivo).flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Miranda - Señor Sereno (En Vivo).flac",
+      "bpm": 107.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -10.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 332.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:54:08.767828"
+    },
+    "Roberto Roena - Take Five.flac": {
+      "artist": "Roberto Roena",
+      "title": "Take Five",
+      "filename": "Roberto Roena - Take Five.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena - Take Five.flac",
+      "bpm": 110.0,
+      "key": "C# minor",
+      "camelot": "12A",
+      "energy": "low",
+      "lufs": -16.8,
+      "true_peak_dbtp": -1.2,
+      "duration_sec": 255.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T15:59:12.711220"
+    },
+    "Richie Ray, Bobby Cruz - Pancho Cristal.flac": {
+      "artist": "Richie Ray, Bobby Cruz",
+      "title": "Pancho Cristal",
+      "filename": "Richie Ray, Bobby Cruz - Pancho Cristal.flac",
+      "path": "/home/andreas/Music/Library/flac/Richie Ray, Bobby Cruz - Pancho Cristal.flac",
+      "bpm": 178.2,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "mid",
+      "lufs": -13.0,
+      "true_peak_dbtp": -0.9,
+      "duration_sec": 291.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:05:43.713931"
+    },
+    "Celia Cruz, Johnny Pacheco, Justo Betancourt, Papo Lucca - Ahora Si.flac": {
+      "artist": "Celia Cruz, Johnny Pacheco, Justo Betancourt, Papo Lucca",
+      "title": "Ahora Si",
+      "filename": "Celia Cruz, Johnny Pacheco, Justo Betancourt, Papo Lucca - Ahora Si.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz, Johnny Pacheco, Justo Betancourt, Papo Lucca - Ahora Si.flac",
+      "bpm": 107.7,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -13.5,
+      "true_peak_dbtp": -0.9,
+      "duration_sec": 316.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:11:53.506413"
+    },
+    "Papo Lucca - Bomba Carambomba.flac": {
+      "artist": "Papo Lucca",
+      "title": "Bomba Carambomba",
+      "filename": "Papo Lucca - Bomba Carambomba.flac",
+      "path": "/home/andreas/Music/Library/flac/Papo Lucca - Bomba Carambomba.flac",
+      "bpm": 132.5,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -8.9,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 313.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:17:46.161843"
+    },
+    "Adalberto Santiago - Fuego Y Candela.flac": {
+      "artist": "Adalberto Santiago",
+      "title": "Fuego Y Candela",
+      "filename": "Adalberto Santiago - Fuego Y Candela.flac",
+      "path": "/home/andreas/Music/Library/flac/Adalberto Santiago - Fuego Y Candela.flac",
+      "bpm": 112.3,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 378.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:24:52.525199"
+    },
+    "Tito Allen - Feliz y Dichoso.flac": {
+      "artist": "Tito Allen",
+      "title": "Feliz y Dichoso",
+      "filename": "Tito Allen - Feliz y Dichoso.flac",
+      "path": "/home/andreas/Music/Library/flac/Tito Allen - Feliz y Dichoso.flac",
+      "bpm": 112.3,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 276.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:30:05.701141"
+    },
+    "Willie Colón - Oh Que Sera.flac": {
+      "artist": "Willie Colón",
+      "title": "Oh Que Sera",
+      "filename": "Willie Colón - Oh Que Sera.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - Oh Que Sera.flac",
+      "bpm": 89.1,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 303.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:35:49.576756"
+    },
+    "Willie Colón - Demasiado Corazon.flac": {
+      "artist": "Willie Colón",
+      "title": "Demasiado Corazon",
+      "filename": "Willie Colón - Demasiado Corazon.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - Demasiado Corazon.flac",
+      "bpm": 89.1,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -11.1,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 230.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:40:13.234919"
+    },
+    "Oscar D'León - Sun Sun Babae.flac": {
+      "artist": "Oscar D'León",
+      "title": "Sun Sun Babae",
+      "filename": "Oscar D'León - Sun Sun Babae.flac",
+      "path": "/home/andreas/Music/Library/flac/Oscar D'León - Sun Sun Babae.flac",
+      "bpm": 101.3,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -10.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 180.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:43:41.278357"
+    },
+    "Oscar D'León - Monta Mi Caballo.flac": {
+      "artist": "Oscar D'León",
+      "title": "Monta Mi Caballo",
+      "filename": "Oscar D'León - Monta Mi Caballo.flac",
+      "path": "/home/andreas/Music/Library/flac/Oscar D'León - Monta Mi Caballo.flac",
+      "bpm": 101.3,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -11.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 241.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:48:16.630833"
+    },
+    "Orquesta Harlow, Larry Harlow, Junior Gonzalez - La Cartera.flac": {
+      "artist": "Orquesta Harlow, Larry Harlow, Junior Gonzalez",
+      "title": "La Cartera",
+      "filename": "Orquesta Harlow, Larry Harlow, Junior Gonzalez - La Cartera.flac",
+      "path": "/home/andreas/Music/Library/flac/Orquesta Harlow, Larry Harlow, Junior Gonzalez - La Cartera.flac",
+      "bpm": 97.5,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 386.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T16:55:35.785639"
+    },
+    "Joe Cuba - El Pito (I'll Never Go Back to Georgia).flac": {
+      "artist": "Joe Cuba",
+      "title": "El Pito (I'll Never Go Back to Georgia)",
+      "filename": "Joe Cuba - El Pito (I'll Never Go Back to Georgia).flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Cuba - El Pito (I'll Never Go Back to Georgia).flac",
+      "bpm": 156.6,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 333.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:02:04.863092"
+    },
+    "Joe Cuba - A Las Seis.flac": {
+      "artist": "Joe Cuba",
+      "title": "A Las Seis",
+      "filename": "Joe Cuba - A Las Seis.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Cuba - A Las Seis.flac",
+      "bpm": 114.8,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -11.2,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 163.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:05:21.337860"
+    },
+    "Angel Canales - Lejos De Ti.flac": {
+      "artist": "Angel Canales",
+      "title": "Lejos De Ti",
+      "filename": "Angel Canales - Lejos De Ti.flac",
+      "path": "/home/andreas/Music/Library/flac/Angel Canales - Lejos De Ti.flac",
+      "bpm": 101.3,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -10.8,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 255.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:10:13.930755"
+    },
+    "Willie Colón, Héctor Lavoe - Todo Tiene Su Final.flac": {
+      "artist": "Willie Colón, Héctor Lavoe",
+      "title": "Todo Tiene Su Final",
+      "filename": "Willie Colón, Héctor Lavoe - Todo Tiene Su Final.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Héctor Lavoe - Todo Tiene Su Final.flac",
+      "bpm": 103.4,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.9,
+      "duration_sec": 303.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:15:57.861483"
+    },
+    "Willie Colón, Rubén Blades - Buscando Guayaba.flac": {
+      "artist": "Willie Colón, Rubén Blades",
+      "title": "Buscando Guayaba",
+      "filename": "Willie Colón, Rubén Blades - Buscando Guayaba.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Rubén Blades - Buscando Guayaba.flac",
+      "bpm": 147.7,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -11.6,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 347.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:23:19.220392"
+    },
+    "Roberto Roena - Tu Loco Loco Y Yo Tranquilo.flac": {
+      "artist": "Roberto Roena",
+      "title": "Tu Loco Loco Y Yo Tranquilo",
+      "filename": "Roberto Roena - Tu Loco Loco Y Yo Tranquilo.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena - Tu Loco Loco Y Yo Tranquilo.flac",
+      "bpm": 89.1,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -8.4,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 198.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:27:08.071346"
+    },
+    "Héctor Lavoe - Plato De Segunda Mesa.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Plato De Segunda Mesa",
+      "filename": "Héctor Lavoe - Plato De Segunda Mesa.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Plato De Segunda Mesa.flac",
+      "bpm": 129.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 282.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:34:06.276793"
+    },
+    "Willie Colón, Héctor Lavoe - La Banda.flac": {
+      "artist": "Willie Colón, Héctor Lavoe",
+      "title": "La Banda",
+      "filename": "Willie Colón, Héctor Lavoe - La Banda.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Héctor Lavoe - La Banda.flac",
+      "bpm": 114.8,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 182.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:37:44.169349"
+    },
+    "Willie Colón, Celia Cruz - Un Bembe Pa Yemaya.flac": {
+      "artist": "Willie Colón, Celia Cruz",
+      "title": "Un Bembe Pa Yemaya",
+      "filename": "Willie Colón, Celia Cruz - Un Bembe Pa Yemaya.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Celia Cruz - Un Bembe Pa Yemaya.flac",
+      "bpm": 120.2,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 347.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:44:12.955601"
+    },
+    "Tommy Olivencia - Plante Bandera.flac": {
+      "artist": "Tommy Olivencia",
+      "title": "Plante Bandera",
+      "filename": "Tommy Olivencia - Plante Bandera.flac",
+      "path": "/home/andreas/Music/Library/flac/Tommy Olivencia - Plante Bandera.flac",
+      "bpm": 101.3,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 274.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:49:26.145031"
+    },
+    "Sonora Ponceña - La Pollera Colorá.flac": {
+      "artist": "Sonora Ponceña",
+      "title": "La Pollera Colorá",
+      "filename": "Sonora Ponceña - La Pollera Colorá.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña - La Pollera Colorá.flac",
+      "bpm": 99.4,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -13.1,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 238.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:53:59.699742"
+    },
+    "Celia Cruz - Yo Viviré (I Will Survive).flac": {
+      "artist": "Celia Cruz",
+      "title": "Yo Viviré (I Will Survive)",
+      "filename": "Celia Cruz - Yo Viviré (I Will Survive).flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - Yo Viviré (I Will Survive).flac",
+      "bpm": 120.2,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -7.6,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 271.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T17:59:07.768380"
+    },
+    "Gilberto Santa Rosa - Qué Manera de Quererte.flac": {
+      "artist": "Gilberto Santa Rosa",
+      "title": "Qué Manera de Quererte",
+      "filename": "Gilberto Santa Rosa - Qué Manera de Quererte.flac",
+      "path": "/home/andreas/Music/Library/flac/Gilberto Santa Rosa - Qué Manera de Quererte.flac",
+      "bpm": 92.3,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -13.4,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 323.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:06:25.650046"
+    },
+    "Willie Colón, Héctor Lavoe - Barrunto.flac": {
+      "artist": "Willie Colón, Héctor Lavoe",
+      "title": "Barrunto",
+      "filename": "Willie Colón, Héctor Lavoe - Barrunto.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Héctor Lavoe - Barrunto.flac",
+      "bpm": 99.4,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -13.2,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 336.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:12:44.699901"
+    },
+    "Roberto Roena Y Su Apollo Sound - Baila y Goza.flac": {
+      "artist": "Roberto Roena Y Su Apollo Sound",
+      "title": "Baila y Goza",
+      "filename": "Roberto Roena Y Su Apollo Sound - Baila y Goza.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena Y Su Apollo Sound - Baila y Goza.flac",
+      "bpm": 99.4,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 326.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:18:53.906704"
+    },
+    "Louie Ramirez - Ahora es el Tiempo.flac": {
+      "artist": "Louie Ramirez",
+      "title": "Ahora es el Tiempo",
+      "filename": "Louie Ramirez - Ahora es el Tiempo.flac",
+      "path": "/home/andreas/Music/Library/flac/Louie Ramirez - Ahora es el Tiempo.flac",
+      "bpm": 99.4,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -16.8,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 362.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:25:42.870911"
+    },
+    "Rubén Blades, Willie Colón - Tiburón.flac": {
+      "artist": "Rubén Blades, Willie Colón",
+      "title": "Tiburón",
+      "filename": "Rubén Blades, Willie Colón - Tiburón.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades, Willie Colón - Tiburón.flac",
+      "bpm": 129.2,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -12.1,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 420.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:33:56.014314"
+    },
+    "Roberto Roena Y Su Apollo Sound - Guaguancó Del Adios.flac": {
+      "artist": "Roberto Roena Y Su Apollo Sound",
+      "title": "Guaguancó Del Adios",
+      "filename": "Roberto Roena Y Su Apollo Sound - Guaguancó Del Adios.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena Y Su Apollo Sound - Guaguancó Del Adios.flac",
+      "bpm": 129.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 367.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:40:51.658627"
+    },
+    "El Gran Combo De Puerto Rico - Aguacero.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Aguacero",
+      "filename": "El Gran Combo De Puerto Rico - Aguacero.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Aguacero.flac",
+      "bpm": 90.7,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 252.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:45:39.323238"
+    },
+    "El Gran Combo De Puerto Rico - Y No Hago Mas Na'.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Y No Hago Mas Na'",
+      "filename": "El Gran Combo De Puerto Rico - Y No Hago Mas Na'.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Y No Hago Mas Na'.flac",
+      "bpm": 90.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -11.8,
+      "true_peak_dbtp": 1.3,
+      "duration_sec": 301.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:51:21.033830"
+    },
+    "Willie Colón, Rubén Blades - María Lionza.flac": {
+      "artist": "Willie Colón, Rubén Blades",
+      "title": "María Lionza",
+      "filename": "Willie Colón, Rubén Blades - María Lionza.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Rubén Blades - María Lionza.flac",
+      "bpm": 191.4,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 331.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T18:57:34.787054"
+    },
+    "Willie Colón, Rubén Blades - Siembra.flac": {
+      "artist": "Willie Colón, Rubén Blades",
+      "title": "Siembra",
+      "filename": "Willie Colón, Rubén Blades - Siembra.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Rubén Blades - Siembra.flac",
+      "bpm": 120.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 325.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:03:40.661039"
+    },
+    "Grupo Niche - Cali Pachanguero.flac": {
+      "artist": "Grupo Niche",
+      "title": "Cali Pachanguero",
+      "filename": "Grupo Niche - Cali Pachanguero.flac",
+      "path": "/home/andreas/Music/Library/flac/Grupo Niche - Cali Pachanguero.flac",
+      "bpm": 99.4,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.5,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 309.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:09:30.963054"
+    },
+    "Grupo Niche - Una Aventura.flac": {
+      "artist": "Grupo Niche",
+      "title": "Una Aventura",
+      "filename": "Grupo Niche - Una Aventura.flac",
+      "path": "/home/andreas/Music/Library/flac/Grupo Niche - Una Aventura.flac",
+      "bpm": 123.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -14.7,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 316.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:15:27.760433"
+    },
+    "Grupo Niche - Sin Sentimientos.flac": {
+      "artist": "Grupo Niche",
+      "title": "Sin Sentimientos",
+      "filename": "Grupo Niche - Sin Sentimientos.flac",
+      "path": "/home/andreas/Music/Library/flac/Grupo Niche - Sin Sentimientos.flac",
+      "bpm": 112.3,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -12.5,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 294.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:21:01.666177"
+    },
+    "El Gran Combo De Puerto Rico - Ojos Chinos.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Ojos Chinos",
+      "filename": "El Gran Combo De Puerto Rico - Ojos Chinos.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Ojos Chinos.flac",
+      "bpm": 94.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -12.3,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 261.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:25:59.780610"
+    },
+    "Johnny Pacheco, Pete \"El Conde\" Rodriguez - Soñero.flac": {
+      "artist": "Johnny Pacheco, Pete \"El Conde\" Rodriguez",
+      "title": "Soñero",
+      "filename": "Johnny Pacheco, Pete \"El Conde\" Rodriguez - Soñero.flac",
+      "path": "/home/andreas/Music/Library/flac/Johnny Pacheco, Pete \"El Conde\" Rodriguez - Soñero.flac",
+      "bpm": 156.6,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": -0.6,
+      "duration_sec": 256.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:30:54.242788"
+    },
+    "Héctor Lavoe - De Que Tamano Es Tu Amor.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "De Que Tamano Es Tu Amor",
+      "filename": "Héctor Lavoe - De Que Tamano Es Tu Amor.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - De Que Tamano Es Tu Amor.flac",
+      "bpm": 126.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -12.9,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 213.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:34:58.109780"
+    },
+    "Roberto Roena - Cui Cui.flac": {
+      "artist": "Roberto Roena",
+      "title": "Cui Cui",
+      "filename": "Roberto Roena - Cui Cui.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena - Cui Cui.flac",
+      "bpm": 86.1,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 287.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:40:25.327134"
+    },
+    "Héctor Lavoe - El Son.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "El Son",
+      "filename": "Héctor Lavoe - El Son.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - El Son.flac",
+      "bpm": 110.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -12.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 366.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:47:18.741906"
+    },
+    "Sonora Carruseles, Gabino Pampini - Ave María Lola.flac": {
+      "artist": "Sonora Carruseles, Gabino Pampini",
+      "title": "Ave María Lola",
+      "filename": "Sonora Carruseles, Gabino Pampini - Ave María Lola.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Carruseles, Gabino Pampini - Ave María Lola.flac",
+      "bpm": 95.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -11.4,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 248.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:52:07.096679"
+    },
+    "Sonora Carruseles - Mosaico Boogaloo_ Mambo Batiri, Me Gusta Boogaloo, Regalo para Ti.flac": {
+      "artist": "Sonora Carruseles",
+      "title": "Mosaico Boogaloo_ Mambo Batiri, Me Gusta Boogaloo, Regalo para Ti",
+      "filename": "Sonora Carruseles - Mosaico Boogaloo_ Mambo Batiri, Me Gusta Boogaloo, Regalo para Ti.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Carruseles - Mosaico Boogaloo_ Mambo Batiri, Me Gusta Boogaloo, Regalo para Ti.flac",
+      "bpm": 101.3,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 306.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T19:57:56.047815"
+    },
+    "El Gran Combo De Puerto Rico - Te Regalo el Corazon.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Te Regalo el Corazon",
+      "filename": "El Gran Combo De Puerto Rico - Te Regalo el Corazon.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Te Regalo el Corazon.flac",
+      "bpm": 97.5,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -12.4,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 248.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:02:39.556148"
+    },
+    "Tromboranga - Agua Que Va Caer.flac": {
+      "artist": "Tromboranga",
+      "title": "Agua Que Va Caer",
+      "filename": "Tromboranga - Agua Que Va Caer.flac",
+      "path": "/home/andreas/Music/Library/flac/Tromboranga - Agua Que Va Caer.flac",
+      "bpm": 92.3,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "mid",
+      "lufs": -14.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 283.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:08:06.158385"
+    },
+    "Joe Cuba Sextet - Mujer Divina.flac": {
+      "artist": "Joe Cuba Sextet",
+      "title": "Mujer Divina",
+      "filename": "Joe Cuba Sextet - Mujer Divina.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Cuba Sextet - Mujer Divina.flac",
+      "bpm": 198.8,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -11.3,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 295.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:13:39.748232"
+    },
+    "Roberto Roena - Viva Cortijo.flac": {
+      "artist": "Roberto Roena",
+      "title": "Viva Cortijo",
+      "filename": "Roberto Roena - Viva Cortijo.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena - Viva Cortijo.flac",
+      "bpm": 99.4,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 217.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:17:49.825871"
+    },
+    "Cheo Feliciano - Salí Porque Salí.flac": {
+      "artist": "Cheo Feliciano",
+      "title": "Salí Porque Salí",
+      "filename": "Cheo Feliciano - Salí Porque Salí.flac",
+      "path": "/home/andreas/Music/Library/flac/Cheo Feliciano - Salí Porque Salí.flac",
+      "bpm": 136.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -14.1,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 342.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:24:21.650142"
+    },
+    "Willie Colón, Rubén Blades - Oh Que Será.flac": {
+      "artist": "Willie Colón, Rubén Blades",
+      "title": "Oh Que Será",
+      "filename": "Willie Colón, Rubén Blades - Oh Que Será.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Rubén Blades - Oh Que Será.flac",
+      "bpm": 99.4,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -12.6,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 370.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:31:18.661150"
+    },
+    "Ray Barretto - El Hijo De Obatalá.flac": {
+      "artist": "Ray Barretto",
+      "title": "El Hijo De Obatalá",
+      "filename": "Ray Barretto - El Hijo De Obatalá.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - El Hijo De Obatalá.flac",
+      "bpm": 107.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -16.3,
+      "true_peak_dbtp": -7.9,
+      "duration_sec": 302.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:37:18.785667"
+    },
+    "Poncho Sanchez, Mongo Santamaria - Bésame Mama.flac": {
+      "artist": "Poncho Sanchez, Mongo Santamaria",
+      "title": "Bésame Mama",
+      "filename": "Poncho Sanchez, Mongo Santamaria - Bésame Mama.flac",
+      "path": "/home/andreas/Music/Library/flac/Poncho Sanchez, Mongo Santamaria - Bésame Mama.flac",
+      "bpm": 107.7,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -15.7,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 393.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:44:41.992583"
+    },
+    "Ray Barretto, Rubén Blades - Canto Abacuá.flac": {
+      "artist": "Ray Barretto, Rubén Blades",
+      "title": "Canto Abacuá",
+      "filename": "Ray Barretto, Rubén Blades - Canto Abacuá.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto, Rubén Blades - Canto Abacuá.flac",
+      "bpm": 114.8,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -12.3,
+      "true_peak_dbtp": -0.0,
+      "duration_sec": 496.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T20:54:00.017480"
+    },
+    "Angel Canales - Yo No Tengo Pena.flac": {
+      "artist": "Angel Canales",
+      "title": "Yo No Tengo Pena",
+      "filename": "Angel Canales - Yo No Tengo Pena.flac",
+      "path": "/home/andreas/Music/Library/flac/Angel Canales - Yo No Tengo Pena.flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -16.2,
+      "true_peak_dbtp": -0.5,
+      "duration_sec": 370.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:00:55.632604"
+    },
+    "Bobby Valentin - Part Time Lover (Amor a Medio Tiempo).flac": {
+      "artist": "Bobby Valentin",
+      "title": "Part Time Lover (Amor a Medio Tiempo)",
+      "filename": "Bobby Valentin - Part Time Lover (Amor a Medio Tiempo).flac",
+      "path": "/home/andreas/Music/Library/flac/Bobby Valentin - Part Time Lover (Amor a Medio Tiempo).flac",
+      "bpm": 129.2,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": -0.6,
+      "duration_sec": 382.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:08:11.028864"
+    },
+    "Cuco Valoy, Roberto Torres - Caballo Viejo.flac": {
+      "artist": "Cuco Valoy, Roberto Torres",
+      "title": "Caballo Viejo",
+      "filename": "Cuco Valoy, Roberto Torres - Caballo Viejo.flac",
+      "path": "/home/andreas/Music/Library/flac/Cuco Valoy, Roberto Torres - Caballo Viejo.flac",
+      "bpm": 94.0,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -8.0,
+      "true_peak_dbtp": 1.1,
+      "duration_sec": 243.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:12:52.783464"
+    },
+    "Rubén Blades, Roberto Delgado & Orquesta - La Marea.flac": {
+      "artist": "Rubén Blades, Roberto Delgado & Orquesta",
+      "title": "La Marea",
+      "filename": "Rubén Blades, Roberto Delgado & Orquesta - La Marea.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades, Roberto Delgado & Orquesta - La Marea.flac",
+      "bpm": 143.6,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -10.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 187.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:16:32.044708"
+    },
+    "Héctor Lavoe - Periódico De Ayer.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Periódico De Ayer",
+      "filename": "Héctor Lavoe - Periódico De Ayer.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Periódico De Ayer.flac",
+      "bpm": 99.4,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -11.7,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 408.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:24:09.198776"
+    },
+    "Ray Barretto - La Pelota.flac": {
+      "artist": "Ray Barretto",
+      "title": "La Pelota",
+      "filename": "Ray Barretto - La Pelota.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - La Pelota.flac",
+      "bpm": 129.2,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -15.0,
+      "true_peak_dbtp": -0.5,
+      "duration_sec": 258.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:29:16.303430"
+    },
+    "El Gran Combo De Puerto Rico - La Fiesta de Pilito.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "La Fiesta de Pilito",
+      "filename": "El Gran Combo De Puerto Rico - La Fiesta de Pilito.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - La Fiesta de Pilito.flac",
+      "bpm": 101.3,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.6,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 237.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:33:47.958834"
+    },
+    "El Gran Combo De Puerto Rico - Brujeria.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Brujeria",
+      "filename": "El Gran Combo De Puerto Rico - Brujeria.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Brujeria.flac",
+      "bpm": 94.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 205.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:37:52.634492"
+    },
+    "Joe Arroyo, La Verdad - Yamulemau.flac": {
+      "artist": "Joe Arroyo, La Verdad",
+      "title": "Yamulemau",
+      "filename": "Joe Arroyo, La Verdad - Yamulemau.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Arroyo, La Verdad - Yamulemau.flac",
+      "bpm": 110.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -12.0,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 270.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:43:04.251873"
+    },
+    "El Gran Combo De Puerto Rico - No Hay Cama Pa' Tanta Gente.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "No Hay Cama Pa' Tanta Gente",
+      "filename": "El Gran Combo De Puerto Rico - No Hay Cama Pa' Tanta Gente.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - No Hay Cama Pa' Tanta Gente.flac",
+      "bpm": 107.7,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 268.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:48:08.462561"
+    },
+    "Joe Arroyo, La Verdad - Ban Ban.flac": {
+      "artist": "Joe Arroyo, La Verdad",
+      "title": "Ban Ban",
+      "filename": "Joe Arroyo, La Verdad - Ban Ban.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Arroyo, La Verdad - Ban Ban.flac",
+      "bpm": 147.7,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "high",
+      "lufs": -7.9,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 191.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:51:49.141843"
+    },
+    "El Gran Combo De Puerto Rico - Azuquita Pa'l Cafe.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Azuquita Pa'l Cafe",
+      "filename": "El Gran Combo De Puerto Rico - Azuquita Pa'l Cafe.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Azuquita Pa'l Cafe.flac",
+      "bpm": 89.1,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -12.0,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 249.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T21:56:33.880998"
+    },
+    "El Gran Combo De Puerto Rico - Garantia.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Garantia",
+      "filename": "El Gran Combo De Puerto Rico - Garantia.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Garantia.flac",
+      "bpm": 92.3,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 246.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:01:22.799551"
+    },
+    "Rubén Blades - Ganas.flac": {
+      "artist": "Rubén Blades",
+      "title": "Ganas",
+      "filename": "Rubén Blades - Ganas.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades - Ganas.flac",
+      "bpm": 120.2,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -16.9,
+      "true_peak_dbtp": -4.2,
+      "duration_sec": 278.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:06:40.661396"
+    },
+    "Johnny Pacheco - Acuyuye.flac": {
+      "artist": "Johnny Pacheco",
+      "title": "Acuyuye",
+      "filename": "Johnny Pacheco - Acuyuye.flac",
+      "path": "/home/andreas/Music/Library/flac/Johnny Pacheco - Acuyuye.flac",
+      "bpm": 114.8,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -9.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 153.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:09:40.907901"
+    },
+    "Cortijo Y Su Combo, Ismael Rivera - El Negro Bembón.flac": {
+      "artist": "Cortijo Y Su Combo, Ismael Rivera",
+      "title": "El Negro Bembón",
+      "filename": "Cortijo Y Su Combo, Ismael Rivera - El Negro Bembón.flac",
+      "path": "/home/andreas/Music/Library/flac/Cortijo Y Su Combo, Ismael Rivera - El Negro Bembón.flac",
+      "bpm": 92.3,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -8.9,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 180.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:13:10.552675"
+    },
+    "Orlando \"Cachaíto\" López, Angá Diaz, Amadito Valdés, Carlos González, Manuel Galbán - Mis Dos Pequeñas (feat. Angá Díaz, Amadito Valdés, Carlos González & Manuel Galbán).flac": {
+      "artist": "Orlando \"Cachaíto\" López, Angá Diaz, Amadito Valdés, Carlos González, Manuel Galbán",
+      "title": "Mis Dos Pequeñas (feat. Angá Díaz, Amadito Valdés, Carlos González & Manuel Galbán)",
+      "filename": "Orlando \"Cachaíto\" López, Angá Diaz, Amadito Valdés, Carlos González, Manuel Galbán - Mis Dos Pequeñas (feat. Angá Díaz, Amadito Valdés, Carlos González & Manuel Galbán).flac",
+      "path": "/home/andreas/Music/Library/flac/Orlando \"Cachaíto\" López, Angá Diaz, Amadito Valdés, Carlos González, Manuel Galbán - Mis Dos Pequeñas (feat. Angá Díaz, Amadito Valdés, Carlos González & Manuel Galbán).flac",
+      "bpm": 129.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.4,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 246.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:17:58.533118"
+    },
+    "Frankie Ruiz - La Cura.flac": {
+      "artist": "Frankie Ruiz",
+      "title": "La Cura",
+      "filename": "Frankie Ruiz - La Cura.flac",
+      "path": "/home/andreas/Music/Library/flac/Frankie Ruiz - La Cura.flac",
+      "bpm": 92.3,
+      "key": "F# major",
+      "camelot": "2B",
+      "energy": "mid",
+      "lufs": -13.4,
+      "true_peak_dbtp": -1.5,
+      "duration_sec": 297.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:23:37.833265"
+    },
+    "Lebrón Brothers - Falta.flac": {
+      "artist": "Lebrón Brothers",
+      "title": "Falta",
+      "filename": "Lebrón Brothers - Falta.flac",
+      "path": "/home/andreas/Music/Library/flac/Lebrón Brothers - Falta.flac",
+      "bpm": 103.4,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -15.6,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 336.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:29:56.928818"
+    },
+    "El Gran Combo De Puerto Rico - Trampolín.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Trampolín",
+      "filename": "El Gran Combo De Puerto Rico - Trampolín.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Trampolín.flac",
+      "bpm": 94.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -6.9,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 261.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:34:54.935811"
+    },
+    "Héctor Lavoe - Soñando Despierto.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Soñando Despierto",
+      "filename": "Héctor Lavoe - Soñando Despierto.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Soñando Despierto.flac",
+      "bpm": 107.7,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 246.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:39:37.185808"
+    },
+    "Ismael Rivera, Cortijo Y Su Combo - Agua Que Va A Caer.flac": {
+      "artist": "Ismael Rivera, Cortijo Y Su Combo",
+      "title": "Agua Que Va A Caer",
+      "filename": "Ismael Rivera, Cortijo Y Su Combo - Agua Que Va A Caer.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Rivera, Cortijo Y Su Combo - Agua Que Va A Caer.flac",
+      "bpm": 123.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -11.4,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 304.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:45:23.988855"
+    },
+    "Jimmy Sabater - Salchicha Con Huevos.flac": {
+      "artist": "Jimmy Sabater",
+      "title": "Salchicha Con Huevos",
+      "filename": "Jimmy Sabater - Salchicha Con Huevos.flac",
+      "path": "/home/andreas/Music/Library/flac/Jimmy Sabater - Salchicha Con Huevos.flac",
+      "bpm": 120.2,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -12.7,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 342.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:51:53.773851"
+    },
+    "Bobby Valentin - Mi Ritmo Es Bueno.flac": {
+      "artist": "Bobby Valentin",
+      "title": "Mi Ritmo Es Bueno",
+      "filename": "Bobby Valentin - Mi Ritmo Es Bueno.flac",
+      "path": "/home/andreas/Music/Library/flac/Bobby Valentin - Mi Ritmo Es Bueno.flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -13.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 346.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T22:58:23.914491"
+    },
+    "Eddie Palmieri - Azúcar.flac": {
+      "artist": "Eddie Palmieri",
+      "title": "Azúcar",
+      "filename": "Eddie Palmieri - Azúcar.flac",
+      "path": "/home/andreas/Music/Library/flac/Eddie Palmieri - Azúcar.flac",
+      "bpm": 147.7,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -13.1,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 569.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:09:00.968820"
+    },
+    "Rubén Blades, Pete Rodriguez - Descarga Caliente.flac": {
+      "artist": "Rubén Blades, Pete Rodriguez",
+      "title": "Descarga Caliente",
+      "filename": "Rubén Blades, Pete Rodriguez - Descarga Caliente.flac",
+      "path": "/home/andreas/Music/Library/flac/Rubén Blades, Pete Rodriguez - Descarga Caliente.flac",
+      "bpm": 110.0,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -10.7,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 323.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:15:14.868448"
+    },
+    "Héctor Lavoe - Rompe Saragüey.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Rompe Saragüey",
+      "filename": "Héctor Lavoe - Rompe Saragüey.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Rompe Saragüey.flac",
+      "bpm": 129.2,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -15.3,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 390.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:22:43.088407"
+    },
+    "Celia Cruz - La Bikina.flac": {
+      "artist": "Celia Cruz",
+      "title": "La Bikina",
+      "filename": "Celia Cruz - La Bikina.flac",
+      "path": "/home/andreas/Music/Library/flac/Celia Cruz - La Bikina.flac",
+      "bpm": 123.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 173.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:26:02.304268"
+    },
+    "Ray Barretto, Tito Gómez - Guararé.flac": {
+      "artist": "Ray Barretto, Tito Gómez",
+      "title": "Guararé",
+      "filename": "Ray Barretto, Tito Gómez - Guararé.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto, Tito Gómez - Guararé.flac",
+      "bpm": 94.0,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -8.5,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 336.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:32:21.497047"
+    },
+    "Sonora Ponceña - Yare.flac": {
+      "artist": "Sonora Ponceña",
+      "title": "Yare",
+      "filename": "Sonora Ponceña - Yare.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña - Yare.flac",
+      "bpm": 126.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -13.3,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 351.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:39:01.583826"
+    },
+    "Paquito Guzman - Cinco Noches.flac": {
+      "artist": "Paquito Guzman",
+      "title": "Cinco Noches",
+      "filename": "Paquito Guzman - Cinco Noches.flac",
+      "path": "/home/andreas/Music/Library/flac/Paquito Guzman - Cinco Noches.flac",
+      "bpm": 97.5,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -16.2,
+      "true_peak_dbtp": -1.0,
+      "duration_sec": 310.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:44:52.240224"
+    },
+    "Johnny Colon - Merecumbe.flac": {
+      "artist": "Johnny Colon",
+      "title": "Merecumbe",
+      "filename": "Johnny Colon - Merecumbe.flac",
+      "path": "/home/andreas/Music/Library/flac/Johnny Colon - Merecumbe.flac",
+      "bpm": 103.4,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -12.0,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 357.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:51:35.312558"
+    },
+    "Bobby Valentin - Justo Ahora.flac": {
+      "artist": "Bobby Valentin",
+      "title": "Justo Ahora",
+      "filename": "Bobby Valentin - Justo Ahora.flac",
+      "path": "/home/andreas/Music/Library/flac/Bobby Valentin - Justo Ahora.flac",
+      "bpm": 129.2,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -18.6,
+      "true_peak_dbtp": -5.1,
+      "duration_sec": 253.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-06T23:56:24.063017"
+    },
+    "Oscar D'León - El Manicero.flac": {
+      "artist": "Oscar D'León",
+      "title": "El Manicero",
+      "filename": "Oscar D'León - El Manicero.flac",
+      "path": "/home/andreas/Music/Library/flac/Oscar D'León - El Manicero.flac",
+      "bpm": 112.3,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -9.1,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 283.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:01:49.983469"
+    },
+    "Ismael Rivera, Cortijo Y Su Combo - Ahí Na' Má'.flac": {
+      "artist": "Ismael Rivera, Cortijo Y Su Combo",
+      "title": "Ahí Na' Má'",
+      "filename": "Ismael Rivera, Cortijo Y Su Combo - Ahí Na' Má'.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Rivera, Cortijo Y Su Combo - Ahí Na' Má'.flac",
+      "bpm": 105.5,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 249.7,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:06:39.265587"
+    },
+    "La Gloria Matancera - Con la Punta del Pie.flac": {
+      "artist": "La Gloria Matancera",
+      "title": "Con la Punta del Pie",
+      "filename": "La Gloria Matancera - Con la Punta del Pie.flac",
+      "path": "/home/andreas/Music/Library/flac/La Gloria Matancera - Con la Punta del Pie.flac",
+      "bpm": 110.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.1,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 217.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:11:01.176727"
+    },
+    "El Gran Combo De Puerto Rico - La Muerte.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "La Muerte",
+      "filename": "El Gran Combo De Puerto Rico - La Muerte.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - La Muerte.flac",
+      "bpm": 95.7,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 264.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:16:07.918678"
+    },
+    "El Gran Combo De Puerto Rico - Achilipú.flac": {
+      "artist": "El Gran Combo De Puerto Rico",
+      "title": "Achilipú",
+      "filename": "El Gran Combo De Puerto Rico - Achilipú.flac",
+      "path": "/home/andreas/Music/Library/flac/El Gran Combo De Puerto Rico - Achilipú.flac",
+      "bpm": 123.0,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "high",
+      "lufs": -6.7,
+      "true_peak_dbtp": 1.3,
+      "duration_sec": 281.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:21:35.860113"
+    },
+    "Frankie Ruiz - La Rueda.flac": {
+      "artist": "Frankie Ruiz",
+      "title": "La Rueda",
+      "filename": "Frankie Ruiz - La Rueda.flac",
+      "path": "/home/andreas/Music/Library/flac/Frankie Ruiz - La Rueda.flac",
+      "bpm": 103.4,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -13.4,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 384.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:29:00.200196"
+    },
+    "Sonora Ponceña - Yambeque.flac": {
+      "artist": "Sonora Ponceña",
+      "title": "Yambeque",
+      "filename": "Sonora Ponceña - Yambeque.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña - Yambeque.flac",
+      "bpm": 114.8,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -11.0,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 383.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:36:17.294609"
+    },
+    "Sonora Ponceña, Luigui Gomez, Tito Gómez - Fuego En El 23.flac": {
+      "artist": "Sonora Ponceña, Luigui Gomez, Tito Gómez",
+      "title": "Fuego En El 23",
+      "filename": "Sonora Ponceña, Luigui Gomez, Tito Gómez - Fuego En El 23.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña, Luigui Gomez, Tito Gómez - Fuego En El 23.flac",
+      "bpm": 92.3,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -7.9,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 284.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:41:44.671875"
+    },
+    "Roberto Roena Y Su Apollo Sound - A Bailar Mi Bomba.flac": {
+      "artist": "Roberto Roena Y Su Apollo Sound",
+      "title": "A Bailar Mi Bomba",
+      "filename": "Roberto Roena Y Su Apollo Sound - A Bailar Mi Bomba.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena Y Su Apollo Sound - A Bailar Mi Bomba.flac",
+      "bpm": 132.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -9.0,
+      "true_peak_dbtp": 0.8,
+      "duration_sec": 297.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:47:27.881119"
+    },
+    "Cortijo Y Su Combo, Ismael Rivera - Volaré.flac": {
+      "artist": "Cortijo Y Su Combo, Ismael Rivera",
+      "title": "Volaré",
+      "filename": "Cortijo Y Su Combo, Ismael Rivera - Volaré.flac",
+      "path": "/home/andreas/Music/Library/flac/Cortijo Y Su Combo, Ismael Rivera - Volaré.flac",
+      "bpm": 139.7,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -11.9,
+      "true_peak_dbtp": -1.5,
+      "duration_sec": 191.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:51:09.126408"
+    },
+    "Ismael Rivera Y Sus Cachimbos - Lo Que Dijo La Gitana.flac": {
+      "artist": "Ismael Rivera Y Sus Cachimbos",
+      "title": "Lo Que Dijo La Gitana",
+      "filename": "Ismael Rivera Y Sus Cachimbos - Lo Que Dijo La Gitana.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Rivera Y Sus Cachimbos - Lo Que Dijo La Gitana.flac",
+      "bpm": 95.7,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -9.1,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 213.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T00:55:14.767200"
+    },
+    "Pete \"El Conde\" Rodriguez - Catalina La O.flac": {
+      "artist": "Pete \"El Conde\" Rodriguez",
+      "title": "Catalina La O",
+      "filename": "Pete \"El Conde\" Rodriguez - Catalina La O.flac",
+      "path": "/home/andreas/Music/Library/flac/Pete \"El Conde\" Rodriguez - Catalina La O.flac",
+      "bpm": 147.7,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -13.8,
+      "true_peak_dbtp": -0.8,
+      "duration_sec": 312.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:01:16.934621"
+    },
+    "La Sonora Matancera - Mala Mujer.flac": {
+      "artist": "La Sonora Matancera",
+      "title": "Mala Mujer",
+      "filename": "La Sonora Matancera - Mala Mujer.flac",
+      "path": "/home/andreas/Music/Library/flac/La Sonora Matancera - Mala Mujer.flac",
+      "bpm": 90.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "low",
+      "lufs": -20.9,
+      "true_peak_dbtp": -3.0,
+      "duration_sec": 231.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:06:06.630222"
+    },
+    "Héctor Lavoe - Loco.flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Loco",
+      "filename": "Héctor Lavoe - Loco.flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Loco.flac",
+      "bpm": 103.4,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "high",
+      "lufs": -11.5,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 325.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:12:19.595597"
+    },
+    "Andy Montañez - Casi Te Envidio.flac": {
+      "artist": "Andy Montañez",
+      "title": "Casi Te Envidio",
+      "filename": "Andy Montañez - Casi Te Envidio.flac",
+      "path": "/home/andreas/Music/Library/flac/Andy Montañez - Casi Te Envidio.flac",
+      "bpm": 95.7,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 321.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:18:21.865219"
+    },
+    "Sonora Ponceña - Como Amantes.flac": {
+      "artist": "Sonora Ponceña",
+      "title": "Como Amantes",
+      "filename": "Sonora Ponceña - Como Amantes.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña - Como Amantes.flac",
+      "bpm": 120.2,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -14.7,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 466.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:27:03.692271"
+    },
+    "Willie Colón, Celia Cruz - Apaga La Luz.flac": {
+      "artist": "Willie Colón, Celia Cruz",
+      "title": "Apaga La Luz",
+      "filename": "Willie Colón, Celia Cruz - Apaga La Luz.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Celia Cruz - Apaga La Luz.flac",
+      "bpm": 103.4,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -11.8,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 269.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:32:08.710868"
+    },
+    "Sonora Ponceña - Te Vas De Mi.flac": {
+      "artist": "Sonora Ponceña",
+      "title": "Te Vas De Mi",
+      "filename": "Sonora Ponceña - Te Vas De Mi.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña - Te Vas De Mi.flac",
+      "bpm": 117.5,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "low",
+      "lufs": -18.5,
+      "true_peak_dbtp": -4.0,
+      "duration_sec": 398.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:39:36.128238"
+    },
+    "Roberto Roena Y Su Apollo Sound - Marejada Feliz.flac": {
+      "artist": "Roberto Roena Y Su Apollo Sound",
+      "title": "Marejada Feliz",
+      "filename": "Roberto Roena Y Su Apollo Sound - Marejada Feliz.flac",
+      "path": "/home/andreas/Music/Library/flac/Roberto Roena Y Su Apollo Sound - Marejada Feliz.flac",
+      "bpm": 132.5,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -6.8,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 442.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:47:53.531313"
+    },
+    "Luis Mangual - Son De Nueva York.flac": {
+      "artist": "Luis Mangual",
+      "title": "Son De Nueva York",
+      "filename": "Luis Mangual - Son De Nueva York.flac",
+      "path": "/home/andreas/Music/Library/flac/Luis Mangual - Son De Nueva York.flac",
+      "bpm": 152.0,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 357.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:54:34.475826"
+    },
+    "Ray Barretto - Balancéate.flac": {
+      "artist": "Ray Barretto",
+      "title": "Balancéate",
+      "filename": "Ray Barretto - Balancéate.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Balancéate.flac",
+      "bpm": 123.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -16.5,
+      "true_peak_dbtp": -0.9,
+      "duration_sec": 262.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T01:59:47.478719"
+    },
+    "Sonora Ponceña, Papo Lucca - Boranda.flac": {
+      "artist": "Sonora Ponceña, Papo Lucca",
+      "title": "Boranda",
+      "filename": "Sonora Ponceña, Papo Lucca - Boranda.flac",
+      "path": "/home/andreas/Music/Library/flac/Sonora Ponceña, Papo Lucca - Boranda.flac",
+      "bpm": 123.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -13.5,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 430.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:07:59.046462"
+    },
+    "La Sonora Santanera - El Caníbal.flac": {
+      "artist": "La Sonora Santanera",
+      "title": "El Caníbal",
+      "filename": "La Sonora Santanera - El Caníbal.flac",
+      "path": "/home/andreas/Music/Library/flac/La Sonora Santanera - El Caníbal.flac",
+      "bpm": 123.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "low",
+      "lufs": -20.0,
+      "true_peak_dbtp": -3.9,
+      "duration_sec": 242.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:12:36.754843"
+    },
+    "Orquesta Harlow - Las Luces.flac": {
+      "artist": "Orquesta Harlow",
+      "title": "Las Luces",
+      "filename": "Orquesta Harlow - Las Luces.flac",
+      "path": "/home/andreas/Music/Library/flac/Orquesta Harlow - Las Luces.flac",
+      "bpm": 95.7,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "mid",
+      "lufs": -13.4,
+      "true_peak_dbtp": -1.6,
+      "duration_sec": 247.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:18:07.788964"
+    },
+    "Fania All Stars, Celia Cruz - Bamboléo.flac": {
+      "artist": "Fania All Stars, Celia Cruz",
+      "title": "Bamboléo",
+      "filename": "Fania All Stars, Celia Cruz - Bamboléo.flac",
+      "path": "/home/andreas/Music/Library/flac/Fania All Stars, Celia Cruz - Bamboléo.flac",
+      "bpm": 97.5,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -12.9,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 327.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:24:16.953723"
+    },
+    "Rafael Cortijo - Moliendo Cafe.flac": {
+      "artist": "Rafael Cortijo",
+      "title": "Moliendo Cafe",
+      "filename": "Rafael Cortijo - Moliendo Cafe.flac",
+      "path": "/home/andreas/Music/Library/flac/Rafael Cortijo - Moliendo Cafe.flac",
+      "bpm": 99.4,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -13.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 179.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:27:43.389387"
+    },
+    "Frankie Ruiz - Imposible Amor.flac": {
+      "artist": "Frankie Ruiz",
+      "title": "Imposible Amor",
+      "filename": "Frankie Ruiz - Imposible Amor.flac",
+      "path": "/home/andreas/Music/Library/flac/Frankie Ruiz - Imposible Amor.flac",
+      "bpm": 97.5,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -13.0,
+      "true_peak_dbtp": -1.3,
+      "duration_sec": 299.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:33:21.905509"
+    },
+    "Willie Colón, Héctor Lavoe - Ché Ché Colé.flac": {
+      "artist": "Willie Colón, Héctor Lavoe",
+      "title": "Ché Ché Colé",
+      "filename": "Willie Colón, Héctor Lavoe - Ché Ché Colé.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón, Héctor Lavoe - Ché Ché Colé.flac",
+      "bpm": 101.3,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -9.2,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 211.4,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:37:49.692107"
+    },
+    "Héctor Lavoe - Mi Gente (Remastered 2023).flac": {
+      "artist": "Héctor Lavoe",
+      "title": "Mi Gente (Remastered 2023)",
+      "filename": "Héctor Lavoe - Mi Gente (Remastered 2023).flac",
+      "path": "/home/andreas/Music/Library/flac/Héctor Lavoe - Mi Gente (Remastered 2023).flac",
+      "bpm": 117.5,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "mid",
+      "lufs": -14.5,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 326.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:44:00.038951"
+    },
+    "Ismael Rivera, Kako y Su Orquesta - Mi Negrita Me Espera.flac": {
+      "artist": "Ismael Rivera, Kako y Su Orquesta",
+      "title": "Mi Negrita Me Espera",
+      "filename": "Ismael Rivera, Kako y Su Orquesta - Mi Negrita Me Espera.flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Rivera, Kako y Su Orquesta - Mi Negrita Me Espera.flac",
+      "bpm": 126.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -8.9,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 199.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:47:50.048116"
+    },
+    "Ray Barretto - Quitate La Máscara.flac": {
+      "artist": "Ray Barretto",
+      "title": "Quitate La Máscara",
+      "filename": "Ray Barretto - Quitate La Máscara.flac",
+      "path": "/home/andreas/Music/Library/flac/Ray Barretto - Quitate La Máscara.flac",
+      "bpm": 92.3,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -11.5,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 270.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:53:01.065581"
+    },
+    "Joe Cuba - Tremendo Rumbón.flac": {
+      "artist": "Joe Cuba",
+      "title": "Tremendo Rumbón",
+      "filename": "Joe Cuba - Tremendo Rumbón.flac",
+      "path": "/home/andreas/Music/Library/flac/Joe Cuba - Tremendo Rumbón.flac",
+      "bpm": 110.0,
+      "key": "Eb major",
+      "camelot": "5B",
+      "energy": "high",
+      "lufs": -7.8,
+      "true_peak_dbtp": 1.4,
+      "duration_sec": 167.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T02:56:14.672984"
+    },
+    "Ismael Miranda, Orquesta Harlow, Larry Harlow - Lamento De Un Guajiro (Live).flac": {
+      "artist": "Ismael Miranda, Orquesta Harlow, Larry Harlow",
+      "title": "Lamento De Un Guajiro (Live)",
+      "filename": "Ismael Miranda, Orquesta Harlow, Larry Harlow - Lamento De Un Guajiro (Live).flac",
+      "path": "/home/andreas/Music/Library/flac/Ismael Miranda, Orquesta Harlow, Larry Harlow - Lamento De Un Guajiro (Live).flac",
+      "bpm": 105.5,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -12.2,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 309.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:02:07.320993"
+    },
+    "Willie Colón - Toca Madera.flac": {
+      "artist": "Willie Colón",
+      "title": "Toca Madera",
+      "filename": "Willie Colón - Toca Madera.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - Toca Madera.flac",
+      "bpm": 139.7,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -11.4,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 373.1,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:09:08.190220"
+    },
+    "Frankie Ruiz - Esta Cobardía.flac": {
+      "artist": "Frankie Ruiz",
+      "title": "Esta Cobardía",
+      "filename": "Frankie Ruiz - Esta Cobardía.flac",
+      "path": "/home/andreas/Music/Library/flac/Frankie Ruiz - Esta Cobardía.flac",
+      "bpm": 92.3,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": 1.4,
+      "duration_sec": 342.0,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:15:33.734017"
+    },
+    "Willie Colón - Despertares.flac": {
+      "artist": "Willie Colón",
+      "title": "Despertares",
+      "filename": "Willie Colón - Despertares.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - Despertares.flac",
+      "bpm": 126.0,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -11.9,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 252.5,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:20:21.228731"
+    },
+    "Willie Colón - Contaminame.flac": {
+      "artist": "Willie Colón",
+      "title": "Contaminame",
+      "filename": "Willie Colón - Contaminame.flac",
+      "path": "/home/andreas/Music/Library/flac/Willie Colón - Contaminame.flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -11.2,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 208.8,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:24:20.247460"
+    },
+    "Lebrón Brothers - Qué Pena.flac": {
+      "artist": "Lebrón Brothers",
+      "title": "Qué Pena",
+      "filename": "Lebrón Brothers - Qué Pena.flac",
+      "path": "/home/andreas/Music/Library/flac/Lebrón Brothers - Qué Pena.flac",
+      "bpm": 90.7,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -9.2,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 295.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:29:54.251723"
+    },
+    "Lebrón Brothers - Diez Lágrimas.flac": {
+      "artist": "Lebrón Brothers",
+      "title": "Diez Lágrimas",
+      "filename": "Lebrón Brothers - Diez Lágrimas.flac",
+      "path": "/home/andreas/Music/Library/flac/Lebrón Brothers - Diez Lágrimas.flac",
+      "bpm": 90.7,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 311.6,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:36:02.056431"
+    },
+    "Orquesta Mulenze - Al Pasar los Anos.flac": {
+      "artist": "Orquesta Mulenze",
+      "title": "Al Pasar los Anos",
+      "filename": "Orquesta Mulenze - Al Pasar los Anos.flac",
+      "path": "/home/andreas/Music/Library/flac/Orquesta Mulenze - Al Pasar los Anos.flac",
+      "bpm": 99.4,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -13.1,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 425.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:44:00.191339"
+    },
+    "Bobby Valentin - Linda Teresa.flac": {
+      "artist": "Bobby Valentin",
+      "title": "Linda Teresa",
+      "filename": "Bobby Valentin - Linda Teresa.flac",
+      "path": "/home/andreas/Music/Library/flac/Bobby Valentin - Linda Teresa.flac",
+      "bpm": 97.5,
+      "key": "C minor",
+      "camelot": "5A",
+      "energy": "mid",
+      "lufs": -15.7,
+      "true_peak_dbtp": -1.2,
+      "duration_sec": 351.3,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:50:35.909779"
+    },
+    "Tommy Olivencia - Lo Dudo.flac": {
+      "artist": "Tommy Olivencia",
+      "title": "Lo Dudo",
+      "filename": "Tommy Olivencia - Lo Dudo.flac",
+      "path": "/home/andreas/Music/Library/flac/Tommy Olivencia - Lo Dudo.flac",
+      "bpm": 126.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 313.2,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T03:56:29.486447"
+    },
+    "Oscar D'León - Detalles.flac": {
+      "artist": "Oscar D'León",
+      "title": "Detalles",
+      "filename": "Oscar D'León - Detalles.flac",
+      "path": "/home/andreas/Music/Library/flac/Oscar D'León - Detalles.flac",
+      "bpm": 117.5,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -9.2,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 278.9,
+      "playlists": [
+        "Sauce"
+      ],
+      "added": "2026-11-07T04:01:45.547311"
+    },
+    "Tus hijos - Combustión.flac": {
+      "artist": "Tus hijos",
+      "title": "Combustión",
+      "filename": "Tus hijos - Combustión.flac",
+      "path": "/home/andreas/Music/Library/flac/Tus hijos - Combustión.flac",
+      "bpm": 94.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -6.7,
+      "true_peak_dbtp": 0.4,
+      "duration_sec": 332.9,
+      "playlists": [
+        "Tus hijos"
+      ],
+      "added": "2026-11-07T15:04:26.162298"
     }
   },
-  "updated": "2026-11-03T16:46:38.959766"
+  "updated": "2026-11-07T16:05:58.838231"
 }
