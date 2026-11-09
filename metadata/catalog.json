@@ -4685,7 +4685,772 @@
         "Caldas de Outariz Soft Landing"
       ],
       "added": "2026-10-02T17:59:52.399019"
+    },
+    "The Dice Man - Polygon Window.flac": {
+      "artist": "The Dice Man",
+      "title": "Polygon Window",
+      "filename": "The Dice Man - Polygon Window.flac",
+      "path": "/home/andreas/Music/Library/flac/The Dice Man - Polygon Window.flac",
+      "bpm": 132.5,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "mid",
+      "lufs": -16.6,
+      "true_peak_dbtp": -1.3,
+      "duration_sec": 312.2,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:29:05.046173"
+    },
+    "Musicology - Telefone 529.flac": {
+      "artist": "Musicology",
+      "title": "Telefone 529",
+      "filename": "Musicology - Telefone 529.flac",
+      "path": "/home/andreas/Music/Library/flac/Musicology - Telefone 529.flac",
+      "bpm": 126.0,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "mid",
+      "lufs": -17.2,
+      "true_peak_dbtp": -0.5,
+      "duration_sec": 250.6,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:33:31.637123"
+    },
+    "Autechre - Crystel.flac": {
+      "artist": "Autechre",
+      "title": "Crystel",
+      "filename": "Autechre - Crystel.flac",
+      "path": "/home/andreas/Music/Library/flac/Autechre - Crystel.flac",
+      "bpm": 120.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -15.0,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 277.4,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:38:25.132743"
+    },
+    "I.A.O - The Clan.flac": {
+      "artist": "I.A.O",
+      "title": "The Clan",
+      "filename": "I.A.O - The Clan.flac",
+      "path": "/home/andreas/Music/Library/flac/I.A.O - The Clan.flac",
+      "bpm": 132.5,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -17.3,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 307.8,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:43:49.836003"
+    },
+    "Speedy J - De-Orbit.flac": {
+      "artist": "Speedy J",
+      "title": "De-Orbit",
+      "filename": "Speedy J - De-Orbit.flac",
+      "path": "/home/andreas/Music/Library/flac/Speedy J - De-Orbit.flac",
+      "bpm": 105.5,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -19.0,
+      "true_peak_dbtp": -3.1,
+      "duration_sec": 372.6,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:50:21.216512"
+    },
+    "Musicology - Preminition.flac": {
+      "artist": "Musicology",
+      "title": "Preminition",
+      "filename": "Musicology - Preminition.flac",
+      "path": "/home/andreas/Music/Library/flac/Musicology - Preminition.flac",
+      "bpm": 129.2,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "mid",
+      "lufs": -14.6,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 244.1,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T09:54:40.791803"
+    },
+    "Up! - Spiritual High.flac": {
+      "artist": "Up!",
+      "title": "Spiritual High",
+      "filename": "Up! - Spiritual High.flac",
+      "path": "/home/andreas/Music/Library/flac/Up! - Spiritual High.flac",
+      "bpm": 136.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "mid",
+      "lufs": -18.2,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 462.3,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:02:47.878012"
+    },
+    "Autechre - The Egg.flac": {
+      "artist": "Autechre",
+      "title": "The Egg",
+      "filename": "Autechre - The Egg.flac",
+      "path": "/home/andreas/Music/Library/flac/Autechre - The Egg.flac",
+      "bpm": 147.7,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "mid",
+      "lufs": -20.0,
+      "true_peak_dbtp": -3.3,
+      "duration_sec": 453.7,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:10:43.730600"
+    },
+    "Speedy J - Fill 3.flac": {
+      "artist": "Speedy J",
+      "title": "Fill 3",
+      "filename": "Speedy J - Fill 3.flac",
+      "path": "/home/andreas/Music/Library/flac/Speedy J - Fill 3.flac",
+      "bpm": 103.4,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -18.2,
+      "true_peak_dbtp": -3.3,
+      "duration_sec": 223.3,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:14:41.933662"
+    },
+    "Dr Alex Paterson - Loving You Live.flac": {
+      "artist": "Dr Alex Paterson",
+      "title": "Loving You Live",
+      "filename": "Dr Alex Paterson - Loving You Live.flac",
+      "path": "/home/andreas/Music/Library/flac/Dr Alex Paterson - Loving You Live.flac",
+      "bpm": 123.0,
+      "key": "D# minor",
+      "camelot": "2A",
+      "energy": "mid",
+      "lufs": -16.2,
+      "true_peak_dbtp": -2.6,
+      "duration_sec": 240.0,
+      "playlists": [
+        "Artificial Intelligence"
+      ],
+      "added": "2026-11-02T10:18:57.474984"
+    },
+    "Butch - No Worries.flac": {
+      "artist": "Butch",
+      "title": "No Worries",
+      "filename": "Butch - No Worries.flac",
+      "path": "/home/andreas/Music/Library/flac/Butch - No Worries.flac",
+      "bpm": 126.0,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -10.1,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 442.4,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T10:28:09.161301"
+    },
+    "Cooly G - Booboo.flac": {
+      "artist": "Cooly G",
+      "title": "Booboo",
+      "filename": "Cooly G - Booboo.flac",
+      "path": "/home/andreas/Music/Library/flac/Cooly G - Booboo.flac",
+      "bpm": 126.0,
+      "key": "F# minor",
+      "camelot": "11A",
+      "energy": "high",
+      "lufs": -10.4,
+      "true_peak_dbtp": 1.5,
+      "duration_sec": 245.8,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T10:32:30.258145"
+    },
+    "Teedra Moses - No More Tears.flac": {
+      "artist": "Teedra Moses",
+      "title": "No More Tears",
+      "filename": "Teedra Moses - No More Tears.flac",
+      "path": "/home/andreas/Music/Library/flac/Teedra Moses - No More Tears.flac",
+      "bpm": 132.5,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "high",
+      "lufs": -9.7,
+      "true_peak_dbtp": 1.0,
+      "duration_sec": 251.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T10:36:58.086507"
+    },
+    "The Underachievers - Allusions.flac": {
+      "artist": "The Underachievers",
+      "title": "Allusions",
+      "filename": "The Underachievers - Allusions.flac",
+      "path": "/home/andreas/Music/Library/flac/The Underachievers - Allusions.flac",
+      "bpm": 120.2,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 245.2,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T10:52:55.402091"
+    },
+    "ReDraft, Hp.Ritch - Tell Them.flac": {
+      "artist": "ReDraft, Hp.Ritch",
+      "title": "Tell Them",
+      "filename": "ReDraft, Hp.Ritch - Tell Them.flac",
+      "path": "/home/andreas/Music/Library/flac/ReDraft, Hp.Ritch - Tell Them.flac",
+      "bpm": 82.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -10.3,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 238.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T10:57:14.396598"
+    },
+    "Shield - Horrormovie (Shuffle Edit).flac": {
+      "artist": "Shield",
+      "title": "Horrormovie (Shuffle Edit)",
+      "filename": "Shield - Horrormovie (Shuffle Edit).flac",
+      "path": "/home/andreas/Music/Library/flac/Shield - Horrormovie (Shuffle Edit).flac",
+      "bpm": 107.7,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -9.3,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 194.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:00:48.533655"
+    },
+    "Ivy Lab, Halogenix - Shamrock.flac": {
+      "artist": "Ivy Lab, Halogenix",
+      "title": "Shamrock",
+      "filename": "Ivy Lab, Halogenix - Shamrock.flac",
+      "path": "/home/andreas/Music/Library/flac/Ivy Lab, Halogenix - Shamrock.flac",
+      "bpm": 110.0,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -6.3,
+      "true_peak_dbtp": 2.9,
+      "duration_sec": 278.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:05:54.504519"
+    },
+    "Kromestar - The Progress.flac": {
+      "artist": "Kromestar",
+      "title": "The Progress",
+      "filename": "Kromestar - The Progress.flac",
+      "path": "/home/andreas/Music/Library/flac/Kromestar - The Progress.flac",
+      "bpm": 84.7,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -7.9,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 208.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:09:43.125642"
+    },
+    "Eprom - Hurricane.flac": {
+      "artist": "Eprom",
+      "title": "Hurricane",
+      "filename": "Eprom - Hurricane.flac",
+      "path": "/home/andreas/Music/Library/flac/Eprom - Hurricane.flac",
+      "bpm": 161.5,
+      "key": "C major",
+      "camelot": "8B",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.1,
+      "duration_sec": 163.3,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:12:44.027296"
+    },
+    "Stray, dBridge - Paradise (dBridge's Glitch Slap Edit).flac": {
+      "artist": "Stray, dBridge",
+      "title": "Paradise (dBridge's Glitch Slap Edit)",
+      "filename": "Stray, dBridge - Paradise (dBridge's Glitch Slap Edit).flac",
+      "path": "/home/andreas/Music/Library/flac/Stray, dBridge - Paradise (dBridge's Glitch Slap Edit).flac",
+      "bpm": 89.1,
+      "key": "Bb major",
+      "camelot": "6B",
+      "energy": "mid",
+      "lufs": -11.0,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 242.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:17:07.660599"
+    },
+    "Everydayz, Phazz - Almeria.flac": {
+      "artist": "Everydayz, Phazz",
+      "title": "Almeria",
+      "filename": "Everydayz, Phazz - Almeria.flac",
+      "path": "/home/andreas/Music/Library/flac/Everydayz, Phazz - Almeria.flac",
+      "bpm": 74.9,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -7.3,
+      "true_peak_dbtp": 0.7,
+      "duration_sec": 174.2,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:20:21.857645"
+    },
+    "DJ Rashad, DJ Gant-Man - Cause I Know U Feel (feat. DJ Gant-Man).flac": {
+      "artist": "DJ Rashad, DJ Gant-Man",
+      "title": "Cause I Know U Feel (feat. DJ Gant-Man)",
+      "filename": "DJ Rashad, DJ Gant-Man - Cause I Know U Feel (feat. DJ Gant-Man).flac",
+      "path": "/home/andreas/Music/Library/flac/DJ Rashad, DJ Gant-Man - Cause I Know U Feel (feat. DJ Gant-Man).flac",
+      "bpm": 79.5,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "high",
+      "lufs": -10.0,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 265.4,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:29:21.008824"
+    },
+    "Mak & Pasteman - Runout.flac": {
+      "artist": "Mak & Pasteman",
+      "title": "Runout",
+      "filename": "Mak & Pasteman - Runout.flac",
+      "path": "/home/andreas/Music/Library/flac/Mak & Pasteman - Runout.flac",
+      "bpm": 126.0,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -7.4,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 370.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:36:00.722176"
+    },
+    "Missy Elliott, 702, Magoo - Beep Me 911 (feat. 702 & Magoo).flac": {
+      "artist": "Missy Elliott, 702, Magoo",
+      "title": "Beep Me 911 (feat. 702 & Magoo)",
+      "filename": "Missy Elliott, 702, Magoo - Beep Me 911 (feat. 702 & Magoo).flac",
+      "path": "/home/andreas/Music/Library/flac/Missy Elliott, 702, Magoo - Beep Me 911 (feat. 702 & Magoo).flac",
+      "bpm": 82.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -12.5,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 297.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:41:25.669937"
+    },
+    "Antonio - Hyperfunk.flac": {
+      "artist": "Antonio",
+      "title": "Hyperfunk",
+      "filename": "Antonio - Hyperfunk.flac",
+      "path": "/home/andreas/Music/Library/flac/Antonio - Hyperfunk.flac",
+      "bpm": 126.0,
+      "key": "G minor",
+      "camelot": "6A",
+      "energy": "mid",
+      "lufs": -16.4,
+      "true_peak_dbtp": -0.1,
+      "duration_sec": 376.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:48:11.628019"
+    },
+    "Mella Dee - Keep On.flac": {
+      "artist": "Mella Dee",
+      "title": "Keep On",
+      "filename": "Mella Dee - Keep On.flac",
+      "path": "/home/andreas/Music/Library/flac/Mella Dee - Keep On.flac",
+      "bpm": 126.0,
+      "key": "A minor",
+      "camelot": "8A",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 306.9,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:53:46.117440"
+    },
+    "Lorenzo_BITW - Guava VIP.flac": {
+      "artist": "Lorenzo_BITW",
+      "title": "Guava VIP",
+      "filename": "Lorenzo_BITW - Guava VIP.flac",
+      "path": "/home/andreas/Music/Library/flac/Lorenzo_BITW - Guava VIP.flac",
+      "bpm": 172.3,
+      "key": "G major",
+      "camelot": "9B",
+      "energy": "mid",
+      "lufs": -14.2,
+      "true_peak_dbtp": -0.3,
+      "duration_sec": 304.8,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T11:59:15.257808"
+    },
+    "Faze Miyake, Little Simz - The Nest.flac": {
+      "artist": "Faze Miyake, Little Simz",
+      "title": "The Nest",
+      "filename": "Faze Miyake, Little Simz - The Nest.flac",
+      "path": "/home/andreas/Music/Library/flac/Faze Miyake, Little Simz - The Nest.flac",
+      "bpm": 139.7,
+      "key": "D major",
+      "camelot": "10B",
+      "energy": "high",
+      "lufs": -11.7,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 222.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T12:03:14.353347"
+    },
+    "Etch - Spider Leg Shuffle.flac": {
+      "artist": "Etch",
+      "title": "Spider Leg Shuffle",
+      "filename": "Etch - Spider Leg Shuffle.flac",
+      "path": "/home/andreas/Music/Library/flac/Etch - Spider Leg Shuffle.flac",
+      "bpm": 79.5,
+      "key": "F major",
+      "camelot": "7B",
+      "energy": "high",
+      "lufs": -9.5,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 250.5,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T12:07:40.475255"
+    },
+    "Dizzee Rascal - Do It!.flac": {
+      "artist": "Dizzee Rascal",
+      "title": "Do It!",
+      "filename": "Dizzee Rascal - Do It!.flac",
+      "path": "/home/andreas/Music/Library/flac/Dizzee Rascal - Do It!.flac",
+      "bpm": 161.5,
+      "key": "A major",
+      "camelot": "11B",
+      "energy": "high",
+      "lufs": -8.5,
+      "true_peak_dbtp": 0.5,
+      "duration_sec": 245.8,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T12:12:07.569882"
+    },
+    "Stormzy - WickedSkengMan 4.flac": {
+      "artist": "Stormzy",
+      "title": "WickedSkengMan 4",
+      "filename": "Stormzy - WickedSkengMan 4.flac",
+      "path": "/home/andreas/Music/Library/flac/Stormzy - WickedSkengMan 4.flac",
+      "bpm": 139.7,
+      "key": "B minor",
+      "camelot": "10A",
+      "energy": "high",
+      "lufs": -11.9,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 194.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T12:15:41.243413"
+    },
+    "Graeme S, Faiza - Magick.flac": {
+      "artist": "Graeme S, Faiza",
+      "title": "Magick",
+      "filename": "Graeme S, Faiza - Magick.flac",
+      "path": "/home/andreas/Music/Library/flac/Graeme S, Faiza - Magick.flac",
+      "bpm": 105.5,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "high",
+      "lufs": -11.6,
+      "true_peak_dbtp": -1.4,
+      "duration_sec": 189.5,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T12:19:12.562672"
+    },
+    "Royal-T, WEN - Shotta (Wen Remix).flac": {
+      "artist": "Royal-T, WEN",
+      "title": "Shotta (Wen Remix)",
+      "filename": "Royal-T, WEN - Shotta (Wen Remix).flac",
+      "path": "/home/andreas/Music/Library/flac/Royal-T, WEN - Shotta (Wen Remix).flac",
+      "bpm": 132.5,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -11.5,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 679.3,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T12:33:17.126256"
+    },
+    "Danny Scrilla - Riddim.flac": {
+      "artist": "Danny Scrilla",
+      "title": "Riddim",
+      "filename": "Danny Scrilla - Riddim.flac",
+      "path": "/home/andreas/Music/Library/flac/Danny Scrilla - Riddim.flac",
+      "bpm": 79.5,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "high",
+      "lufs": -9.4,
+      "true_peak_dbtp": 0.6,
+      "duration_sec": 240.4,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T12:37:42.856171"
+    },
+    "Pepe Bradock - Deep Burnt.flac": {
+      "artist": "Pepe Bradock",
+      "title": "Deep Burnt",
+      "filename": "Pepe Bradock - Deep Burnt.flac",
+      "path": "/home/andreas/Music/Library/flac/Pepe Bradock - Deep Burnt.flac",
+      "bpm": 126.0,
+      "key": "Bb minor",
+      "camelot": "3A",
+      "energy": "mid",
+      "lufs": -14.9,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 668.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T18:18:41.401305"
+    },
+    "Silas & Snare Surgeon - Expansion.flac": {
+      "artist": "Silas & Snare Surgeon",
+      "title": "Expansion",
+      "filename": "Silas & Snare Surgeon - Expansion.flac",
+      "path": "/home/andreas/Music/Library/flac/Silas & Snare Surgeon - Expansion.flac",
+      "bpm": 178.2,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "high",
+      "lufs": -11.8,
+      "true_peak_dbtp": 0.2,
+      "duration_sec": 165.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:09:37.804947"
+    },
+    "Machinedrum - Tarot Beat.flac": {
+      "artist": "Machinedrum",
+      "title": "Tarot Beat",
+      "filename": "Machinedrum - Tarot Beat.flac",
+      "path": "/home/andreas/Music/Library/flac/Machinedrum - Tarot Beat.flac",
+      "bpm": 161.5,
+      "key": "E major",
+      "camelot": "12B",
+      "energy": "mid",
+      "lufs": -18.1,
+      "true_peak_dbtp": null,
+      "duration_sec": 120.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:10:03.284570"
+    },
+    "Champion & Four Tet - Disparate.flac": {
+      "artist": "Champion & Four Tet",
+      "title": "Disparate",
+      "filename": "Champion & Four Tet - Disparate.flac",
+      "path": "/home/andreas/Music/Library/flac/Champion & Four Tet - Disparate.flac",
+      "bpm": 129.2,
+      "key": "E minor",
+      "camelot": "9A",
+      "energy": "mid",
+      "lufs": -16.7,
+      "true_peak_dbtp": -1.1,
+      "duration_sec": 370.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:10:45.050096"
+    },
+    "Voodoo Dredd vs Ali G - Keep It Real.flac": {
+      "artist": "Voodoo Dredd vs Ali G",
+      "title": "Keep It Real",
+      "filename": "Voodoo Dredd vs Ali G - Keep It Real.flac",
+      "path": "/home/andreas/Music/Library/flac/Voodoo Dredd vs Ali G - Keep It Real.flac",
+      "bpm": 136.0,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -19.3,
+      "true_peak_dbtp": -1.0,
+      "duration_sec": 408.5,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:11:29.011387"
+    },
+    "Wen - Hailstones.flac": {
+      "artist": "Wen",
+      "title": "Hailstones",
+      "filename": "Wen - Hailstones.flac",
+      "path": "/home/andreas/Music/Library/flac/Wen - Hailstones.flac",
+      "bpm": 178.2,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -13.8,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 238.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:12:25.290256"
+    },
+    "Reservoir Dogs - Buddah Finger.flac": {
+      "artist": "Reservoir Dogs",
+      "title": "Buddah Finger",
+      "filename": "Reservoir Dogs - Buddah Finger.flac",
+      "path": "/home/andreas/Music/Library/flac/Reservoir Dogs - Buddah Finger.flac",
+      "bpm": 107.7,
+      "key": "Db major",
+      "camelot": "3B",
+      "energy": "high",
+      "lufs": -10.9,
+      "true_peak_dbtp": 0.3,
+      "duration_sec": 335.8,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:13:02.731331"
+    },
+    "Oris Jay, MC Rankin - Biggin Up The Massive.flac": {
+      "artist": "Oris Jay, MC Rankin",
+      "title": "Biggin Up The Massive",
+      "filename": "Oris Jay, MC Rankin - Biggin Up The Massive.flac",
+      "path": "/home/andreas/Music/Library/flac/Oris Jay, MC Rankin - Biggin Up The Massive.flac",
+      "bpm": 136.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "low",
+      "lufs": -22.9,
+      "true_peak_dbtp": -4.3,
+      "duration_sec": 343.8,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:13:40.994866"
+    },
+    "DJ Mondie - Straight (Instrumental).flac": {
+      "artist": "DJ Mondie",
+      "title": "Straight (Instrumental)",
+      "filename": "DJ Mondie - Straight (Instrumental).flac",
+      "path": "/home/andreas/Music/Library/flac/DJ Mondie - Straight (Instrumental).flac",
+      "bpm": 94.0,
+      "key": "Ab major",
+      "camelot": "4B",
+      "energy": "mid",
+      "lufs": -14.8,
+      "true_peak_dbtp": -0.7,
+      "duration_sec": 175.0,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:14:06.025363"
+    },
+    "Mala - Neverland.flac": {
+      "artist": "Mala",
+      "title": "Neverland",
+      "filename": "Mala - Neverland.flac",
+      "path": "/home/andreas/Music/Library/flac/Mala - Neverland.flac",
+      "bpm": 94.0,
+      "key": "G# minor",
+      "camelot": "1A",
+      "energy": "high",
+      "lufs": -8.7,
+      "true_peak_dbtp": -0.4,
+      "duration_sec": 345.1,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-02T19:14:56.039183"
+    },
+    "Barely Legal, Stray & MC Grindah - NTS 25 Sep 2015.flac": {
+      "artist": "Barely Legal, Stray & MC Grindah",
+      "title": "NTS 25 Sep 2015",
+      "filename": "Barely Legal, Stray & MC Grindah - NTS 25 Sep 2015.flac",
+      "path": "/home/andreas/Music/Library/flac/Barely Legal, Stray & MC Grindah - NTS 25 Sep 2015.flac",
+      "bpm": 129.2,
+      "key": "F minor",
+      "camelot": "4A",
+      "energy": "mid",
+      "lufs": -15.2,
+      "true_peak_dbtp": -0.2,
+      "duration_sec": 7123.6,
+      "playlists": [
+        "NTS · Barely Legal, Stray & MC Grindah (25 Sep 2015)"
+      ],
+      "added": "2026-11-03T16:46:38.959723"
     }
   },
-  "updated": "2026-10-02T17:59:52.399067"
+  "updated": "2026-11-03T16:46:38.959766"
 }
