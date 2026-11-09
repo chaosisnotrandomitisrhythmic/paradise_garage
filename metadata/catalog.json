@@ -10006,7 +10006,24 @@
         "Tus hijos"
       ],
       "added": "2026-11-07T15:04:26.162298"
+    },
+    "Alek Lee, Margeeah - The Music Inside.flac": {
+      "artist": "Alek Lee, Margeeah",
+      "title": "The Music Inside",
+      "filename": "Alek Lee, Margeeah - The Music Inside.flac",
+      "path": "/home/andreas/Music/Library/flac/Alek Lee, Margeeah - The Music Inside.flac",
+      "bpm": 143.6,
+      "key": "D minor",
+      "camelot": "7A",
+      "energy": "mid",
+      "lufs": -14.7,
+      "true_peak_dbtp": 0.0,
+      "duration_sec": 246.3,
+      "playlists": [
+        "Singles"
+      ],
+      "added": "2026-11-09T12:35:55.966647"
     }
   },
-  "updated": "2026-11-07T16:05:58.838231"
+  "updated": "2026-11-09T12:35:55.966822"
 }
