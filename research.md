@@ -13,6 +13,8 @@ Music-related research, listening guides, and tracklists. A dump.
 - [Paradise Garage — Crate Notes]({{ '/crate-notes' | relative_url }}) — per-track context for the captured FLAC library, with each record's structure mapped to its Traktor cue points. The prose companion to `catalog.json`.
 - [Barely Legal, Stray & MC Grindah — NTS, 25 Sep 2015]({{ '/barely-legal-nts-2015' | relative_url }}) — a study mix to rebuild and learn from: grime, garage, footwork and jungle. All 48 tracks with where to hear each one and how exact the match is, plus a [Spotify playlist](https://open.spotify.com/playlist/7xXmHSwNFgdXLUiNs77DaK) of the 22 found there.
 
+- [Sauce — A Salsa Set]({{ '/sauce-set' | relative_url }}) — 40 tracks from Ana Cuna's *Sauce* playlist, Cuban son to Fania New York to a boogaloo room, with what the tempo analysis says about blending salsa (half-time BPMs, live-band drift, clave). Companion: [Sauce — Mixing Drills]({{ '/sauce-drills' | relative_url }}), fifteen two-deck exercises from the hard-stop cut to the door into house.
+
 ## Interviews
 
 - [Juan Aguiñaga (Tombolo) — Mezclas Relativas, Radio Relativa (2019-12-23)]({{ '/interviews/juan-aguinaga' | relative_url }}) — Madrid promoter behind Tombolo + Palco. Self-portrait on identity, executor-mode, and personal archive chaos. ([full transcript]({{ '/interviews/juan-aguinaga-transcript' | relative_url }}))

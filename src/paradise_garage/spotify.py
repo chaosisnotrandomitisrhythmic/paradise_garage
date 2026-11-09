@@ -38,7 +38,7 @@ def _client():
     if not client_id or not client_secret:
         raise RuntimeError(
             "SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET not set in the environment "
-            "(they load from 1Password via op inject in ~/.zshrc)."
+            "(put them in ~/.config/paradise_garage/secrets.env, or run under op run with op.env)."
         )
 
     CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -64,7 +64,7 @@ def _app_client():
     if not client_id or not client_secret:
         raise RuntimeError(
             "SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET not set in the environment "
-            "(they load from 1Password via op inject in ~/.zshrc)."
+            "(put them in ~/.config/paradise_garage/secrets.env, or run under op run with op.env)."
         )
     return spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id, client_secret))
 
