@@ -101,6 +101,12 @@ file). Ingest measures **integrated LUFS + true peak** (ffmpeg `ebur128`) and wr
 - Source is lossy (Spotify ≈ 320 kbps Ogg); the FLAC is a lossless container of lossy audio — fine for DJing, not archival mastering.
 - The tap records at Spotify's native rate (48 kHz Float32); the split step resamples to 44.1 kHz / 16-bit to match the library.
 - Spotify auth caches a token at `~/.cache/paradise_garage/spotify-token.json` (browser consent once).
+- Spotify client id/secret and the Discogs token are read from the environment, or
+  else from `~/.config/paradise_garage/secrets.env` (plain text, mode 0600, loaded
+  by the package on import). They are low-value automation keys, kept out of
+  1Password on purpose since 2026-11-09 so `pg` never waits on an Allow prompt;
+  `op.env` beside it keeps the `op://` references, and `op inject -i op.env -o
+  secrets.env` regenerates the file.
 
 ## Algorithmic playlists — `pg harvest`
 
